@@ -211,7 +211,7 @@ CPU0 表示初始化与基础结构地位，需综合考虑：早期主线已存
 
 8. **杏与笑梦：共同作用要拆开说明。** 杏的Len是意外触发者，Miku进一步追问；能证明两人都关键，却不能仅凭这段推出100∶92。笑梦的Len与Rin共同帮助她承认难过，Rin不能消失于摘要。镜像、气质相近都不单独产生85分。来源：[Bout for Beside You·第5话「路地裏の会話」](https://pjsk.moe/ja-jp/story/event/37/5/)、[Bout for Beside You·第6话「モヤモヤしていた理由」](https://pjsk.moe/ja-jp/story/event/37/6/)、[スマイルオブドリーマー·第6话「涙のような笑顔より」](https://pjsk.moe/ja-jp/story/event/15/6/)。
 
-**本轮Raw矩阵**
+**本轮Raw矩阵**（算法优化中）
 
 “—”表示本轮没有正分记录，**不等于真实关系为零**。本轮未用原表数字补空白，也没有由原表Final反推Raw。
 
