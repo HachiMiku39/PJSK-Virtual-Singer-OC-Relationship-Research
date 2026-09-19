@@ -1,0 +1,4364 @@
+{
+  "version": "v2.3-sampled-audit-2026-09-19",
+  "scope": "针对用户基线及主要竞争证据的一次20人定向复跑；不是截至2026年的全剧情、全卡牌普查。0表示本轮无计分记录。",
+  "warning": "0 means no scored observation in this selective sample; it is not an estimate of zero global narrative importance.",
+  "parameters": {
+    "base": {
+      "S": 16,
+      "A": 8,
+      "B": 3,
+      "C": 1,
+      "0": 0
+    },
+    "exponent": 2.2,
+    "repeat": [
+      1,
+      0.6,
+      0.35,
+      0.2
+    ],
+    "repeat_tail": "fourth and subsequent stay at 0.2",
+    "uniqueness_policy": "本轮全部设1.00作为中性、无独占奖励的审计设定；未证明长期独占，不授1.20或1.40。并非证明所有关系同等独特。",
+    "importance_sort": "level base descending, pre-repeat raw descending, stable event ID",
+    "tie_policy": "并列第一均显示100；D剔除其中一个100，其他并列者仍计入其余五项"
+  },
+  "vs_order": [
+    "Miku",
+    "Rin",
+    "Len",
+    "Luka",
+    "MEIKO",
+    "KAITO"
+  ],
+  "events": [
+    {
+      "id": "E001",
+      "oc": "星乃一歌",
+      "vs": "Miku",
+      "sources": [
+        "e101_04"
+      ],
+      "affinity": "音乐初心",
+      "level": "S",
+      "agency": 1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "一歌把童年组乐队、四人重连及与奏结识归因于Miku，并确认其为最重要的相遇。",
+      "note": "回顾型合并记账；包括现实Miku与教室Miku，不把回顾中的每个往事再次计分。",
+      "vs_incarnation": "现实世界的初音未来与教室Miku合并；不得解读为全部是教室Miku的主动干预",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 21.6,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 21.6
+    },
+    {
+      "id": "E002",
+      "oc": "星乃一歌",
+      "vs": "KAITO",
+      "sources": [
+        "e034_06"
+      ],
+      "affinity": "自我表达",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "肯定歌词中一歌的真实心意，使其从担心词句羞耻转向相信自己的表达。",
+      "note": "歌词技术建议还来自伊织；不把整次创作突破归给KAITO。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E003",
+      "oc": "天马咲希",
+      "vs": "Luka",
+      "sources": [
+        "e001_07"
+      ],
+      "affinity": "创伤",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "听取咲希对住院失去时光的恐惧，提出不必急于追回、可以慢慢前进。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E004",
+      "oc": "天马咲希",
+      "vs": "Rin",
+      "sources": [
+        "e027_06"
+      ],
+      "affinity": "创作",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "用即兴演奏展示情感的重要性，让咲希转向寻找自己要放进歌曲的心意。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E005",
+      "oc": "望月穗波",
+      "vs": "MEIKO",
+      "sources": [
+        "e010_05"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "追问穗波想给予怎样的温柔，使其摆脱一味迎合、重新选择有勇气的善意。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E006",
+      "oc": "望月穗波",
+      "vs": "MEIKO",
+      "sources": [
+        "e010_05"
+      ],
+      "affinity": "专业技能",
+      "level": "C",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "在心理咨询后提出开始鼓的练习。",
+      "note": "仅见教学安排，未见此场实际教学过程或效果，因此只记C。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 1,
+      "pre_repeat_raw": 0.99,
+      "repeat_rank": 2,
+      "repeat": 0.6,
+      "event_raw": 0.594
+    },
+    {
+      "id": "E007",
+      "oc": "望月穗波",
+      "vs": "Len",
+      "sources": [
+        "e040_06"
+      ],
+      "affinity": "冲突处理",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "说明伙伴应坦白好坏想法、争吵并非禁忌，穗波决定向志步表达承担票务的意愿。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E008",
+      "oc": "望月穗波",
+      "vs": "MEIKO",
+      "sources": [
+        "e040_06"
+      ],
+      "affinity": "冲突处理",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "支持Len的意见，确认穗波与伙伴可以面对面沟通。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E009",
+      "oc": "日野森志步",
+      "vs": "Rin",
+      "sources": [
+        "e110_02",
+        "e110_08"
+      ],
+      "affinity": "音乐初心",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "引导回忆贝斯启蒙，并在第8话帮助志步把回忆凝成目标音乐的明确答案。",
+      "note": "两话同一连续谈话只记一次；Rin不是童年启蒙者。A/S分级有争议。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E010",
+      "oc": "花里实乃理",
+      "vs": "Miku",
+      "sources": [
+        "e017_05",
+        "e017_06"
+      ],
+      "affinity": "自我认同",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "鼓励实乃理不必成为别人；实乃理见到粉丝后回想了这段建议。",
+      "note": "最终顿悟来自粉丝与本人；不记S。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E011",
+      "oc": "花里实乃理",
+      "vs": "Rin",
+      "sources": [
+        "e017_05"
+      ],
+      "affinity": "自我认同",
+      "level": "C",
+      "agency": 1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "用自己落后于Miku与Luka的感受与实乃理共鸣。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 1,
+      "pre_repeat_raw": 0.9,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 0.9
+    },
+    {
+      "id": "E012",
+      "oc": "花里实乃理",
+      "vs": "Luka",
+      "sources": [
+        "e017_05",
+        "e017_06"
+      ],
+      "affinity": "自我认同",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "提出实乃理有只能由自己做到的事，作为后续自我发现的提示。",
+      "note": "不抹去前置提示，也不抢走粉丝段落的决定性作用。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E013",
+      "oc": "花里实乃理",
+      "vs": "Luka",
+      "sources": [
+        "e017_07"
+      ],
+      "affinity": "专业技能",
+      "level": "A",
+      "agency": 1.25,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "受实乃理请求进行明确的舞台动作与笑容训练，队友确认其表现改善。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 12.0,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 12.0
+    },
+    {
+      "id": "E014",
+      "oc": "花里实乃理",
+      "vs": "Miku",
+      "sources": [
+        "e017_07"
+      ],
+      "affinity": "专业技能",
+      "level": "C",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "从观众席观看练习并反馈舞蹈效果。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 1,
+      "pre_repeat_raw": 1.0,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 1.0
+    },
+    {
+      "id": "E015",
+      "oc": "花里实乃理",
+      "vs": "Rin",
+      "sources": [
+        "e017_07"
+      ],
+      "affinity": "专业技能",
+      "level": "C",
+      "agency": 1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "参与观看练习并承诺协力、鼓励实乃理正式演出。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 1,
+      "pre_repeat_raw": 0.9,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 0.9
+    },
+    {
+      "id": "E016",
+      "oc": "桐谷遥",
+      "vs": "MEIKO",
+      "sources": [
+        "e023_07"
+      ],
+      "affinity": "职业道路",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "遥回想MEIKO对个人休息时间的提醒，开始区分职业体调管理与真正放松。",
+      "note": "本话为回忆；当场展开问题并推进的人是雫。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.0,
+      "repeat_rank": 2,
+      "repeat": 0.6,
+      "event_raw": 1.8
+    },
+    {
+      "id": "E017",
+      "oc": "桐谷遥",
+      "vs": "KAITO",
+      "sources": [
+        "e043_04",
+        "e043_05"
+      ],
+      "affinity": "职业道路",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "从幕后工作人员视角解释参与演出也能得到希望，帮助遥重新考虑接受粉丝支援。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E018",
+      "oc": "桐谷遥",
+      "vs": "KAITO",
+      "sources": [
+        "e133_04"
+      ],
+      "affinity": "职业道路",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "指出MMJ自然呈现努力与困难的特色，遥据此理清选择工作的标准。",
+      "note": "与圣诞企划并入同一职业决策主题，发生重复衰减。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 2,
+      "repeat": 0.6,
+      "event_raw": 6.336
+    },
+    {
+      "id": "E019",
+      "oc": "桃井爱莉",
+      "vs": "Len",
+      "sources": [
+        "e031_06"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "以爱莉替别人认真设计MC的行为为据，帮助她重新认可过去综艺偶像也曾带来希望。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E020",
+      "oc": "桃井爱莉",
+      "vs": "Rin",
+      "sources": [
+        "e031_06"
+      ],
+      "affinity": "自我认同",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "主动听取烦恼并肯定综艺偶像同样是偶像；主导重构论证的是Len。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 2.97,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 2.97
+    },
+    {
+      "id": "E021",
+      "oc": "日野森雫",
+      "vs": "Luka",
+      "sources": [
+        "e011_05",
+        "e011_07"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "在雫逃开粉丝后倾听其长期完美形象压力，引导她寻找支持真实自我的人；第7话雫明确回想其建议。",
+      "note": "爱莉的现场支持同样关键，不把最终决定独占归因给Luka。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E022",
+      "oc": "小豆泽心羽",
+      "vs": "Miku",
+      "sources": [
+        "street_01_11"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "引导心羽辨认自己想与杏追梦的心意，并确认其不需因他人否定而放弃。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E023",
+      "oc": "小豆泽心羽",
+      "vs": "MEIKO",
+      "sources": [
+        "street_01_11"
+      ],
+      "affinity": "自我认同",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "倾听失败并把烦恼解释为想打开下一扇门的表现。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 2,
+      "repeat": 0.6,
+      "event_raw": 1.98
+    },
+    {
+      "id": "E024",
+      "oc": "小豆泽心羽",
+      "vs": "Len",
+      "sources": [
+        "street_01_11"
+      ],
+      "affinity": "自我认同",
+      "level": "C",
+      "agency": 1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "肯定她正在认真思考并送出继续行动的鼓励。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 1,
+      "pre_repeat_raw": 0.9,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 0.9
+    },
+    {
+      "id": "E025",
+      "oc": "小豆泽心羽",
+      "vs": "MEIKO",
+      "sources": [
+        "e028_04"
+      ],
+      "affinity": "自我认同",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "针对自幼总认为自己做不到的习惯，提示关注自己的优点。",
+      "note": "与前一自我肯定事件共用主题，按重要性排序衰减。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E026",
+      "oc": "小豆泽心羽",
+      "vs": "Miku",
+      "sources": [
+        "e028_06"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "具体纠正独唱末尾音准并解释突出嗓音更需精密控制。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E027",
+      "oc": "白石杏",
+      "vs": "Len",
+      "sources": [
+        "e037_05"
+      ],
+      "affinity": "搭档",
+      "level": "A",
+      "agency": 0.85,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "用自身对Rin更想与别人唱歌的不甘，意外触发杏识别失去搭档地位的恐惧。",
+      "note": "作用真实但并非主动心理辅导，主动性按偶然互动0.85。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 8.16,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 8.16
+    },
+    {
+      "id": "E028",
+      "oc": "白石杏",
+      "vs": "Miku",
+      "sources": [
+        "e037_05",
+        "e037_06"
+      ],
+      "affinity": "搭档",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "察觉杏异常并留下，追问想成为何种搭档，协助她明确希望持续被心羽尊敬的心态。",
+      "note": "第5、6话合并；行动建议还有彰人的独立贡献。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E029",
+      "oc": "东云彰人",
+      "vs": "Len",
+      "sources": [
+        "street_01_17"
+      ],
+      "affinity": "搭档",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "通过自身搭档经验确认彰人的孤独与难过，使其愿意继续说出心事。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 2.97,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 2.97
+    },
+    {
+      "id": "E030",
+      "oc": "东云彰人",
+      "vs": "MEIKO",
+      "sources": [
+        "street_01_17"
+      ],
+      "affinity": "搭档",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "用看似酒实为茶的例子指出冬弥说出口的话未必是真心，直接促使彰人去核实。",
+      "note": "正文的关键认知转折由MEIKO提出；不能全部记到Len名下。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E031",
+      "oc": "青柳冬弥",
+      "vs": "Luka",
+      "sources": [
+        "e044_02",
+        "e044_06"
+      ],
+      "affinity": "生活经验",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "提出用实际体验弥补被限制的生活经验，冬弥决定去森林并重新思考知识与音乐的关系。",
+      "note": "第6话鼓励仍属同次露营进程，合并而不拆为第二S。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E032",
+      "oc": "青柳冬弥",
+      "vs": "KAITO",
+      "sources": [
+        "e021_06"
+      ],
+      "affinity": "搭档",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "解释团队需要互相支持和拉高，冬弥据此决定以搭档身份主动支持彰人。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E033",
+      "oc": "天马司",
+      "vs": "Miku",
+      "sources": [
+        "wonder_01_13",
+        "wonder_01_14"
+      ],
+      "affinity": "音乐初心",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "点明让哭泣者露出笑容的意义，使司把眼前表演与儿时想让咲希快乐的初心重新连接。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E034",
+      "oc": "天马司",
+      "vs": "KAITO",
+      "sources": [
+        "wonder_01_13",
+        "wonder_01_14"
+      ],
+      "affinity": "音乐初心",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "重新定义司的明星身份并鼓励修复团队关系，与Miku共同完成主线转折。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E035",
+      "oc": "凤笑梦",
+      "vs": "Len",
+      "sources": [
+        "e015_06"
+      ],
+      "affinity": "自我表达",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "识别强笑并明确不必在难过时保持笑容，承诺同伴会帮助，促成笑梦想向大家坦白。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E036",
+      "oc": "凤笑梦",
+      "vs": "Rin",
+      "sources": [
+        "e015_06"
+      ],
+      "affinity": "自我表达",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "共同识别勉强的笑容，解释表达困境能让伙伴知道需要帮助。",
+      "note": "与Len共享情境；不把Rin删出因果链。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E037",
+      "oc": "凤笑梦",
+      "vs": "Len",
+      "sources": [
+        "e131_07"
+      ],
+      "affinity": "舞台",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "建议广泛请求他人观看演技并反馈，笑梦立即向家人与朋友实践该训练方式。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E038",
+      "oc": "凤笑梦",
+      "vs": "Rin",
+      "sources": [
+        "e131_07"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "对牛若丸的快乐与动作幅度提出具体演技反馈。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.0,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.0
+    },
+    {
+      "id": "E039",
+      "oc": "凤笑梦",
+      "vs": "MEIKO",
+      "sources": [
+        "e131_07"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "指出增加跳跃可能削弱角色从容感，提供不同的演技判断。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.0,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.0
+    },
+    {
+      "id": "E040",
+      "oc": "草薙宁宁",
+      "vs": "MEIKO",
+      "sources": [
+        "e008_06",
+        "e008_07"
+      ],
+      "affinity": "舞台",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "在宁宁已自行恢复后替她安排开场合唱，提供实践与展示空间。",
+      "note": "撤销治愈创伤S；关键恢复发生在第6话，早于MEIKO本次出场。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E041",
+      "oc": "草薙宁宁",
+      "vs": "Miku",
+      "sources": [
+        "e008_07"
+      ],
+      "affinity": "舞台",
+      "level": "C",
+      "agency": 1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "认可宁宁已恢复，欢迎她一起参加圣诞演出。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 1,
+      "pre_repeat_raw": 0.9,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 0.9
+    },
+    {
+      "id": "E042",
+      "oc": "草薙宁宁",
+      "vs": "KAITO",
+      "sources": [
+        "e008_07"
+      ],
+      "affinity": "舞台",
+      "level": "C",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "欢迎已经恢复状态的宁宁参与合唱。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 1,
+      "pre_repeat_raw": 1.0,
+      "repeat_rank": 2,
+      "repeat": 0.6,
+      "event_raw": 0.6
+    },
+    {
+      "id": "E043",
+      "oc": "草薙宁宁",
+      "vs": "Rin",
+      "sources": [
+        "e013_02",
+        "e013_03"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "陪练并给出笑容与歌声表达的具体建议。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E044",
+      "oc": "草薙宁宁",
+      "vs": "Rin",
+      "sources": [
+        "e013_03"
+      ],
+      "affinity": "人际关系",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "在初次与一歌等人相处时提供持续支持，宁宁表示愿意尝试。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E045",
+      "oc": "草薙宁宁",
+      "vs": "KAITO",
+      "sources": [
+        "e095_04",
+        "e095_06"
+      ],
+      "affinity": "舞台",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "提出制作应援视频，宁宁确认看过并感谢；不将夕夏的专业指导归给VS。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.0,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.0
+    },
+    {
+      "id": "E046",
+      "oc": "神代类",
+      "vs": "KAITO",
+      "sources": [
+        "e003_05",
+        "e003_06",
+        "e003_07"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "帮助类识别因害怕失去伙伴而压抑演出的心理，并接受担心同伴是正常感情，次日恢复全力创作。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E047",
+      "oc": "宵崎奏",
+      "vs": "Luka",
+      "sources": [
+        "e026_02",
+        "e026_07",
+        "e026_08"
+      ],
+      "affinity": "创作",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "追问歌曲应把人带到哪里，奏继而寻回家庭记忆的温暖，并以此明确创作目的。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E048",
+      "oc": "宵崎奏",
+      "vs": "Miku",
+      "sources": [
+        "nightcode_01_12",
+        "nightcode_01_15"
+      ],
+      "affinity": "创作",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "确认奏的旧曲已抵达真冬，促使奏重新相信自身创作并作出继续创作的决定。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E049",
+      "oc": "宵崎奏",
+      "vs": "KAITO",
+      "sources": [
+        "e089_06"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 0.85,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "奏旁听KAITO与真冬争论，得知真冬曾表达意愿，因而认为自己也应传达能说的话。",
+      "note": "间接影响；不把对真冬的重干预等额算给奏。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 2.55,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 2.55
+    },
+    {
+      "id": "E050",
+      "oc": "宵崎奏",
+      "vs": "KAITO",
+      "sources": [
+        "e100_08"
+      ],
+      "affinity": "团队",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "在真冬来到奏家时及时提醒奏出门接应。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.0,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.0
+    },
+    {
+      "id": "E051",
+      "oc": "朝比奈真冬",
+      "vs": "Miku",
+      "sources": [
+        "nightcode_01_12",
+        "nightcode_01_19"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "支持奏寻找真冬，并在真冬被找到后确认她的真实愿望可以被歌表达。",
+      "note": "主线救援与确认合并；仍须补读更多初始章节。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E052",
+      "oc": "朝比奈真冬",
+      "vs": "Miku",
+      "sources": [
+        "e100_06",
+        "e100_07",
+        "e100_08"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "支持真冬保护自己的心意，承诺陪伴并唱奏的歌，使她认清想靠近的温暖。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 2,
+      "repeat": 0.6,
+      "event_raw": 14.256
+    },
+    {
+      "id": "E053",
+      "oc": "朝比奈真冬",
+      "vs": "KAITO",
+      "sources": [
+        "e089_05",
+        "e089_06"
+      ],
+      "affinity": "自我认同",
+      "level": "A",
+      "agency": 1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "逼真冬面对压抑自我及向母亲反抗的问题；当场真冬离开，后续明确回忆其话语。",
+      "note": "不把激烈语气本身当成功；强长期效应放在后续实际行动事件。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 9.6,
+      "repeat_rank": 2,
+      "repeat": 0.6,
+      "event_raw": 5.76
+    },
+    {
+      "id": "E054",
+      "oc": "朝比奈真冬",
+      "vs": "KAITO",
+      "sources": [
+        "e100_05",
+        "e100_06",
+        "e100_07"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "在联络受阻与母亲压力中再次要求保护真实意愿，和Miku一起推进真冬抗争。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E055",
+      "oc": "朝比奈真冬",
+      "vs": "Len",
+      "sources": [
+        "e061_08"
+      ],
+      "affinity": "情绪识别",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "将温暖感与和大家在一起关联，真冬因此主动决定稍留观看夜间演出。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E056",
+      "oc": "东云绘名",
+      "vs": "Rin",
+      "sources": [
+        "e014_06"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "以歌及对外部认可的追问打破放弃绘画的状态，引导绘名重返伙伴。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E057",
+      "oc": "东云绘名",
+      "vs": "Miku",
+      "sources": [
+        "e014_06"
+      ],
+      "affinity": "自我认同",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "说明歌曲承载奏等人的心意，并明确引导绘名去见伙伴。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E058",
+      "oc": "东云绘名",
+      "vs": "MEIKO",
+      "sources": [
+        "e039_06"
+      ],
+      "affinity": "人际关系",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "使绘名理解说出秘密可能造成伤害，并提示以坚定的目光守望瑞希。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E059",
+      "oc": "东云绘名",
+      "vs": "MEIKO",
+      "sources": [
+        "e150_06"
+      ],
+      "affinity": "人际关系",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "提供瑞希没有出门的事实并接受在其身旁守候的请求，帮助绘名调整寻找方式。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 2,
+      "repeat": 0.6,
+      "event_raw": 1.98
+    },
+    {
+      "id": "E060",
+      "oc": "晓山瑞希",
+      "vs": "MEIKO",
+      "sources": [
+        "e150_06",
+        "e150_07",
+        "e150_08"
+      ],
+      "affinity": "秘密 / 距离",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "直接接触退缩的瑞希，提醒这可能是与绘名面对面的最后机会；瑞希在决定时再次回想这句话。",
+      "note": "最终重新连接的行动仍主要由绘名与瑞希完成。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E061",
+      "oc": "晓山瑞希",
+      "vs": "MEIKO",
+      "sources": [
+        "e019_05"
+      ],
+      "affinity": "秘密 / 距离",
+      "level": "0",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "向其他VS说明自己关注瑞希及保持距离的原则。",
+      "note": "此处未直接改变瑞希行为，仅证明关系定位；不产生高分。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 0,
+      "pre_repeat_raw": 0.0,
+      "repeat_rank": null,
+      "repeat": 0.0,
+      "event_raw": 0.0
+    },
+    {
+      "id": "E062",
+      "oc": "花里实乃理",
+      "vs": "Miku",
+      "sources": [
+        "mmj_01_16",
+        "mmj_01_18"
+      ],
+      "affinity": "舞台",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "安排从舞台侧面看演出，继而明确建议由实乃理亲自登台向遥传达心意，实乃理接受并实践。",
+      "note": "遥是实乃理原本的偶像启蒙者；Miku帮助她从憧憬迈向亲自给予希望。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E063",
+      "oc": "花里实乃理",
+      "vs": "Rin",
+      "sources": [
+        "mmj_01_16",
+        "mmj_01_18"
+      ],
+      "affinity": "舞台",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "共同提供演出与舞台视角，并鼓励实乃理亲自上台向遥表达心意。",
+      "note": "与Miku共同行动；提出由实乃理演出的明确方案者为Miku。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E064",
+      "oc": "桐谷遥",
+      "vs": "Miku",
+      "sources": [
+        "mmj_01_18"
+      ],
+      "affinity": "舞台",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "在实乃理的演出与劝说之后询问遥真正想做什么，协助其迈上舞台。",
+      "note": "恢复的主要情感推动来自实乃理；避免把整个主线恢复独占记S。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E065",
+      "oc": "桐谷遥",
+      "vs": "Rin",
+      "sources": [
+        "mmj_01_18"
+      ],
+      "affinity": "舞台",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "提示青色灯海与观众心意，鼓励遥握住实乃理的手，并和Miku实际协助她上台。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E066",
+      "oc": "桐谷遥",
+      "vs": "MEIKO",
+      "sources": [
+        "e078_04",
+        "e078_05"
+      ],
+      "affinity": "职业道路",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "以长期粉丝立场回应遥对电视剪辑风险的担忧，建议回顾偶像初心；遥明确依此重新思考。",
+      "note": "与休息提醒共用职业道路主题；不凭触及初心就直接升级S。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E067",
+      "oc": "青柳冬弥",
+      "vs": "KAITO",
+      "sources": [
+        "e071_06",
+        "e071_07"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "指出冬弥能理解作品心意来自古典乐曲分析训练，使其重新认识过去经验的价值。",
+      "note": "重要的因果链由心羽作品、KAITO点明能力、Miku肯定、冬弥实践共同完成。S/A边界纳入敏感性检验。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E068",
+      "oc": "青柳冬弥",
+      "vs": "Miku",
+      "sources": [
+        "e071_06",
+        "e071_07"
+      ],
+      "affinity": "自我认同",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "将古典分析经验明确表述为理解歌曲心意的能力；冬弥在说出对颯真作品的判断时直接回想此话。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E069",
+      "oc": "小豆泽心羽",
+      "vs": "KAITO",
+      "sources": [
+        "e071_04",
+        "e071_06"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "用DJ经验说明作曲的选择与意图，帮助心羽分析喜欢的曲子并开始尝试制作。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E070",
+      "oc": "小豆泽心羽",
+      "vs": "Rin",
+      "sources": [
+        "e071_04",
+        "e071_06"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "提出聆听并分析歌曲的具体做法，参与支持心羽的初次制作。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E071",
+      "oc": "星乃一歌",
+      "vs": "Miku",
+      "sources": [
+        "e020_05",
+        "e020_06"
+      ],
+      "affinity": "职业道路",
+      "level": "A",
+      "agency": 1.25,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "一歌主动询问成为职业乐手所需觉悟，Miku提出持续面对音乐并自行寻找答案；一歌随后回想。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 12.0,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 12.0
+    },
+    {
+      "id": "E072",
+      "oc": "天马咲希",
+      "vs": "Miku",
+      "sources": [
+        "e020_05"
+      ],
+      "affinity": "职业道路",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "参与讨论职业觉悟后，咲希开始思考持续面对音乐的含义。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E073",
+      "oc": "望月穗波",
+      "vs": "Miku",
+      "sources": [
+        "e020_05"
+      ],
+      "affinity": "职业道路",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "在Miku指出觉悟需自行寻找后，穗波明确提出由自己思考答案。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E074",
+      "oc": "日野森志步",
+      "vs": "KAITO",
+      "sources": [
+        "e069_03",
+        "e069_05"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "以示范和长时间一对一练习帮助志步解决贝斯音色问题，志步明确确认技术进步。",
+      "note": "未将KAITO静观队友冲突记为主导解决；真正当面阻止志步压低水平的是一歌等人。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E075",
+      "oc": "日野森志步",
+      "vs": "Rin",
+      "sources": [
+        "e069_05",
+        "e069_06"
+      ],
+      "affinity": "团队",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "转述队友刻苦练习的具体情况，并确认理解志步顾及整体平衡的想法。",
+      "note": "最终信任队友的决定主要由四人对话完成；Rin自己也承认此前没能提出解决建议。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E076",
+      "oc": "天马咲希",
+      "vs": "Luka",
+      "sources": [
+        "e069_03",
+        "e069_04"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "指出钢琴与乐队键盘的节奏差别，指导咲希配合合奏；随后确认她已掌握。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E077",
+      "oc": "天马咲希",
+      "vs": "Len",
+      "sources": [
+        "e069_04"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "具体确认练习成果并提醒身体负荷，咲希决定结束当日练习休息。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E078",
+      "oc": "天马咲希",
+      "vs": "Rin",
+      "sources": [
+        "e069_05"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "参与持续键盘训练，咲希明确继续复习Rin所教内容。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E079",
+      "oc": "望月穗波",
+      "vs": "MEIKO",
+      "sources": [
+        "e069_03"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "针对鼓的节奏前冲，明确指导转而注意军鼓。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E080",
+      "oc": "望月穗波",
+      "vs": "Rin",
+      "sources": [
+        "e069_05"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "在踩镲与底鼓合奏练习中提供节奏反馈，继续配合穗波提高演奏。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E081",
+      "oc": "星乃一歌",
+      "vs": "Len",
+      "sources": [
+        "e069_03"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "指出快速弹奏时节奏崩乱，并建议放慢心态逐音处理，一歌立即重练。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E082",
+      "oc": "星乃一歌",
+      "vs": "Rin",
+      "sources": [
+        "e069_05",
+        "e069_06"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.25,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "一歌明确请求学习Rin高音发声；之后合奏显示高音力度改善。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.75,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.75
+    },
+    {
+      "id": "E083",
+      "oc": "星乃一歌",
+      "vs": "Miku",
+      "sources": [
+        "e069_03",
+        "e069_04"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "持续陪练并给出需注意的演奏细节，一歌在单独练习时回想并运用。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E084",
+      "oc": "天马咲希",
+      "vs": "Len",
+      "sources": [
+        "e065_05",
+        "e065_07"
+      ],
+      "affinity": "创作",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "建议深入尚未充分表达的住院记忆与感受，咲希接受建议并在重看过去后完成歌曲。",
+      "note": "亲自面对日记、得到朋友支持同样是重要环节，不把整次突破独占归因给Len。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E085",
+      "oc": "天马咲希",
+      "vs": "KAITO",
+      "sources": [
+        "e065_05"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "指出歌曲尚未充分承载感情，为后续进一步挖掘记忆提供判断。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E086",
+      "oc": "天马咲希",
+      "vs": "KAITO",
+      "sources": [
+        "e121_02"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "接续穗波的建议，解释改编应首先确定想传达的心意，咲希据此明确方向。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 2,
+      "repeat": 0.6,
+      "event_raw": 1.98
+    },
+    {
+      "id": "E087",
+      "oc": "天马咲希",
+      "vs": "Rin",
+      "sources": [
+        "e121_02"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "讨论编曲效果，确定主题后共同重新编排；咲希确认创作变得顺利。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 2,
+      "repeat": 0.6,
+      "event_raw": 1.98
+    },
+    {
+      "id": "E088",
+      "oc": "望月穗波",
+      "vs": "Luka",
+      "sources": [
+        "e121_03"
+      ],
+      "affinity": "音乐初心",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "解释支持伙伴也与让听众产生共鸣相连，帮助穗波把个人目标融入乐队目标。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E089",
+      "oc": "望月穗波",
+      "vs": "MEIKO",
+      "sources": [
+        "e121_03"
+      ],
+      "affinity": "音乐初心",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "肯定穗波经过认真思考得出的支持同伴这一目标。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E090",
+      "oc": "望月穗波",
+      "vs": "KAITO",
+      "sources": [
+        "e121_05"
+      ],
+      "affinity": "团队",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "诊断演奏失去统一是各自目标不同，建议协调表达，穗波随后组织尝试。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E091",
+      "oc": "望月穗波",
+      "vs": "Luka",
+      "sources": [
+        "e121_05"
+      ],
+      "affinity": "团队",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "给出按乐句统一表达目标的可操作示例，穗波决定让大家尝试。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.3
+    },
+    {
+      "id": "E092",
+      "oc": "宵崎奏",
+      "vs": "Rin",
+      "sources": [
+        "e116_04",
+        "e116_06"
+      ],
+      "affinity": "音乐初心",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "主动询问创作起点，引出家庭音乐记忆，使奏意识到自己曾因幸福而热爱音乐。",
+      "note": "当场并未解除自责，奏随后仍转回强迫式创作；因此不记S。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E093",
+      "oc": "宵崎奏",
+      "vs": "KAITO",
+      "sources": [
+        "e116_07",
+        "e116_08"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "直接指出奏以没有资格为由压抑自身愿望，要求她面对真正想要的幸福；与绘名的劝说共同促成转变。",
+      "note": "最终想法需结合第8话；不是把针对真冬的强硬谈话搬给奏。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E094",
+      "oc": "宵崎奏",
+      "vs": "Luka",
+      "sources": [
+        "e112_08",
+        "e112_09"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "在奏怀疑音乐作用时引导其看新的湖，提示真冬仍需要她的曲子。",
+      "note": "随后奏通过梦境及与真冬交谈重新确认创作，不能把所有过程都算成Luka直接干预；梦境边界存在解释空间。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.3,
+      "repeat_rank": 2,
+      "repeat": 0.6,
+      "event_raw": 1.98
+    },
+    {
+      "id": "E095",
+      "oc": "朝比奈真冬",
+      "vs": "Miku",
+      "sources": [
+        "e112_03",
+        "e112_10"
+      ],
+      "affinity": "自我认同",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "解释湖可能承载真冬的心意，并在其暂时退缩时允许离开、保留以后寻找的可能。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.0,
+      "repeat_rank": 3,
+      "repeat": 0.35,
+      "event_raw": 1.05
+    },
+    {
+      "id": "E096",
+      "oc": "朝比奈真冬",
+      "vs": "KAITO",
+      "sources": [
+        "e112_03"
+      ],
+      "affinity": "自我认同",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "指出痛苦与烦恼也是寻找真实自我所需的感情。",
+      "note": "当场未见独立的重要决定，记B而非S。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.0,
+      "repeat_rank": 3,
+      "repeat": 0.35,
+      "event_raw": 1.05
+    },
+    {
+      "id": "E097",
+      "oc": "朝比奈真冬",
+      "vs": "Len",
+      "sources": [
+        "e112_03"
+      ],
+      "affinity": "情绪识别",
+      "level": "B",
+      "agency": 1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "在真冬身体不适时关心、陪伴其沿温暖的音乐寻找新地点。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 2.7,
+      "repeat_rank": 2,
+      "repeat": 0.6,
+      "event_raw": 1.62
+    },
+    {
+      "id": "E098",
+      "oc": "朝比奈真冬",
+      "vs": "Luka",
+      "sources": [
+        "e112_10"
+      ],
+      "affinity": "自我认同",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "说明湖中的痛苦和温暖都可能成为寻找自己的线索，与奏的鼓励共同促使真冬再尝试。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E099",
+      "oc": "东云绘名",
+      "vs": "Rin",
+      "sources": [
+        "e112_06",
+        "e112_07"
+      ],
+      "affinity": "自我认同",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "通过长期观察肯定绘名已能直面绘画，并解释其画在真冬心中留下痕迹，回应她对继续追梦资格的动摇。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 2,
+      "repeat": 0.6,
+      "event_raw": 6.336
+    },
+    {
+      "id": "E100",
+      "oc": "东云绘名",
+      "vs": "Len",
+      "sources": [
+        "e112_07"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "主动提出充当模特，协助绘名以实际作画摆脱停滞。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.0,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.0
+    },
+    {
+      "id": "E101",
+      "oc": "东云绘名",
+      "vs": "Rin",
+      "sources": [
+        "e127_04",
+        "e127_05",
+        "e127_06"
+      ],
+      "affinity": "人际关系",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "将父亲画作的痛苦与绘名过去连接，帮助她开始理解父亲也经历创作困境。",
+      "note": "组织课程、解释父亲经历的是雪平老师；不能把整次父女理解独占归给Rin或Len。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E102",
+      "oc": "东云绘名",
+      "vs": "Len",
+      "sources": [
+        "e127_04",
+        "e127_05",
+        "e127_06",
+        "e127_07"
+      ],
+      "affinity": "人际关系",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "提出父亲可能也曾因绘画痛苦的关键问题；绘名在得知父亲经历后再次回想。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E103",
+      "oc": "晓山瑞希",
+      "vs": "MEIKO",
+      "sources": [
+        "e112_04",
+        "e112_05"
+      ],
+      "affinity": "秘密 / 距离",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "从如何继续帮助真冬切入，明确建议停止逃避并面对问题；瑞希随后承诺也面对自己。",
+      "note": "与后续危机同主题衰减，不把两话拆成多个重事件。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 2,
+      "repeat": 0.6,
+      "event_raw": 14.256
+    },
+    {
+      "id": "E104",
+      "oc": "晓山瑞希",
+      "vs": "MEIKO",
+      "sources": [
+        "e145_02",
+        "e145_03"
+      ],
+      "affinity": "秘密 / 距离",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "阻止过强的追问，并承诺见证瑞希选择的未来，瑞希在迈出告知一步前回想。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 3,
+      "repeat": 0.35,
+      "event_raw": 3.696
+    },
+    {
+      "id": "E105",
+      "oc": "晓山瑞希",
+      "vs": "KAITO",
+      "sources": [
+        "e145_02",
+        "e145_03"
+      ],
+      "affinity": "秘密 / 距离",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "指出犹豫意味着本人已经想选择，要求瑞希为活下去选择自救道路；瑞希之后回想。",
+      "note": "第3话为同一谈话的回忆，不重复计分；当场仍要求更多时间，不能直接记成功解决。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 8,
+      "pre_repeat_raw": 10.56,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 10.56
+    },
+    {
+      "id": "E106",
+      "oc": "晓山瑞希",
+      "vs": "MEIKO",
+      "sources": [
+        "e019_06"
+      ],
+      "affinity": "秘密 / 距离",
+      "level": "C",
+      "agency": 1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "表达希望瑞希能继续与伙伴在一起，瑞希回应希望四人继续创作。",
+      "note": "早期关系定位与鼓励；尚不足以产生S事件。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 1,
+      "pre_repeat_raw": 0.9,
+      "repeat_rank": 4,
+      "repeat": 0.2,
+      "event_raw": 0.18
+    },
+    {
+      "id": "E107",
+      "oc": "草薙宁宁",
+      "vs": "Luka",
+      "sources": [
+        "e032_07",
+        "e032_08"
+      ],
+      "affinity": "梦想",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "识别宁宁因追梦可能与伙伴分离的恐惧，承诺一起寻找答案；宁宁明确理解为无需独自承受。",
+      "note": "Luka也坦言不知道最好的选择；未见她决定宁宁职业路线，不记S。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 2.97,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 2.97
+    },
+    {
+      "id": "E108",
+      "oc": "神代类",
+      "vs": "Miku",
+      "sources": [
+        "e074_06"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.25,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "类主动请求倾听后，Miku确认追梦与继续和伙伴演出都是重要心意，促使其重新考虑选择。",
+      "note": "S/A边界有争议；后来形成具体去向还涉及旭等人的行动。本项降A即会影响样本第一。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 27.0,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 27.0
+    },
+    {
+      "id": "E109",
+      "oc": "东云彰人",
+      "vs": "Luka",
+      "sources": [
+        "e079_06",
+        "e079_08"
+      ],
+      "affinity": "团队",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "在彰人与前辈的歌唱对决中主动联系冬弥，使伙伴到场关心，彰人明确致谢。",
+      "note": "对决由彰人自己完成；联络支援不等于替他克服过去失败。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.0,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.0
+    },
+    {
+      "id": "E110",
+      "oc": "青柳冬弥",
+      "vs": "Luka",
+      "sources": [
+        "e079_06"
+      ],
+      "affinity": "搭档",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "向冬弥告知彰人的状况，使其决定出门支援并组织联系。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.0,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.0
+    },
+    {
+      "id": "E111",
+      "oc": "晓山瑞希",
+      "vs": "Luka",
+      "sources": [
+        "e093_02",
+        "e093_06",
+        "e093_08"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "把瑞希羞于面对的逃避经验转化为能帮助真冬的经验，瑞希明确决定传达可以逃离，并承担这一建议的责任。",
+      "note": "第2话的强硬方案被奏拒绝；重事件取自第6话对瑞希的实际转变，不取自语气强度。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 16,
+      "pre_repeat_raw": 23.76,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 23.76
+    },
+    {
+      "id": "E112",
+      "oc": "晓山瑞希",
+      "vs": "Len",
+      "sources": [
+        "e093_06"
+      ],
+      "affinity": "自我认同",
+      "level": "C",
+      "agency": 1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "注意瑞希低落，并在Luka称其胆怯时出言缓和。",
+      "note": "本段重构逃避经验的提问由Luka提出，不等额计给旁听Len。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 1,
+      "pre_repeat_raw": 0.9,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 0.9
+    },
+    {
+      "id": "E113",
+      "oc": "晓山瑞希",
+      "vs": "Miku",
+      "sources": [
+        "e068_02",
+        "e068_04",
+        "e068_08"
+      ],
+      "affinity": "人际关系",
+      "level": "C",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "倾听瑞希加入Nightcord前的往事。",
+      "note": "被回忆的决定主要来自姐姐和伙伴；倾听不等于当年干预。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 1,
+      "pre_repeat_raw": 0.99,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 0.99
+    },
+    {
+      "id": "E114",
+      "oc": "晓山瑞希",
+      "vs": "Luka",
+      "sources": [
+        "e068_02",
+        "e068_04",
+        "e068_08"
+      ],
+      "affinity": "人际关系",
+      "level": "C",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "主动邀请瑞希回顾加入Nightcord的经历。",
+      "note": "不能把回顾涉及创伤误记为此时解决创伤。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 1,
+      "pre_repeat_raw": 0.99,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 0.99
+    },
+    {
+      "id": "E115",
+      "oc": "东云绘名",
+      "vs": "Miku",
+      "sources": [
+        "e068_04",
+        "e068_08"
+      ],
+      "affinity": "人际关系",
+      "level": "C",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "尊重绘名是否愿意讲述过去，倾听她加入Nightcord前的经历。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 1,
+      "pre_repeat_raw": 0.99,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 0.99
+    },
+    {
+      "id": "E116",
+      "oc": "东云绘名",
+      "vs": "Luka",
+      "sources": [
+        "e068_04",
+        "e068_06",
+        "e068_08"
+      ],
+      "affinity": "人际关系",
+      "level": "C",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "询问绘名和奏的音乐相遇的经过，促成分享。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 1,
+      "pre_repeat_raw": 0.99,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 0.99
+    },
+    {
+      "id": "E117",
+      "oc": "宵崎奏",
+      "vs": "Rin",
+      "sources": [
+        "e116_08"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "喜欢奏为自己的幸福愿望写的新曲，建议也让同伴听到，奏接受。",
+      "note": "与引导回顾音乐初心是不同的后续行动，因此另记B；主题敏感性另检验合并。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 3,
+      "pre_repeat_raw": 3.0,
+      "repeat_rank": 1,
+      "repeat": 1.0,
+      "event_raw": 3.0
+    },
+    {
+      "id": "E118",
+      "oc": "宵崎奏",
+      "vs": "Miku",
+      "sources": [
+        "e116_08"
+      ],
+      "affinity": "创作",
+      "level": "C",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "支持Rin关于分享新曲的建议，奏随后让同伴听曲。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码",
+      "base": 1,
+      "pre_repeat_raw": 1.0,
+      "repeat_rank": 2,
+      "repeat": 0.6,
+      "event_raw": 0.6
+    }
+  ],
+  "characters": [
+    {
+      "oc": "星乃一歌",
+      "observed_raw": {
+        "Miku": 36.9,
+        "Rin": 3.75,
+        "Len": 3.3,
+        "Luka": 0.0,
+        "MEIKO": 0.0,
+        "KAITO": 10.56
+      },
+      "observed_final": {
+        "Miku": 100.0,
+        "Rin": 0.653749,
+        "Len": 0.493484,
+        "Luka": 0.0,
+        "MEIKO": 0.0,
+        "KAITO": 6.376797
+      },
+      "observed_D": 98.495194,
+      "sample_leaders": [
+        "Miku"
+      ],
+      "sample_shape": "单S样形：第二项<55",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 4,
+      "affinities": {
+        "Miku": [
+          "专业技能",
+          "职业道路",
+          "音乐初心"
+        ],
+        "Rin": [
+          "专业技能"
+        ],
+        "Len": [
+          "专业技能"
+        ],
+        "Luka": [],
+        "MEIKO": [],
+        "KAITO": [
+          "自我表达"
+        ]
+      },
+      "event_ids": {
+        "Miku": [
+          "E001",
+          "E071",
+          "E083"
+        ],
+        "Rin": [
+          "E082"
+        ],
+        "Len": [
+          "E081"
+        ],
+        "Luka": [],
+        "MEIKO": [],
+        "KAITO": [
+          "E002"
+        ]
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [],
+        "one_S_to_A_changes": [],
+        "all_S_to_A": [
+          "Miku"
+        ],
+        "all_themes_merged_per_pair": [
+          "Miku"
+        ]
+      }
+    },
+    {
+      "oc": "天马咲希",
+      "observed_raw": {
+        "Miku": 3.3,
+        "Rin": 15.84,
+        "Len": 13.86,
+        "Luka": 27.06,
+        "MEIKO": 0.0,
+        "KAITO": 5.28
+      },
+      "observed_final": {
+        "Miku": 0.976359,
+        "Rin": 30.785077,
+        "Len": 22.948693,
+        "Luka": 100.0,
+        "MEIKO": 0.0,
+        "KAITO": 2.745829
+      },
+      "observed_D": 88.508808,
+      "sample_leaders": [
+        "Luka"
+      ],
+      "sample_shape": "单S样形：第二项<55",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 5,
+      "affinities": {
+        "Miku": [
+          "职业道路"
+        ],
+        "Rin": [
+          "专业技能",
+          "创作"
+        ],
+        "Len": [
+          "专业技能",
+          "创作"
+        ],
+        "Luka": [
+          "专业技能",
+          "创伤"
+        ],
+        "MEIKO": [],
+        "KAITO": [
+          "创作"
+        ]
+      },
+      "event_ids": {
+        "Miku": [
+          "E072"
+        ],
+        "Rin": [
+          "E004",
+          "E078",
+          "E087"
+        ],
+        "Len": [
+          "E077",
+          "E084"
+        ],
+        "Luka": [
+          "E003",
+          "E076"
+        ],
+        "MEIKO": [],
+        "KAITO": [
+          "E085",
+          "E086"
+        ]
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E003",
+            "leaders": [
+              "Rin"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [
+          {
+            "downgraded_event": "E003",
+            "leaders": [
+              "Rin"
+            ]
+          }
+        ],
+        "all_S_to_A": [
+          "Rin"
+        ],
+        "all_themes_merged_per_pair": [
+          "Luka"
+        ]
+      }
+    },
+    {
+      "oc": "望月穗波",
+      "observed_raw": {
+        "Miku": 3.3,
+        "Rin": 3.3,
+        "Len": 10.56,
+        "Luka": 6.6,
+        "MEIKO": 34.254,
+        "KAITO": 3.3
+      },
+      "observed_final": {
+        "Miku": 0.581254,
+        "Rin": 0.581254,
+        "Len": 7.510966,
+        "Luka": 2.670741,
+        "MEIKO": 100.0,
+        "KAITO": 0.581254
+      },
+      "observed_D": 97.614906,
+      "sample_leaders": [
+        "MEIKO"
+      ],
+      "sample_shape": "单S样形：第二项<55",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 6,
+      "affinities": {
+        "Miku": [
+          "职业道路"
+        ],
+        "Rin": [
+          "专业技能"
+        ],
+        "Len": [
+          "冲突处理"
+        ],
+        "Luka": [
+          "团队",
+          "音乐初心"
+        ],
+        "MEIKO": [
+          "专业技能",
+          "冲突处理",
+          "自我认同",
+          "音乐初心"
+        ],
+        "KAITO": [
+          "团队"
+        ]
+      },
+      "event_ids": {
+        "Miku": [
+          "E073"
+        ],
+        "Rin": [
+          "E080"
+        ],
+        "Len": [
+          "E007"
+        ],
+        "Luka": [
+          "E088",
+          "E091"
+        ],
+        "MEIKO": [
+          "E005",
+          "E006",
+          "E008",
+          "E079",
+          "E089"
+        ],
+        "KAITO": [
+          "E090"
+        ]
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E005",
+            "leaders": [
+              "Len"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [],
+        "all_S_to_A": [
+          "MEIKO"
+        ],
+        "all_themes_merged_per_pair": [
+          "MEIKO"
+        ]
+      }
+    },
+    {
+      "oc": "日野森志步",
+      "observed_raw": {
+        "Miku": 0.0,
+        "Rin": 27.06,
+        "Len": 0.0,
+        "Luka": 0.0,
+        "MEIKO": 0.0,
+        "KAITO": 3.3
+      },
+      "observed_final": {
+        "Miku": 0.0,
+        "Rin": 100.0,
+        "Len": 0.0,
+        "Luka": 0.0,
+        "MEIKO": 0.0,
+        "KAITO": 0.976359
+      },
+      "observed_D": 99.804728,
+      "sample_leaders": [
+        "Rin"
+      ],
+      "sample_shape": "单S样形：第二项<55",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 2,
+      "affinities": {
+        "Miku": [],
+        "Rin": [
+          "团队",
+          "音乐初心"
+        ],
+        "Len": [],
+        "Luka": [],
+        "MEIKO": [],
+        "KAITO": [
+          "专业技能"
+        ]
+      },
+      "event_ids": {
+        "Miku": [],
+        "Rin": [
+          "E009",
+          "E075"
+        ],
+        "Len": [],
+        "Luka": [],
+        "MEIKO": [],
+        "KAITO": [
+          "E074"
+        ]
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E009",
+            "leaders": [
+              "Rin",
+              "KAITO"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [],
+        "all_S_to_A": [
+          "Rin"
+        ],
+        "all_themes_merged_per_pair": [
+          "Rin"
+        ]
+      }
+    },
+    {
+      "oc": "花里实乃理",
+      "observed_raw": {
+        "Miku": 28.06,
+        "Rin": 12.36,
+        "Len": 0.0,
+        "Luka": 15.3,
+        "MEIKO": 0.0,
+        "KAITO": 0.0
+      },
+      "observed_final": {
+        "Miku": 100.0,
+        "Rin": 16.468262,
+        "Len": 0.0,
+        "Luka": 26.334694,
+        "MEIKO": 0.0,
+        "KAITO": 0.0
+      },
+      "observed_D": 91.439409,
+      "sample_leaders": [
+        "Miku"
+      ],
+      "sample_shape": "单S样形：第二项<55",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 3,
+      "affinities": {
+        "Miku": [
+          "专业技能",
+          "自我认同",
+          "舞台"
+        ],
+        "Rin": [
+          "专业技能",
+          "自我认同",
+          "舞台"
+        ],
+        "Len": [],
+        "Luka": [
+          "专业技能",
+          "自我认同"
+        ],
+        "MEIKO": [],
+        "KAITO": []
+      },
+      "event_ids": {
+        "Miku": [
+          "E010",
+          "E014",
+          "E062"
+        ],
+        "Rin": [
+          "E011",
+          "E015",
+          "E063"
+        ],
+        "Len": [],
+        "Luka": [
+          "E012",
+          "E013"
+        ],
+        "MEIKO": [],
+        "KAITO": []
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E062",
+            "leaders": [
+              "Luka"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [],
+        "all_S_to_A": [
+          "Miku"
+        ],
+        "all_themes_merged_per_pair": [
+          "Miku"
+        ]
+      }
+    },
+    {
+      "oc": "桐谷遥",
+      "observed_raw": {
+        "Miku": 10.56,
+        "Rin": 10.56,
+        "Len": 0.0,
+        "Luka": 0.0,
+        "MEIKO": 12.36,
+        "KAITO": 16.896
+      },
+      "observed_final": {
+        "Miku": 35.557895,
+        "Rin": 35.557895,
+        "Len": 0.0,
+        "Luka": 0.0,
+        "MEIKO": 50.27083,
+        "KAITO": 100.0
+      },
+      "observed_D": 75.722676,
+      "sample_leaders": [
+        "KAITO"
+      ],
+      "sample_shape": "单S样形：第二项<55",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 4,
+      "affinities": {
+        "Miku": [
+          "舞台"
+        ],
+        "Rin": [
+          "舞台"
+        ],
+        "Len": [],
+        "Luka": [],
+        "MEIKO": [
+          "职业道路"
+        ],
+        "KAITO": [
+          "职业道路"
+        ]
+      },
+      "event_ids": {
+        "Miku": [
+          "E064"
+        ],
+        "Rin": [
+          "E065"
+        ],
+        "Len": [],
+        "Luka": [],
+        "MEIKO": [
+          "E016",
+          "E066"
+        ],
+        "KAITO": [
+          "E017",
+          "E018"
+        ]
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E017",
+            "leaders": [
+              "MEIKO"
+            ]
+          },
+          {
+            "removed_event": "E018",
+            "leaders": [
+              "MEIKO"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [],
+        "all_S_to_A": [
+          "KAITO"
+        ],
+        "all_themes_merged_per_pair": [
+          "KAITO"
+        ]
+      }
+    },
+    {
+      "oc": "桃井爱莉",
+      "observed_raw": {
+        "Miku": 0.0,
+        "Rin": 2.97,
+        "Len": 23.76,
+        "Luka": 0.0,
+        "MEIKO": 0.0,
+        "KAITO": 0.0
+      },
+      "observed_final": {
+        "Miku": 0.0,
+        "Rin": 1.030866,
+        "Len": 100.0,
+        "Luka": 0.0,
+        "MEIKO": 0.0,
+        "KAITO": 0.0
+      },
+      "observed_D": 99.793827,
+      "sample_leaders": [
+        "Len"
+      ],
+      "sample_shape": "单S样形：第二项<55",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 2,
+      "affinities": {
+        "Miku": [],
+        "Rin": [
+          "自我认同"
+        ],
+        "Len": [
+          "自我认同"
+        ],
+        "Luka": [],
+        "MEIKO": [],
+        "KAITO": []
+      },
+      "event_ids": {
+        "Miku": [],
+        "Rin": [
+          "E020"
+        ],
+        "Len": [
+          "E019"
+        ],
+        "Luka": [],
+        "MEIKO": [],
+        "KAITO": []
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E019",
+            "leaders": [
+              "Rin"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [],
+        "all_S_to_A": [
+          "Len"
+        ],
+        "all_themes_merged_per_pair": [
+          "Len"
+        ]
+      }
+    },
+    {
+      "oc": "日野森雫",
+      "observed_raw": {
+        "Miku": 0.0,
+        "Rin": 0.0,
+        "Len": 0.0,
+        "Luka": 23.76,
+        "MEIKO": 0.0,
+        "KAITO": 0.0
+      },
+      "observed_final": {
+        "Miku": 0.0,
+        "Rin": 0.0,
+        "Len": 0.0,
+        "Luka": 100.0,
+        "MEIKO": 0.0,
+        "KAITO": 0.0
+      },
+      "observed_D": 100.0,
+      "sample_leaders": [
+        "Luka"
+      ],
+      "sample_shape": "单S样形：第二项<55",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 1,
+      "affinities": {
+        "Miku": [],
+        "Rin": [],
+        "Len": [],
+        "Luka": [
+          "自我认同"
+        ],
+        "MEIKO": [],
+        "KAITO": []
+      },
+      "event_ids": {
+        "Miku": [],
+        "Rin": [],
+        "Len": [],
+        "Luka": [
+          "E021"
+        ],
+        "MEIKO": [],
+        "KAITO": []
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E021",
+            "leaders": []
+          }
+        ],
+        "one_S_to_A_changes": [],
+        "all_S_to_A": [
+          "Luka"
+        ],
+        "all_themes_merged_per_pair": [
+          "Luka"
+        ]
+      }
+    },
+    {
+      "oc": "小豆泽心羽",
+      "observed_raw": {
+        "Miku": 27.06,
+        "Rin": 3.3,
+        "Len": 0.9,
+        "Luka": 0.0,
+        "MEIKO": 12.54,
+        "KAITO": 3.3
+      },
+      "observed_final": {
+        "Miku": 100.0,
+        "Rin": 0.976359,
+        "Len": 0.056003,
+        "Luka": 0.0,
+        "MEIKO": 18.413377,
+        "KAITO": 0.976359
+      },
+      "observed_D": 95.91558,
+      "sample_leaders": [
+        "Miku"
+      ],
+      "sample_shape": "单S样形：第二项<55",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 5,
+      "affinities": {
+        "Miku": [
+          "专业技能",
+          "自我认同"
+        ],
+        "Rin": [
+          "创作"
+        ],
+        "Len": [
+          "自我认同"
+        ],
+        "Luka": [],
+        "MEIKO": [
+          "自我认同"
+        ],
+        "KAITO": [
+          "创作"
+        ]
+      },
+      "event_ids": {
+        "Miku": [
+          "E022",
+          "E026"
+        ],
+        "Rin": [
+          "E070"
+        ],
+        "Len": [
+          "E024"
+        ],
+        "Luka": [],
+        "MEIKO": [
+          "E023",
+          "E025"
+        ],
+        "KAITO": [
+          "E069"
+        ]
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E022",
+            "leaders": [
+              "MEIKO"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [],
+        "all_S_to_A": [
+          "Miku"
+        ],
+        "all_themes_merged_per_pair": [
+          "Miku"
+        ]
+      }
+    },
+    {
+      "oc": "白石杏",
+      "observed_raw": {
+        "Miku": 23.76,
+        "Rin": 0.0,
+        "Len": 8.16,
+        "Luka": 0.0,
+        "MEIKO": 0.0,
+        "KAITO": 0.0
+      },
+      "observed_final": {
+        "Miku": 100.0,
+        "Rin": 0.0,
+        "Len": 9.524807,
+        "Luka": 0.0,
+        "MEIKO": 0.0,
+        "KAITO": 0.0
+      },
+      "observed_D": 98.095039,
+      "sample_leaders": [
+        "Miku"
+      ],
+      "sample_shape": "单S样形：第二项<55",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 2,
+      "affinities": {
+        "Miku": [
+          "搭档"
+        ],
+        "Rin": [],
+        "Len": [
+          "搭档"
+        ],
+        "Luka": [],
+        "MEIKO": [],
+        "KAITO": []
+      },
+      "event_ids": {
+        "Miku": [
+          "E028"
+        ],
+        "Rin": [],
+        "Len": [
+          "E027"
+        ],
+        "Luka": [],
+        "MEIKO": [],
+        "KAITO": []
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E028",
+            "leaders": [
+              "Len"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [],
+        "all_S_to_A": [
+          "Miku"
+        ],
+        "all_themes_merged_per_pair": [
+          "Miku"
+        ]
+      }
+    },
+    {
+      "oc": "东云彰人",
+      "observed_raw": {
+        "Miku": 0.0,
+        "Rin": 0.0,
+        "Len": 2.97,
+        "Luka": 3.0,
+        "MEIKO": 10.56,
+        "KAITO": 0.0
+      },
+      "observed_final": {
+        "Miku": 0.0,
+        "Rin": 0.0,
+        "Len": 6.13767,
+        "Luka": 6.27489,
+        "MEIKO": 100.0,
+        "KAITO": 0.0
+      },
+      "observed_D": 97.517488,
+      "sample_leaders": [
+        "MEIKO"
+      ],
+      "sample_shape": "单S样形：第二项<55",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 3,
+      "affinities": {
+        "Miku": [],
+        "Rin": [],
+        "Len": [
+          "搭档"
+        ],
+        "Luka": [
+          "团队"
+        ],
+        "MEIKO": [
+          "搭档"
+        ],
+        "KAITO": []
+      },
+      "event_ids": {
+        "Miku": [],
+        "Rin": [],
+        "Len": [
+          "E029"
+        ],
+        "Luka": [
+          "E109"
+        ],
+        "MEIKO": [
+          "E030"
+        ],
+        "KAITO": []
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E030",
+            "leaders": [
+              "Luka"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [],
+        "all_S_to_A": [
+          "MEIKO"
+        ],
+        "all_themes_merged_per_pair": [
+          "MEIKO"
+        ]
+      }
+    },
+    {
+      "oc": "青柳冬弥",
+      "observed_raw": {
+        "Miku": 10.56,
+        "Rin": 0.0,
+        "Len": 0.0,
+        "Luka": 26.76,
+        "MEIKO": 0.0,
+        "KAITO": 34.32
+      },
+      "observed_final": {
+        "Miku": 7.479225,
+        "Rin": 0.0,
+        "Len": 0.0,
+        "Luka": 57.844947,
+        "MEIKO": 0.0,
+        "KAITO": 100.0
+      },
+      "observed_D": 86.935166,
+      "sample_leaders": [
+        "KAITO"
+      ],
+      "sample_shape": "过渡形：原规范未定义55—70",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 3,
+      "affinities": {
+        "Miku": [
+          "自我认同"
+        ],
+        "Rin": [],
+        "Len": [],
+        "Luka": [
+          "搭档",
+          "生活经验"
+        ],
+        "MEIKO": [],
+        "KAITO": [
+          "搭档",
+          "自我认同"
+        ]
+      },
+      "event_ids": {
+        "Miku": [
+          "E068"
+        ],
+        "Rin": [],
+        "Len": [],
+        "Luka": [
+          "E031",
+          "E110"
+        ],
+        "MEIKO": [],
+        "KAITO": [
+          "E032",
+          "E067"
+        ]
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E032",
+            "leaders": [
+              "Luka"
+            ]
+          },
+          {
+            "removed_event": "E067",
+            "leaders": [
+              "Luka"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [
+          {
+            "downgraded_event": "E067",
+            "leaders": [
+              "Luka"
+            ]
+          }
+        ],
+        "all_S_to_A": [
+          "KAITO"
+        ],
+        "all_themes_merged_per_pair": [
+          "KAITO"
+        ]
+      }
+    },
+    {
+      "oc": "天马司",
+      "observed_raw": {
+        "Miku": 23.76,
+        "Rin": 0.0,
+        "Len": 0.0,
+        "Luka": 0.0,
+        "MEIKO": 0.0,
+        "KAITO": 23.76
+      },
+      "observed_final": {
+        "Miku": 100.0,
+        "Rin": 0.0,
+        "Len": 0.0,
+        "Luka": 0.0,
+        "MEIKO": 0.0,
+        "KAITO": 100.0
+      },
+      "observed_D": 80.0,
+      "sample_leaders": [
+        "Miku",
+        "KAITO"
+      ],
+      "sample_shape": "高竞争双峰：原规范未明确≥90的边界",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 2,
+      "affinities": {
+        "Miku": [
+          "音乐初心"
+        ],
+        "Rin": [],
+        "Len": [],
+        "Luka": [],
+        "MEIKO": [],
+        "KAITO": [
+          "音乐初心"
+        ]
+      },
+      "event_ids": {
+        "Miku": [
+          "E033"
+        ],
+        "Rin": [],
+        "Len": [],
+        "Luka": [],
+        "MEIKO": [],
+        "KAITO": [
+          "E034"
+        ]
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E033",
+            "leaders": [
+              "KAITO"
+            ]
+          },
+          {
+            "removed_event": "E034",
+            "leaders": [
+              "Miku"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [
+          {
+            "downgraded_event": "E033",
+            "leaders": [
+              "KAITO"
+            ]
+          },
+          {
+            "downgraded_event": "E034",
+            "leaders": [
+              "Miku"
+            ]
+          }
+        ],
+        "all_S_to_A": [
+          "Miku",
+          "KAITO"
+        ],
+        "all_themes_merged_per_pair": [
+          "Miku",
+          "KAITO"
+        ]
+      }
+    },
+    {
+      "oc": "凤笑梦",
+      "observed_raw": {
+        "Miku": 0.0,
+        "Rin": 13.56,
+        "Len": 34.32,
+        "Luka": 0.0,
+        "MEIKO": 3.0,
+        "KAITO": 0.0
+      },
+      "observed_final": {
+        "Miku": 0.0,
+        "Rin": 12.964844,
+        "Len": 100.0,
+        "Luka": 0.0,
+        "MEIKO": 0.469313,
+        "KAITO": 0.0
+      },
+      "observed_D": 97.313169,
+      "sample_leaders": [
+        "Len"
+      ],
+      "sample_shape": "单S样形：第二项<55",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 3,
+      "affinities": {
+        "Miku": [],
+        "Rin": [
+          "专业技能",
+          "自我表达"
+        ],
+        "Len": [
+          "自我表达",
+          "舞台"
+        ],
+        "Luka": [],
+        "MEIKO": [
+          "专业技能"
+        ],
+        "KAITO": []
+      },
+      "event_ids": {
+        "Miku": [],
+        "Rin": [
+          "E036",
+          "E038"
+        ],
+        "Len": [
+          "E035",
+          "E037"
+        ],
+        "Luka": [],
+        "MEIKO": [
+          "E039"
+        ],
+        "KAITO": []
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E035",
+            "leaders": [
+              "Rin"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [],
+        "all_S_to_A": [
+          "Len"
+        ],
+        "all_themes_merged_per_pair": [
+          "Len"
+        ]
+      }
+    },
+    {
+      "oc": "草薙宁宁",
+      "observed_raw": {
+        "Miku": 0.9,
+        "Rin": 6.6,
+        "Len": 0.0,
+        "Luka": 2.97,
+        "MEIKO": 3.3,
+        "KAITO": 3.6
+      },
+      "observed_final": {
+        "Miku": 1.248351,
+        "Rin": 100.0,
+        "Len": 0.0,
+        "Luka": 17.261063,
+        "MEIKO": 21.763764,
+        "KAITO": 26.355353
+      },
+      "observed_D": 86.674294,
+      "sample_leaders": [
+        "Rin"
+      ],
+      "sample_shape": "单S样形：第二项<55",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 5,
+      "affinities": {
+        "Miku": [
+          "舞台"
+        ],
+        "Rin": [
+          "专业技能",
+          "人际关系"
+        ],
+        "Len": [],
+        "Luka": [
+          "梦想"
+        ],
+        "MEIKO": [
+          "舞台"
+        ],
+        "KAITO": [
+          "舞台"
+        ]
+      },
+      "event_ids": {
+        "Miku": [
+          "E041"
+        ],
+        "Rin": [
+          "E043",
+          "E044"
+        ],
+        "Len": [],
+        "Luka": [
+          "E107"
+        ],
+        "MEIKO": [
+          "E040"
+        ],
+        "KAITO": [
+          "E042",
+          "E045"
+        ]
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E043",
+            "leaders": [
+              "KAITO"
+            ]
+          },
+          {
+            "removed_event": "E044",
+            "leaders": [
+              "KAITO"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [],
+        "all_S_to_A": [
+          "Rin"
+        ],
+        "all_themes_merged_per_pair": [
+          "Rin"
+        ]
+      }
+    },
+    {
+      "oc": "神代类",
+      "observed_raw": {
+        "Miku": 27.0,
+        "Rin": 0.0,
+        "Len": 0.0,
+        "Luka": 0.0,
+        "MEIKO": 0.0,
+        "KAITO": 23.76
+      },
+      "observed_final": {
+        "Miku": 100.0,
+        "Rin": 0.0,
+        "Len": 0.0,
+        "Luka": 0.0,
+        "MEIKO": 0.0,
+        "KAITO": 75.485212
+      },
+      "observed_D": 84.902958,
+      "sample_leaders": [
+        "Miku"
+      ],
+      "sample_shape": "1S+1P样形：第二项70—90",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 2,
+      "affinities": {
+        "Miku": [
+          "自我认同"
+        ],
+        "Rin": [],
+        "Len": [],
+        "Luka": [],
+        "MEIKO": [],
+        "KAITO": [
+          "自我认同"
+        ]
+      },
+      "event_ids": {
+        "Miku": [
+          "E108"
+        ],
+        "Rin": [],
+        "Len": [],
+        "Luka": [],
+        "MEIKO": [],
+        "KAITO": [
+          "E046"
+        ]
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E108",
+            "leaders": [
+              "KAITO"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [
+          {
+            "downgraded_event": "E108",
+            "leaders": [
+              "KAITO"
+            ]
+          }
+        ],
+        "all_S_to_A": [
+          "Miku"
+        ],
+        "all_themes_merged_per_pair": [
+          "Miku"
+        ]
+      }
+    },
+    {
+      "oc": "宵崎奏",
+      "observed_raw": {
+        "Miku": 24.36,
+        "Rin": 13.56,
+        "Len": 0.0,
+        "Luka": 25.74,
+        "MEIKO": 0.0,
+        "KAITO": 29.31
+      },
+      "observed_final": {
+        "Miku": 66.566424,
+        "Rin": 18.345794,
+        "Len": 0.0,
+        "Luka": 75.145676,
+        "MEIKO": 0.0,
+        "KAITO": 100.0
+      },
+      "observed_D": 67.988421,
+      "sample_leaders": [
+        "KAITO"
+      ],
+      "sample_shape": "1S+1P样形：第二项70—90",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 4,
+      "affinities": {
+        "Miku": [
+          "创作"
+        ],
+        "Rin": [
+          "创作",
+          "音乐初心"
+        ],
+        "Len": [],
+        "Luka": [
+          "创作"
+        ],
+        "MEIKO": [],
+        "KAITO": [
+          "创作",
+          "团队",
+          "自我认同"
+        ]
+      },
+      "event_ids": {
+        "Miku": [
+          "E048",
+          "E118"
+        ],
+        "Rin": [
+          "E092",
+          "E117"
+        ],
+        "Len": [],
+        "Luka": [
+          "E047",
+          "E094"
+        ],
+        "MEIKO": [],
+        "KAITO": [
+          "E049",
+          "E050",
+          "E093"
+        ]
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E093",
+            "leaders": [
+              "Luka"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [
+          {
+            "downgraded_event": "E093",
+            "leaders": [
+              "Luka"
+            ]
+          }
+        ],
+        "all_S_to_A": [
+          "KAITO"
+        ],
+        "all_themes_merged_per_pair": [
+          "KAITO"
+        ]
+      }
+    },
+    {
+      "oc": "朝比奈真冬",
+      "observed_raw": {
+        "Miku": 39.066,
+        "Rin": 0.0,
+        "Len": 12.18,
+        "Luka": 10.56,
+        "MEIKO": 0.0,
+        "KAITO": 30.57
+      },
+      "observed_final": {
+        "Miku": 100.0,
+        "Rin": 0.0,
+        "Len": 7.699568,
+        "Luka": 5.624746,
+        "MEIKO": 0.0,
+        "KAITO": 58.303186
+      },
+      "observed_D": 85.6745,
+      "sample_leaders": [
+        "Miku"
+      ],
+      "sample_shape": "过渡形：原规范未定义55—70",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "Miku：结构角色另判",
+      "scored_pairs": 4,
+      "affinities": {
+        "Miku": [
+          "自我认同"
+        ],
+        "Rin": [],
+        "Len": [
+          "情绪识别"
+        ],
+        "Luka": [
+          "自我认同"
+        ],
+        "MEIKO": [],
+        "KAITO": [
+          "自我认同"
+        ]
+      },
+      "event_ids": {
+        "Miku": [
+          "E051",
+          "E052",
+          "E095"
+        ],
+        "Rin": [],
+        "Len": [
+          "E055",
+          "E097"
+        ],
+        "Luka": [
+          "E098"
+        ],
+        "MEIKO": [],
+        "KAITO": [
+          "E053",
+          "E054",
+          "E096"
+        ]
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [
+          {
+            "removed_event": "E051",
+            "leaders": [
+              "KAITO"
+            ]
+          },
+          {
+            "removed_event": "E052",
+            "leaders": [
+              "KAITO"
+            ]
+          }
+        ],
+        "one_S_to_A_changes": [],
+        "all_S_to_A": [
+          "Miku"
+        ],
+        "all_themes_merged_per_pair": [
+          "Miku"
+        ]
+      }
+    },
+    {
+      "oc": "东云绘名",
+      "observed_raw": {
+        "Miku": 11.55,
+        "Rin": 40.656,
+        "Len": 13.56,
+        "Luka": 0.99,
+        "MEIKO": 12.54,
+        "KAITO": 0.0
+      },
+      "observed_final": {
+        "Miku": 6.27489,
+        "Rin": 100.0,
+        "Len": 8.930938,
+        "Luka": 0.028205,
+        "MEIKO": 7.519351,
+        "KAITO": 0.0
+      },
+      "observed_D": 95.449323,
+      "sample_leaders": [
+        "Rin"
+      ],
+      "sample_shape": "单S样形：第二项<55",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 5,
+      "affinities": {
+        "Miku": [
+          "人际关系",
+          "自我认同"
+        ],
+        "Rin": [
+          "人际关系",
+          "自我认同"
+        ],
+        "Len": [
+          "专业技能",
+          "人际关系"
+        ],
+        "Luka": [
+          "人际关系"
+        ],
+        "MEIKO": [
+          "人际关系"
+        ],
+        "KAITO": []
+      },
+      "event_ids": {
+        "Miku": [
+          "E057",
+          "E115"
+        ],
+        "Rin": [
+          "E056",
+          "E099",
+          "E101"
+        ],
+        "Len": [
+          "E100",
+          "E102"
+        ],
+        "Luka": [
+          "E116"
+        ],
+        "MEIKO": [
+          "E058",
+          "E059"
+        ],
+        "KAITO": []
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [],
+        "one_S_to_A_changes": [],
+        "all_S_to_A": [
+          "Rin"
+        ],
+        "all_themes_merged_per_pair": [
+          "Rin"
+        ]
+      }
+    },
+    {
+      "oc": "晓山瑞希",
+      "observed_raw": {
+        "Miku": 0.99,
+        "Rin": 0.0,
+        "Len": 0.9,
+        "Luka": 24.75,
+        "MEIKO": 41.892,
+        "KAITO": 10.56
+      },
+      "observed_final": {
+        "Miku": 0.026406,
+        "Rin": 0.0,
+        "Len": 0.021411,
+        "Luka": 31.417892,
+        "MEIKO": 100.0,
+        "KAITO": 4.82361
+      },
+      "observed_D": 92.742136,
+      "sample_leaders": [
+        "MEIKO"
+      ],
+      "sample_shape": "单S样形：第二项<55",
+      "global_final": null,
+      "global_D": null,
+      "global_core_type": "未定",
+      "global_ranking_confidence": "B：覆盖不足；不是数值概率",
+      "cpu0": "未专项判定",
+      "scored_pairs": 5,
+      "affinities": {
+        "Miku": [
+          "人际关系"
+        ],
+        "Rin": [],
+        "Len": [
+          "自我认同"
+        ],
+        "Luka": [
+          "人际关系",
+          "自我认同"
+        ],
+        "MEIKO": [
+          "秘密 / 距离"
+        ],
+        "KAITO": [
+          "秘密 / 距离"
+        ]
+      },
+      "event_ids": {
+        "Miku": [
+          "E113"
+        ],
+        "Rin": [],
+        "Len": [
+          "E112"
+        ],
+        "Luka": [
+          "E111",
+          "E114"
+        ],
+        "MEIKO": [
+          "E060",
+          "E061",
+          "E103",
+          "E104",
+          "E106"
+        ],
+        "KAITO": [
+          "E105"
+        ]
+      },
+      "sensitivity": {
+        "leave_one_ledger_entry_out_changes": [],
+        "one_S_to_A_changes": [],
+        "all_S_to_A": [
+          "MEIKO"
+        ],
+        "all_themes_merged_per_pair": [
+          "MEIKO"
+        ]
+      }
+    }
+  ]
+}

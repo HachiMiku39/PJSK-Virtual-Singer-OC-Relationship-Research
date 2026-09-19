@@ -1,0 +1,3811 @@
+{
+  "version": "v2.3-sampled-audit-2026-09-19",
+  "scope": "针对用户基线及主要竞争证据的一次20人定向复跑；不是截至2026年的全剧情、全卡牌普查。0表示本轮无计分记录。",
+  "parameters": {
+    "base": {
+      "S": 16,
+      "A": 8,
+      "B": 3,
+      "C": 1,
+      "0": 0
+    },
+    "exponent": 2.2,
+    "repeat": [
+      1,
+      0.6,
+      0.35,
+      0.2
+    ],
+    "repeat_tail": "fourth and subsequent stay at 0.2",
+    "uniqueness_policy": "本轮全部设1.00作为中性、无独占奖励的审计设定；未证明长期独占，不授1.20或1.40。并非证明所有关系同等独特。",
+    "importance_sort": "level base descending, pre-repeat raw descending, stable event ID",
+    "tie_policy": "并列第一均显示100；D剔除其中一个100，其他并列者仍计入其余五项"
+  },
+  "roster": [
+    "星乃一歌",
+    "天马咲希",
+    "望月穗波",
+    "日野森志步",
+    "花里实乃理",
+    "桐谷遥",
+    "桃井爱莉",
+    "日野森雫",
+    "小豆泽心羽",
+    "白石杏",
+    "东云彰人",
+    "青柳冬弥",
+    "天马司",
+    "凤笑梦",
+    "草薙宁宁",
+    "神代类",
+    "宵崎奏",
+    "朝比奈真冬",
+    "东云绘名",
+    "晓山瑞希"
+  ],
+  "vs_order": [
+    "Miku",
+    "Rin",
+    "Len",
+    "Luka",
+    "MEIKO",
+    "KAITO"
+  ],
+  "baseline": [
+    {
+      "oc": "星乃一歌",
+      "scores": [
+        100.0,
+        15.0,
+        5.0,
+        35.0,
+        10.0,
+        25.0
+      ],
+      "D_reported": 82.0,
+      "D_calc": 82.0,
+      "baseline_leader": "Miku A+"
+    },
+    {
+      "oc": "天马咲希",
+      "scores": [
+        34.0,
+        78.0,
+        5.0,
+        100.0,
+        10.0,
+        3.0
+      ],
+      "D_reported": 74.0,
+      "D_calc": 74.0,
+      "baseline_leader": "Luka A"
+    },
+    {
+      "oc": "望月穗波",
+      "scores": [
+        23.0,
+        10.0,
+        72.0,
+        30.0,
+        100.0,
+        7.0
+      ],
+      "D_reported": 71.6,
+      "D_calc": 71.6,
+      "baseline_leader": "MEIKO A"
+    },
+    {
+      "oc": "日野森志步",
+      "scores": [
+        30.0,
+        100.0,
+        15.0,
+        82.0,
+        36.0,
+        68.0
+      ],
+      "D_reported": 53.8,
+      "D_calc": 53.8,
+      "baseline_leader": "Rin B+"
+    },
+    {
+      "oc": "花里实乃理",
+      "scores": [
+        100.0,
+        82.0,
+        22.0,
+        78.0,
+        18.0,
+        58.0
+      ],
+      "D_reported": 48.4,
+      "D_calc": 48.4,
+      "baseline_leader": "Miku A−"
+    },
+    {
+      "oc": "桐谷遥",
+      "scores": [
+        58.0,
+        48.0,
+        18.0,
+        25.0,
+        88.0,
+        100.0
+      ],
+      "D_reported": 52.6,
+      "D_calc": 52.6,
+      "baseline_leader": "KAITO A"
+    },
+    {
+      "oc": "桃井爱莉",
+      "scores": [
+        42.0,
+        50.0,
+        100.0,
+        17.0,
+        65.0,
+        15.0
+      ],
+      "D_reported": 62.2,
+      "D_calc": 62.2,
+      "baseline_leader": "Len A"
+    },
+    {
+      "oc": "日野森雫",
+      "scores": [
+        40.0,
+        35.0,
+        12.0,
+        100.0,
+        20.0,
+        50.0
+      ],
+      "D_reported": 68.6,
+      "D_calc": 68.6,
+      "baseline_leader": "Luka A"
+    },
+    {
+      "oc": "小豆泽心羽",
+      "scores": [
+        100.0,
+        50.0,
+        38.0,
+        35.0,
+        86.0,
+        70.0
+      ],
+      "D_reported": 44.2,
+      "D_calc": 44.2,
+      "baseline_leader": "Miku A−"
+    },
+    {
+      "oc": "白石杏",
+      "scores": [
+        100.0,
+        42.0,
+        92.0,
+        65.0,
+        78.0,
+        18.0
+      ],
+      "D_reported": 41.0,
+      "D_calc": 41.0,
+      "baseline_leader": "Miku B+"
+    },
+    {
+      "oc": "东云彰人",
+      "scores": [
+        60.0,
+        42.0,
+        100.0,
+        45.0,
+        38.0,
+        76.0
+      ],
+      "D_reported": 47.8,
+      "D_calc": 47.8,
+      "baseline_leader": "Len A"
+    },
+    {
+      "oc": "青柳冬弥",
+      "scores": [
+        48.0,
+        35.0,
+        68.0,
+        100.0,
+        40.0,
+        88.0
+      ],
+      "D_reported": 44.2,
+      "D_calc": 44.2,
+      "baseline_leader": "Luka A"
+    },
+    {
+      "oc": "天马司",
+      "scores": [
+        82.0,
+        15.0,
+        45.0,
+        40.0,
+        20.0,
+        100.0
+      ],
+      "D_reported": 59.6,
+      "D_calc": 59.6,
+      "baseline_leader": "KAITO A"
+    },
+    {
+      "oc": "凤笑梦",
+      "scores": [
+        85.0,
+        50.0,
+        100.0,
+        20.0,
+        65.0,
+        58.0
+      ],
+      "D_reported": 44.4,
+      "D_calc": 44.4,
+      "baseline_leader": "Len B+"
+    },
+    {
+      "oc": "草薙宁宁",
+      "scores": [
+        45.0,
+        88.0,
+        25.0,
+        78.0,
+        100.0,
+        70.0
+      ],
+      "D_reported": 38.8,
+      "D_calc": 38.8,
+      "baseline_leader": "MEIKO B+"
+    },
+    {
+      "oc": "神代类",
+      "scores": [
+        60.0,
+        20.0,
+        65.0,
+        92.0,
+        25.0,
+        100.0
+      ],
+      "D_reported": 47.6,
+      "D_calc": 47.6,
+      "baseline_leader": "KAITO A−"
+    },
+    {
+      "oc": "宵崎奏",
+      "scores": [
+        84.0,
+        45.0,
+        55.0,
+        100.0,
+        18.0,
+        90.0
+      ],
+      "D_reported": 41.6,
+      "D_calc": 41.6,
+      "baseline_leader": "Luka B+"
+    },
+    {
+      "oc": "朝比奈真冬",
+      "scores": [
+        100.0,
+        55.0,
+        75.0,
+        62.0,
+        20.0,
+        95.0
+      ],
+      "D_reported": 38.6,
+      "D_calc": 38.6,
+      "baseline_leader": "Miku A+ / CPU0"
+    },
+    {
+      "oc": "东云绘名",
+      "scores": [
+        55.0,
+        100.0,
+        20.0,
+        65.0,
+        78.0,
+        15.0
+      ],
+      "D_reported": 53.4,
+      "D_calc": 53.4,
+      "baseline_leader": "Rin A"
+    },
+    {
+      "oc": "晓山瑞希",
+      "scores": [
+        64.0,
+        80.0,
+        85.0,
+        72.0,
+        100.0,
+        20.0
+      ],
+      "D_reported": 35.8,
+      "D_calc": 35.8,
+      "baseline_leader": "MEIKO A−"
+    }
+  ],
+  "source_catalog": {
+    "e001_07": {
+      "kind": "event",
+      "id": 1,
+      "episode": 7,
+      "title": "雨上がりの一番星",
+      "chapter": "ゆっくり進もう",
+      "page": "https://pjsk.moe/ja-jp/story/event/1/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_stella_2020/scenario/event_01_07.json",
+      "sha256": "e4a2c281eaa1242d03446d058f98e128b1130235eef1ffc559ecba45e4da3793",
+      "talkdata_count": 89,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2020-10-09"
+    },
+    "e003_05": {
+      "kind": "event",
+      "id": 3,
+      "episode": 5,
+      "title": "全力！ワンダーハロウィン！",
+      "chapter": "一番いい演出を",
+      "page": "https://pjsk.moe/ja-jp/story/event/3/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_potato_2020/scenario/event_03_05.json",
+      "sha256": "1d2f42b3f247e3a3f4384ccf6c546de5e1e0cb721de7ae1dbc701dbd1a3d06d7",
+      "talkdata_count": 82,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2020-10-31"
+    },
+    "e003_06": {
+      "kind": "event",
+      "id": 3,
+      "episode": 6,
+      "title": "全力！ワンダーハロウィン！",
+      "chapter": "役者と演出家",
+      "page": "https://pjsk.moe/ja-jp/story/event/3/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_potato_2020/scenario/event_03_06.json",
+      "sha256": "dfcf86c64f2d37b2696c94a259b871825d8884133585ec2dd4f716fde9e8c948",
+      "talkdata_count": 92,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2020-10-31"
+    },
+    "e003_07": {
+      "kind": "event",
+      "id": 3,
+      "episode": 7,
+      "title": "全力！ワンダーハロウィン！",
+      "chapter": "僕達の全力で",
+      "page": "https://pjsk.moe/ja-jp/story/event/3/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_potato_2020/scenario/event_03_07.json",
+      "sha256": "c3a6a3e23417ab9a7befaf010903bf9d6e1697ab652b8cf4e8072ccd3a323b17",
+      "talkdata_count": 85,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2020-10-31"
+    },
+    "e008_06": {
+      "kind": "event",
+      "id": 8,
+      "episode": 6,
+      "title": "聖なる夜に、この歌声を",
+      "chapter": "魔法をかけて",
+      "page": "https://pjsk.moe/ja-jp/story/event/8/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_nijiiro_2020/scenario/event_08_06.json",
+      "sha256": "7375bb67328f94953e540466f80e1aba29268dda0f4c6a25ea88dcca6cdfaee1",
+      "talkdata_count": 47,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2020-12-20"
+    },
+    "e008_07": {
+      "kind": "event",
+      "id": 8,
+      "episode": 7,
+      "title": "聖なる夜に、この歌声を",
+      "chapter": "セカイの新団員！？",
+      "page": "https://pjsk.moe/ja-jp/story/event/8/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_nijiiro_2020/scenario/event_08_07.json",
+      "sha256": "b71c8328544ee1c95b6f4a0799f2b2dbdbb8dc31712258ecf1895dd2400d1f27",
+      "talkdata_count": 76,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2020-12-20"
+    },
+    "e010_05": {
+      "kind": "event",
+      "id": 10,
+      "episode": 5,
+      "title": "揺れるまま、でも君は前へ",
+      "chapter": "優しさと勇気と",
+      "page": "https://pjsk.moe/ja-jp/story/event/10/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_hareomatsu_2021/scenario/event_10_05.json",
+      "sha256": "08043bc54cfd4d660683f47d44005f2f897cbb17de821174feefb8f411dfab13",
+      "talkdata_count": 61,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-01-10"
+    },
+    "e011_05": {
+      "kind": "event",
+      "id": 11,
+      "episode": 5,
+      "title": "Color of Myself！",
+      "chapter": "望まれない“私”",
+      "page": "https://pjsk.moe/ja-jp/story/event/11/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_color_2021/scenario/event_11_05.json",
+      "sha256": "c283a7b828ab479e3f76eb3ec1fe4d867a211c7e19e3388ef89dc9d9b84282cf",
+      "talkdata_count": 95,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-01-21"
+    },
+    "e011_07": {
+      "kind": "event",
+      "id": 11,
+      "episode": 7,
+      "title": "Color of Myself！",
+      "chapter": "決断",
+      "page": "https://pjsk.moe/ja-jp/story/event/11/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_color_2021/scenario/event_11_07.json",
+      "sha256": "acdf5461d7fa2d347b8fd3f77c74ed4340570ebe08327b0e3262bcc96fdb0abc",
+      "talkdata_count": 88,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-01-21"
+    },
+    "e013_02": {
+      "kind": "event",
+      "id": 13,
+      "episode": 2,
+      "title": "響くトワイライトパレード",
+      "chapter": "交差する出会い",
+      "page": "https://pjsk.moe/ja-jp/story/event/13/2/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_parade_2021/scenario/event_13_02.json",
+      "sha256": "3dd713a9ea10e3d2eadcc8a46b2c41ac751c64c65dfa5a1fefccf3a85b41d81e",
+      "talkdata_count": 66,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-02-09"
+    },
+    "e013_03": {
+      "kind": "event",
+      "id": 13,
+      "episode": 3,
+      "title": "響くトワイライトパレード",
+      "chapter": "はじめまして！？わんだほい！",
+      "page": "https://pjsk.moe/ja-jp/story/event/13/3/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_parade_2021/scenario/event_13_03.json",
+      "sha256": "74c88daa85e244d21b9ad4ed51478d810fd6ca4db532d3c2511279b5b4cfeb38",
+      "talkdata_count": 102,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-02-09"
+    },
+    "e014_06": {
+      "kind": "event",
+      "id": 14,
+      "episode": 6,
+      "title": "満たされないペイルカラー",
+      "chapter": "一番大切なことは",
+      "page": "https://pjsk.moe/ja-jp/story/event/14/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_infinitelygray_2021/scenario/event_14_06.json",
+      "sha256": "382393f3dcfeb4624322bf3b7cd33a7b30818f6b5d060e51ec1dc5b80aa5d6c3",
+      "talkdata_count": 95,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-02-18"
+    },
+    "e015_06": {
+      "kind": "event",
+      "id": 15,
+      "episode": 6,
+      "title": "スマイルオブドリーマー",
+      "chapter": "涙のような笑顔より",
+      "page": "https://pjsk.moe/ja-jp/story/event/15/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_dream_2021/scenario/event_15_06.json",
+      "sha256": "7f56ad29b83e0ae8e918d53f80b514742fef23cf47bf48ab324aad05b92d37fd",
+      "talkdata_count": 84,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-02-28"
+    },
+    "e017_05": {
+      "kind": "event",
+      "id": 17,
+      "episode": 5,
+      "title": "届け！HOPEFUL STAGE♪",
+      "chapter": "プロとして必要なこと",
+      "page": "https://pjsk.moe/ja-jp/story/event/17/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_angelclover_2021/scenario/event_17_05.json",
+      "sha256": "99e55a740e37e9c8e75b124ed932f0b5a710107d34fe93c2064bc5edf10a4f20",
+      "talkdata_count": 98,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-03-22"
+    },
+    "e017_06": {
+      "kind": "event",
+      "id": 17,
+      "episode": 6,
+      "title": "届け！HOPEFUL STAGE♪",
+      "chapter": "思いがけない出会い",
+      "page": "https://pjsk.moe/ja-jp/story/event/17/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_angelclover_2021/scenario/event_17_06.json",
+      "sha256": "0308a9a1829e5e933813fcd0f07b3ac3a9a943561805e1a4e370158e67845f33",
+      "talkdata_count": 90,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-03-22"
+    },
+    "e017_07": {
+      "kind": "event",
+      "id": 17,
+      "episode": 7,
+      "title": "届け！HOPEFUL STAGE♪",
+      "chapter": "わたしにしかできないこと",
+      "page": "https://pjsk.moe/ja-jp/story/event/17/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_angelclover_2021/scenario/event_17_07.json",
+      "sha256": "7a952f911649cf1fa816728c202b27e4bab5bc41bdbf67354f5d70d8e7e3d896",
+      "talkdata_count": 85,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-03-22"
+    },
+    "e019_05": {
+      "kind": "event",
+      "id": 19,
+      "episode": 5,
+      "title": "シークレット・ディスタンス",
+      "chapter": "最後の心霊スポット",
+      "page": "https://pjsk.moe/ja-jp/story/event/19/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_secret_2021/scenario/event_19_05.json",
+      "sha256": "c21f157914483e94dad0029508447a47f70a03f677ea4f7cd6d9aec285936dc9",
+      "talkdata_count": 64,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-04-11"
+    },
+    "e019_06": {
+      "kind": "event",
+      "id": 19,
+      "episode": 6,
+      "title": "シークレット・ディスタンス",
+      "chapter": "同じ桜なのに",
+      "page": "https://pjsk.moe/ja-jp/story/event/19/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_secret_2021/scenario/event_19_06.json",
+      "sha256": "ff3be17249f66f226102f76700c8872310481309056390c7aa0ad4a7d94fdd17",
+      "talkdata_count": 90,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-04-11"
+    },
+    "e020_05": {
+      "kind": "event",
+      "id": 20,
+      "episode": 5,
+      "title": "Resonate with you",
+      "chapter": "応えたい",
+      "page": "https://pjsk.moe/ja-jp/story/event/20/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_resonate_2021/scenario/event_20_05.json",
+      "sha256": "9330223e74d206c5700d4ccd759520859b6caf87aa013b9f865b2d7e73b5bd77",
+      "talkdata_count": 78,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-04-21"
+    },
+    "e020_06": {
+      "kind": "event",
+      "id": 20,
+      "episode": 6,
+      "title": "Resonate with you",
+      "chapter": "想いを馳せて",
+      "page": "https://pjsk.moe/ja-jp/story/event/20/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_resonate_2021/scenario/event_20_06.json",
+      "sha256": "3bf13d8b0ef08006af10df2a5a58c8b2c90544ad7d826795ba0a3f456481f55a",
+      "talkdata_count": 62,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-04-21"
+    },
+    "e021_06": {
+      "kind": "event",
+      "id": 21,
+      "episode": 6,
+      "title": "STRAY BAD DOG",
+      "chapter": "相棒としてできること",
+      "page": "https://pjsk.moe/ja-jp/story/event/21/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_stray_2021/scenario/event_21_06.json",
+      "sha256": "d9a1f537fac5ee28f46bf9ca818bdd7e3af2520984f999d146d3e804047ec22e",
+      "talkdata_count": 135,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-04-30"
+    },
+    "e023_07": {
+      "kind": "event",
+      "id": 23,
+      "episode": 7,
+      "title": "頑張るあなたにBreak Time！",
+      "chapter": "やりたいこと、ひとつ",
+      "page": "https://pjsk.moe/ja-jp/story/event/23/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_breaktime_2021/scenario/event_23_07.json",
+      "sha256": "ab840edb129ff30dfaccebc500ff897354f87161f83f895633e1170596290ef3",
+      "talkdata_count": 97,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-05-21"
+    },
+    "e026_02": {
+      "kind": "event",
+      "id": 26,
+      "episode": 2,
+      "title": "カーネーション・リコレクション",
+      "chapter": "ルカの言葉",
+      "page": "https://pjsk.moe/ja-jp/story/event/26/2/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_carnation_2021/scenario/event_26_02.json",
+      "sha256": "7c706c94e3c519a38105e7ec49c59f3fc9158f4e979bda3603ed9a0be0bfaa28",
+      "talkdata_count": 84,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-06-21"
+    },
+    "e026_07": {
+      "kind": "event",
+      "id": 26,
+      "episode": 7,
+      "title": "カーネーション・リコレクション",
+      "chapter": "迷路の先にあるもの",
+      "page": "https://pjsk.moe/ja-jp/story/event/26/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_carnation_2021/scenario/event_26_07.json",
+      "sha256": "19d3cb8a035003706344a853114082d7a39a68c428613e5330a6d7fc85b0526a",
+      "talkdata_count": 42,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-06-21"
+    },
+    "e026_08": {
+      "kind": "event",
+      "id": 26,
+      "episode": 8,
+      "title": "カーネーション・リコレクション",
+      "chapter": "ほほ笑み",
+      "page": "https://pjsk.moe/ja-jp/story/event/26/8/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_carnation_2021/scenario/event_26_08.json",
+      "sha256": "8a96462d9baee3b513b7ebd010c36232977e15384109ddf1362178d8c2998c43",
+      "talkdata_count": 69,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-06-21"
+    },
+    "e027_06": {
+      "kind": "event",
+      "id": 27,
+      "episode": 6,
+      "title": "Unnamed Harmony",
+      "chapter": "きらきら光る道しるべ",
+      "page": "https://pjsk.moe/ja-jp/story/event/27/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_unnamed_2021/scenario/event_27_06.json",
+      "sha256": "ca0d10f7cdefa5c5efdca06af1a9bca20b922d50929150752386f234c52cc0cc",
+      "talkdata_count": 55,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-06-30"
+    },
+    "e028_04": {
+      "kind": "event",
+      "id": 28,
+      "episode": 4,
+      "title": "Awakening Beat",
+      "chapter": "自信の持ちかた",
+      "page": "https://pjsk.moe/ja-jp/story/event/28/4/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_awakening_2021/scenario/event_28_04.json",
+      "sha256": "7013313d66eb89dd0aeeb82a8b2d2e66aba9122f6bb4b70b8c627447a3309c97",
+      "talkdata_count": 79,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-07-09"
+    },
+    "e028_06": {
+      "kind": "event",
+      "id": 28,
+      "episode": 6,
+      "title": "Awakening Beat",
+      "chapter": "リベンジ・マッチを前に",
+      "page": "https://pjsk.moe/ja-jp/story/event/28/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_awakening_2021/scenario/event_28_06.json",
+      "sha256": "19f005b12c70c8c1680e93bd4cc9951d3274e0d54008b1f6bf822bc35b1d5895",
+      "talkdata_count": 57,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-07-09"
+    },
+    "e031_06": {
+      "kind": "event",
+      "id": 31,
+      "episode": 6,
+      "title": "ハッピー・ラブリー・エブリデイ！",
+      "chapter": "アイドルとして",
+      "page": "https://pjsk.moe/ja-jp/story/event/31/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_everyday_2021/scenario/event_31_06.json",
+      "sha256": "37ec0e8d455bc4de6f9b1d2991750c31ac9122b2073de9336ad889c8e22319c6",
+      "talkdata_count": 106,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-08-10"
+    },
+    "e032_07": {
+      "kind": "event",
+      "id": 32,
+      "episode": 7,
+      "title": "マーメイドにあこがれて",
+      "chapter": "まだ知らない世界",
+      "page": "https://pjsk.moe/ja-jp/story/event/32/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_mermaid_2021/scenario/event_32_07.json",
+      "sha256": "9db4e626664c9ac32d02dc3aceed8f84c0756be2500358c8ba0b92a6b7d28572",
+      "talkdata_count": 87,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-08-20"
+    },
+    "e032_08": {
+      "kind": "event",
+      "id": 32,
+      "episode": 8,
+      "title": "マーメイドにあこがれて",
+      "chapter": "今は、できることを",
+      "page": "https://pjsk.moe/ja-jp/story/event/32/8/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_mermaid_2021/scenario/event_32_08.json",
+      "sha256": "464c051870840f1390fd6e6f219b750682305048b8a63db65d29e6b9e851fa69",
+      "talkdata_count": 111,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-08-20"
+    },
+    "e034_06": {
+      "kind": "event",
+      "id": 34,
+      "episode": 6,
+      "title": "Knock the Future!!",
+      "chapter": "恥ずかしがらずに",
+      "page": "https://pjsk.moe/ja-jp/story/event/34/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_future_2021/scenario/event_34_06.json",
+      "sha256": "55f864335a5570a77607a482806aba8b04b72d380a30eb0093c05751224313a5",
+      "talkdata_count": 80,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-09-10"
+    },
+    "e037_05": {
+      "kind": "event",
+      "id": 37,
+      "episode": 5,
+      "title": "Bout for Beside You",
+      "chapter": "路地裏の会話",
+      "page": "https://pjsk.moe/ja-jp/story/event/37/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_besideyou_2021/scenario/event_37_05.json",
+      "sha256": "787aaa1c507ac1d9e7bbf0d2682dcb171d9b117572bf75be951f721294f38391",
+      "talkdata_count": 69,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-10-11"
+    },
+    "e037_06": {
+      "kind": "event",
+      "id": 37,
+      "episode": 6,
+      "title": "Bout for Beside You",
+      "chapter": "モヤモヤしていた理由",
+      "page": "https://pjsk.moe/ja-jp/story/event/37/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_besideyou_2021/scenario/event_37_06.json",
+      "sha256": "af97015b81d0820e7ad436f5dde19120eb8a7c158edbc5d7a1b8b4e6f74ee431",
+      "talkdata_count": 116,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-10-11"
+    },
+    "e039_06": {
+      "kind": "event",
+      "id": 39,
+      "episode": 6,
+      "title": "ボクのあしあと キミのゆくさき",
+      "chapter": "どうかその目で",
+      "page": "https://pjsk.moe/ja-jp/story/event/39/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_ashiato_2021/scenario/event_39_06.json",
+      "sha256": "7cacc2472086dee33074c9c65b6ff3b18bd3d41c6529c651e4cbacd64b86f006",
+      "talkdata_count": 64,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-10-31"
+    },
+    "e040_06": {
+      "kind": "event",
+      "id": 40,
+      "episode": 6,
+      "title": "揺るがぬ想い、今言葉にして",
+      "chapter": "必要なケンカ",
+      "page": "https://pjsk.moe/ja-jp/story/event/40/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_stage_2021/scenario/event_40_06.json",
+      "sha256": "40f86ee8d170a1cd40846e868c5cd20988a12e395afee6837d79a82efc8ca0a7",
+      "talkdata_count": 91,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-11-11"
+    },
+    "e043_04": {
+      "kind": "event",
+      "id": 43,
+      "episode": 4,
+      "title": "MOREMOREMakingXmas",
+      "chapter": "アイドルでマネージャー？",
+      "page": "https://pjsk.moe/ja-jp/story/event/43/4/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_makingxmas_2021/scenario/event_43_04.json",
+      "sha256": "2b10f2f36765c2d28ace4cbc98f75d0a9b755a5dad7bd1dd147a176ec14ce665",
+      "talkdata_count": 100,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-12-10"
+    },
+    "e043_05": {
+      "kind": "event",
+      "id": 43,
+      "episode": 5,
+      "title": "MOREMOREMakingXmas",
+      "chapter": "踏み出す一歩",
+      "page": "https://pjsk.moe/ja-jp/story/event/43/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_makingxmas_2021/scenario/event_43_05.json",
+      "sha256": "0c1f0ff6f26c9fb78b431f0d7789ad514f6493e3d91d8dfda4626a1df9840b78",
+      "talkdata_count": 105,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-12-10"
+    },
+    "e044_02": {
+      "kind": "event",
+      "id": 44,
+      "episode": 2,
+      "title": "Same Dreams,Same Colors",
+      "chapter": "見えない景色",
+      "page": "https://pjsk.moe/ja-jp/story/event/44/2/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_camp_2021/scenario/event_44_02.json",
+      "sha256": "2e7c1b2f0c33941ca1a313ba34c10c394688f6e38717e6e0a41c14a211313b2e",
+      "talkdata_count": 81,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-12-20"
+    },
+    "e044_06": {
+      "kind": "event",
+      "id": 44,
+      "episode": 6,
+      "title": "Same Dreams,Same Colors",
+      "chapter": "それぞれのできること",
+      "page": "https://pjsk.moe/ja-jp/story/event/44/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_camp_2021/scenario/event_44_06.json",
+      "sha256": "d893cb914c328635bdee2192894585f836f10995397b8275d58406356bfb716e",
+      "talkdata_count": 88,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2021-12-20"
+    },
+    "e061_08": {
+      "kind": "event",
+      "id": 61,
+      "episode": 8,
+      "title": "迷い子の手を引く、そのさきは",
+      "chapter": "私にとって、この場所は",
+      "page": "https://pjsk.moe/ja-jp/story/event/61/8/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_maigo_2022/scenario/event_61_08.json",
+      "sha256": "50ad2c42f4b8480b462c47dd56d96d77a57f366f7555bf1a47e21fe1e9c6aac3",
+      "talkdata_count": 94,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-06-10"
+    },
+    "e065_05": {
+      "kind": "event",
+      "id": 65,
+      "episode": 5,
+      "title": "No seek No find",
+      "chapter": "感情の不協和音",
+      "page": "https://pjsk.moe/ja-jp/story/event/65/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_noseek_2022/scenario/event_65_05.json",
+      "sha256": "bc407b9e6827bb7437e6478a049b49498e7eafa1a9f334369dad193118d64096",
+      "talkdata_count": 84,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-07-21"
+    },
+    "e065_07": {
+      "kind": "event",
+      "id": 65,
+      "episode": 7,
+      "title": "No seek No find",
+      "chapter": "この想い、出しきるまで",
+      "page": "https://pjsk.moe/ja-jp/story/event/65/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_noseek_2022/scenario/event_65_07.json",
+      "sha256": "dc50bc809055651ba310393410f231dc0cb6b09c1b64115afa600863ec93a701",
+      "talkdata_count": 91,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-07-21"
+    },
+    "e068_02": {
+      "kind": "event",
+      "id": 68,
+      "episode": 2,
+      "title": "そしていま、リボンを結んで",
+      "chapter": "姉からの贈り物",
+      "page": "https://pjsk.moe/ja-jp/story/event/68/2/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_ribbon_2022/scenario/event_68_02.json",
+      "sha256": "4cf2e22871e83a38d2f1b249edf39c728011be778e2b985d2678c526df7eb150",
+      "talkdata_count": 130,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-08-20"
+    },
+    "e068_04": {
+      "kind": "event",
+      "id": 68,
+      "episode": 4,
+      "title": "そしていま、リボンを結んで",
+      "chapter": "ボク達をつないだ絵",
+      "page": "https://pjsk.moe/ja-jp/story/event/68/4/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_ribbon_2022/scenario/event_68_04.json",
+      "sha256": "7b282633f4a31de04dd620b873e3b7b39e176c31b1a91fc2015c27d4e40c0e54",
+      "talkdata_count": 117,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-08-20"
+    },
+    "e068_06": {
+      "kind": "event",
+      "id": 68,
+      "episode": 6,
+      "title": "そしていま、リボンを結んで",
+      "chapter": "【K】との出会い",
+      "page": "https://pjsk.moe/ja-jp/story/event/68/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_ribbon_2022/scenario/event_68_06.json",
+      "sha256": "fa26899b42cf7489350fc1fb2a659d1ba6367ddf1d0cf9160e93d49c18d52ff4",
+      "talkdata_count": 145,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-08-20"
+    },
+    "e068_08": {
+      "kind": "event",
+      "id": 68,
+      "episode": 8,
+      "title": "そしていま、リボンを結んで",
+      "chapter": "ボクが進みたい道は",
+      "page": "https://pjsk.moe/ja-jp/story/event/68/8/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_ribbon_2022/scenario/event_68_08.json",
+      "sha256": "232f4685bbeb7824268dc55b7a9b55a4c596caf7e5235d26f475daa9b715a9f4",
+      "talkdata_count": 174,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-08-20"
+    },
+    "e069_03": {
+      "kind": "event",
+      "id": 69,
+      "episode": 3,
+      "title": "Don't lose faith!",
+      "chapter": "集中特訓、開始",
+      "page": "https://pjsk.moe/ja-jp/story/event/69/3/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_faith_2022/scenario/event_69_03.json",
+      "sha256": "e74d188d8605d21359e00d240df0a688f6d84916d8444b68f9a9c5dd2d3e04eb",
+      "talkdata_count": 145,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-08-31"
+    },
+    "e069_04": {
+      "kind": "event",
+      "id": 69,
+      "episode": 4,
+      "title": "Don't lose faith!",
+      "chapter": "不安を蹴散らして",
+      "page": "https://pjsk.moe/ja-jp/story/event/69/4/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_faith_2022/scenario/event_69_04.json",
+      "sha256": "b297bcd63c4738d2c5b5c70234a754ffb53366586fdc3556f62efd20b0cc5823",
+      "talkdata_count": 107,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-08-31"
+    },
+    "e069_05": {
+      "kind": "event",
+      "id": 69,
+      "episode": 5,
+      "title": "Don't lose faith!",
+      "chapter": "全力の音",
+      "page": "https://pjsk.moe/ja-jp/story/event/69/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_faith_2022/scenario/event_69_05.json",
+      "sha256": "10a65a7ab484c4d21793006e22558ede05f279e2d07bf3e97f082d892fdab3c5",
+      "talkdata_count": 107,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-08-31"
+    },
+    "e069_06": {
+      "kind": "event",
+      "id": 69,
+      "episode": 6,
+      "title": "Don't lose faith!",
+      "chapter": "約束の日",
+      "page": "https://pjsk.moe/ja-jp/story/event/69/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_faith_2022/scenario/event_69_06.json",
+      "sha256": "be1b367aadf76e664f6021a548936efb686768835be61587573ea73ebceb7d04",
+      "talkdata_count": 133,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-08-31"
+    },
+    "e071_04": {
+      "kind": "event",
+      "id": 71,
+      "episode": 4,
+      "title": "Walk on and on",
+      "chapter": "一緒に作曲をしよう！",
+      "page": "https://pjsk.moe/ja-jp/story/event/71/4/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_walk_2022/scenario/event_71_04.json",
+      "sha256": "416316a65ed8ec5a71f28e398010b2276ff905799461a6b3d85d2d3ad6b9b48e",
+      "talkdata_count": 144,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-09-20"
+    },
+    "e071_06": {
+      "kind": "event",
+      "id": 71,
+      "episode": 6,
+      "title": "Walk on and on",
+      "chapter": "伝わるといいな",
+      "page": "https://pjsk.moe/ja-jp/story/event/71/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_walk_2022/scenario/event_71_06.json",
+      "sha256": "d2b1472d63364926b5c723581f61dc09e55792e88c7f0859be9d3fdaf2cc413f",
+      "talkdata_count": 100,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-09-20"
+    },
+    "e071_07": {
+      "kind": "event",
+      "id": 71,
+      "episode": 7,
+      "title": "Walk on and on",
+      "chapter": "込められた願い",
+      "page": "https://pjsk.moe/ja-jp/story/event/71/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_walk_2022/scenario/event_71_07.json",
+      "sha256": "940a577f48ccb325d930e98fa4509fa714e4eaf34381f236e61d34becfc4363b",
+      "talkdata_count": 78,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-09-20"
+    },
+    "e074_06": {
+      "kind": "event",
+      "id": 74,
+      "episode": 6,
+      "title": "カーテンコールに惜別を",
+      "chapter": "どちらも大事な",
+      "page": "https://pjsk.moe/ja-jp/story/event/74/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_curtaincall_2022/scenario/event_74_06.json",
+      "sha256": "6ddba7dd3b3a3df7c4a1eb0521c9bff6cf9ed97cfaabc8974bbaac566e35cfbf",
+      "talkdata_count": 153,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-10-21"
+    },
+    "e078_04": {
+      "kind": "event",
+      "id": 78,
+      "episode": 4,
+      "title": "あの日の夢の、彼方向こうへ",
+      "chapter": "想いの届けかた",
+      "page": "https://pjsk.moe/ja-jp/story/event/78/4/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_beyond_2022/scenario/event_78_04.json",
+      "sha256": "4c486cfc39a18c8d1a86ab04281baeda4fc42781e72ccf34fb1cda844e267be6",
+      "talkdata_count": 85,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-11-30"
+    },
+    "e078_05": {
+      "kind": "event",
+      "id": 78,
+      "episode": 5,
+      "title": "あの日の夢の、彼方向こうへ",
+      "chapter": "アイドルのルーツ",
+      "page": "https://pjsk.moe/ja-jp/story/event/78/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_beyond_2022/scenario/event_78_05.json",
+      "sha256": "9f0837e80e84775239ca6d01ebd300c1c1b2ee042e27e89621addaee47d205b6",
+      "talkdata_count": 75,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-11-30"
+    },
+    "e079_06": {
+      "kind": "event",
+      "id": 79,
+      "episode": 6,
+      "title": "Find A Way Out",
+      "chapter": "もし限界があるのなら",
+      "page": "https://pjsk.moe/ja-jp/story/event/79/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_way_2022/scenario/event_79_06.json",
+      "sha256": "71256dce13dc6cc4c204778e1fe3470ba04caa44296ca3596b1543c8fccc8150",
+      "talkdata_count": 180,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-12-11"
+    },
+    "e079_08": {
+      "kind": "event",
+      "id": 79,
+      "episode": 8,
+      "title": "Find A Way Out",
+      "chapter": "まだ遠くても、いつか",
+      "page": "https://pjsk.moe/ja-jp/story/event/79/8/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_way_2022/scenario/event_79_08.json",
+      "sha256": "423e53bc27b42b239371a8a78a6f5c8220173d605a6e23d8ea6dbdec9ffddf86",
+      "talkdata_count": 105,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2022-12-11"
+    },
+    "e089_05": {
+      "kind": "event",
+      "id": 89,
+      "episode": 5,
+      "title": "イミシブル・ディスコード",
+      "chapter": "意思表示の果てに",
+      "page": "https://pjsk.moe/ja-jp/story/event/89/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_immiscible_2023/scenario/event_89_05.json",
+      "sha256": "9c175aa70702390eb68d60b78ec4c18db9c81fd3160ee101c6f79c6b56523664",
+      "talkdata_count": 85,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-03-21"
+    },
+    "e089_06": {
+      "kind": "event",
+      "id": 89,
+      "episode": 6,
+      "title": "イミシブル・ディスコード",
+      "chapter": "認めたくない",
+      "page": "https://pjsk.moe/ja-jp/story/event/89/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_immiscible_2023/scenario/event_89_06.json",
+      "sha256": "8c59c7d3fb0215b0051c07c41c2da2552ff0ef7412f744fcd062c19988db80ca",
+      "talkdata_count": 61,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-03-21"
+    },
+    "e093_02": {
+      "kind": "event",
+      "id": 93,
+      "episode": 2,
+      "title": "ボク達の生存逃走",
+      "chapter": "自分らしくいられるように",
+      "page": "https://pjsk.moe/ja-jp/story/event/93/2/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_runaway_2023/scenario/event_93_02.json",
+      "sha256": "e62ecd36178a84e9bbbf2a6e7ab02f4659afde332daab4c18e6c444c5e69a938",
+      "talkdata_count": 78,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-04-30"
+    },
+    "e093_06": {
+      "kind": "event",
+      "id": 93,
+      "episode": 6,
+      "title": "ボク達の生存逃走",
+      "chapter": "ボクの方法",
+      "page": "https://pjsk.moe/ja-jp/story/event/93/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_runaway_2023/scenario/event_93_06.json",
+      "sha256": "ec5ec7a6d0c51ad9a59164ccc45e76ebaefe7ea16ad1a5a79bdd30994e471f02",
+      "talkdata_count": 83,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-04-30"
+    },
+    "e093_08": {
+      "kind": "event",
+      "id": 93,
+      "episode": 8,
+      "title": "ボク達の生存逃走",
+      "chapter": "怖いけど、それでも",
+      "page": "https://pjsk.moe/ja-jp/story/event/93/8/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_runaway_2023/scenario/event_93_08.json",
+      "sha256": "a31473195b350481a2835027dc555f49d6ed23e26c3e68f1d1764856ea7ac64a",
+      "talkdata_count": 64,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-04-30"
+    },
+    "e095_04": {
+      "kind": "event",
+      "id": 95,
+      "episode": 4,
+      "title": "カナリアは窮境に歌う",
+      "chapter": "思いがけない応援",
+      "page": "https://pjsk.moe/ja-jp/story/event/95/4/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_quagmire_2023/scenario/event_95_04.json",
+      "sha256": "2677f8becb502513ba7ca1e7e284ace42ead9f4bfd95faf1c82f4f29842918b1",
+      "talkdata_count": 91,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-05-20"
+    },
+    "e095_06": {
+      "kind": "event",
+      "id": 95,
+      "episode": 6,
+      "title": "カナリアは窮境に歌う",
+      "chapter": "どんなことも力にして",
+      "page": "https://pjsk.moe/ja-jp/story/event/95/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_quagmire_2023/scenario/event_95_06.json",
+      "sha256": "618da59e4b633a4b32f45fe7685242189f2be8ff7ae774e384b3451d696aeeaa",
+      "talkdata_count": 94,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-05-20"
+    },
+    "e100_05": {
+      "kind": "event",
+      "id": 100,
+      "episode": 5,
+      "title": "仮面の私にさよならを",
+      "chapter": "見えない心、確かな想い",
+      "page": "https://pjsk.moe/ja-jp/story/event/100/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_persona_2023/scenario/event_100_05.json",
+      "sha256": "62eb318fdf4d4f8516c274fc119f7cc38391c035e5af0da828b173ab79239b10",
+      "talkdata_count": 76,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-07-11"
+    },
+    "e100_06": {
+      "kind": "event",
+      "id": 100,
+      "episode": 6,
+      "title": "仮面の私にさよならを",
+      "chapter": "心を守るために",
+      "page": "https://pjsk.moe/ja-jp/story/event/100/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_persona_2023/scenario/event_100_06.json",
+      "sha256": "0cec6944c6cc1c795a204e9df1cfbc9d1450ddbca1cfd4a68c412b3357c1bf59",
+      "talkdata_count": 57,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-07-11"
+    },
+    "e100_07": {
+      "kind": "event",
+      "id": 100,
+      "episode": 7,
+      "title": "仮面の私にさよならを",
+      "chapter": "仮面を捨てて",
+      "page": "https://pjsk.moe/ja-jp/story/event/100/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_persona_2023/scenario/event_100_07.json",
+      "sha256": "27bcc47870614597b68ad4b6fb72b158d03acbc0f07981927cb7de37e4434316",
+      "talkdata_count": 112,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-07-11"
+    },
+    "e100_08": {
+      "kind": "event",
+      "id": 100,
+      "episode": 8,
+      "title": "仮面の私にさよならを",
+      "chapter": "手を伸ばす、そのさきは",
+      "page": "https://pjsk.moe/ja-jp/story/event/100/8/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_persona_2023/scenario/event_100_08.json",
+      "sha256": "80e840879552320ac15dd98eeab9535c9854a3ce6a40530ffeafd4f3f905ab64",
+      "talkdata_count": 118,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-07-11"
+    },
+    "e101_04": {
+      "kind": "event",
+      "id": 101,
+      "episode": 4,
+      "title": "つなぐ、星の歌",
+      "chapter": "大切な出会い",
+      "page": "https://pjsk.moe/ja-jp/story/event/101/4/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_connect_2023/scenario/event_101_04.json",
+      "sha256": "1baf706bd88bce922e4c00b64dfcf43c41b97b903c6e1b6ad912a01b4c5c56b4",
+      "talkdata_count": 94,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-07-21"
+    },
+    "e110_02": {
+      "kind": "event",
+      "id": 110,
+      "episode": 2,
+      "title": "Stick to your faith",
+      "chapter": "それぞれの目指すもの",
+      "page": "https://pjsk.moe/ja-jp/story/event/110/2/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_stickto_2023/scenario/event_110_02.json",
+      "sha256": "69ba25d5800ca2c23e1f809d2f4a830621b759c4370c5849c3f5f659bd49e19b",
+      "talkdata_count": 75,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-10-22"
+    },
+    "e110_08": {
+      "kind": "event",
+      "id": 110,
+      "episode": 8,
+      "title": "Stick to your faith",
+      "chapter": "届くように",
+      "page": "https://pjsk.moe/ja-jp/story/event/110/8/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_stickto_2023/scenario/event_110_08.json",
+      "sha256": "078cd1d4452e8d9442129885a97ac1b058a64930d4fc7cb163705d2c3fbd6b2e",
+      "talkdata_count": 81,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-10-22"
+    },
+    "e112_03": {
+      "kind": "event",
+      "id": 112,
+      "episode": 3,
+      "title": "水底に影を探して",
+      "chapter": "水底に沈むもの",
+      "page": "https://pjsk.moe/ja-jp/story/event/112/3/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_underwater_2023/scenario/wl_night_01_03.json",
+      "sha256": "1b57b47748bf3fdc27d773f5144b45fd6c44db100c5d38378e9783ab90b88a43",
+      "talkdata_count": 86,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-11-08"
+    },
+    "e112_04": {
+      "kind": "event",
+      "id": 112,
+      "episode": 4,
+      "title": "水底に影を探して",
+      "chapter": "逃げた、その先は",
+      "page": "https://pjsk.moe/ja-jp/story/event/112/4/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_underwater_2023/scenario/wl_night_01_04.json",
+      "sha256": "5f26ab647b0d2e11b9871b8c7535cce11548398570df698096f6b56ed1a419c3",
+      "talkdata_count": 70,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-11-08"
+    },
+    "e112_05": {
+      "kind": "event",
+      "id": 112,
+      "episode": 5,
+      "title": "水底に影を探して",
+      "chapter": "やさしい言葉",
+      "page": "https://pjsk.moe/ja-jp/story/event/112/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_underwater_2023/scenario/wl_night_01_05.json",
+      "sha256": "bb9cc9a3f10cf671dd19f0cd3ed9ae423d4063be3d6ba06f8b8ba4e4b8847584",
+      "talkdata_count": 103,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-11-08"
+    },
+    "e112_06": {
+      "kind": "event",
+      "id": 112,
+      "episode": 6,
+      "title": "水底に影を探して",
+      "chapter": "目指したい場所",
+      "page": "https://pjsk.moe/ja-jp/story/event/112/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_underwater_2023/scenario/wl_night_01_06.json",
+      "sha256": "b95a2ed6584aebf19f0cd20b5ae357b34f6bd06bab5a80ca587d3fa48e195b1a",
+      "talkdata_count": 99,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-11-08"
+    },
+    "e112_07": {
+      "kind": "event",
+      "id": 112,
+      "episode": 7,
+      "title": "水底に影を探して",
+      "chapter": "届いていたもの",
+      "page": "https://pjsk.moe/ja-jp/story/event/112/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_underwater_2023/scenario/wl_night_01_07.json",
+      "sha256": "d59d0253e880e6c46e5090115c90f90330e749668666949aeb76543b5e39bcfe",
+      "talkdata_count": 79,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-11-08"
+    },
+    "e112_08": {
+      "kind": "event",
+      "id": 112,
+      "episode": 8,
+      "title": "水底に影を探して",
+      "chapter": "もどかしい想い",
+      "page": "https://pjsk.moe/ja-jp/story/event/112/8/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_underwater_2023/scenario/wl_night_01_08.json",
+      "sha256": "c4babe6136ab38794727ac84c94d5fb03cb324e06dbff57942cec7729a120f57",
+      "talkdata_count": 90,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-11-08"
+    },
+    "e112_09": {
+      "kind": "event",
+      "id": 112,
+      "episode": 9,
+      "title": "水底に影を探して",
+      "chapter": "一緒に探そう",
+      "page": "https://pjsk.moe/ja-jp/story/event/112/9/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_underwater_2023/scenario/wl_night_01_09.json",
+      "sha256": "31a00270b7e2b1160e76fd52d28e125d7f2f7dd7a3ff753527e346c70c03f1e1",
+      "talkdata_count": 124,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-11-08"
+    },
+    "e112_10": {
+      "kind": "event",
+      "id": 112,
+      "episode": 10,
+      "title": "水底に影を探して",
+      "chapter": "いつか、進むために",
+      "page": "https://pjsk.moe/ja-jp/story/event/112/10/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_underwater_2023/scenario/wl_night_01_10.json",
+      "sha256": "747890cf56703ff83b72a7fe10a204c56ce00ac04e7caa4736d05a8664f7d14f",
+      "talkdata_count": 172,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-11-08"
+    },
+    "e116_04": {
+      "kind": "event",
+      "id": 116,
+      "episode": 4,
+      "title": "あの日、奏でた音色を",
+      "chapter": "辿る、記憶の先は",
+      "page": "https://pjsk.moe/ja-jp/story/event/116/4/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_tone_2023/scenario/event_116_04.json",
+      "sha256": "0b06080fb755400968604a609d68d45ed4369e81ba09258f3f650ebf0ed6efbd",
+      "talkdata_count": 56,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-12-20"
+    },
+    "e116_06": {
+      "kind": "event",
+      "id": 116,
+      "episode": 6,
+      "title": "あの日、奏でた音色を",
+      "chapter": "優しい思い出と現実",
+      "page": "https://pjsk.moe/ja-jp/story/event/116/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_tone_2023/scenario/event_116_06.json",
+      "sha256": "727311b1d8f567dc0370d0fb4e2d17a70e7e97af16af046671578bfe46abe486",
+      "talkdata_count": 40,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-12-20"
+    },
+    "e116_07": {
+      "kind": "event",
+      "id": 116,
+      "episode": 7,
+      "title": "あの日、奏でた音色を",
+      "chapter": "願い",
+      "page": "https://pjsk.moe/ja-jp/story/event/116/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_tone_2023/scenario/event_116_07.json",
+      "sha256": "548c7bef6a8186b217892f695a4c477bc69e31672efaac105e7813015ef09d60",
+      "talkdata_count": 99,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-12-20"
+    },
+    "e116_08": {
+      "kind": "event",
+      "id": 116,
+      "episode": 8,
+      "title": "あの日、奏でた音色を",
+      "chapter": "あの日の音色を",
+      "page": "https://pjsk.moe/ja-jp/story/event/116/8/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_tone_2023/scenario/event_116_08.json",
+      "sha256": "fe3325fd8a2c9a54e738433cec461d0e86d5b620dec1ee9fdc207578b0c674c3",
+      "talkdata_count": 62,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2023-12-20"
+    },
+    "e121_02": {
+      "kind": "event",
+      "id": 121,
+      "episode": 2,
+      "title": "導く勇気、優しさを胸に",
+      "chapter": "嬉しいことから",
+      "page": "https://pjsk.moe/ja-jp/story/event/121/2/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_lead_2024/scenario/event_121_02.json",
+      "sha256": "21a6c6510e519602b2e4c147cc477d688bf7373de4daf48e1ce16ee62881b2fa",
+      "talkdata_count": 105,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2024-02-10"
+    },
+    "e121_03": {
+      "kind": "event",
+      "id": 121,
+      "episode": 3,
+      "title": "導く勇気、優しさを胸に",
+      "chapter": "力になりたい",
+      "page": "https://pjsk.moe/ja-jp/story/event/121/3/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_lead_2024/scenario/event_121_03.json",
+      "sha256": "9e66a51bfaf5b0ffbd3b7c19d602020bfc053efd985d372677a3e212b86eeecd",
+      "talkdata_count": 68,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2024-02-10"
+    },
+    "e121_05": {
+      "kind": "event",
+      "id": 121,
+      "episode": 5,
+      "title": "導く勇気、優しさを胸に",
+      "chapter": "バラバラな音",
+      "page": "https://pjsk.moe/ja-jp/story/event/121/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_lead_2024/scenario/event_121_05.json",
+      "sha256": "74f1a6bf81098233a02ff87a25752d63e170b1416a53c420fc2c466f00752cea",
+      "talkdata_count": 60,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2024-02-10"
+    },
+    "e127_04": {
+      "kind": "event",
+      "id": 127,
+      "episode": 4,
+      "title": "Knowing the Unseen",
+      "chapter": "憂鬱な朝",
+      "page": "https://pjsk.moe/ja-jp/story/event/127/4/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_unseen_2024/scenario/event_127_04.json",
+      "sha256": "a054a8faf8383c9c589e04de0a08502ab1ee2705e39cbffebaa101b2f2484b79",
+      "talkdata_count": 80,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2024-04-10"
+    },
+    "e127_05": {
+      "kind": "event",
+      "id": 127,
+      "episode": 5,
+      "title": "Knowing the Unseen",
+      "chapter": "向き合わなきゃ",
+      "page": "https://pjsk.moe/ja-jp/story/event/127/5/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_unseen_2024/scenario/event_127_05.json",
+      "sha256": "11e0791db9c2deac162cb21381618e4f3f76978f56a37bbb9beee2d183152a09",
+      "talkdata_count": 125,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2024-04-10"
+    },
+    "e127_06": {
+      "kind": "event",
+      "id": 127,
+      "episode": 6,
+      "title": "Knowing the Unseen",
+      "chapter": "夜更けの景色",
+      "page": "https://pjsk.moe/ja-jp/story/event/127/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_unseen_2024/scenario/event_127_06.json",
+      "sha256": "3d0eeabf7967fa693e755044893a2db4cc38e37be756525da7398e2540e3b5c5",
+      "talkdata_count": 65,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2024-04-10"
+    },
+    "e127_07": {
+      "kind": "event",
+      "id": 127,
+      "episode": 7,
+      "title": "Knowing the Unseen",
+      "chapter": "感じ取る想いは",
+      "page": "https://pjsk.moe/ja-jp/story/event/127/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_unseen_2024/scenario/event_127_07.json",
+      "sha256": "633927439a30fe8fac03dcaa3817361484c702a88dc90050e7d6f2a8927cc61a",
+      "talkdata_count": 61,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2024-04-10"
+    },
+    "e131_07": {
+      "kind": "event",
+      "id": 131,
+      "episode": 7,
+      "title": "perspective for smile",
+      "chapter": "みんなの『視点』",
+      "page": "https://pjsk.moe/ja-jp/story/event/131/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_smile_2024/scenario/event_131_07.json",
+      "sha256": "a83242ebc75aed3b1068aac1c6d03b3ffc2b6c3064d711658d98bba4670b84ea",
+      "talkdata_count": 87,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2024-05-23"
+    },
+    "e133_04": {
+      "kind": "event",
+      "id": 133,
+      "episode": 4,
+      "title": "Lead to shine more",
+      "chapter": "私達の個性は",
+      "page": "https://pjsk.moe/ja-jp/story/event/133/4/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_shine_2024/scenario/event_133_04.json",
+      "sha256": "cbad34a73843252bbe93faa1186da719a98f81bf8fc9ba409b46762288bc2fe0",
+      "talkdata_count": 61,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2024-06-10"
+    },
+    "e145_02": {
+      "kind": "event",
+      "id": 145,
+      "episode": 2,
+      "title": "荊棘の道は何処へ",
+      "chapter": "見守る者達",
+      "page": "https://pjsk.moe/ja-jp/story/event/145/2/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_thorns_2024/scenario/event_145_02.json",
+      "sha256": "fdb7bf5b1c744707da301d4bb7916551e2e60175819d63b675d440cdf55b377a",
+      "talkdata_count": 84,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2024-10-12"
+    },
+    "e145_03": {
+      "kind": "event",
+      "id": 145,
+      "episode": 3,
+      "title": "荊棘の道は何処へ",
+      "chapter": "友の願い",
+      "page": "https://pjsk.moe/ja-jp/story/event/145/3/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_thorns_2024/scenario/event_145_03.json",
+      "sha256": "54eeab1638a11b8358b55e808f02f2c49419eaacebbf6c2385072d1293933975",
+      "talkdata_count": 141,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2024-10-12"
+    },
+    "e150_06": {
+      "kind": "event",
+      "id": 150,
+      "episode": 6,
+      "title": "傷だらけの手で、私達は",
+      "chapter": "怖い",
+      "page": "https://pjsk.moe/ja-jp/story/event/150/6/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_scratch_2024/scenario/event_150_06.json",
+      "sha256": "07ad4fc4814367b262df29c3410baa25407f54d0031a6c0c07a61c84d1d4e5b4",
+      "talkdata_count": 90,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2024-11-30"
+    },
+    "e150_07": {
+      "kind": "event",
+      "id": 150,
+      "episode": 7,
+      "title": "傷だらけの手で、私達は",
+      "chapter": "逃走",
+      "page": "https://pjsk.moe/ja-jp/story/event/150/7/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_scratch_2024/scenario/event_150_07.json",
+      "sha256": "7df15e3a4118dbc41fb7b61db42d22fb0468fc929a114a36347c87dc4056654a",
+      "talkdata_count": 54,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2024-11-30"
+    },
+    "e150_08": {
+      "kind": "event",
+      "id": 150,
+      "episode": 8,
+      "title": "傷だらけの手で、私達は",
+      "chapter": "友達",
+      "page": "https://pjsk.moe/ja-jp/story/event/150/8/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/event_story/event_scratch_2024/scenario/event_150_08.json",
+      "sha256": "a28ed17ccf0ce351e01cf29956c2509545c74bd3852300de33617ba45d8d24e0",
+      "talkdata_count": 112,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读",
+      "event_start_date_jst": "2024-11-30"
+    },
+    "mmj_01_16": {
+      "kind": "unit",
+      "id": 3,
+      "episode": 16,
+      "title": "MORE MORE JUMP！ストーリー 第1章",
+      "chapter": "青色の景色",
+      "page": "https://pjsk.moe/ja-jp/story/unit/3/mmj_01_16/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/scenario/unitstory/idol-story-chapter/mmj_01_16.json",
+      "sha256": "c8149f6621c49d6a4fe117ec7367a95ac900c8343caeb173f7043c0c9cb88b70",
+      "talkdata_count": 86,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读"
+    },
+    "mmj_01_18": {
+      "kind": "unit",
+      "id": 3,
+      "episode": 18,
+      "title": "MORE MORE JUMP！ストーリー 第1章",
+      "chapter": "あの日見た希望",
+      "page": "https://pjsk.moe/ja-jp/story/unit/3/mmj_01_18/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/scenario/unitstory/idol-story-chapter/mmj_01_18.json",
+      "sha256": "935db0bbcbd5b731f7c83803d2b01b1401dd233f9a20411fd3701cd665be8a9e",
+      "talkdata_count": 93,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读"
+    },
+    "nightcode_01_12": {
+      "kind": "unit",
+      "id": 6,
+      "episode": 12,
+      "title": "25時、ナイトコードで。ストーリー 第1章",
+      "chapter": "ただひとつの歌",
+      "page": "https://pjsk.moe/ja-jp/story/unit/6/nightcode_01_12/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/scenario/unitstory/school-refusal-story-chapter/nightcode_01_12.json",
+      "sha256": "26d688fd78523dc80f02a0b9e1b3d2ec4af07e4a767c74bb28dd93d4ac8a0209",
+      "talkdata_count": 70,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读"
+    },
+    "nightcode_01_15": {
+      "kind": "unit",
+      "id": 6,
+      "episode": 15,
+      "title": "25時、ナイトコードで。ストーリー 第1章",
+      "chapter": "消えてしまう前に",
+      "page": "https://pjsk.moe/ja-jp/story/unit/6/nightcode_01_15/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/scenario/unitstory/school-refusal-story-chapter/nightcode_01_15.json",
+      "sha256": "1d14b3a0dd8cddd27ee07f3eb21bc12b4cc4506f3342b24539a41f9cda98efec",
+      "talkdata_count": 66,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读"
+    },
+    "nightcode_01_19": {
+      "kind": "unit",
+      "id": 6,
+      "episode": 19,
+      "title": "25時、ナイトコードで。ストーリー 第1章",
+      "chapter": "悔やむと書いてミライ",
+      "page": "https://pjsk.moe/ja-jp/story/unit/6/nightcode_01_19/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/scenario/unitstory/school-refusal-story-chapter/nightcode_01_19.json",
+      "sha256": "989664896c7495b391ce4d83302c799e07528f6714a07cf37920dd928822a275",
+      "talkdata_count": 86,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读"
+    },
+    "street_01_11": {
+      "kind": "unit",
+      "id": 4,
+      "episode": 11,
+      "title": "Vivid BAD SQUADストーリー 第1章",
+      "chapter": "扉を開く勇気を",
+      "page": "https://pjsk.moe/ja-jp/story/unit/4/street_01_11/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/scenario/unitstory/street-story-chapter/street_01_11.json",
+      "sha256": "9bf3feed81ade8a3bbe9761f0d8d301b64447ce25c41ba5aa07396309b49b8db",
+      "talkdata_count": 63,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读"
+    },
+    "street_01_17": {
+      "kind": "unit",
+      "id": 4,
+      "episode": 17,
+      "title": "Vivid BAD SQUADストーリー 第1章",
+      "chapter": "レンとMEIKOととっておき",
+      "page": "https://pjsk.moe/ja-jp/story/unit/4/street_01_17/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/scenario/unitstory/street-story-chapter/street_01_17.json",
+      "sha256": "e632233e0d5273e7929db33f4463f45697c1277caeec5fd1f53021babea2f51f",
+      "talkdata_count": 72,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读"
+    },
+    "wonder_01_13": {
+      "kind": "unit",
+      "id": 2,
+      "episode": 13,
+      "title": "ワンダーランズ×ショウタイムストーリー 第1章",
+      "chapter": "失った笑顔",
+      "page": "https://pjsk.moe/ja-jp/story/unit/5/wonder_01_13/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/scenario/unitstory/theme-park-story-chapter/wonder_01_13.json",
+      "sha256": "989ad9d76df8e194bb7b904f1c22eb75a5cad8f7cf62051e3deebe1659008bf8",
+      "talkdata_count": 77,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读"
+    },
+    "wonder_01_14": {
+      "kind": "unit",
+      "id": 2,
+      "episode": 14,
+      "title": "ワンダーランズ×ショウタイムストーリー 第1章",
+      "chapter": "あの日の想い",
+      "page": "https://pjsk.moe/ja-jp/story/unit/5/wonder_01_14/",
+      "url": "https://storage.exmeaning.com/sekai-jp-assets/scenario/unitstory/theme-park-story-chapter/wonder_01_14.json",
+      "sha256": "1f5ec248d19d928869937ea3423f384bbd0b49580c4726a3cd8ff6eda2d5b4c2",
+      "talkdata_count": 77,
+      "review_status": "已核查引用所涉及的对白与相邻因果；本清单不等于每章逐行通读"
+    }
+  },
+  "events": [
+    {
+      "id": "E001",
+      "oc": "星乃一歌",
+      "vs": "Miku",
+      "sources": [
+        "e101_04"
+      ],
+      "affinity": "音乐初心",
+      "level": "S",
+      "agency": 1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "一歌把童年组乐队、四人重连及与奏结识归因于Miku，并确认其为最重要的相遇。",
+      "note": "回顾型合并记账；包括现实Miku与教室Miku，不把回顾中的每个往事再次计分。",
+      "vs_incarnation": "现实世界的初音未来与教室Miku合并；不得解读为全部是教室Miku的主动干预",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E002",
+      "oc": "星乃一歌",
+      "vs": "KAITO",
+      "sources": [
+        "e034_06"
+      ],
+      "affinity": "自我表达",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "肯定歌词中一歌的真实心意，使其从担心词句羞耻转向相信自己的表达。",
+      "note": "歌词技术建议还来自伊织；不把整次创作突破归给KAITO。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E003",
+      "oc": "天马咲希",
+      "vs": "Luka",
+      "sources": [
+        "e001_07"
+      ],
+      "affinity": "创伤",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "听取咲希对住院失去时光的恐惧，提出不必急于追回、可以慢慢前进。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E004",
+      "oc": "天马咲希",
+      "vs": "Rin",
+      "sources": [
+        "e027_06"
+      ],
+      "affinity": "创作",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "用即兴演奏展示情感的重要性，让咲希转向寻找自己要放进歌曲的心意。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E005",
+      "oc": "望月穗波",
+      "vs": "MEIKO",
+      "sources": [
+        "e010_05"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "追问穗波想给予怎样的温柔，使其摆脱一味迎合、重新选择有勇气的善意。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E006",
+      "oc": "望月穗波",
+      "vs": "MEIKO",
+      "sources": [
+        "e010_05"
+      ],
+      "affinity": "专业技能",
+      "level": "C",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "在心理咨询后提出开始鼓的练习。",
+      "note": "仅见教学安排，未见此场实际教学过程或效果，因此只记C。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E007",
+      "oc": "望月穗波",
+      "vs": "Len",
+      "sources": [
+        "e040_06"
+      ],
+      "affinity": "冲突处理",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "说明伙伴应坦白好坏想法、争吵并非禁忌，穗波决定向志步表达承担票务的意愿。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E008",
+      "oc": "望月穗波",
+      "vs": "MEIKO",
+      "sources": [
+        "e040_06"
+      ],
+      "affinity": "冲突处理",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "支持Len的意见，确认穗波与伙伴可以面对面沟通。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E009",
+      "oc": "日野森志步",
+      "vs": "Rin",
+      "sources": [
+        "e110_02",
+        "e110_08"
+      ],
+      "affinity": "音乐初心",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "引导回忆贝斯启蒙，并在第8话帮助志步把回忆凝成目标音乐的明确答案。",
+      "note": "两话同一连续谈话只记一次；Rin不是童年启蒙者。A/S分级有争议。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E010",
+      "oc": "花里实乃理",
+      "vs": "Miku",
+      "sources": [
+        "e017_05",
+        "e017_06"
+      ],
+      "affinity": "自我认同",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "鼓励实乃理不必成为别人；实乃理见到粉丝后回想了这段建议。",
+      "note": "最终顿悟来自粉丝与本人；不记S。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E011",
+      "oc": "花里实乃理",
+      "vs": "Rin",
+      "sources": [
+        "e017_05"
+      ],
+      "affinity": "自我认同",
+      "level": "C",
+      "agency": 1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "用自己落后于Miku与Luka的感受与实乃理共鸣。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E012",
+      "oc": "花里实乃理",
+      "vs": "Luka",
+      "sources": [
+        "e017_05",
+        "e017_06"
+      ],
+      "affinity": "自我认同",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "提出实乃理有只能由自己做到的事，作为后续自我发现的提示。",
+      "note": "不抹去前置提示，也不抢走粉丝段落的决定性作用。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E013",
+      "oc": "花里实乃理",
+      "vs": "Luka",
+      "sources": [
+        "e017_07"
+      ],
+      "affinity": "专业技能",
+      "level": "A",
+      "agency": 1.25,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "受实乃理请求进行明确的舞台动作与笑容训练，队友确认其表现改善。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E014",
+      "oc": "花里实乃理",
+      "vs": "Miku",
+      "sources": [
+        "e017_07"
+      ],
+      "affinity": "专业技能",
+      "level": "C",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "从观众席观看练习并反馈舞蹈效果。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E015",
+      "oc": "花里实乃理",
+      "vs": "Rin",
+      "sources": [
+        "e017_07"
+      ],
+      "affinity": "专业技能",
+      "level": "C",
+      "agency": 1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "参与观看练习并承诺协力、鼓励实乃理正式演出。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E016",
+      "oc": "桐谷遥",
+      "vs": "MEIKO",
+      "sources": [
+        "e023_07"
+      ],
+      "affinity": "职业道路",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "遥回想MEIKO对个人休息时间的提醒，开始区分职业体调管理与真正放松。",
+      "note": "本话为回忆；当场展开问题并推进的人是雫。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E017",
+      "oc": "桐谷遥",
+      "vs": "KAITO",
+      "sources": [
+        "e043_04",
+        "e043_05"
+      ],
+      "affinity": "职业道路",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "从幕后工作人员视角解释参与演出也能得到希望，帮助遥重新考虑接受粉丝支援。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E018",
+      "oc": "桐谷遥",
+      "vs": "KAITO",
+      "sources": [
+        "e133_04"
+      ],
+      "affinity": "职业道路",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "指出MMJ自然呈现努力与困难的特色，遥据此理清选择工作的标准。",
+      "note": "与圣诞企划并入同一职业决策主题，发生重复衰减。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E019",
+      "oc": "桃井爱莉",
+      "vs": "Len",
+      "sources": [
+        "e031_06"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "以爱莉替别人认真设计MC的行为为据，帮助她重新认可过去综艺偶像也曾带来希望。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E020",
+      "oc": "桃井爱莉",
+      "vs": "Rin",
+      "sources": [
+        "e031_06"
+      ],
+      "affinity": "自我认同",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "主动听取烦恼并肯定综艺偶像同样是偶像；主导重构论证的是Len。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E021",
+      "oc": "日野森雫",
+      "vs": "Luka",
+      "sources": [
+        "e011_05",
+        "e011_07"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "在雫逃开粉丝后倾听其长期完美形象压力，引导她寻找支持真实自我的人；第7话雫明确回想其建议。",
+      "note": "爱莉的现场支持同样关键，不把最终决定独占归因给Luka。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E022",
+      "oc": "小豆泽心羽",
+      "vs": "Miku",
+      "sources": [
+        "street_01_11"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "引导心羽辨认自己想与杏追梦的心意，并确认其不需因他人否定而放弃。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E023",
+      "oc": "小豆泽心羽",
+      "vs": "MEIKO",
+      "sources": [
+        "street_01_11"
+      ],
+      "affinity": "自我认同",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "倾听失败并把烦恼解释为想打开下一扇门的表现。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E024",
+      "oc": "小豆泽心羽",
+      "vs": "Len",
+      "sources": [
+        "street_01_11"
+      ],
+      "affinity": "自我认同",
+      "level": "C",
+      "agency": 1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "肯定她正在认真思考并送出继续行动的鼓励。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E025",
+      "oc": "小豆泽心羽",
+      "vs": "MEIKO",
+      "sources": [
+        "e028_04"
+      ],
+      "affinity": "自我认同",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "针对自幼总认为自己做不到的习惯，提示关注自己的优点。",
+      "note": "与前一自我肯定事件共用主题，按重要性排序衰减。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E026",
+      "oc": "小豆泽心羽",
+      "vs": "Miku",
+      "sources": [
+        "e028_06"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "具体纠正独唱末尾音准并解释突出嗓音更需精密控制。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E027",
+      "oc": "白石杏",
+      "vs": "Len",
+      "sources": [
+        "e037_05"
+      ],
+      "affinity": "搭档",
+      "level": "A",
+      "agency": 0.85,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "用自身对Rin更想与别人唱歌的不甘，意外触发杏识别失去搭档地位的恐惧。",
+      "note": "作用真实但并非主动心理辅导，主动性按偶然互动0.85。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E028",
+      "oc": "白石杏",
+      "vs": "Miku",
+      "sources": [
+        "e037_05",
+        "e037_06"
+      ],
+      "affinity": "搭档",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "察觉杏异常并留下，追问想成为何种搭档，协助她明确希望持续被心羽尊敬的心态。",
+      "note": "第5、6话合并；行动建议还有彰人的独立贡献。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E029",
+      "oc": "东云彰人",
+      "vs": "Len",
+      "sources": [
+        "street_01_17"
+      ],
+      "affinity": "搭档",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "通过自身搭档经验确认彰人的孤独与难过，使其愿意继续说出心事。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E030",
+      "oc": "东云彰人",
+      "vs": "MEIKO",
+      "sources": [
+        "street_01_17"
+      ],
+      "affinity": "搭档",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "用看似酒实为茶的例子指出冬弥说出口的话未必是真心，直接促使彰人去核实。",
+      "note": "正文的关键认知转折由MEIKO提出；不能全部记到Len名下。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E031",
+      "oc": "青柳冬弥",
+      "vs": "Luka",
+      "sources": [
+        "e044_02",
+        "e044_06"
+      ],
+      "affinity": "生活经验",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "提出用实际体验弥补被限制的生活经验，冬弥决定去森林并重新思考知识与音乐的关系。",
+      "note": "第6话鼓励仍属同次露营进程，合并而不拆为第二S。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E032",
+      "oc": "青柳冬弥",
+      "vs": "KAITO",
+      "sources": [
+        "e021_06"
+      ],
+      "affinity": "搭档",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "解释团队需要互相支持和拉高，冬弥据此决定以搭档身份主动支持彰人。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E033",
+      "oc": "天马司",
+      "vs": "Miku",
+      "sources": [
+        "wonder_01_13",
+        "wonder_01_14"
+      ],
+      "affinity": "音乐初心",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "点明让哭泣者露出笑容的意义，使司把眼前表演与儿时想让咲希快乐的初心重新连接。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E034",
+      "oc": "天马司",
+      "vs": "KAITO",
+      "sources": [
+        "wonder_01_13",
+        "wonder_01_14"
+      ],
+      "affinity": "音乐初心",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "重新定义司的明星身份并鼓励修复团队关系，与Miku共同完成主线转折。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E035",
+      "oc": "凤笑梦",
+      "vs": "Len",
+      "sources": [
+        "e015_06"
+      ],
+      "affinity": "自我表达",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "识别强笑并明确不必在难过时保持笑容，承诺同伴会帮助，促成笑梦想向大家坦白。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E036",
+      "oc": "凤笑梦",
+      "vs": "Rin",
+      "sources": [
+        "e015_06"
+      ],
+      "affinity": "自我表达",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "共同识别勉强的笑容，解释表达困境能让伙伴知道需要帮助。",
+      "note": "与Len共享情境；不把Rin删出因果链。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E037",
+      "oc": "凤笑梦",
+      "vs": "Len",
+      "sources": [
+        "e131_07"
+      ],
+      "affinity": "舞台",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "建议广泛请求他人观看演技并反馈，笑梦立即向家人与朋友实践该训练方式。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E038",
+      "oc": "凤笑梦",
+      "vs": "Rin",
+      "sources": [
+        "e131_07"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "对牛若丸的快乐与动作幅度提出具体演技反馈。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E039",
+      "oc": "凤笑梦",
+      "vs": "MEIKO",
+      "sources": [
+        "e131_07"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "指出增加跳跃可能削弱角色从容感，提供不同的演技判断。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E040",
+      "oc": "草薙宁宁",
+      "vs": "MEIKO",
+      "sources": [
+        "e008_06",
+        "e008_07"
+      ],
+      "affinity": "舞台",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "在宁宁已自行恢复后替她安排开场合唱，提供实践与展示空间。",
+      "note": "撤销治愈创伤S；关键恢复发生在第6话，早于MEIKO本次出场。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E041",
+      "oc": "草薙宁宁",
+      "vs": "Miku",
+      "sources": [
+        "e008_07"
+      ],
+      "affinity": "舞台",
+      "level": "C",
+      "agency": 1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "认可宁宁已恢复，欢迎她一起参加圣诞演出。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E042",
+      "oc": "草薙宁宁",
+      "vs": "KAITO",
+      "sources": [
+        "e008_07"
+      ],
+      "affinity": "舞台",
+      "level": "C",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "欢迎已经恢复状态的宁宁参与合唱。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E043",
+      "oc": "草薙宁宁",
+      "vs": "Rin",
+      "sources": [
+        "e013_02",
+        "e013_03"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "陪练并给出笑容与歌声表达的具体建议。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E044",
+      "oc": "草薙宁宁",
+      "vs": "Rin",
+      "sources": [
+        "e013_03"
+      ],
+      "affinity": "人际关系",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "在初次与一歌等人相处时提供持续支持，宁宁表示愿意尝试。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E045",
+      "oc": "草薙宁宁",
+      "vs": "KAITO",
+      "sources": [
+        "e095_04",
+        "e095_06"
+      ],
+      "affinity": "舞台",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "提出制作应援视频，宁宁确认看过并感谢；不将夕夏的专业指导归给VS。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E046",
+      "oc": "神代类",
+      "vs": "KAITO",
+      "sources": [
+        "e003_05",
+        "e003_06",
+        "e003_07"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "帮助类识别因害怕失去伙伴而压抑演出的心理，并接受担心同伴是正常感情，次日恢复全力创作。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E047",
+      "oc": "宵崎奏",
+      "vs": "Luka",
+      "sources": [
+        "e026_02",
+        "e026_07",
+        "e026_08"
+      ],
+      "affinity": "创作",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "追问歌曲应把人带到哪里，奏继而寻回家庭记忆的温暖，并以此明确创作目的。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E048",
+      "oc": "宵崎奏",
+      "vs": "Miku",
+      "sources": [
+        "nightcode_01_12",
+        "nightcode_01_15"
+      ],
+      "affinity": "创作",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "确认奏的旧曲已抵达真冬，促使奏重新相信自身创作并作出继续创作的决定。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E049",
+      "oc": "宵崎奏",
+      "vs": "KAITO",
+      "sources": [
+        "e089_06"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 0.85,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "奏旁听KAITO与真冬争论，得知真冬曾表达意愿，因而认为自己也应传达能说的话。",
+      "note": "间接影响；不把对真冬的重干预等额算给奏。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E050",
+      "oc": "宵崎奏",
+      "vs": "KAITO",
+      "sources": [
+        "e100_08"
+      ],
+      "affinity": "团队",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "在真冬来到奏家时及时提醒奏出门接应。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E051",
+      "oc": "朝比奈真冬",
+      "vs": "Miku",
+      "sources": [
+        "nightcode_01_12",
+        "nightcode_01_19"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "支持奏寻找真冬，并在真冬被找到后确认她的真实愿望可以被歌表达。",
+      "note": "主线救援与确认合并；仍须补读更多初始章节。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E052",
+      "oc": "朝比奈真冬",
+      "vs": "Miku",
+      "sources": [
+        "e100_06",
+        "e100_07",
+        "e100_08"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "支持真冬保护自己的心意，承诺陪伴并唱奏的歌，使她认清想靠近的温暖。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E053",
+      "oc": "朝比奈真冬",
+      "vs": "KAITO",
+      "sources": [
+        "e089_05",
+        "e089_06"
+      ],
+      "affinity": "自我认同",
+      "level": "A",
+      "agency": 1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "逼真冬面对压抑自我及向母亲反抗的问题；当场真冬离开，后续明确回忆其话语。",
+      "note": "不把激烈语气本身当成功；强长期效应放在后续实际行动事件。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E054",
+      "oc": "朝比奈真冬",
+      "vs": "KAITO",
+      "sources": [
+        "e100_05",
+        "e100_06",
+        "e100_07"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "在联络受阻与母亲压力中再次要求保护真实意愿，和Miku一起推进真冬抗争。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E055",
+      "oc": "朝比奈真冬",
+      "vs": "Len",
+      "sources": [
+        "e061_08"
+      ],
+      "affinity": "情绪识别",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "将温暖感与和大家在一起关联，真冬因此主动决定稍留观看夜间演出。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E056",
+      "oc": "东云绘名",
+      "vs": "Rin",
+      "sources": [
+        "e014_06"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "以歌及对外部认可的追问打破放弃绘画的状态，引导绘名重返伙伴。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E057",
+      "oc": "东云绘名",
+      "vs": "Miku",
+      "sources": [
+        "e014_06"
+      ],
+      "affinity": "自我认同",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "说明歌曲承载奏等人的心意，并明确引导绘名去见伙伴。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E058",
+      "oc": "东云绘名",
+      "vs": "MEIKO",
+      "sources": [
+        "e039_06"
+      ],
+      "affinity": "人际关系",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "使绘名理解说出秘密可能造成伤害，并提示以坚定的目光守望瑞希。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E059",
+      "oc": "东云绘名",
+      "vs": "MEIKO",
+      "sources": [
+        "e150_06"
+      ],
+      "affinity": "人际关系",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "提供瑞希没有出门的事实并接受在其身旁守候的请求，帮助绘名调整寻找方式。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E060",
+      "oc": "晓山瑞希",
+      "vs": "MEIKO",
+      "sources": [
+        "e150_06",
+        "e150_07",
+        "e150_08"
+      ],
+      "affinity": "秘密 / 距离",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "直接接触退缩的瑞希，提醒这可能是与绘名面对面的最后机会；瑞希在决定时再次回想这句话。",
+      "note": "最终重新连接的行动仍主要由绘名与瑞希完成。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E061",
+      "oc": "晓山瑞希",
+      "vs": "MEIKO",
+      "sources": [
+        "e019_05"
+      ],
+      "affinity": "秘密 / 距离",
+      "level": "0",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "向其他VS说明自己关注瑞希及保持距离的原则。",
+      "note": "此处未直接改变瑞希行为，仅证明关系定位；不产生高分。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E062",
+      "oc": "花里实乃理",
+      "vs": "Miku",
+      "sources": [
+        "mmj_01_16",
+        "mmj_01_18"
+      ],
+      "affinity": "舞台",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "安排从舞台侧面看演出，继而明确建议由实乃理亲自登台向遥传达心意，实乃理接受并实践。",
+      "note": "遥是实乃理原本的偶像启蒙者；Miku帮助她从憧憬迈向亲自给予希望。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E063",
+      "oc": "花里实乃理",
+      "vs": "Rin",
+      "sources": [
+        "mmj_01_16",
+        "mmj_01_18"
+      ],
+      "affinity": "舞台",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "共同提供演出与舞台视角，并鼓励实乃理亲自上台向遥表达心意。",
+      "note": "与Miku共同行动；提出由实乃理演出的明确方案者为Miku。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E064",
+      "oc": "桐谷遥",
+      "vs": "Miku",
+      "sources": [
+        "mmj_01_18"
+      ],
+      "affinity": "舞台",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "在实乃理的演出与劝说之后询问遥真正想做什么，协助其迈上舞台。",
+      "note": "恢复的主要情感推动来自实乃理；避免把整个主线恢复独占记S。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E065",
+      "oc": "桐谷遥",
+      "vs": "Rin",
+      "sources": [
+        "mmj_01_18"
+      ],
+      "affinity": "舞台",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "提示青色灯海与观众心意，鼓励遥握住实乃理的手，并和Miku实际协助她上台。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E066",
+      "oc": "桐谷遥",
+      "vs": "MEIKO",
+      "sources": [
+        "e078_04",
+        "e078_05"
+      ],
+      "affinity": "职业道路",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "以长期粉丝立场回应遥对电视剪辑风险的担忧，建议回顾偶像初心；遥明确依此重新思考。",
+      "note": "与休息提醒共用职业道路主题；不凭触及初心就直接升级S。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E067",
+      "oc": "青柳冬弥",
+      "vs": "KAITO",
+      "sources": [
+        "e071_06",
+        "e071_07"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "指出冬弥能理解作品心意来自古典乐曲分析训练，使其重新认识过去经验的价值。",
+      "note": "重要的因果链由心羽作品、KAITO点明能力、Miku肯定、冬弥实践共同完成。S/A边界纳入敏感性检验。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E068",
+      "oc": "青柳冬弥",
+      "vs": "Miku",
+      "sources": [
+        "e071_06",
+        "e071_07"
+      ],
+      "affinity": "自我认同",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "将古典分析经验明确表述为理解歌曲心意的能力；冬弥在说出对颯真作品的判断时直接回想此话。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E069",
+      "oc": "小豆泽心羽",
+      "vs": "KAITO",
+      "sources": [
+        "e071_04",
+        "e071_06"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "用DJ经验说明作曲的选择与意图，帮助心羽分析喜欢的曲子并开始尝试制作。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E070",
+      "oc": "小豆泽心羽",
+      "vs": "Rin",
+      "sources": [
+        "e071_04",
+        "e071_06"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "提出聆听并分析歌曲的具体做法，参与支持心羽的初次制作。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E071",
+      "oc": "星乃一歌",
+      "vs": "Miku",
+      "sources": [
+        "e020_05",
+        "e020_06"
+      ],
+      "affinity": "职业道路",
+      "level": "A",
+      "agency": 1.25,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "一歌主动询问成为职业乐手所需觉悟，Miku提出持续面对音乐并自行寻找答案；一歌随后回想。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E072",
+      "oc": "天马咲希",
+      "vs": "Miku",
+      "sources": [
+        "e020_05"
+      ],
+      "affinity": "职业道路",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "参与讨论职业觉悟后，咲希开始思考持续面对音乐的含义。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E073",
+      "oc": "望月穗波",
+      "vs": "Miku",
+      "sources": [
+        "e020_05"
+      ],
+      "affinity": "职业道路",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "在Miku指出觉悟需自行寻找后，穗波明确提出由自己思考答案。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E074",
+      "oc": "日野森志步",
+      "vs": "KAITO",
+      "sources": [
+        "e069_03",
+        "e069_05"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "以示范和长时间一对一练习帮助志步解决贝斯音色问题，志步明确确认技术进步。",
+      "note": "未将KAITO静观队友冲突记为主导解决；真正当面阻止志步压低水平的是一歌等人。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E075",
+      "oc": "日野森志步",
+      "vs": "Rin",
+      "sources": [
+        "e069_05",
+        "e069_06"
+      ],
+      "affinity": "团队",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "转述队友刻苦练习的具体情况，并确认理解志步顾及整体平衡的想法。",
+      "note": "最终信任队友的决定主要由四人对话完成；Rin自己也承认此前没能提出解决建议。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E076",
+      "oc": "天马咲希",
+      "vs": "Luka",
+      "sources": [
+        "e069_03",
+        "e069_04"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "指出钢琴与乐队键盘的节奏差别，指导咲希配合合奏；随后确认她已掌握。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E077",
+      "oc": "天马咲希",
+      "vs": "Len",
+      "sources": [
+        "e069_04"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "具体确认练习成果并提醒身体负荷，咲希决定结束当日练习休息。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E078",
+      "oc": "天马咲希",
+      "vs": "Rin",
+      "sources": [
+        "e069_05"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "参与持续键盘训练，咲希明确继续复习Rin所教内容。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E079",
+      "oc": "望月穗波",
+      "vs": "MEIKO",
+      "sources": [
+        "e069_03"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "针对鼓的节奏前冲，明确指导转而注意军鼓。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E080",
+      "oc": "望月穗波",
+      "vs": "Rin",
+      "sources": [
+        "e069_05"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "在踩镲与底鼓合奏练习中提供节奏反馈，继续配合穗波提高演奏。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E081",
+      "oc": "星乃一歌",
+      "vs": "Len",
+      "sources": [
+        "e069_03"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "指出快速弹奏时节奏崩乱，并建议放慢心态逐音处理，一歌立即重练。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E082",
+      "oc": "星乃一歌",
+      "vs": "Rin",
+      "sources": [
+        "e069_05",
+        "e069_06"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.25,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "一歌明确请求学习Rin高音发声；之后合奏显示高音力度改善。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E083",
+      "oc": "星乃一歌",
+      "vs": "Miku",
+      "sources": [
+        "e069_03",
+        "e069_04"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "持续陪练并给出需注意的演奏细节，一歌在单独练习时回想并运用。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E084",
+      "oc": "天马咲希",
+      "vs": "Len",
+      "sources": [
+        "e065_05",
+        "e065_07"
+      ],
+      "affinity": "创作",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "建议深入尚未充分表达的住院记忆与感受，咲希接受建议并在重看过去后完成歌曲。",
+      "note": "亲自面对日记、得到朋友支持同样是重要环节，不把整次突破独占归因给Len。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E085",
+      "oc": "天马咲希",
+      "vs": "KAITO",
+      "sources": [
+        "e065_05"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "指出歌曲尚未充分承载感情，为后续进一步挖掘记忆提供判断。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E086",
+      "oc": "天马咲希",
+      "vs": "KAITO",
+      "sources": [
+        "e121_02"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "接续穗波的建议，解释改编应首先确定想传达的心意，咲希据此明确方向。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E087",
+      "oc": "天马咲希",
+      "vs": "Rin",
+      "sources": [
+        "e121_02"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "讨论编曲效果，确定主题后共同重新编排；咲希确认创作变得顺利。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E088",
+      "oc": "望月穗波",
+      "vs": "Luka",
+      "sources": [
+        "e121_03"
+      ],
+      "affinity": "音乐初心",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "解释支持伙伴也与让听众产生共鸣相连，帮助穗波把个人目标融入乐队目标。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E089",
+      "oc": "望月穗波",
+      "vs": "MEIKO",
+      "sources": [
+        "e121_03"
+      ],
+      "affinity": "音乐初心",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "肯定穗波经过认真思考得出的支持同伴这一目标。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E090",
+      "oc": "望月穗波",
+      "vs": "KAITO",
+      "sources": [
+        "e121_05"
+      ],
+      "affinity": "团队",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "诊断演奏失去统一是各自目标不同，建议协调表达，穗波随后组织尝试。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E091",
+      "oc": "望月穗波",
+      "vs": "Luka",
+      "sources": [
+        "e121_05"
+      ],
+      "affinity": "团队",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "给出按乐句统一表达目标的可操作示例，穗波决定让大家尝试。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E092",
+      "oc": "宵崎奏",
+      "vs": "Rin",
+      "sources": [
+        "e116_04",
+        "e116_06"
+      ],
+      "affinity": "音乐初心",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "主动询问创作起点，引出家庭音乐记忆，使奏意识到自己曾因幸福而热爱音乐。",
+      "note": "当场并未解除自责，奏随后仍转回强迫式创作；因此不记S。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E093",
+      "oc": "宵崎奏",
+      "vs": "KAITO",
+      "sources": [
+        "e116_07",
+        "e116_08"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "直接指出奏以没有资格为由压抑自身愿望，要求她面对真正想要的幸福；与绘名的劝说共同促成转变。",
+      "note": "最终想法需结合第8话；不是把针对真冬的强硬谈话搬给奏。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E094",
+      "oc": "宵崎奏",
+      "vs": "Luka",
+      "sources": [
+        "e112_08",
+        "e112_09"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "在奏怀疑音乐作用时引导其看新的湖，提示真冬仍需要她的曲子。",
+      "note": "随后奏通过梦境及与真冬交谈重新确认创作，不能把所有过程都算成Luka直接干预；梦境边界存在解释空间。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E095",
+      "oc": "朝比奈真冬",
+      "vs": "Miku",
+      "sources": [
+        "e112_03",
+        "e112_10"
+      ],
+      "affinity": "自我认同",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "解释湖可能承载真冬的心意，并在其暂时退缩时允许离开、保留以后寻找的可能。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E096",
+      "oc": "朝比奈真冬",
+      "vs": "KAITO",
+      "sources": [
+        "e112_03"
+      ],
+      "affinity": "自我认同",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "指出痛苦与烦恼也是寻找真实自我所需的感情。",
+      "note": "当场未见独立的重要决定，记B而非S。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E097",
+      "oc": "朝比奈真冬",
+      "vs": "Len",
+      "sources": [
+        "e112_03"
+      ],
+      "affinity": "情绪识别",
+      "level": "B",
+      "agency": 1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "在真冬身体不适时关心、陪伴其沿温暖的音乐寻找新地点。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E098",
+      "oc": "朝比奈真冬",
+      "vs": "Luka",
+      "sources": [
+        "e112_10"
+      ],
+      "affinity": "自我认同",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "说明湖中的痛苦和温暖都可能成为寻找自己的线索，与奏的鼓励共同促使真冬再尝试。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E099",
+      "oc": "东云绘名",
+      "vs": "Rin",
+      "sources": [
+        "e112_06",
+        "e112_07"
+      ],
+      "affinity": "自我认同",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "通过长期观察肯定绘名已能直面绘画，并解释其画在真冬心中留下痕迹，回应她对继续追梦资格的动摇。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E100",
+      "oc": "东云绘名",
+      "vs": "Len",
+      "sources": [
+        "e112_07"
+      ],
+      "affinity": "专业技能",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "主动提出充当模特，协助绘名以实际作画摆脱停滞。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E101",
+      "oc": "东云绘名",
+      "vs": "Rin",
+      "sources": [
+        "e127_04",
+        "e127_05",
+        "e127_06"
+      ],
+      "affinity": "人际关系",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "将父亲画作的痛苦与绘名过去连接，帮助她开始理解父亲也经历创作困境。",
+      "note": "组织课程、解释父亲经历的是雪平老师；不能把整次父女理解独占归给Rin或Len。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E102",
+      "oc": "东云绘名",
+      "vs": "Len",
+      "sources": [
+        "e127_04",
+        "e127_05",
+        "e127_06",
+        "e127_07"
+      ],
+      "affinity": "人际关系",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "提出父亲可能也曾因绘画痛苦的关键问题；绘名在得知父亲经历后再次回想。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E103",
+      "oc": "晓山瑞希",
+      "vs": "MEIKO",
+      "sources": [
+        "e112_04",
+        "e112_05"
+      ],
+      "affinity": "秘密 / 距离",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "从如何继续帮助真冬切入，明确建议停止逃避并面对问题；瑞希随后承诺也面对自己。",
+      "note": "与后续危机同主题衰减，不把两话拆成多个重事件。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E104",
+      "oc": "晓山瑞希",
+      "vs": "MEIKO",
+      "sources": [
+        "e145_02",
+        "e145_03"
+      ],
+      "affinity": "秘密 / 距离",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "阻止过强的追问，并承诺见证瑞希选择的未来，瑞希在迈出告知一步前回想。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E105",
+      "oc": "晓山瑞希",
+      "vs": "KAITO",
+      "sources": [
+        "e145_02",
+        "e145_03"
+      ],
+      "affinity": "秘密 / 距离",
+      "level": "A",
+      "agency": 1.1,
+      "impact": 1.2,
+      "uniqueness": 1.0,
+      "summary": "指出犹豫意味着本人已经想选择，要求瑞希为活下去选择自救道路；瑞希之后回想。",
+      "note": "第3话为同一谈话的回忆，不重复计分；当场仍要求更多时间，不能直接记成功解决。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E106",
+      "oc": "晓山瑞希",
+      "vs": "MEIKO",
+      "sources": [
+        "e019_06"
+      ],
+      "affinity": "秘密 / 距离",
+      "level": "C",
+      "agency": 1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "表达希望瑞希能继续与伙伴在一起，瑞希回应希望四人继续创作。",
+      "note": "早期关系定位与鼓励；尚不足以产生S事件。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E107",
+      "oc": "草薙宁宁",
+      "vs": "Luka",
+      "sources": [
+        "e032_07",
+        "e032_08"
+      ],
+      "affinity": "梦想",
+      "level": "B",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "识别宁宁因追梦可能与伙伴分离的恐惧，承诺一起寻找答案；宁宁明确理解为无需独自承受。",
+      "note": "Luka也坦言不知道最好的选择；未见她决定宁宁职业路线，不记S。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E108",
+      "oc": "神代类",
+      "vs": "Miku",
+      "sources": [
+        "e074_06"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.25,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "类主动请求倾听后，Miku确认追梦与继续和伙伴演出都是重要心意，促使其重新考虑选择。",
+      "note": "S/A边界有争议；后来形成具体去向还涉及旭等人的行动。本项降A即会影响样本第一。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E109",
+      "oc": "东云彰人",
+      "vs": "Luka",
+      "sources": [
+        "e079_06",
+        "e079_08"
+      ],
+      "affinity": "团队",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "在彰人与前辈的歌唱对决中主动联系冬弥，使伙伴到场关心，彰人明确致谢。",
+      "note": "对决由彰人自己完成；联络支援不等于替他克服过去失败。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E110",
+      "oc": "青柳冬弥",
+      "vs": "Luka",
+      "sources": [
+        "e079_06"
+      ],
+      "affinity": "搭档",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "向冬弥告知彰人的状况，使其决定出门支援并组织联系。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E111",
+      "oc": "晓山瑞希",
+      "vs": "Luka",
+      "sources": [
+        "e093_02",
+        "e093_06",
+        "e093_08"
+      ],
+      "affinity": "自我认同",
+      "level": "S",
+      "agency": 1.1,
+      "impact": 1.35,
+      "uniqueness": 1.0,
+      "summary": "把瑞希羞于面对的逃避经验转化为能帮助真冬的经验，瑞希明确决定传达可以逃离，并承担这一建议的责任。",
+      "note": "第2话的强硬方案被奏拒绝；重事件取自第6话对瑞希的实际转变，不取自语气强度。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E112",
+      "oc": "晓山瑞希",
+      "vs": "Len",
+      "sources": [
+        "e093_06"
+      ],
+      "affinity": "自我认同",
+      "level": "C",
+      "agency": 1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "注意瑞希低落，并在Luka称其胆怯时出言缓和。",
+      "note": "本段重构逃避经验的提问由Luka提出，不等额计给旁听Len。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E113",
+      "oc": "晓山瑞希",
+      "vs": "Miku",
+      "sources": [
+        "e068_02",
+        "e068_04",
+        "e068_08"
+      ],
+      "affinity": "人际关系",
+      "level": "C",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "倾听瑞希加入Nightcord前的往事。",
+      "note": "被回忆的决定主要来自姐姐和伙伴；倾听不等于当年干预。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E114",
+      "oc": "晓山瑞希",
+      "vs": "Luka",
+      "sources": [
+        "e068_02",
+        "e068_04",
+        "e068_08"
+      ],
+      "affinity": "人际关系",
+      "level": "C",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "主动邀请瑞希回顾加入Nightcord的经历。",
+      "note": "不能把回顾涉及创伤误记为此时解决创伤。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E115",
+      "oc": "东云绘名",
+      "vs": "Miku",
+      "sources": [
+        "e068_04",
+        "e068_08"
+      ],
+      "affinity": "人际关系",
+      "level": "C",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "尊重绘名是否愿意讲述过去，倾听她加入Nightcord前的经历。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E116",
+      "oc": "东云绘名",
+      "vs": "Luka",
+      "sources": [
+        "e068_04",
+        "e068_06",
+        "e068_08"
+      ],
+      "affinity": "人际关系",
+      "level": "C",
+      "agency": 1.1,
+      "impact": 0.9,
+      "uniqueness": 1.0,
+      "summary": "询问绘名和奏的音乐相遇的经过，促成分享。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E117",
+      "oc": "宵崎奏",
+      "vs": "Rin",
+      "sources": [
+        "e116_08"
+      ],
+      "affinity": "创作",
+      "level": "B",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "喜欢奏为自己的幸福愿望写的新曲，建议也让同伴听到，奏接受。",
+      "note": "与引导回顾音乐初心是不同的后续行动，因此另记B；主题敏感性另检验合并。",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    },
+    {
+      "id": "E118",
+      "oc": "宵崎奏",
+      "vs": "Miku",
+      "sources": [
+        "e116_08"
+      ],
+      "affinity": "创作",
+      "level": "C",
+      "agency": 1,
+      "impact": 1,
+      "uniqueness": 1.0,
+      "summary": "支持Rin关于分享新曲的建议，奏随后让同伴听曲。",
+      "note": "",
+      "vs_incarnation": "按OC所属SEKAI归属；见来源中的具体情境",
+      "evidence_status": "剧情事件事实已核查；等级及倍率为可争议的分析编码"
+    }
+  ],
+  "provenance": {
+    "story_text": "游戏日文对白的第三方公开镜像，非官方托管站。未分发完整原文。",
+    "reader": "https://pjsk.moe/",
+    "reader_code": "https://github.com/StarMoe-org/Moesekai",
+    "master_data": "https://github.com/Sekai-World/sekai-master-db-diff",
+    "secondary_not_scored": "https://www.famitsu.com/news/202210/23261737.html"
+  }
+}
