@@ -1,0 +1,494 @@
+{
+  "model": "V3",
+  "oc": "星乃一歌",
+  "scope": "日文正文候选检索与首轮精读，非全库人工审计",
+  "source_commit": "fdfbd5de4f28f21a326d031439feb9b0491111a5",
+  "vector_order": [
+    "K",
+    "C",
+    "S",
+    "T",
+    "B"
+  ],
+  "sort_order": [
+    "K",
+    "S",
+    "C",
+    "T",
+    "B"
+  ],
+  "records": [
+    {
+      "vs": "初音未来",
+      "vs_jp": "初音ミク",
+      "K": 4,
+      "C": 10,
+      "S": 4,
+      "T": 3,
+      "B": 4,
+      "n": 4,
+      "rank": 1,
+      "confidence": "A",
+      "lines": [
+        "小学因 Miku 萌生组乐队的想法",
+        "主线中承认重聚愿望并采取行动",
+        "克服公开演唱的畏惧",
+        "从憧憬者成长为用音乐连接他人的创作者"
+      ],
+      "basis": "[E01 《This moment with you！》第3话：小学时因 Miku 萌生组乐队的想法](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-03%20%E3%81%82%E3%81%AE%E5%AD%90%E3%81%A8%E3%81%AE%E5%87%BA%E4%BC%9A%E3%81%84.txt#L80)；[E02 同活动第5话：回顾组乐队的起点与中学时期的支撑](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-05%20%E3%83%9F%E3%82%AF%E3%81%8C%E3%81%8F%E3%82%8C%E3%81%9F%E3%82%82%E3%81%AE.txt#L64)；[E03 同活动第6话：一歌明确定位朋友、前辈与重要存在](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-06%20%E3%83%A2%E3%83%A4%E3%83%A2%E3%83%A4%E3%81%AE%E6%AD%A3%E4%BD%93.txt#L25)；[E04 Leo/need 主线第17话：帮助一歌承认想和朋友重聚的愿望](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/main/2%20Leo%EF%BC%8Fneed/leo_01_17%20%E7%A9%82%E6%B3%A2%E3%81%AE%E6%83%B3%E3%81%84.txt#L18)；[E05 《君と歌う、桜舞う世界で》相关活动第18号第2话：街头演唱建议](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/018%20%E5%90%9B%E3%81%A8%E6%AD%8C%E3%81%86%E3%80%81%E6%A1%9C%E8%88%9E%E3%81%86%E4%B8%96%E7%95%8C%E3%81%A7%20%28Mix_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/018-02%20%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%81%AE%E8%B7%AF%E4%B8%8A.txt#L36)；[E06 活动第18号第4话：路演后的明确感谢](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/018%20%E5%90%9B%E3%81%A8%E6%AD%8C%E3%81%86%E3%80%81%E6%A1%9C%E8%88%9E%E3%81%86%E4%B8%96%E7%95%8C%E3%81%A7%20%28Mix_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/018-04%20%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%8B%8D%E6%89%8B.txt#L79)；[E07 《つなぐ、星の歌》第5话：认识到自己也能用音乐连接别人](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/101%20%E3%81%A4%E3%81%AA%E3%81%90%E3%80%81%E6%98%9F%E3%81%AE%E6%AD%8C%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/101-05%20%E6%86%A7%E3%82%8C%E3%81%A0%E3%81%91%E3%81%98%E3%82%83%E3%81%AA%E3%81%8F%E3%81%A6.txt#L65)",
+      "functions": "音乐与创作起点、情绪支撑、伙伴关系、面向听众的表达",
+      "summary": "人生起点和持续创作方向都有直接文本支撑。",
+      "limits": "Miku 按基础角色身份汇总，包含一歌在现实世界听见的歌曲、使用的歌声，以及 SEKAI 中的 Miku；并非只给 School Miku 的面对面指导评分。",
+      "I": 100.0,
+      "vector": [
+        4,
+        10,
+        4,
+        3,
+        4
+      ],
+      "status": "核查中",
+      "sources": [
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-03%20%E3%81%82%E3%81%AE%E5%AD%90%E3%81%A8%E3%81%AE%E5%87%BA%E4%BC%9A%E3%81%84.txt#L80",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-05%20%E3%83%9F%E3%82%AF%E3%81%8C%E3%81%8F%E3%82%8C%E3%81%9F%E3%82%82%E3%81%AE.txt#L64",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-06%20%E3%83%A2%E3%83%A4%E3%83%A2%E3%83%A4%E3%81%AE%E6%AD%A3%E4%BD%93.txt#L25",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/main/2%20Leo%EF%BC%8Fneed/leo_01_17%20%E7%A9%82%E6%B3%A2%E3%81%AE%E6%83%B3%E3%81%84.txt#L18",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/018%20%E5%90%9B%E3%81%A8%E6%AD%8C%E3%81%86%E3%80%81%E6%A1%9C%E8%88%9E%E3%81%86%E4%B8%96%E7%95%8C%E3%81%A7%20%28Mix_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/018-02%20%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%81%AE%E8%B7%AF%E4%B8%8A.txt#L36",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/018%20%E5%90%9B%E3%81%A8%E6%AD%8C%E3%81%86%E3%80%81%E6%A1%9C%E8%88%9E%E3%81%86%E4%B8%96%E7%95%8C%E3%81%A7%20%28Mix_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/018-04%20%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%8B%8D%E6%89%8B.txt#L79",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/101%20%E3%81%A4%E3%81%AA%E3%81%90%E3%80%81%E6%98%9F%E3%81%AE%E6%AD%8C%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/101-05%20%E6%86%A7%E3%82%8C%E3%81%A0%E3%81%91%E3%81%98%E3%82%83%E3%81%AA%E3%81%8F%E3%81%A6.txt#L65"
+      ]
+    },
+    {
+      "vs": "镜音铃",
+      "vs_jp": "鏡音リン",
+      "K": 3,
+      "C": 7,
+      "S": 2,
+      "T": 2,
+      "B": 3,
+      "n": 2,
+      "rank": 5,
+      "confidence": "B",
+      "lines": [
+        "受伤后改变练习方法",
+        "厘清个人音乐活动与 Leo/need 的优先顺序"
+      ],
+      "basis": "[E19 一歌卡0494后篇：受伤后改用 Rin 代奏、自己分析的练习方法](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/0494_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_R4%20%E3%81%B2%E3%82%89%E3%82%81%E3%81%8D%E3%82%92%E5%BE%85%E3%81%A3%E3%81%A6%20%28event_69%29.txt#L146)；[E20 《Echo of a Prayer》第7话：与 Rin、Len 谈话后拒绝个人事务所签约](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L61)；[E21 同话：一歌明确感谢两人帮助厘清自己的想法](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L58)；[E22 同活动第8话：尊重一歌自己的决定，但朋友仍担心她压抑个人愿望](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-08%20%E6%B3%A2%E7%B4%8B%E3%81%AF%E5%BA%83%E3%81%8C%E3%81%A3%E3%81%A6.txt#L82)",
+      "functions": "练习支持、情绪与自我梳理、职业选择",
+      "summary": "最新职业选择剧情中有重要参与，已经超过日常帮助。",
+      "limits": "与 Len 共同帮助一歌梳理，决定属于一歌本人。后续仍有遗憾与新变数，暂不升 K4 或 S3。",
+      "I": 68.41666666666667,
+      "vector": [
+        3,
+        7,
+        2,
+        2,
+        3
+      ],
+      "status": "核查中",
+      "sources": [
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/0494_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_R4%20%E3%81%B2%E3%82%89%E3%82%81%E3%81%8D%E3%82%92%E5%BE%85%E3%81%A3%E3%81%A6%20%28event_69%29.txt#L146",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L61",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L58",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-08%20%E6%B3%A2%E7%B4%8B%E3%81%AF%E5%BA%83%E3%81%8C%E3%81%A3%E3%81%A6.txt#L82"
+      ]
+    },
+    {
+      "vs": "镜音连",
+      "vs_jp": "鏡音レン",
+      "K": 3,
+      "C": 7,
+      "S": 2,
+      "T": 2,
+      "B": 3,
+      "n": 2,
+      "rank": 5,
+      "confidence": "B",
+      "lines": [
+        "通过回顾 Miku 经历寻找歌声使用与创作方针的答案",
+        "厘清个人音乐活动与 Leo/need 的优先顺序"
+      ],
+      "basis": "[E23 《This moment with you！》第2话：Len 提议从过去寻找创作困惑的线索](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-02%20%E3%81%97%E3%82%85%E3%82%8F%E3%81%97%E3%82%85%E3%82%8F%E3%81%A8%E3%83%A2%E3%83%A4%E3%83%A2%E3%83%A4.txt#L83)；[E03 同活动第6话：一歌明确定位朋友、前辈与重要存在](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-06%20%E3%83%A2%E3%83%A4%E3%83%A2%E3%83%A4%E3%81%AE%E6%AD%A3%E4%BD%93.txt#L25)；[E20 《Echo of a Prayer》第7话：与 Rin、Len 谈话后拒绝个人事务所签约](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L61)；[E21 同话：一歌明确感谢两人帮助厘清自己的想法](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L58)；[E22 同活动第8话：尊重一歌自己的决定，但朋友仍担心她压抑个人愿望](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-08%20%E6%B3%A2%E7%B4%8B%E3%81%AF%E5%BA%83%E3%81%8C%E3%81%A3%E3%81%A6.txt#L82)；[E24 Len 卡1437后篇：模拟对邦演出，帮助一歌预想现场](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/23%20VS_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3/1437_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3%20%28Ln%29_R3%20%E3%81%9D%E3%81%AE%E9%81%B8%E6%8A%9E%E3%82%92%E8%A6%8B%E5%AE%88%E3%81%A3%E3%81%A6%20%28event_212%29.txt#L103)",
+      "functions": "创作与排练支持、自我梳理、职业选择",
+      "summary": "有独立的回顾提示作用，也共同参与重大职业困惑。",
+      "limits": "创作答案的关键点拨也来自咲希。模拟演出暂按具体帮助 K1，不再增加强剧情线。",
+      "I": 68.41666666666667,
+      "vector": [
+        3,
+        7,
+        2,
+        2,
+        3
+      ],
+      "status": "核查中",
+      "sources": [
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-06%20%E3%83%A2%E3%83%A4%E3%83%A2%E3%83%A4%E3%81%AE%E6%AD%A3%E4%BD%93.txt#L25",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L61",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L58",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-08%20%E6%B3%A2%E7%B4%8B%E3%81%AF%E5%BA%83%E3%81%8C%E3%81%A3%E3%81%A6.txt#L82",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-02%20%E3%81%97%E3%82%85%E3%82%8F%E3%81%97%E3%82%85%E3%82%8F%E3%81%A8%E3%83%A2%E3%83%A4%E3%83%A2%E3%83%A4.txt#L83",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/23%20VS_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3/1437_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3%20%28Ln%29_R3%20%E3%81%9D%E3%81%AE%E9%81%B8%E6%8A%9E%E3%82%92%E8%A6%8B%E5%AE%88%E3%81%A3%E3%81%A6%20%28event_212%29.txt#L103"
+      ]
+    },
+    {
+      "vs": "巡音流歌",
+      "vs_jp": "巡音ルカ",
+      "K": 3,
+      "C": 9,
+      "S": 3,
+      "T": 2,
+      "B": 4,
+      "n": 3,
+      "rank": 2,
+      "confidence": "B",
+      "lines": [
+        "主线重聚与对穗波心意的理解",
+        "为发生隔阂的听众姐妹写出能传达心意的歌曲",
+        "协调共同创作者的意图"
+      ],
+      "basis": "[E12 主线第17话：Luka 的提醒让一歌继续寻找穗波的心意](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/main/2%20Leo%EF%BC%8Fneed/leo_01_17%20%E7%A9%82%E6%B3%A2%E3%81%AE%E6%83%B3%E3%81%84.txt#L39)；[E13 一歌卡0003前篇：把关系与生活重新动起来归因于咲希、Miku、Luka](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/0003_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_R3%20%E8%A6%8B%E4%B8%8A%E3%81%92%E3%82%8B%E5%85%88%E3%81%AB.txt#L63)；[E14 《Live with memories》第6话：把完成歌词明确归因于 Luka 的建议](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/056%20Live%20with%20memories%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/056-06%20%E5%B9%B8%E3%81%9B%E3%81%AA%E6%80%9D%E3%81%84%E5%87%BA.txt#L83)；[E15 《Parallel Harmonies》第7话：学习接纳共同创作者的意图](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/128%20Parallel%20Harmonies%20%28Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C%29/128-07%20%E5%8F%97%E3%81%91%E6%AD%A2%E3%82%81%E3%81%A6%E3%80%81%E9%9F%B3%E3%81%AB.txt#L57)；[E16 同活动第8话：把出道曲的完成归因于 MEIKO、Miku 等人的帮助](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/128%20Parallel%20Harmonies%20%28Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C%29/128-08%20%E4%BA%A4%E3%82%8F%E3%82%8B%E9%9F%B3.txt#L66)",
+      "functions": "创作方法、自我认识、伙伴与共同创作关系、听众沟通",
+      "summary": "早期关系修复与后期创作成长都有因果证据。",
+      "limits": "S3 包含具名的共同归因。若只接受完全个别化的重大成长归因，应下调 S，不能隐去这一判断边界。",
+      "I": 77.66666666666667,
+      "vector": [
+        3,
+        9,
+        3,
+        2,
+        4
+      ],
+      "status": "核查中",
+      "sources": [
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/main/2%20Leo%EF%BC%8Fneed/leo_01_17%20%E7%A9%82%E6%B3%A2%E3%81%AE%E6%83%B3%E3%81%84.txt#L39",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/0003_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_R3%20%E8%A6%8B%E4%B8%8A%E3%81%92%E3%82%8B%E5%85%88%E3%81%AB.txt#L63",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/056%20Live%20with%20memories%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/056-06%20%E5%B9%B8%E3%81%9B%E3%81%AA%E6%80%9D%E3%81%84%E5%87%BA.txt#L83",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/128%20Parallel%20Harmonies%20%28Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C%29/128-07%20%E5%8F%97%E3%81%91%E6%AD%A2%E3%82%81%E3%81%A6%E3%80%81%E9%9F%B3%E3%81%AB.txt#L57",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/128%20Parallel%20Harmonies%20%28Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C%29/128-08%20%E4%BA%A4%E3%82%8F%E3%82%8B%E9%9F%B3.txt#L66"
+      ]
+    },
+    {
+      "vs": "MEIKO",
+      "vs_jp": "MEIKO",
+      "K": 3,
+      "C": 7,
+      "S": 3,
+      "T": 2,
+      "B": 4,
+      "n": 2,
+      "rank": 4,
+      "confidence": "B",
+      "lines": [
+        "接纳咲希的创作意图并完成共同作品",
+        "公开 WITH 并认识自己的创作价值"
+      ],
+      "basis": "[E15 《Parallel Harmonies》第7话：学习接纳共同创作者的意图](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/128%20Parallel%20Harmonies%20%28Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C%29/128-07%20%E5%8F%97%E3%81%91%E6%AD%A2%E3%82%81%E3%81%A6%E3%80%81%E9%9F%B3%E3%81%AB.txt#L57)；[E16 同活动第8话：把出道曲的完成归因于 MEIKO、Miku 等人的帮助](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/128%20Parallel%20Harmonies%20%28Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C%29/128-08%20%E4%BA%A4%E3%82%8F%E3%82%8B%E9%9F%B3.txt#L66)；[E17 活动第182号第6话：一歌明确归因作品公开的决定](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/182%20%E5%90%9B%E3%81%A8%E7%B9%8B%E3%81%90Heart%20Beat%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/182-06%20%E5%B1%8A%E3%81%8F%E3%80%81%E7%B9%8B%E3%81%8C%E3%82%8B.txt#L81)；[E18 同话：MEIKO 提醒作品的力量也来自一歌本人](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/182%20%E5%90%9B%E3%81%A8%E7%B9%8B%E3%81%90Heart%20Beat%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/182-06%20%E5%B1%8A%E3%81%8F%E3%80%81%E7%B9%8B%E3%81%8C%E3%82%8B.txt#L85)",
+      "functions": "创作与演奏方法、共同创作关系、公开作品、自我价值认识",
+      "summary": "两条强线都有一歌的明确归因，影响并不只限于技术指导。",
+      "limits": "早期关于职业乐队的谈话、强敌焦虑与代打鼓练习只作支持证据，尚不另外计 K2+ 独立线。",
+      "I": 74.66666666666667,
+      "vector": [
+        3,
+        7,
+        3,
+        2,
+        4
+      ],
+      "status": "核查中",
+      "sources": [
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/128%20Parallel%20Harmonies%20%28Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C%29/128-07%20%E5%8F%97%E3%81%91%E6%AD%A2%E3%82%81%E3%81%A6%E3%80%81%E9%9F%B3%E3%81%AB.txt#L57",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/128%20Parallel%20Harmonies%20%28Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C%29/128-08%20%E4%BA%A4%E3%82%8F%E3%82%8B%E9%9F%B3.txt#L66",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/182%20%E5%90%9B%E3%81%A8%E7%B9%8B%E3%81%90Heart%20Beat%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/182-06%20%E5%B1%8A%E3%81%8F%E3%80%81%E7%B9%8B%E3%81%8C%E3%82%8B.txt#L81",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/182%20%E5%90%9B%E3%81%A8%E7%B9%8B%E3%81%90Heart%20Beat%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/182-06%20%E5%B1%8A%E3%81%8F%E3%80%81%E7%B9%8B%E3%81%8C%E3%82%8B.txt#L85"
+      ]
+    },
+    {
+      "vs": "KAITO",
+      "vs_jp": "KAITO",
+      "K": 3,
+      "C": 9,
+      "S": 3,
+      "T": 2,
+      "B": 4,
+      "n": 3,
+      "rank": 2,
+      "confidence": "B",
+      "lines": [
+        "相信并坦率表达自己的想法",
+        "把音乐传播方式从现场演出扩展到 MV",
+        "识别并协调合奏中各人的表达意图"
+      ],
+      "basis": "[E08 《Knock the Future!!》第6话：让一歌相信自己的歌词与想法](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/034%20Knock%20the%20Future%21%21%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/034-06%20%E6%81%A5%E3%81%9A%E3%81%8B%E3%81%97%E3%81%8C%E3%82%89%E3%81%9A%E3%81%AB.txt#L67)；[E09 KAITO 2023 纪念卡前篇：一歌明确回顾持久的表达变化](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/26%20VS_KAITO/0594_KAITO_RB%20Happy%20Anniversary%EF%BC%81%EF%BC%812023.txt#L75)；[E10 区域对话：一歌明确感谢 KAITO 提供制作 MV 的契机](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/area/talk_event_076.txt#L25)；[E11 《導く勇気、優しさを胸に》第5话：指出合奏需要协调各自意图](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/121%20%E5%B0%8E%E3%81%8F%E5%8B%87%E6%B0%97%E3%80%81%E5%84%AA%E3%81%97%E3%81%95%E3%82%92%E8%83%B8%E3%81%AB%20%28Ln_%E6%9C%9B%E6%9C%88%E7%A9%82%E6%B3%A2%29/121-05%20%E3%83%90%E3%83%A9%E3%83%90%E3%83%A9%E3%81%AA%E9%9F%B3.txt#L62)",
+      "functions": "创作方法、自我肯定、合作协调、音乐传播",
+      "summary": "表达自我的长期变化有非常直接的回顾归因。",
+      "limits": "2023 纪念卡与早期表达剧情属于同一成长线，只增强 S 与 T，不重复增加 C。合奏诊断也不等于独占穗波的成长功劳。",
+      "I": 77.66666666666667,
+      "vector": [
+        3,
+        9,
+        3,
+        2,
+        4
+      ],
+      "status": "核查中",
+      "sources": [
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/034%20Knock%20the%20Future%21%21%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/034-06%20%E6%81%A5%E3%81%9A%E3%81%8B%E3%81%97%E3%81%8C%E3%82%89%E3%81%9A%E3%81%AB.txt#L67",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/26%20VS_KAITO/0594_KAITO_RB%20Happy%20Anniversary%EF%BC%81%EF%BC%812023.txt#L75",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/area/talk_event_076.txt#L25",
+        "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/121%20%E5%B0%8E%E3%81%8F%E5%8B%87%E6%B0%97%E3%80%81%E5%84%AA%E3%81%97%E3%81%95%E3%82%92%E8%83%B8%E3%81%AB%20%28Ln_%E6%9C%9B%E6%9C%88%E7%A9%82%E6%B3%A2%29/121-05%20%E3%83%90%E3%83%A9%E3%83%90%E3%83%A9%E3%81%AA%E9%9F%B3.txt#L62"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E01",
+      "segment_id": 21543,
+      "title": "143-3 あの子との出会い",
+      "path": "story_jp/event/143 This moment with you！ (Ln_星乃一歌)/143-03 あの子との出会い.txt",
+      "line": 80,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-03%20%E3%81%82%E3%81%AE%E5%AD%90%E3%81%A8%E3%81%AE%E5%87%BA%E4%BC%9A%E3%81%84.txt#L80",
+      "quote": "幼い一歌 (一歌): 私達で、ミクの曲を演奏しない！？",
+      "description": "《This moment with you！》第3话：小学时因 Miku 萌生组乐队的想法"
+    },
+    {
+      "id": "E02",
+      "segment_id": 21545,
+      "title": "143-5 ミクがくれたもの",
+      "path": "story_jp/event/143 This moment with you！ (Ln_星乃一歌)/143-05 ミクがくれたもの.txt",
+      "line": 64,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-05%20%E3%83%9F%E3%82%AF%E3%81%8C%E3%81%8F%E3%82%8C%E3%81%9F%E3%82%82%E3%81%AE.txt#L64",
+      "quote": "一歌: ミクのおかげでバンドをやるようになって、 毎日がキラキラして……すごく楽しかったな",
+      "description": "同活动第5话：回顾组乐队的起点与中学时期的支撑"
+    },
+    {
+      "id": "E03",
+      "segment_id": 21546,
+      "title": "143-6 モヤモヤの正体",
+      "path": "story_jp/event/143 This moment with you！ (Ln_星乃一歌)/143-06 モヤモヤの正体.txt",
+      "line": 25,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-06%20%E3%83%A2%E3%83%A4%E3%83%A2%E3%83%A4%E3%81%AE%E6%AD%A3%E4%BD%93.txt#L25",
+      "quote": "一歌: だから今は——好きとか、憧れとかだけじゃなくて、 友達として、先輩として……大切な存在だって思ってるんだ",
+      "description": "同活动第6话：一歌明确定位朋友、前辈与重要存在"
+    },
+    {
+      "id": "E04",
+      "segment_id": 24021,
+      "title": "leo_01_17 穂波の想い",
+      "path": "story_jp/main/2 Leo／need/leo_01_17 穂波の想い.txt",
+      "line": 18,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/main/2%20Leo%EF%BC%8Fneed/leo_01_17%20%E7%A9%82%E6%B3%A2%E3%81%AE%E6%83%B3%E3%81%84.txt#L18",
+      "quote": "一歌: でも私は……何もできてない。 みんなで一緒にいたいって思ってるのに、何も行動できてない",
+      "description": "Leo/need 主线第17话：帮助一歌承认想和朋友重聚的愿望"
+    },
+    {
+      "id": "E05",
+      "segment_id": 20521,
+      "title": "18-2 ひとりぼっちの路上",
+      "path": "story_jp/event/018 君と歌う、桜舞う世界で (Mix_星乃一歌)/018-02 ひとりぼっちの路上.txt",
+      "line": 36,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/018%20%E5%90%9B%E3%81%A8%E6%AD%8C%E3%81%86%E3%80%81%E6%A1%9C%E8%88%9E%E3%81%86%E4%B8%96%E7%95%8C%E3%81%A7%20%28Mix_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/018-02%20%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%81%AE%E8%B7%AF%E4%B8%8A.txt#L36",
+      "quote": "ミク (Ln): それなら、路上ライブはどうかな？",
+      "description": "《君と歌う、桜舞う世界で》相关活动第18号第2话：街头演唱建议"
+    },
+    {
+      "id": "E06",
+      "segment_id": 20523,
+      "title": "18-4 初めての拍手",
+      "path": "story_jp/event/018 君と歌う、桜舞う世界で (Mix_星乃一歌)/018-04 初めての拍手.txt",
+      "line": 79,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/018%20%E5%90%9B%E3%81%A8%E6%AD%8C%E3%81%86%E3%80%81%E6%A1%9C%E8%88%9E%E3%81%86%E4%B8%96%E7%95%8C%E3%81%A7%20%28Mix_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/018-04%20%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%8B%8D%E6%89%8B.txt#L79",
+      "quote": "一歌: うん。 ミクのおかげだよ、ありがとう",
+      "description": "活动第18号第4话：路演后的明确感谢"
+    },
+    {
+      "id": "E07",
+      "segment_id": 21193,
+      "title": "101-5 憧れだけじゃなくて",
+      "path": "story_jp/event/101 つなぐ、星の歌 (Ln_星乃一歌)/101-05 憧れだけじゃなくて.txt",
+      "line": 65,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/101%20%E3%81%A4%E3%81%AA%E3%81%90%E3%80%81%E6%98%9F%E3%81%AE%E6%AD%8C%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/101-05%20%E6%86%A7%E3%82%8C%E3%81%A0%E3%81%91%E3%81%98%E3%82%83%E3%81%AA%E3%81%8F%E3%81%A6.txt#L65",
+      "quote": "一歌: ……私、できてたんだ。 ミクみたいに……誰かをつなげること……",
+      "description": "《つなぐ、星の歌》第5话：认识到自己也能用音乐连接别人"
+    },
+    {
+      "id": "E08",
+      "segment_id": 20653,
+      "title": "34-6 恥ずかしがらずに",
+      "path": "story_jp/event/034 Knock the Future!! (Ln_星乃一歌)/034-06 恥ずかしがらずに.txt",
+      "line": 67,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/034%20Knock%20the%20Future%21%21%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/034-06%20%E6%81%A5%E3%81%9A%E3%81%8B%E3%81%97%E3%81%8C%E3%82%89%E3%81%9A%E3%81%AB.txt#L67",
+      "quote": "KAITO: 恥ずかしいとも、つまらないとも思う必要ない。 ……これは、大事な一歌の想いだ",
+      "description": "《Knock the Future!!》第6话：让一歌相信自己的歌词与想法"
+    },
+    {
+      "id": "E09",
+      "segment_id": 20311,
+      "title": "<サイドストーリー（前編）>",
+      "path": "story_jp/card/26 VS_KAITO/0594_KAITO_RB Happy Anniversary！！2023.txt",
+      "line": 75,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/26%20VS_KAITO/0594_KAITO_RB%20Happy%20Anniversary%EF%BC%81%EF%BC%812023.txt#L75",
+      "quote": "一歌: あの言葉のおかげで、自分の想いを信じて、 恥ずかしがらずに表現できるようになったんだ",
+      "description": "KAITO 2023 纪念卡前篇：一歌明确回顾持久的表达变化"
+    },
+    {
+      "id": "E10",
+      "segment_id": 15600,
+      "title": "2 1551:areatalk_ev_band_11_002",
+      "path": "story_jp/area/talk_event_076.txt",
+      "line": 25,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/area/talk_event_076.txt#L25",
+      "quote": "一歌: カイト、この前はMVを作るきっかけをくれてありがとう",
+      "description": "区域对话：一歌明确感谢 KAITO 提供制作 MV 的契机"
+    },
+    {
+      "id": "E11",
+      "segment_id": 21357,
+      "title": "121-5 バラバラな音",
+      "path": "story_jp/event/121 導く勇気、優しさを胸に (Ln_望月穂波)/121-05 バラバラな音.txt",
+      "line": 62,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/121%20%E5%B0%8E%E3%81%8F%E5%8B%87%E6%B0%97%E3%80%81%E5%84%AA%E3%81%97%E3%81%95%E3%82%92%E8%83%B8%E3%81%AB%20%28Ln_%E6%9C%9B%E6%9C%88%E7%A9%82%E6%B3%A2%29/121-05%20%E3%83%90%E3%83%A9%E3%83%90%E3%83%A9%E3%81%AA%E9%9F%B3.txt#L62",
+      "quote": "KAITO (Ln): ……一度、演奏する際のみんなの想いを すり合わせる必要があるんじゃないかな",
+      "description": "《導く勇気、優しさを胸に》第5话：指出合奏需要协调各自意图"
+    },
+    {
+      "id": "E12",
+      "segment_id": 24021,
+      "title": "leo_01_17 穂波の想い",
+      "path": "story_jp/main/2 Leo／need/leo_01_17 穂波の想い.txt",
+      "line": 39,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/main/2%20Leo%EF%BC%8Fneed/leo_01_17%20%E7%A9%82%E6%B3%A2%E3%81%AE%E6%83%B3%E3%81%84.txt#L39",
+      "quote": "ルカ: ここはあなた達の想いでできたセカイよ。 きっと、穂波の想いもここにある",
+      "description": "主线第17话：Luka 的提醒让一歌继续寻找穗波的心意"
+    },
+    {
+      "id": "E13",
+      "segment_id": 17607,
+      "title": "<サイドストーリー（前編）>",
+      "path": "story_jp/card/01 Ln_星乃一歌/0003_星乃一歌_R3 見上げる先に.txt",
+      "line": 63,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/0003_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_R3%20%E8%A6%8B%E4%B8%8A%E3%81%92%E3%82%8B%E5%85%88%E3%81%AB.txt#L63",
+      "quote": "一歌: （いろいろなことが動き始めたのは、 きっと咲希やミクやルカのおかげだろうな……）",
+      "description": "一歌卡0003前篇：把关系与生活重新动起来归因于咲希、Miku、Luka"
+    },
+    {
+      "id": "E14",
+      "segment_id": 20832,
+      "title": "56-6 幸せな思い出",
+      "path": "story_jp/event/056 Live with memories (Ln_星乃一歌)/056-06 幸せな思い出.txt",
+      "line": 83,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/056%20Live%20with%20memories%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/056-06%20%E5%B9%B8%E3%81%9B%E3%81%AA%E6%80%9D%E3%81%84%E5%87%BA.txt#L83",
+      "quote": "一歌: （ルカのアドバイスのおかげだな。 よかった……）",
+      "description": "《Live with memories》第6话：把完成歌词明确归因于 Luka 的建议"
+    },
+    {
+      "id": "E15",
+      "segment_id": 21417,
+      "title": "128-7 受け止めて、音に",
+      "path": "story_jp/event/128 Parallel Harmonies (Ln_天馬咲希)/128-07 受け止めて、音に.txt",
+      "line": 57,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/128%20Parallel%20Harmonies%20%28Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C%29/128-07%20%E5%8F%97%E3%81%91%E6%AD%A2%E3%82%81%E3%81%A6%E3%80%81%E9%9F%B3%E3%81%AB.txt#L57",
+      "quote": "一歌: みんなのおかげで、大事なことに気づけたよ",
+      "description": "《Parallel Harmonies》第7话：学习接纳共同创作者的意图"
+    },
+    {
+      "id": "E16",
+      "segment_id": 21418,
+      "title": "128-8 交わる音",
+      "path": "story_jp/event/128 Parallel Harmonies (Ln_天馬咲希)/128-08 交わる音.txt",
+      "line": 66,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/128%20Parallel%20Harmonies%20%28Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C%29/128-08%20%E4%BA%A4%E3%82%8F%E3%82%8B%E9%9F%B3.txt#L66",
+      "quote": "一歌: この曲は……メイコやミク…… セカイのみんながいなかったら できてなかったと思うから",
+      "description": "同活动第8话：把出道曲的完成归因于 MEIKO、Miku 等人的帮助"
+    },
+    {
+      "id": "E17",
+      "segment_id": 21868,
+      "title": "182-6 届く、繋がる",
+      "path": "story_jp/event/182 君と繋ぐHeart Beat (Ln_星乃一歌)/182-06 届く、繋がる.txt",
+      "line": 81,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/182%20%E5%90%9B%E3%81%A8%E7%B9%8B%E3%81%90Heart%20Beat%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/182-06%20%E5%B1%8A%E3%81%8F%E3%80%81%E7%B9%8B%E3%81%8C%E3%82%8B.txt#L81",
+      "quote": "一歌: 曲をみんなにも聴いてもらおうって思えたのは、 あの時、メイコ達が背中を押してくれたからだよ",
+      "description": "活动第182号第6话：一歌明确归因作品公开的决定"
+    },
+    {
+      "id": "E18",
+      "segment_id": 21868,
+      "title": "182-6 届く、繋がる",
+      "path": "story_jp/event/182 君と繋ぐHeart Beat (Ln_星乃一歌)/182-06 届く、繋がる.txt",
+      "line": 85,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/182%20%E5%90%9B%E3%81%A8%E7%B9%8B%E3%81%90Heart%20Beat%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/182-06%20%E5%B1%8A%E3%81%8F%E3%80%81%E7%B9%8B%E3%81%8C%E3%82%8B.txt#L85",
+      "quote": "MEIKO (Ln): 『この曲を作ったのは一歌だし、 アオイさんは、一歌の曲を聴いて心を動かされたんだから』",
+      "description": "同话：MEIKO 提醒作品的力量也来自一歌本人"
+    },
+    {
+      "id": "E19",
+      "segment_id": 17640,
+      "title": "<サイドストーリー（後編）>",
+      "path": "story_jp/card/01 Ln_星乃一歌/0494_星乃一歌_R4 ひらめきを待って (event_69).txt",
+      "line": 146,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/0494_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_R4%20%E3%81%B2%E3%82%89%E3%82%81%E3%81%8D%E3%82%92%E5%BE%85%E3%81%A3%E3%81%A6%20%28event_69%29.txt#L146",
+      "quote": "一歌: そうだね。こんなケガくらいで立ち止まっていられない。 力を貸して、リン",
+      "description": "一歌卡0494后篇：受伤后改用 Rin 代奏、自己分析的练习方法"
+    },
+    {
+      "id": "E20",
+      "segment_id": 22098,
+      "title": "212-7 大事にしたいのは",
+      "path": "story_jp/event/212 Echo of a Prayer (Ln_星乃一歌)/212-07 大事にしたいのは.txt",
+      "line": 61,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L61",
+      "quote": "一歌: ——事務所の話は、やっぱり断るよ",
+      "description": "《Echo of a Prayer》第7话：与 Rin、Len 谈话后拒绝个人事务所签约"
+    },
+    {
+      "id": "E21",
+      "segment_id": 22098,
+      "title": "212-7 大事にしたいのは",
+      "path": "story_jp/event/212 Echo of a Prayer (Ln_星乃一歌)/212-07 大事にしたいのは.txt",
+      "line": 58,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L58",
+      "quote": "一歌: ……ありがとう、ふたりとも。 おかげで、なんだかすっきりしたな",
+      "description": "同话：一歌明确感谢两人帮助厘清自己的想法"
+    },
+    {
+      "id": "E22",
+      "segment_id": 22099,
+      "title": "212-8 波紋は広がって",
+      "path": "story_jp/event/212 Echo of a Prayer (Ln_星乃一歌)/212-08 波紋は広がって.txt",
+      "line": 82,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-08%20%E6%B3%A2%E7%B4%8B%E3%81%AF%E5%BA%83%E3%81%8C%E3%81%A3%E3%81%A6.txt#L82",
+      "quote": "志歩: ……一歌が、自分でそう決めたんでしょ",
+      "description": "同活动第8话：尊重一歌自己的决定，但朋友仍担心她压抑个人愿望"
+    },
+    {
+      "id": "E23",
+      "segment_id": 21542,
+      "title": "143-2 しゅわしゅわとモヤモヤ",
+      "path": "story_jp/event/143 This moment with you！ (Ln_星乃一歌)/143-02 しゅわしゅわとモヤモヤ.txt",
+      "line": 83,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-02%20%E3%81%97%E3%82%85%E3%82%8F%E3%81%97%E3%82%85%E3%82%8F%E3%81%A8%E3%83%A2%E3%83%A4%E3%83%A2%E3%83%A4.txt#L83",
+      "quote": "レン (Ln): ただの興味もあるけど、 もしかしたら、それがヒントにつながるかもしれないだろ？",
+      "description": "《This moment with you！》第2话：Len 提议从过去寻找创作困惑的线索"
+    },
+    {
+      "id": "E24",
+      "segment_id": 20052,
+      "title": "<サイドストーリー（後編）>",
+      "path": "story_jp/card/23 VS_鏡音レン/1437_鏡音レン (Ln)_R3 その選択を見守って (event_212).txt",
+      "line": 103,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/23%20VS_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3/1437_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3%20%28Ln%29_R3%20%E3%81%9D%E3%81%AE%E9%81%B8%E6%8A%9E%E3%82%92%E8%A6%8B%E5%AE%88%E3%81%A3%E3%81%A6%20%28event_212%29.txt#L103",
+      "quote": "一歌: おかげで、本番の空気をしっかりイメージできそうだよ",
+      "description": "Len 卡1437后篇：模拟对邦演出，帮助一歌预想现场"
+    },
+    {
+      "id": "E25",
+      "segment_id": 17631,
+      "title": "<サイドストーリー（前編）>",
+      "path": "story_jp/card/01 Ln_星乃一歌/0416_星乃一歌_R4 考えるより先に (event_56).txt",
+      "line": 95,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/0416_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_R4%20%E8%80%83%E3%81%88%E3%82%8B%E3%82%88%E3%82%8A%E5%85%88%E3%81%AB%20%28event_56%29.txt#L95",
+      "quote": "一歌: ……私にはミクの曲があったから、 寂しさを乗り越えられたんだろうな",
+      "description": "一歌卡0416前篇：Miku 的歌曲帮助她度过中学孤独期"
+    }
+  ]
+}

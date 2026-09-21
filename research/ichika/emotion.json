@@ -1,0 +1,573 @@
+{
+  "model": "V3 成长评分 + 情感四维试评分",
+  "direction": "星乃一歌 → VS",
+  "source_commit": "fdfbd5de4f28f21a326d031439feb9b0491111a5",
+  "dimension_order": [
+    "情感表达",
+    "信任与袒露",
+    "主动投入",
+    "关系定位"
+  ],
+  "formula": "100 * sum(four_dimensions) / 16",
+  "records": [
+    {
+      "vs": "初音未来",
+      "vector": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "dimensions": {
+        "情感表达": 4,
+        "信任与袒露": 4,
+        "主动投入": 4,
+        "关系定位": 4
+      },
+      "emotion_index": 100.0,
+      "growth_index": 100.0,
+      "growth_vector": [
+        4,
+        10,
+        4,
+        3,
+        4
+      ],
+      "growth_rank": 1,
+      "emotion_confidence": "A",
+      "reasons": [
+        "明确说 Miku 是重要存在、与她共处的景色特别；不只表达对歌曲的喜爱。这种感情在不同阶段都有直接表述。",
+        "从夜里找她说出对失去朋友的恐惧，到紧张的创作交流时请她同行，深层信任跨情境延续。",
+        "主动邀她赏花、唱歌传情、考虑如何让她快乐，并以共同演出回应她想感受连接的心愿。",
+        "明确定位朋友、前辈、重要存在，并在与其他 Miku 相遇时维护 School Miku 的个人位置。"
+      ],
+      "evidence_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07"
+      ],
+      "conclusion": "情感上同样最突出，证据包括双向关系中的主动照顾，而不只是受到帮助。",
+      "boundary": "100 是四项均达本次尺度上限，不代表完美、排他或恋爱。不同 Miku 的语境须分别识别。",
+      "emotion_rank": 1,
+      "plausible_index_if_one_dimension_lower": 93.75,
+      "plausible_index_if_one_dimension_higher": 100
+    },
+    {
+      "vs": "巡音流歌",
+      "vector": [
+        3,
+        3,
+        3,
+        2
+      ],
+      "dimensions": {
+        "情感表达": 3,
+        "信任与袒露": 3,
+        "主动投入": 3,
+        "关系定位": 2
+      },
+      "emotion_index": 68.75,
+      "growth_index": 77.66666666666667,
+      "growth_vector": [
+        3,
+        9,
+        3,
+        2,
+        4
+      ],
+      "growth_rank": 2,
+      "emotion_confidence": "B",
+      "reasons": [
+        "对 Luka 的安心、欣赏及希望分享美好事物的情感在不同情境中具体表现，暂支持持续的 3 档，未达到深层且稳定的 4 档。",
+        "会袒露重要朋友之间的冲突和自己的无措，后期仍能向她承认演出前不安。",
+        "主动拍照分享作品、想让她看见樱花，并按个人印象制作卡片，具有多种主动关心。",
+        "具名承认她的个人意义，并表现对她的信任；未找到与 Miku 相当的明确、深层关系定位，因此取 2。"
+      ],
+      "evidence_ids": [
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "conclusion": "长期师友信任与日常主动关心并存。",
+      "boundary": "情感表达的 3 档依赖跨情境的持续证据，若要求更强的直接情感宣言，可降为 2。",
+      "emotion_rank": 2,
+      "plausible_index_if_one_dimension_lower": 62.5,
+      "plausible_index_if_one_dimension_higher": 75.0
+    },
+    {
+      "vs": "KAITO",
+      "vector": [
+        3,
+        3,
+        3,
+        2
+      ],
+      "dimensions": {
+        "情感表达": 3,
+        "信任与袒露": 3,
+        "主动投入": 3,
+        "关系定位": 2
+      },
+      "emotion_index": 68.75,
+      "growth_index": 77.66666666666667,
+      "growth_vector": [
+        3,
+        9,
+        3,
+        2,
+        4
+      ],
+      "growth_rank": 2,
+      "emotion_confidence": "B",
+      "reasons": [
+        "主动、具体地珍视他曾说过的话，在早期谈话与后续纪念日再次表达，并非只统计谢谢的次数。",
+        "愿意承认作词中的羞耻、自我怀疑与不足，也明确希望今后继续向他咨询。",
+        "主动找他谈话、参与专门赠票、邀请分享食物，交往超出一次技术求助。",
+        "已经体现为愿意持续求助的个人支持者，但尚未找到深层关系定位的明确表述，取 2。"
+      ],
+      "evidence_ids": [
+        "A14",
+        "A15",
+        "A16",
+        "A17",
+        "A18"
+      ],
+      "conclusion": "对理解自己、肯定自己的人的持久感谢和信任较突出。",
+      "boundary": "情感表达 3 不来自作词影响重大，而来自一歌主动保存并再次表达这份个人感谢；仍有 2/3 档边界。",
+      "emotion_rank": 2,
+      "plausible_index_if_one_dimension_lower": 62.5,
+      "plausible_index_if_one_dimension_higher": 75.0
+    },
+    {
+      "vs": "镜音铃",
+      "vector": [
+        3,
+        3,
+        3,
+        2
+      ],
+      "dimensions": {
+        "情感表达": 3,
+        "信任与袒露": 3,
+        "主动投入": 3,
+        "关系定位": 2
+      },
+      "emotion_index": 68.75,
+      "growth_index": 68.41666666666667,
+      "growth_vector": [
+        3,
+        7,
+        2,
+        2,
+        3
+      ],
+      "growth_rank": 5,
+      "emotion_confidence": "B",
+      "reasons": [
+        "不只口头谢谢：用同样有文字的饼干回应应援，又在另一情境中明确说理解并珍惜 Rin 的心意。",
+        "能在职业取舍中说出自己真正害怕的事情，并承认两人的陪伴使自己能笑出来。",
+        "主动约见回礼、记得带漫画，愿意理解并回应 Rin 的愿望，支持跨情境的主动投入。",
+        "有个人感谢和伙伴式陪伴意义，但没有据此认定更高的特殊、稳定关系定位。"
+      ],
+      "evidence_ids": [
+        "A19",
+        "A20",
+        "A21",
+        "A22",
+        "A23"
+      ],
+      "conclusion": "加入情感后，铃的回礼、关心与陪伴证据比原成长指数更容易显现。",
+      "boundary": "与 Luka、KAITO 同分只表示四档编码相同。若不把这些关心视为足够持续，情感表达或主动投入可各降 1 档。",
+      "emotion_rank": 2,
+      "plausible_index_if_one_dimension_lower": 62.5,
+      "plausible_index_if_one_dimension_higher": 75.0
+    },
+    {
+      "vs": "MEIKO",
+      "vector": [
+        2,
+        3,
+        2,
+        2
+      ],
+      "dimensions": {
+        "情感表达": 2,
+        "信任与袒露": 3,
+        "主动投入": 2,
+        "关系定位": 2
+      },
+      "emotion_index": 56.25,
+      "growth_index": 74.66666666666667,
+      "growth_vector": [
+        3,
+        7,
+        3,
+        2,
+        4
+      ],
+      "growth_rank": 4,
+      "emotion_confidence": "B",
+      "reasons": [
+        "有具体的感谢和亲近，但目前较强的原文主要说明帮助与成长归因，暂不把它改写成深厚依恋。",
+        "面对职业抉择的不安时能够谈自己的疑惑，支持深层袒露的 3 档。",
+        "主动参与纪念日筹备、询问并回应她的愿望；个人主动投入成立，但本轮尚缺更充分的跨情境个别证据。",
+        "有具名的支持者意义与信任，未发现高档显式定位。"
+      ],
+      "evidence_ids": [
+        "A26",
+        "A27",
+        "A28",
+        "A29"
+      ],
+      "conclusion": "能够信赖并愿意回报的前辈伙伴；成长作用的强度不能直接换成情感分。",
+      "boundary": "2 档是目前文本支持程度，不是断言感情较浅；主动投入再补到跨情境稳定证据后可上调。",
+      "emotion_rank": 5,
+      "plausible_index_if_one_dimension_lower": 50.0,
+      "plausible_index_if_one_dimension_higher": 62.5
+    },
+    {
+      "vs": "镜音连",
+      "vector": [
+        2,
+        3,
+        2,
+        2
+      ],
+      "dimensions": {
+        "情感表达": 2,
+        "信任与袒露": 3,
+        "主动投入": 2,
+        "关系定位": 2
+      },
+      "emotion_index": 56.25,
+      "growth_index": 68.41666666666667,
+      "growth_vector": [
+        3,
+        7,
+        2,
+        2,
+        3
+      ],
+      "growth_rank": 5,
+      "emotion_confidence": "B",
+      "reasons": [
+        "会觉得 Len 温柔，也明确感受到与两人谈话后心情变轻；个别化的持续情感表达暂不如前三组充分。",
+        "与 Rin 同场承接职业抉择的内心冲突，同样支持 3；不因两人共同在场而折半，也不升为排他信任。",
+        "有赠拨片、分享漫画等明确行为，但暂按具体日常分享取 2，不仅凭出现多次就认定稳定深层投入。",
+        "体现出可以说心事的伙伴意义，尚无强显式关系定位。"
+      ],
+      "evidence_ids": [
+        "A24",
+        "A25",
+        "A22",
+        "A23",
+        "A29"
+      ],
+      "conclusion": "信任与袒露已有强证据，主动投入和关系定位暂采用保守值。",
+      "boundary": "主动投入的 2/3 档尤其不稳：若统一把这类跨场景日常分享判为持续投入，指数会增加 6.25。",
+      "emotion_rank": 5,
+      "plausible_index_if_one_dimension_lower": 50.0,
+      "plausible_index_if_one_dimension_higher": 62.5
+    }
+  ],
+  "evidence": [
+    {
+      "id": "A01",
+      "segment_id": 20526,
+      "path": "story_jp/event/018 君と歌う、桜舞う世界で (Mix_星乃一歌)/018-07 ふたりで見る桜.txt",
+      "title": "18-7 ふたりで見る桜",
+      "line": 15,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/018%20%E5%90%9B%E3%81%A8%E6%AD%8C%E3%81%86%E3%80%81%E6%A1%9C%E8%88%9E%E3%81%86%E4%B8%96%E7%95%8C%E3%81%A7%20%28Mix_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/018-07%20%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%A7%E8%A6%8B%E3%82%8B%E6%A1%9C.txt#L15",
+      "excerpt": "ミクは私にとって大切な存在",
+      "note": "主动邀请 Miku 看樱花、唱歌表达心意；景色因重要的人在场而特殊。"
+    },
+    {
+      "id": "A02",
+      "segment_id": 17609,
+      "path": "story_jp/card/01 Ln_星乃一歌/0004_星乃一歌_R4 夜明け前の語らい.txt",
+      "title": "<サイドストーリー（前編）>",
+      "line": 39,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/0004_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_R4%20%E5%A4%9C%E6%98%8E%E3%81%91%E5%89%8D%E3%81%AE%E8%AA%9E%E3%82%89%E3%81%84.txt#L39",
+      "excerpt": "もしかして、ミクなら",
+      "note": "重聚后仍害怕关系再次破裂，夜里主动找 Miku 袒露难以向朋友说明的不安。"
+    },
+    {
+      "id": "A03",
+      "segment_id": 21193,
+      "path": "story_jp/event/101 つなぐ、星の歌 (Ln_星乃一歌)/101-05 憧れだけじゃなくて.txt",
+      "title": "101-5 憧れだけじゃなくて",
+      "line": 86,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/101%20%E3%81%A4%E3%81%AA%E3%81%90%E3%80%81%E6%98%9F%E3%81%AE%E6%AD%8C%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/101-05%20%E6%86%A7%E3%82%8C%E3%81%A0%E3%81%91%E3%81%98%E3%82%83%E3%81%AA%E3%81%8F%E3%81%A6.txt#L86",
+      "excerpt": "もっとミクに喜んでもらえるようなこと",
+      "note": "从自己的感谢转向考虑怎样让 Miku 感到快乐，筹划特别的回报。"
+    },
+    {
+      "id": "A04",
+      "segment_id": 20322,
+      "path": "story_jp/card/26 VS_KAITO/0685_KAITO (Ln)_R4 見守ってきた軌跡 (event_101).txt",
+      "title": "<サイドストーリー（後編）>",
+      "line": 140,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/26%20VS_KAITO/0685_KAITO%20%28Ln%29_R4%20%E8%A6%8B%E5%AE%88%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F%E8%BB%8C%E8%B7%A1%20%28event_101%29.txt#L140",
+      "excerpt": "ミクに感じてほしいんだ",
+      "note": "邀请 Miku 同台，让她实际感受到与大家的连接；目的包含照顾 Miku 的感受。"
+    },
+    {
+      "id": "A05",
+      "segment_id": 17698,
+      "path": "story_jp/card/01 Ln_星乃一歌/1375_星乃一歌_R4 ４人のミク達 (event_202).txt",
+      "title": "<サイドストーリー（後編）>",
+      "line": 126,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/1375_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_R4%20%EF%BC%94%E4%BA%BA%E3%81%AE%E3%83%9F%E3%82%AF%E9%81%94%20%28event_202%29.txt#L126",
+      "excerpt": "私の一番の先輩で、友達なのは",
+      "note": "面对其他 SEKAI 的 Miku 时，明确安抚 School Miku 的关系位置。比较语境是不同 Miku，不据此推成对所有角色的排他宣言。"
+    },
+    {
+      "id": "A06",
+      "segment_id": 21546,
+      "path": "story_jp/event/143 This moment with you！ (Ln_星乃一歌)/143-06 モヤモヤの正体.txt",
+      "title": "143-6 モヤモヤの正体",
+      "line": 25,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-06%20%E3%83%A2%E3%83%A4%E3%83%A2%E3%83%A4%E3%81%AE%E6%AD%A3%E4%BD%93.txt#L25",
+      "excerpt": "大切な存在",
+      "note": "跨越憧憬，明确定位朋友、前辈和重要存在。"
+    },
+    {
+      "id": "A07",
+      "segment_id": 20996,
+      "path": "story_jp/event/076 Echo my melody (Ln_星乃一歌)/076-08 届けたい音色.txt",
+      "title": "76-8 届けたい音色",
+      "line": 19,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/076%20Echo%20my%20melody%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/076-08%20%E5%B1%8A%E3%81%91%E3%81%9F%E3%81%84%E9%9F%B3%E8%89%B2.txt#L19",
+      "excerpt": "今日ミクに一緒に来てもらって",
+      "note": "在紧张的创作交流场合主动请 Miku 同行，事后承认她在场带来的支持。"
+    },
+    {
+      "id": "A08",
+      "segment_id": 24018,
+      "path": "story_jp/main/2 Leo／need/leo_01_14 大切だから.txt",
+      "title": "leo_01_14 大切だから",
+      "line": 11,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/main/2%20Leo%EF%BC%8Fneed/leo_01_14%20%E5%A4%A7%E5%88%87%E3%81%A0%E3%81%8B%E3%82%89.txt#L11",
+      "excerpt": "ルカ、聞いてもらっても",
+      "note": "主动向 Luka 袒露两位重要朋友的愿望冲突以及自己不知如何是好。"
+    },
+    {
+      "id": "A09",
+      "segment_id": 20149,
+      "path": "story_jp/card/24 VS_巡音ルカ/1292_巡音ルカ (Ln)_R3 目を伏すあなたのそばに (event_188).txt",
+      "title": "<サイドストーリー（前編）>",
+      "line": 33,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/24%20VS_%E5%B7%A1%E9%9F%B3%E3%83%AB%E3%82%AB/1292_%E5%B7%A1%E9%9F%B3%E3%83%AB%E3%82%AB%20%28Ln%29_R3%20%E7%9B%AE%E3%82%92%E4%BC%8F%E3%81%99%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E3%81%9D%E3%81%B0%E3%81%AB%20%28event_188%29.txt#L33",
+      "excerpt": "ルカにそう言ってもらえると、安心する",
+      "note": "演出前承认紧张，并明确表示 Luka 的话让自己安心。"
+    },
+    {
+      "id": "A10",
+      "segment_id": 15469,
+      "path": "story_jp/area/talk_event_056.txt",
+      "title": "4 1413:areatalk_ev_band_08_004",
+      "line": 63,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/area/talk_event_056.txt#L63",
+      "excerpt": "ルカに見せたいなって思って",
+      "note": "看到 Luka 的作品宣传，急忙拍照带给她，并主动约定分享 CD。"
+    },
+    {
+      "id": "A11",
+      "segment_id": 19920,
+      "path": "story_jp/card/22 VS_鏡音リン/1129_鏡音リン (Ln)_R4 よしよしノーサンキュー！ (event_159).txt",
+      "title": "<サイドストーリー（後編）>",
+      "line": 110,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/22%20VS_%E9%8F%A1%E9%9F%B3%E3%83%AA%E3%83%B3/1129_%E9%8F%A1%E9%9F%B3%E3%83%AA%E3%83%B3%20%28Ln%29_R4%20%E3%82%88%E3%81%97%E3%82%88%E3%81%97%E3%83%8E%E3%83%BC%E3%82%B5%E3%83%B3%E3%82%AD%E3%83%A5%E3%83%BC%EF%BC%81%20%28event_159%29.txt#L110",
+      "excerpt": "ルカはいつも落ち着いててかっこいい",
+      "note": "按自己对 Luka 的个人印象制作夜空卡片，亲手赠送。"
+    },
+    {
+      "id": "A12",
+      "segment_id": 20815,
+      "path": "story_jp/event/054 セカイの桜、つながる想い (Mix_初音ミク-N25)/054-05 教室、桜色の彼女は.txt",
+      "title": "54-5 教室、桜色の彼女は",
+      "line": 51,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/054%20%E3%82%BB%E3%82%AB%E3%82%A4%E3%81%AE%E6%A1%9C%E3%80%81%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E6%83%B3%E3%81%84%20%28Mix_%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF-N25%29/054-05%20%E6%95%99%E5%AE%A4%E3%80%81%E6%A1%9C%E8%89%B2%E3%81%AE%E5%BD%BC%E5%A5%B3%E3%81%AF.txt#L51",
+      "excerpt": "ルカに実際の桜を見てもらいたい",
+      "note": "为让 Luka 亲自看见樱花而寻找、安排共同赏花。咲希的“大好きな人”不是一歌的台词，不转记。"
+    },
+    {
+      "id": "A13",
+      "segment_id": 17607,
+      "path": "story_jp/card/01 Ln_星乃一歌/0003_星乃一歌_R3 見上げる先に.txt",
+      "title": "<サイドストーリー（前編）>",
+      "line": 63,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/0003_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_R3%20%E8%A6%8B%E4%B8%8A%E3%81%92%E3%82%8B%E5%85%88%E3%81%AB.txt#L63",
+      "excerpt": "咲希やミクやルカのおかげ",
+      "note": "早期已把 Luka 列为生活重新动起来的具名帮助者，只支持个人意义，不自动当情感满分。"
+    },
+    {
+      "id": "A14",
+      "segment_id": 20653,
+      "path": "story_jp/event/034 Knock the Future!! (Ln_星乃一歌)/034-06 恥ずかしがらずに.txt",
+      "title": "34-6 恥ずかしがらずに",
+      "line": 33,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/034%20Knock%20the%20Future%21%21%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/034-06%20%E6%81%A5%E3%81%9A%E3%81%8B%E3%81%97%E3%81%8C%E3%82%89%E3%81%9A%E3%81%AB.txt#L33",
+      "excerpt": "恥ずかしい",
+      "note": "向 KAITO 展示歌词并承认表达自身想法的羞耻感；需读完整对话，不以标题判定。"
+    },
+    {
+      "id": "A15",
+      "segment_id": 20288,
+      "path": "story_jp/card/26 VS_KAITO/0280_KAITO (Ln)_R4 音で語るセッション (event_34).txt",
+      "title": "<サイドストーリー（後編）>",
+      "line": 82,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/26%20VS_KAITO/0280_KAITO%20%28Ln%29_R4%20%E9%9F%B3%E3%81%A7%E8%AA%9E%E3%82%8B%E3%82%BB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%20%28event_34%29.txt#L82",
+      "excerpt": "これからも相談とかに乗ってくれたら嬉しい",
+      "note": "特意早到与 KAITO 谈话，坦白不足，并希望今后继续向他倾诉、咨询。"
+    },
+    {
+      "id": "A16",
+      "segment_id": 20311,
+      "path": "story_jp/card/26 VS_KAITO/0594_KAITO_RB Happy Anniversary！！2023.txt",
+      "title": "<サイドストーリー（前編）>",
+      "line": 60,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/26%20VS_KAITO/0594_KAITO_RB%20Happy%20Anniversary%EF%BC%81%EF%BC%812023.txt#L60",
+      "excerpt": "カイトに伝えたいこともあった",
+      "note": "纪念日主动回顾珍视的话语，向 KAITO 表达具体且持久的感谢。"
+    },
+    {
+      "id": "A17",
+      "segment_id": 20322,
+      "path": "story_jp/card/26 VS_KAITO/0685_KAITO (Ln)_R4 見守ってきた軌跡 (event_101).txt",
+      "title": "<サイドストーリー（後編）>",
+      "line": 105,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/26%20VS_KAITO/0685_KAITO%20%28Ln%29_R4%20%E8%A6%8B%E5%AE%88%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F%E8%BB%8C%E8%B7%A1%20%28event_101%29.txt#L105",
+      "excerpt": "カイトに持っていてほしい",
+      "note": "一歌参与将特别处理的演出票赠给 KAITO，并明确希望他留着；属于群体赠礼中的个人表达。"
+    },
+    {
+      "id": "A18",
+      "segment_id": 16266,
+      "path": "story_jp/area/talk_event_173.txt",
+      "title": "6 2709:areatalk_monthly2508_001",
+      "line": 86,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/area/talk_event_173.txt#L86",
+      "excerpt": "カイトがよければ、一緒に食べない",
+      "note": "主动邀请 KAITO 分享自己喜爱的食物，超出技能求助。"
+    },
+    {
+      "id": "A19",
+      "segment_id": 17728,
+      "path": "story_jp/card/02 Ln_天馬咲希/0283_天馬咲希_R2 クッキー・エール (event_34).txt",
+      "title": "<サイドストーリー（後編）>",
+      "line": 154,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/02%20Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C/0283_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C_R2%20%E3%82%AF%E3%83%83%E3%82%AD%E3%83%BC%E3%83%BB%E3%82%A8%E3%83%BC%E3%83%AB%20%28event_34%29.txt#L154",
+      "excerpt": "私から、ふたりへのお礼",
+      "note": "特意约咲希、Rin 到场，回赠拼有感谢字样的饼干；咲希说的大好き不是一歌对 Rin 的台词。"
+    },
+    {
+      "id": "A20",
+      "segment_id": 19928,
+      "path": "story_jp/card/22 VS_鏡音リン/1236_鏡音リン_R4 メリーゴーランドでいえーい！ (event_179).txt",
+      "title": "<サイドストーリー（後編）>",
+      "line": 137,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/22%20VS_%E9%8F%A1%E9%9F%B3%E3%83%AA%E3%83%B3/1236_%E9%8F%A1%E9%9F%B3%E3%83%AA%E3%83%B3_R4%20%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%B4%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89%E3%81%A7%E3%81%84%E3%81%88%E3%83%BC%E3%81%84%EF%BC%81%20%28event_179%29.txt#L137",
+      "excerpt": "リンの気持ちはすごく嬉しかった",
+      "note": "理解 Rin 想与伙伴分享快乐的心意，并亲口回应；不把 Rin 的单方面热情当一歌的感情。"
+    },
+    {
+      "id": "A21",
+      "segment_id": 15957,
+      "path": "story_jp/area/talk_event_128.txt",
+      "title": "8 2298:areatalk_monthly2406_001",
+      "line": 129,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/area/talk_event_128.txt#L129",
+      "excerpt": "リンに頼まれてたマンガの続きを",
+      "note": "记得 Rin 的请求，带漫画续卷供她阅读。"
+    },
+    {
+      "id": "A22",
+      "segment_id": 22098,
+      "path": "story_jp/event/212 Echo of a Prayer (Ln_星乃一歌)/212-07 大事にしたいのは.txt",
+      "title": "212-7 大事にしたいのは",
+      "line": 47,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L47",
+      "excerpt": "みんなと全力で活動できなくなるのが",
+      "note": "向 Rin、Len 说出职业取舍背后的恐惧与优先事项；同一谈话可分别证明向两人袒露。"
+    },
+    {
+      "id": "A23",
+      "segment_id": 22098,
+      "path": "story_jp/event/212 Echo of a Prayer (Ln_星乃一歌)/212-07 大事にしたいのは.txt",
+      "title": "212-7 大事にしたいのは",
+      "line": 80,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L80",
+      "excerpt": "ひとりじゃ、こんなふうに笑えなかった",
+      "note": "一歌自己的内心独白确认两人的陪伴意义；不将重大的职业话题直接等同于更深感情。"
+    },
+    {
+      "id": "A24",
+      "segment_id": 15957,
+      "path": "story_jp/area/talk_event_128.txt",
+      "title": "8 2298:areatalk_monthly2406_001",
+      "line": 137,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/area/talk_event_128.txt#L137",
+      "excerpt": "レンって優しいな",
+      "note": "一歌对 Len 体贴举动的个人评价；只是具体好感，未直接宣告深层依恋。"
+    },
+    {
+      "id": "A25",
+      "segment_id": 15822,
+      "path": "story_jp/area/talk_event_110.txt",
+      "title": "6 2047:areatalk_monthly2311_001",
+      "line": 95,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/area/talk_event_110.txt#L95",
+      "excerpt": "このピックもらってくれない",
+      "note": "主动赠予适合 Len 的拨片，并想听他演奏；拨片原为杂志附赠，不夸大成特意购置的礼物。"
+    },
+    {
+      "id": "A26",
+      "segment_id": 20179,
+      "path": "story_jp/card/25 VS_MEIKO/0211_MEIKO (Ln)_R2 答えを探して (event_20).txt",
+      "title": "<サイドストーリー（前編）>",
+      "line": 24,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/25%20VS_MEIKO/0211_MEIKO%20%28Ln%29_R2%20%E7%AD%94%E3%81%88%E3%82%92%E6%8E%A2%E3%81%97%E3%81%A6%20%28event_20%29.txt#L24",
+      "excerpt": "実は、明日",
+      "note": "向 MEIKO 说明职业抉择前的焦虑与尚未想明白的内心；中间对 Miku 的一句问话是回忆，不误认为本场对话对象。"
+    },
+    {
+      "id": "A27",
+      "segment_id": 20223,
+      "path": "story_jp/card/25 VS_MEIKO/0784_MEIKO_RB Happy Anniversary！！2023.txt",
+      "title": "<サイドストーリー（前編）>",
+      "line": 68,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/25%20VS_MEIKO/0784_MEIKO_RB%20Happy%20Anniversary%EF%BC%81%EF%BC%812023.txt#L68",
+      "excerpt": "メイコがやりたいならなんでも手伝う",
+      "note": "提前参与筹备纪念日，询问并尊重 MEIKO 的愿望，愿意帮她完成。"
+    },
+    {
+      "id": "A28",
+      "segment_id": 21868,
+      "path": "story_jp/event/182 君と繋ぐHeart Beat (Ln_星乃一歌)/182-06 届く、繋がる.txt",
+      "title": "182-6 届く、繋がる",
+      "line": 79,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/182%20%E5%90%9B%E3%81%A8%E7%B9%8B%E3%81%90Heart%20Beat%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/182-06%20%E5%B1%8A%E3%81%8F%E3%80%81%E7%B9%8B%E3%81%8C%E3%82%8B.txt#L79",
+      "excerpt": "それに、メイコもありがとう",
+      "note": "具体感谢 MEIKO 推动作品公开。首先是成长归因，不凭这句把情感表达升到高档。"
+    },
+    {
+      "id": "A29",
+      "segment_id": 17653,
+      "path": "story_jp/card/01 Ln_星乃一歌/0699_星乃一歌_RB Happy Birthday！！2023.txt",
+      "title": "<サイドストーリー（前編）>",
+      "line": 24,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/0699_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_RB%20Happy%20Birthday%EF%BC%81%EF%BC%812023.txt#L24",
+      "excerpt": "私がみんなに会いたいから",
+      "note": "在六位 VS 均明确在场的生日谈话中主动表示想见大家。支持群体亲近，不能证明六组关系同样深。"
+    }
+  ],
+  "scope": "仅日文正文；全库候选检索后的定点精读，非穷尽人工审计；保留原成长评分，不生成综合总分。"
+}
