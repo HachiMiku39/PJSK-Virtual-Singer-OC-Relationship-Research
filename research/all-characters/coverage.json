@@ -167,6 +167,12 @@
   "final_tied_group_count": 47,
   "refined_scored_pairs": 120,
   "refined_unresolved_ties": 0,
-  "refined_composite_formula": "综合指数 = (相对细分成长指数 + 相对细分情感指数) / 2",
-  "coarse_tie_history_count": 47
+  "refined_composite_formula": "综合相对指数 = 100 * 综合原平均 / 同角色六VS最高综合原平均",
+  "coarse_tie_history_count": 47,
+  "combined_raw_formula": "综合原平均 = (相对细分成长指数 + 相对细分情感指数) / 2",
+  "max100_metrics_per_oc": [
+    "growth",
+    "emotion",
+    "combined"
+  ]
 }

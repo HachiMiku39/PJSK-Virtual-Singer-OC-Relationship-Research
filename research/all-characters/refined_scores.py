@@ -1,4 +1,4 @@
-"""Recompute evidence-coded quarter grades and the user's exact 1:1 composite.
+"""Recompute evidence-coded quarter grades and the 1:1 mean and per-OC normalized composite.
 
 All subgrades are supplied by source-linked research judgments, never inferred from
 retrieval frequency, rank position, or a target number of distinct scores.
@@ -23,9 +23,15 @@ def compute(records, judgments):
  normalize(temporary)
  for r,t in zip(records,temporary):
   f=r['refined'];g=t['growth']['relative_index'];e=t['emotion']['relative_index']
-  f.update(growth_index=g,emotion_index=e,combined_index=None if g is None or e is None else (g+e)/2,growth_denominator=t['growth']['normalization_denominator'],emotion_denominator=t['emotion']['normalization_denominator'])
+  f.update(growth_index=g,emotion_index=e,combined_index_raw=None if g is None or e is None else (g+e)/2,growth_denominator=t['growth']['normalization_denominator'],emotion_denominator=t['emotion']['normalization_denominator'])
  for oc in dict.fromkeys(r['oc'] for r in records):
   group=[r for r in records if r['oc']==oc]
+  averages=[r['refined']['combined_index_raw'] for r in group]
+  denominator=max(averages) if len(averages)==6 and all(v is not None for v in averages) else None
+  if denominator==0:denominator=None
+  for r in group:
+   f=r['refined'];f['combined_denominator']=denominator
+   f['combined_index']=None if denominator is None else 100*(f['combined_index_raw']/denominator)
   for metric in ['growth','emotion','combined']:
    key=metric+'_index';values=[r['refined'][key] for r in group]
    if None in values:

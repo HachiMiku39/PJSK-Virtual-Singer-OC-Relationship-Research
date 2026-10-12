@@ -51,7 +51,11 @@ def validate(path, corpus_dir=None):
   j=row['refinement_judgment'];assert j==next(x for x in model['judgments'] if x['pair_id']==row['pair_id'])
   assert j['growth_comparison'] and j['emotion_comparison']
   for k in j['growth_refs']+j['emotion_refs']:assert k in refs
-  assert abs(row['refined']['combined_index']-(row['refined']['growth_index']+row['refined']['emotion_index'])/2)<1e-10
+  f=row['refined'];assert abs(f['combined_index_raw']-(f['growth_index']+f['emotion_index'])/2)<1e-10
+  assert abs(f['combined_index']-100*f['combined_index_raw']/f['combined_denominator'])<1e-10
+ for oc in {r['oc'] for r in d['records']} :
+  group=[r for r in d['records'] if r['oc']==oc]
+  assert max(r['refined']['combined_index'] for r in group)==100
  order=json.loads(path.with_name('refined-order-review.json').read_text());mapping={r['pair_id']:r for r in d['records']}
  assert order['unresolved_current_ties']==0 and len(order['pairwise_comparisons'])==80
  for comparison in order['pairwise_comparisons']:
@@ -61,7 +65,7 @@ def validate(path, corpus_dir=None):
   assert comparison['dimension_comparison']
   assert all(k in refs for k in comparison['higher_refs']+comparison['lower_refs'])
  tie_count=require_review(d['records'],json.loads(path.with_name('tie-review.json').read_text()),refs)
- print(json.dumps({'pairs':120,'reviewed_coarse_tie_history':tie_count,'current_refined_ties':0,'composite_weight':'1:1',**counts,'fixed_version_refs':len(refs),'checks':'passed'},ensure_ascii=False))
+ print(json.dumps({'pairs':120,'reviewed_coarse_tie_history':tie_count,'current_refined_ties':0,'composite_weight':'1:1 mean, then per-OC max100',**counts,'fixed_version_refs':len(refs),'checks':'passed'},ensure_ascii=False))
 
 if __name__=='__main__':
  ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--input',type=Path,default=Path(__file__).with_name('assessments.json'));ap.add_argument('--corpus-dir',type=Path);a=ap.parse_args();validate(a.input,a.corpus_dir)
