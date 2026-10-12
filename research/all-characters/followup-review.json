@@ -1,0 +1,375 @@
+{
+  "as_of": "2026-10-12",
+  "prior_commit": "ad6b03c7197fd4df84f93d33ba71b0bffaf138ec",
+  "changes": [
+    {
+      "pair_id": "OC03_KAITO",
+      "oc": "望月穗波",
+      "vs": "KAITO",
+      "previous_growth": [
+        2,
+        7,
+        2,
+        0,
+        2
+      ],
+      "new_growth": [
+        2,
+        7,
+        2,
+        0,
+        2
+      ],
+      "previous_emotion": [
+        2,
+        2,
+        null,
+        2
+      ],
+      "new_emotion": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "notes": [
+        "具名感谢持续看守和照顾柴犬，个人具体2",
+        "票样咨询与简要告诉自己的困惑，2；169没有把事情完整讲给他，不能判深层3",
+        "1021本人主动说为了KAITO拍爱犬照片/视频，215本人参与给VS们做菜并明确照顾KAITO喜爱冰淇淋的期待，具体投入2；照片仅承诺未展示交付，冰淇淋主要爱莉/心羽做，不冒称穗波独制或强升3",
+        "认可持续支持、会听设计建议，个人支持者2，非特殊关系声明"
+      ],
+      "new_reference_ids": [
+        "OC03_KAITO_Y2",
+        "OC03_KAITO_Y3",
+        "OC03_KAITO_Y5",
+        "OC03_KAITO_Y1"
+      ]
+    },
+    {
+      "pair_id": "OC04_Len",
+      "oc": "日野森志步",
+      "vs": "镜音连",
+      "previous_growth": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "new_growth": [
+        2,
+        4,
+        1,
+        1,
+        2
+      ],
+      "previous_emotion": [
+        1,
+        null,
+        2,
+        null
+      ],
+      "new_emotion": [
+        2,
+        3,
+        2,
+        2
+      ],
+      "notes": [
+        "0493本人接受他针对自己的具体肯定并道谢，后仍有排练往来，个人感谢2；不从成长改变推深情3",
+        "0493直接对连和铃说因自己的强硬表达失败、伤到穗波等伙伴，他真实回应；深层人际自责袒露3。110集体分享与1487理想之梦只是补充，梦本身不是他实际带她登台",
+        "按请求带父亲乐谱给连，明确日常投入2",
+        "本人愿向他说明过去伤人之事、承接肯定并说共同特训よろしく，后又具名认可他在合奏中的作用与托付起拍，具体支持/合作伙伴2；非特殊唯一定位3/4"
+      ],
+      "new_reference_ids": [
+        "OC04_Len_Y6",
+        "OC04_Len_Y4",
+        "OC04_Len_Y8",
+        "OC04_Len_Y1",
+        "OC04_Len_Y7",
+        "OC04_Len_Y5"
+      ]
+    },
+    {
+      "pair_id": "OC13_Rin",
+      "oc": "天马司",
+      "vs": "镜音铃",
+      "previous_growth": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "new_growth": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "previous_emotion": [
+        2,
+        null,
+        3,
+        2
+      ],
+      "new_emotion": [
+        2,
+        2,
+        3,
+        2
+      ],
+      "notes": [
+        "本人说实现铃连重逢愿望很高兴，具体个人2",
+        "185-06铃真实询问后，司向铃与KAITO讲自己不知道怎样帮宁宁恢复表演、说明已试过的方法与愿望，具体困难分享2；不是把类的童年孤独借成司的深层创伤3",
+        "亲自代抽签、为重逢愿望组织见面、回应游戏并给新规则，跨情境个别关心3",
+        "愿照顾其愿望、一起活动的个人伙伴2，未强特殊定位"
+      ],
+      "new_reference_ids": [
+        "OC13_Rin_Y1",
+        "OC13_Rin_Y2"
+      ]
+    },
+    {
+      "pair_id": "OC20_Rin",
+      "oc": "晓山瑞希",
+      "vs": "镜音铃",
+      "previous_growth": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "new_growth": [
+        1,
+        0,
+        1,
+        1,
+        2
+      ],
+      "previous_emotion": [
+        2,
+        null,
+        3,
+        2
+      ],
+      "new_emotion": [
+        2,
+        2,
+        3,
+        2
+      ],
+      "notes": [
+        "本人明确谢她照顾奏、记得她审美并回报，具体个人2",
+        "035-03瑞希本人直接向铃说察觉他人隐藏想法会弄僵关系、自己曾失败，具体个人困扰分享2；被问是否痛苦时又转玩笑说没事，不能说已袒露秘密/核心身份或深层3",
+        "亲自选符合她审美的胸针、带发饰与照看奖章，跨情境个别实际投入3",
+        "有记住个人喜好并珍惜其照看伙伴的具体关系2，没有更强特殊定位"
+      ],
+      "new_reference_ids": [
+        "OC20_Rin_Y7",
+        "OC20_Rin_Y8",
+        "OC20_Rin_Y2",
+        "OC20_Rin_Y6"
+      ]
+    }
+  ],
+  "review_windows": {
+    "OC03_KAITO_Y1": {
+      "path": "story_jp/card/26 VS_KAITO/1338_KAITO_RB Happy Anniversary！！2026.txt",
+      "sha256": "90ed02d9b8070e5fbc9e92b290c7867157edb0e36b2905aecb5d54295f11c115",
+      "start_line": 14,
+      "end_line": 90,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/26%20VS_KAITO/1338_KAITO_RB%20Happy%20Anniversary%EF%BC%81%EF%BC%812026.txt#L14",
+      "kind": "expanded_body_review"
+    },
+    "OC03_KAITO_Y2": {
+      "path": "story_jp/card/03 Ln_望月穂波/1021_望月穂波_RB Happy Birthday！！2024.txt",
+      "sha256": "7ffa294f782c4fa6c4917ff0c81014af2e5c4c3c79befb057424044ff2afe08d",
+      "start_line": 15,
+      "end_line": 75,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/03%20Ln_%E6%9C%9B%E6%9C%88%E7%A9%82%E6%B3%A2/1021_%E6%9C%9B%E6%9C%88%E7%A9%82%E6%B3%A2_RB%20Happy%20Birthday%EF%BC%81%EF%BC%812024.txt#L15",
+      "kind": "expanded_body_review"
+    },
+    "OC03_KAITO_Y3": {
+      "path": "story_jp/event/215 Mix&Make Party Time!! (Mix_巡音ルカ-VS)/215-05 みんなが喜ぶメニューを.txt",
+      "sha256": "3b336bd4e6e630e2f8398ce9b1711864c3adcc4753c0924617862982ceb84ba2",
+      "start_line": 100,
+      "end_line": 172,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/215%20Mix%26Make%20Party%20Time%21%21%20%28Mix_%E5%B7%A1%E9%9F%B3%E3%83%AB%E3%82%AB-VS%29/215-05%20%E3%81%BF%E3%82%93%E3%81%AA%E3%81%8C%E5%96%9C%E3%81%B6%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%92.txt#L100",
+      "kind": "expanded_body_review"
+    },
+    "OC04_Len_Y1": {
+      "path": "story_jp/event/110 Stick to your faith (Ln_日野森志歩)/110-08 届くように.txt",
+      "sha256": "37aec0b2915618777dd2a983523bcd7058785b7a532094720ff9c5ef03d0d9e3",
+      "start_line": 12,
+      "end_line": 90,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/110%20Stick%20to%20your%20faith%20%28Ln_%E6%97%A5%E9%87%8E%E6%A3%AE%E5%BF%97%E6%AD%A9%29/110-08%20%E5%B1%8A%E3%81%8F%E3%82%88%E3%81%86%E3%81%AB.txt#L12",
+      "kind": "expanded_body_review"
+    },
+    "OC04_Len_Y2": {
+      "path": "story_jp/event/179 Link the Beats！ (VS_WL)/179-03 離れていても (鏡音レン).txt",
+      "sha256": "3e7c414fcaf650c930f0b457eadbedcdf8ddcf8d7fc79839c87473cfd0e4b4fd",
+      "start_line": 112,
+      "end_line": 150,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/179%20Link%20the%20Beats%EF%BC%81%20%28VS_WL%29/179-03%20%E9%9B%A2%E3%82%8C%E3%81%A6%E3%81%84%E3%81%A6%E3%82%82%20%28%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3%29.txt#L112",
+      "kind": "expanded_body_review"
+    },
+    "OC04_Len_Y3": {
+      "path": "story_jp/card/23 VS_鏡音レン/1393_鏡音レン_R4 きらめきは重なって (event_205).txt",
+      "sha256": "08ba3f9aac3009b569980701860bb5c0f4a3ffc27a149c58e2b854953ff0602a",
+      "start_line": 70,
+      "end_line": 110,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/23%20VS_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3/1393_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3_R4%20%E3%81%8D%E3%82%89%E3%82%81%E3%81%8D%E3%81%AF%E9%87%8D%E3%81%AA%E3%81%A3%E3%81%A6%20%28event_205%29.txt#L70",
+      "kind": "expanded_body_review"
+    },
+    "OC13_Rin_Y1": {
+      "path": "story_jp/event/185 超克のプロタゴニスタ (WxS_草薙寧々)/185-06 主役と演出家.txt",
+      "sha256": "566d4c4ea8ce285c047d6f28c6f8aad1d6cef6e1ebd2faa0ca6c6fdf9a0f41b9",
+      "start_line": 1,
+      "end_line": 44,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/185%20%E8%B6%85%E5%85%8B%E3%81%AE%E3%83%97%E3%83%AD%E3%82%BF%E3%82%B4%E3%83%8B%E3%82%B9%E3%82%BF%20%28WxS_%E8%8D%89%E8%96%99%E5%AF%A7%E3%80%85%29/185-06%20%E4%B8%BB%E5%BD%B9%E3%81%A8%E6%BC%94%E5%87%BA%E5%AE%B6.txt#L1",
+      "kind": "expanded_body_review"
+    },
+    "OC13_Rin_Y2": {
+      "path": "story_jp/card/13 WxS_天馬司/1169_天馬司_R4 決意を胸に (event_167).txt",
+      "sha256": "457af217e89e0ff462d5caac48ca1ab9357e288ddfd8111a56ff396dc2e05e12",
+      "start_line": 78,
+      "end_line": 116,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/13%20WxS_%E5%A4%A9%E9%A6%AC%E5%8F%B8/1169_%E5%A4%A9%E9%A6%AC%E5%8F%B8_R4%20%E6%B1%BA%E6%84%8F%E3%82%92%E8%83%B8%E3%81%AB%20%28event_167%29.txt#L78",
+      "kind": "expanded_body_review"
+    },
+    "OC04_Len_Y4": {
+      "path": "story_jp/card/01 Ln_星乃一歌/0316_星乃一歌_R3 新曲の方向性 (event_40).txt",
+      "sha256": "1dca07131bfa4a2842640c8e7ddbdeac6ed034d9d3a9209750f47b57685e31e8",
+      "start_line": 8,
+      "end_line": 47,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/0316_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_R3%20%E6%96%B0%E6%9B%B2%E3%81%AE%E6%96%B9%E5%90%91%E6%80%A7%20%28event_40%29.txt#L8",
+      "kind": "expanded_body_review"
+    },
+    "OC04_Len_Y5": {
+      "path": "story_jp/event/179 Link the Beats！ (VS_WL)/179-14 出会えた奇跡を胸に.txt",
+      "sha256": "1004ef39b897bac53567bf8cf90e2c8f92d978f0c8482e4749538830c1809ae4",
+      "start_line": 31,
+      "end_line": 62,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/179%20Link%20the%20Beats%EF%BC%81%20%28VS_WL%29/179-14%20%E5%87%BA%E4%BC%9A%E3%81%88%E3%81%9F%E5%A5%87%E8%B7%A1%E3%82%92%E8%83%B8%E3%81%AB.txt#L31",
+      "kind": "expanded_body_review"
+    },
+    "OC03_KAITO_Y4": {
+      "path": "story_jp/card/26 VS_KAITO/0594_KAITO_RB Happy Anniversary！！2023.txt",
+      "sha256": "880a9b475f935b1a6c714c4c383cc815952afb9d9250e931c38f898f785b77cb",
+      "start_line": 79,
+      "end_line": 125,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/26%20VS_KAITO/0594_KAITO_RB%20Happy%20Anniversary%EF%BC%81%EF%BC%812023.txt#L79",
+      "kind": "expanded_body_review"
+    },
+    "OC20_Rin_Y1": {
+      "path": "story_jp/card/20 N25_暁山瑞希/0285_暁山瑞希_R4 ひとときの安息 (event_35).txt",
+      "sha256": "ba65d9ca4554af78542633d28b95055931bbbacb05937f63d19eb6461a1491ef",
+      "start_line": 63,
+      "end_line": 117,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/20%20N25_%E6%9A%81%E5%B1%B1%E7%91%9E%E5%B8%8C/0285_%E6%9A%81%E5%B1%B1%E7%91%9E%E5%B8%8C_R4%20%E3%81%B2%E3%81%A8%E3%81%A8%E3%81%8D%E3%81%AE%E5%AE%89%E6%81%AF%20%28event_35%29.txt#L63",
+      "kind": "expanded_body_review"
+    },
+    "OC20_Rin_Y2": {
+      "path": "story_jp/area/talk_event_014.txt",
+      "sha256": "591d82bfb59185f98effe96800634cb445762627593b32537d37e2abb1f3b5a4",
+      "start_line": 72,
+      "end_line": 86,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/area/talk_event_014.txt#L72",
+      "kind": "expanded_body_review"
+    },
+    "OC20_Rin_Y3": {
+      "path": "story_jp/area/talk_event_199.txt",
+      "sha256": "a4fdc8c79ef053a0ac367f0faae62b7922e235fbe8bde48aa83f8f7c5509fdb0",
+      "start_line": 104,
+      "end_line": 124,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/area/talk_event_199.txt#L104",
+      "kind": "expanded_body_review"
+    },
+    "OC04_Len_Y6": {
+      "path": "story_jp/card/04 Ln_日野森志歩/0493_日野森志歩_R4 全力のステージ (event_69).txt",
+      "sha256": "3cc9470923c42f8f9f9e6c1c350ec92a9108b6a5f52790cc51e76d2fbe87c520",
+      "start_line": 10,
+      "end_line": 98,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/04%20Ln_%E6%97%A5%E9%87%8E%E6%A3%AE%E5%BF%97%E6%AD%A9/0493_%E6%97%A5%E9%87%8E%E6%A3%AE%E5%BF%97%E6%AD%A9_R4%20%E5%85%A8%E5%8A%9B%E3%81%AE%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8%20%28event_69%29.txt#L10",
+      "kind": "expanded_body_review"
+    },
+    "OC04_Len_Y7": {
+      "path": "story_jp/card/04 Ln_日野森志歩/1394_日野森志歩_R4 想いと熱を込めて (event_205).txt",
+      "sha256": "035f1a010138d838ae29bb2f92417744b59982a865014e9a76f6a842b71df390",
+      "start_line": 85,
+      "end_line": 157,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/04%20Ln_%E6%97%A5%E9%87%8E%E6%A3%AE%E5%BF%97%E6%AD%A9/1394_%E6%97%A5%E9%87%8E%E6%A3%AE%E5%BF%97%E6%AD%A9_R4%20%E6%83%B3%E3%81%84%E3%81%A8%E7%86%B1%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6%20%28event_205%29.txt#L85",
+      "kind": "expanded_body_review"
+    },
+    "OC04_Len_Y8": {
+      "path": "story_jp/card/04 Ln_日野森志歩/1487_日野森志歩_R2 この夢を目指して (event_220).txt",
+      "sha256": "ed30ce36411f552fc6578219a7b16779c7bb9075b53134eaf1331accf0ea03c0",
+      "start_line": 21,
+      "end_line": 56,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/04%20Ln_%E6%97%A5%E9%87%8E%E6%A3%AE%E5%BF%97%E6%AD%A9/1487_%E6%97%A5%E9%87%8E%E6%A3%AE%E5%BF%97%E6%AD%A9_R2%20%E3%81%93%E3%81%AE%E5%A4%A2%E3%82%92%E7%9B%AE%E6%8C%87%E3%81%97%E3%81%A6%20%28event_220%29.txt#L21",
+      "kind": "expanded_body_review"
+    },
+    "OC20_Rin_Y4": {
+      "path": "story_jp/card/20 N25_暁山瑞希/0387_暁山瑞希_R4 メイキング・ウィズ・チルドレン (event_51).txt",
+      "sha256": "001af3561a0d72fe0c8677d8dc3b3df789bf682a577d9eaac534c157a6029cc8",
+      "start_line": 106,
+      "end_line": 150,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/20%20N25_%E6%9A%81%E5%B1%B1%E7%91%9E%E5%B8%8C/0387_%E6%9A%81%E5%B1%B1%E7%91%9E%E5%B8%8C_R4%20%E3%83%A1%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%A6%E3%82%A3%E3%82%BA%E3%83%BB%E3%83%81%E3%83%AB%E3%83%89%E3%83%AC%E3%83%B3%20%28event_51%29.txt#L106",
+      "kind": "expanded_body_review"
+    },
+    "OC20_Rin_Y5": {
+      "path": "story_jp/card/18 N25_朝比奈まふゆ/0511_朝比奈まふゆ_R4 優しいおまじない (event_72).txt",
+      "sha256": "aacd9dc254ecd81c2f570021ff21b30732e645102660a12ba43b9f6d1b6bd749",
+      "start_line": 46,
+      "end_line": 94,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/18%20N25_%E6%9C%9D%E6%AF%94%E5%A5%88%E3%81%BE%E3%81%B5%E3%82%86/0511_%E6%9C%9D%E6%AF%94%E5%A5%88%E3%81%BE%E3%81%B5%E3%82%86_R4%20%E5%84%AA%E3%81%97%E3%81%84%E3%81%8A%E3%81%BE%E3%81%98%E3%81%AA%E3%81%84%20%28event_72%29.txt#L46",
+      "kind": "expanded_body_review"
+    },
+    "OC03_KAITO_Y5": {
+      "path": "story_jp/event/215 Mix&Make Party Time!! (Mix_巡音ルカ-VS)/215-05 みんなが喜ぶメニューを.txt",
+      "sha256": "3b336bd4e6e630e2f8398ce9b1711864c3adcc4753c0924617862982ceb84ba2",
+      "start_line": 1,
+      "end_line": 99,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/215%20Mix%26Make%20Party%20Time%21%21%20%28Mix_%E5%B7%A1%E9%9F%B3%E3%83%AB%E3%82%AB-VS%29/215-05%20%E3%81%BF%E3%82%93%E3%81%AA%E3%81%8C%E5%96%9C%E3%81%B6%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%92.txt#L1",
+      "kind": "expanded_body_review"
+    },
+    "OC20_Rin_Y6": {
+      "path": "story_jp/card/20 N25_暁山瑞希/1318_暁山瑞希_R3 不穏を察して (event_192).txt",
+      "sha256": "eb18562f155983effe932001b3cbcacfd53105b570f7aa225cad81b576887f0e",
+      "start_line": 156,
+      "end_line": 212,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/20%20N25_%E6%9A%81%E5%B1%B1%E7%91%9E%E5%B8%8C/1318_%E6%9A%81%E5%B1%B1%E7%91%9E%E5%B8%8C_R3%20%E4%B8%8D%E7%A9%8F%E3%82%92%E5%AF%9F%E3%81%97%E3%81%A6%20%28event_192%29.txt#L156",
+      "kind": "expanded_body_review"
+    },
+    "OC20_Rin_Y7": {
+      "path": "story_jp/card/22 VS_鏡音リン/0286_鏡音リン (N25)_R4 アルバムのあの子 (event_35).txt",
+      "sha256": "70404bd7cd3cfa2382a964d2f13a0abf3a4364a53b6352ca19b7018efe55b985",
+      "start_line": 35,
+      "end_line": 79,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/22%20VS_%E9%8F%A1%E9%9F%B3%E3%83%AA%E3%83%B3/0286_%E9%8F%A1%E9%9F%B3%E3%83%AA%E3%83%B3%20%28N25%29_R4%20%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%81%AE%E3%81%82%E3%81%AE%E5%AD%90%20%28event_35%29.txt#L35",
+      "kind": "expanded_body_review"
+    },
+    "OC20_Rin_Y8": {
+      "path": "story_jp/event/035 灯のミラージュ (N25_朝比奈まふゆ)/035-03 いつかの記憶.txt",
+      "sha256": "f38a943cc048475ae9a584ff86aff2f9fc106570c993f1cc521603d2409e62ef",
+      "start_line": 80,
+      "end_line": 104,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/035%20%E7%81%AF%E3%81%AE%E3%83%9F%E3%83%A9%E3%83%BC%E3%82%B8%E3%83%A5%20%28N25_%E6%9C%9D%E6%AF%94%E5%A5%88%E3%81%BE%E3%81%B5%E3%82%86%29/035-03%20%E3%81%84%E3%81%A4%E3%81%8B%E3%81%AE%E8%A8%98%E6%86%B6.txt#L80",
+      "kind": "expanded_body_review"
+    },
+    "OC13_Rin_Y3": {
+      "path": "story_jp/event/119 逆光のレンズフレア (WxS_神代類)/119-08 この先に進むために.txt",
+      "sha256": "fc9ba65e3d80d9b4cfee50d77678e7973001d0109766e39c647a96cd0bb268b4",
+      "start_line": 59,
+      "end_line": 83,
+      "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/119%20%E9%80%86%E5%85%89%E3%81%AE%E3%83%AC%E3%83%B3%E3%82%BA%E3%83%95%E3%83%AC%E3%82%A2%20%28WxS_%E7%A5%9E%E4%BB%A3%E9%A1%9E%29/119-08%20%E3%81%93%E3%81%AE%E5%85%88%E3%81%AB%E9%80%B2%E3%82%80%E3%81%9F%E3%82%81%E3%81%AB.txt#L59",
+      "kind": "expanded_body_review"
+    }
+  },
+  "limitation": "定向补读窗口；不称全库逐行精读；Y1穗波/1338窗口实际N25而非穗波，已排除。",
+  "subsequent_tie_review": "tie-review.json",
+  "note": "本文件记录原5项缺口的补查；随后同分深评修订另见tie-review.json，不将补查与同分阶段混成一个分数版本。"
+}

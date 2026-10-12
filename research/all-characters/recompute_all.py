@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check audit coverage, nullable results, nine explanations and fixed-version provenance."""
 import argparse, hashlib, json
+from tie_review_gate import require_review
 from pathlib import Path
 
 def validate(path, corpus_dir=None):
@@ -22,6 +23,17 @@ def validate(path, corpus_dir=None):
   for note_refs in a['growth_dimension_refs']+a['emotion_dimension_refs']:assert note_refs and all(x in refs for x in note_refs)
   assert all(x in refs for x in a['rejected'])
   counts['retained' if a['status']=='既有一歌试评沿用' else 'reviewed']+=1
+ for oc in {r['oc'] for r in d['records']}:
+  rr=[r for r in d['records'] if r['oc']==oc]
+  for kind in ['growth','emotion']:
+   vals=[r[kind]['index'] for r in rr];denom=max(vals) if all(v is not None for v in vals) else None
+   if denom==0:denom=None
+   for r in rr:
+    assert r[kind]['normalization_denominator']==denom
+    v=r[kind]['relative_index']
+    if denom is None:assert v is None
+    else:assert abs(v-100*r[kind]['index']/denom)<1e-8 and 0<=v<=100+1e-8
+   if denom is not None:assert abs(max(r[kind]['relative_index'] for r in rr)-100)<1e-8
  for ref in refs.values():
   source=d['source_catalog'][ref['source_id']];assert d['source_commit'] in source['url']
   assert ref['start_line']>=1 and ref['end_line']>=ref['start_line'];assert ref['reviewed_line_runs']
@@ -31,7 +43,8 @@ def validate(path, corpus_dir=None):
  assert len(seen)==120 and len({r['oc'] for r in d['records']})==20
  assert counts['reviewed']==114 and counts['retained']==6
  for oc in {r['oc'] for r in d['records']}:assert len([r for r in d['records'] if r['oc']==oc])==6
- print(json.dumps({'pairs':120,**counts,'fixed_version_refs':len(refs),'checks':'passed'},ensure_ascii=False))
+ tie_count=require_review(d['records'],json.loads(path.with_name('tie-review.json').read_text()),refs)
+ print(json.dumps({'pairs':120,'reviewed_current_ties':tie_count,**counts,'fixed_version_refs':len(refs),'checks':'passed'},ensure_ascii=False))
 
 if __name__=='__main__':
  ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--input',type=Path,default=Path(__file__).with_name('assessments.json'));ap.add_argument('--corpus-dir',type=Path);a=ap.parse_args();validate(a.input,a.corpus_dir)

@@ -150,16 +150,19 @@
     "瑞希/MEIKO": 123,
     "瑞希/KAITO": 105
   },
-  "approved_pair_count": 116,
+  "approved_pair_count": 120,
   "proposed_unapproved_pair_count": 0,
   "new_reviewed_pairs": 114,
   "retained_trial_pairs": 6,
   "complete_growth_indices": 120,
-  "complete_emotion_indices": 116,
-  "unknown_emotion_dimensions": 5,
-  "audited_reference_count": 967,
-  "unique_audited_sources": 573,
+  "complete_emotion_indices": 120,
+  "unknown_emotion_dimensions": 0,
+  "audited_reference_count": 987,
+  "unique_audited_sources": 585,
   "review_completed_pair_count": 120,
-  "fully_scored_pair_count": 116,
-  "approval_count_definition": "9维均有分档的组数；核验完成总数120，含4组部分维度待查"
+  "fully_scored_pair_count": 120,
+  "approval_count_definition": "9维均有证据支持分档的组数；保留未来新增待查项的空值规则",
+  "tie_review_completed_count": 50,
+  "unreviewed_tied_groups": 0,
+  "final_tied_group_count": 47
 }
