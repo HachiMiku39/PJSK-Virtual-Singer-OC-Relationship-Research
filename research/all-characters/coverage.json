@@ -26,7 +26,7 @@
   ],
   "pair_count": 120,
   "candidate_segments": 2702,
-  "coverage_status": "获取与机器候选检索全覆盖所列类型；人工阅读只有历史证据及focus-review、latest的记录",
+  "coverage_status": "机器候选检索覆盖所列类型；114组人工证据窗口核验完成，非4147篇全逐行阅读",
   "algorithm": "speaker blocks + exact-name target patterns + quote-window retrieval + source/hash caching; ranking never becomes a score",
   "pair_candidate_counts": {
     "一歌/ミク": 363,
@@ -150,6 +150,16 @@
     "瑞希/MEIKO": 123,
     "瑞希/KAITO": 105
   },
-  "approved_pair_count": 6,
-  "proposed_unapproved_pair_count": 114
+  "approved_pair_count": 116,
+  "proposed_unapproved_pair_count": 0,
+  "new_reviewed_pairs": 114,
+  "retained_trial_pairs": 6,
+  "complete_growth_indices": 120,
+  "complete_emotion_indices": 116,
+  "unknown_emotion_dimensions": 5,
+  "audited_reference_count": 967,
+  "unique_audited_sources": 573,
+  "review_completed_pair_count": 120,
+  "fully_scored_pair_count": 116,
+  "approval_count_definition": "9维均有分档的组数；核验完成总数120，含4组部分维度待查"
 }

@@ -1,57 +1,37 @@
 #!/usr/bin/env python3
-"""Validate proposed codes, formulas and approval-aware results without inventing missing inputs."""
-import argparse
-import hashlib
-import json
+"""Check audit coverage, nullable results, nine explanations and fixed-version provenance."""
+import argparse, hashlib, json
 from pathlib import Path
-from compact_assessments import resolve_ref
-
 
 def validate(path, corpus_dir=None):
-    data=json.loads(path.read_text(encoding='utf-8'))
-    rows=data['records'];seen=set();counts={'trial_existing':0,'pending':0}
-    for row in rows:
-        key=(row['oc'],row['vs_key'])
-        assert key not in seen, key
-        seen.add(key)
-        g=row['growth'];K,C,S,T,B=g['vector'];n=g['n_strong_lines_proposed']
-        assert all(isinstance(x,int) for x in (K,C,S,T,B,n)),key
-        assert 0<=K<=4 and 0<=S<=4 and 0<=T<=3 and 0<=B<=4 and n>=0,key
-        assert C==[0,4,7,9,10][min(n,4)],key
-        gi=50*K/4+15*C/10+20*S/4+10*T/3+5*B/4
-        assert abs(gi-g['index'])<1e-8,key
-        e=row['emotion'];assert len(e['vector'])==4
-        assert all(isinstance(v,int) and 0<=v<=4 for v in e['vector']),key
-        assert abs(100*sum(e['vector'])/16-e['index'])<1e-8,key
-        existing=row['growth_input_approval']=='既有一歌试评'
-        if existing:
-            assert row['approved_growth_index']==g['index']
-            assert row['approved_emotion_index']==e['index']
-            counts['trial_existing']+=1
-        else:
-            assert row['approved_growth_index'] is None,key
-            assert row['approved_emotion_index'] is None,key
-            counts['pending']+=1
-        refs=[x['source'] for x in row['evidence']['historical_facts']]
-        refs+=row['evidence']['manually_read_focus']
-        refs+=[x['source'] for x in row['evidence']['emotion_candidates']]
-        refs=[resolve_ref(data,ref) for ref in refs]
-        for ref in refs:
-            assert ref['start_line']>=1 and ref['end_line']>=ref['start_line']
-            assert data['source_commit'] in ref['url']
-            if corpus_dir:
-                p=corpus_dir/ref['path'];raw=p.read_bytes()
-                assert hashlib.sha256(raw).hexdigest()==ref['sha256'],ref['path']
-                assert ref['end_line']<=len(raw.decode('utf-8').splitlines()),ref['path']
-    assert len(seen)==120 and len({x[0] for x in seen})==20
-    for oc in {x[0] for x in seen}:
-        assert len([x for x in seen if x[0]==oc])==6
-    print(json.dumps({'pairs':len(seen),'existing_trial_pairs':counts['trial_existing'],
-                      'unapproved_pairs':counts['pending'],'formula_and_provenance_checks':'passed'},ensure_ascii=False))
-
+ d=json.loads(path.read_text());seen=set();counts={'retained':0,'reviewed':0,'unknown_emotion_dimensions':0,'complete_emotion_indices':0};refs=d['audit_refs']
+ for row in d['records']:
+  key=row['pair_id'];assert key not in seen;seen.add(key)
+  g=row['growth'];K,C,S,T,B=g['vector'];n=g['n_strong_lines_reviewed']
+  assert all(isinstance(x,int) for x in [K,C,S,T,B,n]);assert 0<=K<=4 and 0<=S<=4 and 0<=T<=3 and 0<=B<=4 and n>=0
+  assert C==[0,4,7,9,10][min(n,4)];gi=50*K/4+15*C/10+20*S/4+10*T/3+5*B/4
+  assert abs(gi-g['index'])<1e-8 and abs(gi-row['approved_growth_index'])<1e-8
+  e=row['emotion'];v=e['vector'];assert len(v)==4 and all(x is None or isinstance(x,int) and 0<=x<=4 for x in v)
+  unknown=v.count(None);counts['unknown_emotion_dimensions']+=unknown
+  if unknown:assert e['index'] is None and row['approved_emotion_index'] is None
+  else:
+   assert abs(sum(v)/16*100-e['index'])<1e-8;assert e['index']==row['approved_emotion_index'];counts['complete_emotion_indices']+=1
+  known=sum(x for x in v if x is not None);assert e['index_interval']==[known/16*100,(known+4*unknown)/16*100]
+  a=row['audit'];assert len(a['growth_notes'])==5 and len(a['emotion_notes'])==4 and all(a['growth_notes']+a['emotion_notes'])
+  assert n==len(a['independent_lines']);assert len(a['growth_dimension_refs'])==5 and len(a['emotion_dimension_refs'])==4
+  for note_refs in a['growth_dimension_refs']+a['emotion_dimension_refs']:assert note_refs and all(x in refs for x in note_refs)
+  assert all(x in refs for x in a['rejected'])
+  counts['retained' if a['status']=='既有一歌试评沿用' else 'reviewed']+=1
+ for ref in refs.values():
+  source=d['source_catalog'][ref['source_id']];assert d['source_commit'] in source['url']
+  assert ref['start_line']>=1 and ref['end_line']>=ref['start_line'];assert ref['reviewed_line_runs']
+  assert all(ref['start_line']<=s<=e<=ref['end_line'] for s,e in ref['reviewed_line_runs'])
+  if corpus_dir:
+   b=(corpus_dir/source['path']).read_bytes();assert hashlib.sha256(b).hexdigest()==source['sha256'];assert ref['end_line']<=len(b.decode().splitlines())
+ assert len(seen)==120 and len({r['oc'] for r in d['records']})==20
+ assert counts['reviewed']==114 and counts['retained']==6
+ for oc in {r['oc'] for r in d['records']}:assert len([r for r in d['records'] if r['oc']==oc])==6
+ print(json.dumps({'pairs':120,**counts,'fixed_version_refs':len(refs),'checks':'passed'},ensure_ascii=False))
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--input',type=Path,default=Path(__file__).with_name('assessments.json'))
-    parser.add_argument('--corpus-dir',type=Path)
-    args=parser.parse_args();validate(args.input,args.corpus_dir)
+ ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--input',type=Path,default=Path(__file__).with_name('assessments.json'));ap.add_argument('--corpus-dir',type=Path);a=ap.parse_args();validate(a.input,a.corpus_dir)
