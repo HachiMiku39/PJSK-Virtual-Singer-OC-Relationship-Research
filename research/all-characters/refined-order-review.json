@@ -1,0 +1,1921 @@
+{
+  "as_of": "2026-10-12",
+  "original_groups": 47,
+  "pairwise_comparisons": [
+    {
+      "group_id": "F01",
+      "oc": "星乃一歌",
+      "metric": "growth",
+      "higher": "OC01_Len",
+      "lower": "OC01_Rin",
+      "dimension_comparison": "K 3.25 对 3",
+      "higher_refs": [
+        "OC01_Len_TRIAL_G1",
+        "OC01_Len_TRIAL_G2",
+        "OC01_Len_TRIAL_G3",
+        "OC01_Len_TRIAL_G4",
+        "OC01_Len_TRIAL_G5",
+        "OC01_Len_TRIAL_G6",
+        "OC01_Len_R1",
+        "OC01_Len_R2",
+        "OC01_Len_R3"
+      ],
+      "lower_refs": [
+        "OC01_Rin_TRIAL_G1",
+        "OC01_Rin_TRIAL_G2",
+        "OC01_Rin_TRIAL_G3",
+        "OC01_Rin_TRIAL_G4",
+        "OC01_Rin_R2",
+        "OC01_Len_R3"
+      ]
+    },
+    {
+      "group_id": "F02",
+      "oc": "星乃一歌",
+      "metric": "growth",
+      "higher": "OC01_KAITO",
+      "lower": "OC01_Luka",
+      "dimension_comparison": "K 3.5 对 3.25；S 3.5 对 3.25",
+      "higher_refs": [
+        "OC01_KAITO_TRIAL_G1",
+        "OC01_KAITO_TRIAL_G2",
+        "OC01_KAITO_TRIAL_G3",
+        "OC01_KAITO_TRIAL_G4",
+        "OC01_KAITO_R1"
+      ],
+      "lower_refs": [
+        "OC01_Luka_TRIAL_G1",
+        "OC01_Luka_TRIAL_G2",
+        "OC01_Luka_TRIAL_G3",
+        "OC01_Luka_TRIAL_G4",
+        "OC01_Luka_TRIAL_G5",
+        "OC01_Luka_R1"
+      ]
+    },
+    {
+      "group_id": "F03",
+      "oc": "星乃一歌",
+      "metric": "emotion",
+      "higher": "OC01_Luka",
+      "lower": "OC01_KAITO",
+      "dimension_comparison": "表达 3.25 对 3.5；投入 3.5 对 3.25；定位 2.5 对 2.25",
+      "higher_refs": [
+        "OC01_Luka_TRIAL_A08",
+        "OC01_Luka_TRIAL_A09",
+        "OC01_Luka_TRIAL_A10",
+        "OC01_Luka_TRIAL_A11",
+        "OC01_Luka_TRIAL_A12",
+        "OC01_Luka_TRIAL_A13",
+        "OC01_Luka_R2"
+      ],
+      "lower_refs": [
+        "OC01_KAITO_TRIAL_A14",
+        "OC01_KAITO_TRIAL_A15",
+        "OC01_KAITO_TRIAL_A16",
+        "OC01_KAITO_TRIAL_A17",
+        "OC01_KAITO_TRIAL_A18",
+        "OC01_KAITO_R1"
+      ]
+    },
+    {
+      "group_id": "F03",
+      "oc": "星乃一歌",
+      "metric": "emotion",
+      "higher": "OC01_Luka",
+      "lower": "OC01_Rin",
+      "dimension_comparison": "袒露 3.5 对 3.25；定位 2.5 对 2.25",
+      "higher_refs": [
+        "OC01_Luka_TRIAL_A08",
+        "OC01_Luka_TRIAL_A09",
+        "OC01_Luka_TRIAL_A10",
+        "OC01_Luka_TRIAL_A11",
+        "OC01_Luka_TRIAL_A12",
+        "OC01_Luka_TRIAL_A13",
+        "OC01_Luka_R2"
+      ],
+      "lower_refs": [
+        "OC01_Rin_TRIAL_A19",
+        "OC01_Rin_TRIAL_A20",
+        "OC01_Rin_TRIAL_A21",
+        "OC01_Rin_TRIAL_A22",
+        "OC01_Rin_TRIAL_A23",
+        "OC01_Rin_R1",
+        "OC01_Rin_R3",
+        "OC01_Len_R3"
+      ]
+    },
+    {
+      "group_id": "F03",
+      "oc": "星乃一歌",
+      "metric": "emotion",
+      "higher": "OC01_KAITO",
+      "lower": "OC01_Rin",
+      "dimension_comparison": "表达 3.5 对 3.25；袒露 3.5 对 3.25；投入 3.25 对 3.5",
+      "higher_refs": [
+        "OC01_KAITO_TRIAL_A14",
+        "OC01_KAITO_TRIAL_A15",
+        "OC01_KAITO_TRIAL_A16",
+        "OC01_KAITO_TRIAL_A17",
+        "OC01_KAITO_TRIAL_A18",
+        "OC01_KAITO_R1"
+      ],
+      "lower_refs": [
+        "OC01_Rin_TRIAL_A19",
+        "OC01_Rin_TRIAL_A20",
+        "OC01_Rin_TRIAL_A21",
+        "OC01_Rin_TRIAL_A22",
+        "OC01_Rin_TRIAL_A23",
+        "OC01_Rin_R1",
+        "OC01_Rin_R3",
+        "OC01_Len_R3"
+      ]
+    },
+    {
+      "group_id": "F04",
+      "oc": "星乃一歌",
+      "metric": "emotion",
+      "higher": "OC01_MEIKO",
+      "lower": "OC01_Len",
+      "dimension_comparison": "袒露 3.5 对 3.25；投入 2.25 对 2；定位 2.5 对 2.25",
+      "higher_refs": [
+        "OC01_MEIKO_TRIAL_A26",
+        "OC01_MEIKO_TRIAL_A27",
+        "OC01_MEIKO_TRIAL_A28",
+        "OC01_MEIKO_TRIAL_A29",
+        "OC01_MEIKO_R1",
+        "OC01_MEIKO_R2"
+      ],
+      "lower_refs": [
+        "OC01_Len_TRIAL_A24",
+        "OC01_Len_TRIAL_A25",
+        "OC01_Len_TRIAL_A22",
+        "OC01_Len_TRIAL_A23",
+        "OC01_Len_TRIAL_A29",
+        "OC01_Len_Z1",
+        "OC01_Len_Z2",
+        "OC01_Len_R3"
+      ]
+    },
+    {
+      "group_id": "F05",
+      "oc": "天马咲希",
+      "metric": "emotion",
+      "higher": "OC02_MEIKO",
+      "lower": "OC02_Miku",
+      "dimension_comparison": "袒露 2.5 对 2.25；投入 2 对 2.25；定位 2.5 对 2.25",
+      "higher_refs": [
+        "OC02_MEIKO_E5",
+        "OC02_MEIKO_E1",
+        "OC02_MEIKO_E2",
+        "OC02_MEIKO_E4"
+      ],
+      "lower_refs": [
+        "OC02_Miku_E5",
+        "OC02_Miku_G1",
+        "OC02_Miku_E8",
+        "OC02_Miku_E1",
+        "OC02_Miku_E2"
+      ]
+    },
+    {
+      "group_id": "F06",
+      "oc": "天马咲希",
+      "metric": "emotion",
+      "higher": "OC02_Len",
+      "lower": "OC02_KAITO",
+      "dimension_comparison": "袒露 3.5 对 3.25；投入 2.5 对 2.25",
+      "higher_refs": [
+        "OC02_Len_E1",
+        "OC02_Len_E2",
+        "OC02_Len_E3",
+        "OC02_Len_G2",
+        "OC02_Len_G1",
+        "OC02_Len_E7"
+      ],
+      "lower_refs": [
+        "OC02_KAITO_E1",
+        "OC02_KAITO_E2",
+        "OC02_KAITO_G1",
+        "OC02_KAITO_E4",
+        "OC02_KAITO_E7"
+      ]
+    },
+    {
+      "group_id": "F07",
+      "oc": "望月穗波",
+      "metric": "emotion",
+      "higher": "OC03_Miku",
+      "lower": "OC03_Rin",
+      "dimension_comparison": "定位 2.5 对 2.25",
+      "higher_refs": [
+        "OC03_Miku_X1",
+        "OC03_Miku_X3",
+        "OC03_Miku_X2",
+        "OC03_Miku_E7",
+        "OC03_Miku_X5"
+      ],
+      "lower_refs": [
+        "OC03_Rin_E3",
+        "OC03_Rin_E4",
+        "OC03_Rin_X1",
+        "OC03_Rin_E6",
+        "OC03_Rin_E1"
+      ]
+    },
+    {
+      "group_id": "F07",
+      "oc": "望月穗波",
+      "metric": "emotion",
+      "higher": "OC03_Miku",
+      "lower": "OC03_KAITO",
+      "dimension_comparison": "投入 2.25 对 2；定位 2.5 对 2.25",
+      "higher_refs": [
+        "OC03_Miku_X1",
+        "OC03_Miku_X3",
+        "OC03_Miku_X2",
+        "OC03_Miku_E7",
+        "OC03_Miku_X5"
+      ],
+      "lower_refs": [
+        "OC03_KAITO_E1",
+        "OC03_KAITO_E2",
+        "OC03_KAITO_E4",
+        "OC03_KAITO_X1",
+        "OC03_KAITO_Y2",
+        "OC03_KAITO_Y3",
+        "OC03_KAITO_Y5"
+      ]
+    },
+    {
+      "group_id": "F07",
+      "oc": "望月穗波",
+      "metric": "emotion",
+      "higher": "OC03_Rin",
+      "lower": "OC03_KAITO",
+      "dimension_comparison": "投入 2.25 对 2",
+      "higher_refs": [
+        "OC03_Rin_E3",
+        "OC03_Rin_E4",
+        "OC03_Rin_X1",
+        "OC03_Rin_E6",
+        "OC03_Rin_E1"
+      ],
+      "lower_refs": [
+        "OC03_KAITO_E1",
+        "OC03_KAITO_E2",
+        "OC03_KAITO_E4",
+        "OC03_KAITO_X1",
+        "OC03_KAITO_Y2",
+        "OC03_KAITO_Y3",
+        "OC03_KAITO_Y5"
+      ]
+    },
+    {
+      "group_id": "F08",
+      "oc": "望月穗波",
+      "metric": "emotion",
+      "higher": "OC03_Luka",
+      "lower": "OC03_Len",
+      "dimension_comparison": "表达 2.5 对 2.25；投入 2.5 对 2.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC03_Luka_E4",
+        "OC03_Luka_E6",
+        "OC03_Luka_X1",
+        "OC03_Luka_E2",
+        "OC03_Luka_E7"
+      ],
+      "lower_refs": [
+        "OC03_Len_E2",
+        "OC03_Len_E3",
+        "OC03_Len_G1",
+        "OC03_Len_E6",
+        "OC03_Len_E7",
+        "OC03_Len_E4"
+      ]
+    },
+    {
+      "group_id": "F09",
+      "oc": "日野森志步",
+      "metric": "growth",
+      "higher": "OC04_Miku",
+      "lower": "OC04_Luka",
+      "dimension_comparison": "K 2.25 对 2",
+      "higher_refs": [
+        "OC04_Miku_X1",
+        "OC04_Miku_X2",
+        "OC04_Miku_F1"
+      ],
+      "lower_refs": [
+        "OC04_Miku_X1",
+        "OC04_Miku_X2",
+        "OC04_Luka_F1",
+        "OC04_Luka_E1"
+      ]
+    },
+    {
+      "group_id": "F10",
+      "oc": "日野森志步",
+      "metric": "emotion",
+      "higher": "OC04_Luka",
+      "lower": "OC04_Miku",
+      "dimension_comparison": "投入 2.5 对 2.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC04_Luka_E1",
+        "OC04_Miku_X1",
+        "OC04_Miku_X2",
+        "OC04_Luka_F1"
+      ],
+      "lower_refs": [
+        "OC04_Miku_X1",
+        "OC04_Miku_E1",
+        "OC04_Miku_X2",
+        "OC04_Miku_E5",
+        "OC04_Miku_F1"
+      ]
+    },
+    {
+      "group_id": "F10",
+      "oc": "日野森志步",
+      "metric": "emotion",
+      "higher": "OC04_Luka",
+      "lower": "OC04_Len",
+      "dimension_comparison": "袒露 3.5 对 3.25；投入 2.5 对 2.25；定位 2.75 对 2.25",
+      "higher_refs": [
+        "OC04_Luka_E1",
+        "OC04_Miku_X1",
+        "OC04_Miku_X2",
+        "OC04_Luka_F1"
+      ],
+      "lower_refs": [
+        "OC04_Len_Y6",
+        "OC04_Len_E1",
+        "OC04_Len_E2",
+        "OC04_Len_Y1",
+        "OC04_Len_Y8",
+        "OC04_Len_E3",
+        "OC04_Len_Y4",
+        "OC04_Len_Y7"
+      ]
+    },
+    {
+      "group_id": "F10",
+      "oc": "日野森志步",
+      "metric": "emotion",
+      "higher": "OC04_Miku",
+      "lower": "OC04_Len",
+      "dimension_comparison": "袒露 3.5 对 3.25；定位 2.5 对 2.25",
+      "higher_refs": [
+        "OC04_Miku_X1",
+        "OC04_Miku_E1",
+        "OC04_Miku_X2",
+        "OC04_Miku_E5",
+        "OC04_Miku_F1"
+      ],
+      "lower_refs": [
+        "OC04_Len_Y6",
+        "OC04_Len_E1",
+        "OC04_Len_E2",
+        "OC04_Len_Y1",
+        "OC04_Len_Y8",
+        "OC04_Len_E3",
+        "OC04_Len_Y4",
+        "OC04_Len_Y7"
+      ]
+    },
+    {
+      "group_id": "F11",
+      "oc": "日野森志步",
+      "metric": "emotion",
+      "higher": "OC04_MEIKO",
+      "lower": "OC04_KAITO",
+      "dimension_comparison": "袒露 2.5 对 2.25；投入 2 对 2.25；定位 2.5 对 2.25",
+      "higher_refs": [
+        "OC04_MEIKO_E3",
+        "OC04_MEIKO_E2",
+        "OC04_MEIKO_X1",
+        "OC04_MEIKO_Z1",
+        "OC04_MEIKO_X2",
+        "OC04_MEIKO_F1"
+      ],
+      "lower_refs": [
+        "OC04_KAITO_G1",
+        "OC04_KAITO_E3",
+        "OC04_KAITO_X1",
+        "OC04_KAITO_E4",
+        "OC04_KAITO_E6",
+        "OC03_KAITO_X2"
+      ]
+    },
+    {
+      "group_id": "F12",
+      "oc": "花里实乃理",
+      "metric": "emotion",
+      "higher": "OC05_Luka",
+      "lower": "OC05_Miku",
+      "dimension_comparison": "投入 2.5 对 2.25",
+      "higher_refs": [
+        "OC05_Luka_E1",
+        "OC05_Luka_E3",
+        "OC05_Luka_X1",
+        "OC05_Luka_G1",
+        "OC05_Luka_G3"
+      ],
+      "lower_refs": [
+        "OC05_Miku_E1",
+        "OC05_Miku_E2",
+        "OC05_Miku_G1",
+        "OC05_Miku_G4",
+        "OC05_Miku_E5",
+        "OC05_Rin_E4",
+        "OC05_Miku_X1"
+      ]
+    },
+    {
+      "group_id": "F12",
+      "oc": "花里实乃理",
+      "metric": "emotion",
+      "higher": "OC05_Luka",
+      "lower": "OC05_Rin",
+      "dimension_comparison": "袒露 3.5 对 3.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC05_Luka_E1",
+        "OC05_Luka_E3",
+        "OC05_Luka_X1",
+        "OC05_Luka_G1",
+        "OC05_Luka_G3"
+      ],
+      "lower_refs": [
+        "OC05_Rin_E1",
+        "OC05_Rin_E2",
+        "OC05_Rin_E3",
+        "OC05_Rin_G1",
+        "OC05_Rin_G3",
+        "OC05_Rin_E4",
+        "OC05_Rin_E5"
+      ]
+    },
+    {
+      "group_id": "F12",
+      "oc": "花里实乃理",
+      "metric": "emotion",
+      "higher": "OC05_Luka",
+      "lower": "OC05_Len",
+      "dimension_comparison": "袒露 3.5 对 3.25；投入 2.5 对 2.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC05_Luka_E1",
+        "OC05_Luka_E3",
+        "OC05_Luka_X1",
+        "OC05_Luka_G1",
+        "OC05_Luka_G3"
+      ],
+      "lower_refs": [
+        "OC05_Len_E1",
+        "OC05_Len_E4",
+        "OC05_Len_E6",
+        "OC05_Len_F1",
+        "OC05_Len_E2",
+        "OC05_Len_X2"
+      ]
+    },
+    {
+      "group_id": "F12",
+      "oc": "花里实乃理",
+      "metric": "emotion",
+      "higher": "OC05_Miku",
+      "lower": "OC05_Rin",
+      "dimension_comparison": "袒露 3.5 对 3.25；投入 2.25 对 2.5；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC05_Miku_E1",
+        "OC05_Miku_E2",
+        "OC05_Miku_G1",
+        "OC05_Miku_G4",
+        "OC05_Miku_E5",
+        "OC05_Rin_E4",
+        "OC05_Miku_X1"
+      ],
+      "lower_refs": [
+        "OC05_Rin_E1",
+        "OC05_Rin_E2",
+        "OC05_Rin_E3",
+        "OC05_Rin_G1",
+        "OC05_Rin_G3",
+        "OC05_Rin_E4",
+        "OC05_Rin_E5"
+      ]
+    },
+    {
+      "group_id": "F12",
+      "oc": "花里实乃理",
+      "metric": "emotion",
+      "higher": "OC05_Miku",
+      "lower": "OC05_Len",
+      "dimension_comparison": "袒露 3.5 对 3.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC05_Miku_E1",
+        "OC05_Miku_E2",
+        "OC05_Miku_G1",
+        "OC05_Miku_G4",
+        "OC05_Miku_E5",
+        "OC05_Rin_E4",
+        "OC05_Miku_X1"
+      ],
+      "lower_refs": [
+        "OC05_Len_E1",
+        "OC05_Len_E4",
+        "OC05_Len_E6",
+        "OC05_Len_F1",
+        "OC05_Len_E2",
+        "OC05_Len_X2"
+      ]
+    },
+    {
+      "group_id": "F12",
+      "oc": "花里实乃理",
+      "metric": "emotion",
+      "higher": "OC05_Rin",
+      "lower": "OC05_Len",
+      "dimension_comparison": "投入 2.5 对 2.25",
+      "higher_refs": [
+        "OC05_Rin_E1",
+        "OC05_Rin_E2",
+        "OC05_Rin_E3",
+        "OC05_Rin_G1",
+        "OC05_Rin_G3",
+        "OC05_Rin_E4",
+        "OC05_Rin_E5"
+      ],
+      "lower_refs": [
+        "OC05_Len_E1",
+        "OC05_Len_E4",
+        "OC05_Len_E6",
+        "OC05_Len_F1",
+        "OC05_Len_E2",
+        "OC05_Len_X2"
+      ]
+    },
+    {
+      "group_id": "F13",
+      "oc": "桐谷遥",
+      "metric": "growth",
+      "higher": "OC06_Luka",
+      "lower": "OC06_KAITO",
+      "dimension_comparison": "K 3.5 对 3.25；S 2.5 对 2.25",
+      "higher_refs": [
+        "OC06_Luka_F1",
+        "OC06_Luka_X2",
+        "OC06_Luka_X1"
+      ],
+      "lower_refs": [
+        "OC06_KAITO_G1",
+        "OC06_KAITO_G2",
+        "OC06_KAITO_G3"
+      ]
+    },
+    {
+      "group_id": "F14",
+      "oc": "桐谷遥",
+      "metric": "emotion",
+      "higher": "OC06_Luka",
+      "lower": "OC06_MEIKO",
+      "dimension_comparison": "定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC06_Luka_E5",
+        "OC06_Luka_E6",
+        "OC06_Luka_X2",
+        "OC06_Luka_E7",
+        "OC06_Luka_X1"
+      ],
+      "lower_refs": [
+        "OC06_MEIKO_E1",
+        "OC06_MEIKO_E2",
+        "OC06_MEIKO_G2",
+        "OC06_MEIKO_X1"
+      ]
+    },
+    {
+      "group_id": "F14",
+      "oc": "桐谷遥",
+      "metric": "emotion",
+      "higher": "OC06_Luka",
+      "lower": "OC06_Len",
+      "dimension_comparison": "袒露 3.5 对 2.25；投入 2.5 对 3.5；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC06_Luka_E5",
+        "OC06_Luka_E6",
+        "OC06_Luka_X2",
+        "OC06_Luka_E7",
+        "OC06_Luka_X1"
+      ],
+      "lower_refs": [
+        "OC06_Len_E1",
+        "OC06_Len_E2",
+        "OC06_Len_E3",
+        "OC06_Len_F1",
+        "OC06_Len_Z1"
+      ]
+    },
+    {
+      "group_id": "F14",
+      "oc": "桐谷遥",
+      "metric": "emotion",
+      "higher": "OC06_Luka",
+      "lower": "OC06_Miku",
+      "dimension_comparison": "袒露 3.5 对 3.25；投入 2.5 对 2.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC06_Luka_E5",
+        "OC06_Luka_E6",
+        "OC06_Luka_X2",
+        "OC06_Luka_E7",
+        "OC06_Luka_X1"
+      ],
+      "lower_refs": [
+        "OC06_Miku_E2",
+        "OC06_Miku_E3",
+        "OC06_MEIKO_G2",
+        "OC06_Miku_E8",
+        "OC06_Miku_E5"
+      ]
+    },
+    {
+      "group_id": "F14",
+      "oc": "桐谷遥",
+      "metric": "emotion",
+      "higher": "OC06_MEIKO",
+      "lower": "OC06_Len",
+      "dimension_comparison": "袒露 3.5 对 2.25；投入 2.5 对 3.5",
+      "higher_refs": [
+        "OC06_MEIKO_E1",
+        "OC06_MEIKO_E2",
+        "OC06_MEIKO_G2",
+        "OC06_MEIKO_X1"
+      ],
+      "lower_refs": [
+        "OC06_Len_E1",
+        "OC06_Len_E2",
+        "OC06_Len_E3",
+        "OC06_Len_F1",
+        "OC06_Len_Z1"
+      ]
+    },
+    {
+      "group_id": "F14",
+      "oc": "桐谷遥",
+      "metric": "emotion",
+      "higher": "OC06_MEIKO",
+      "lower": "OC06_Miku",
+      "dimension_comparison": "袒露 3.5 对 3.25；投入 2.5 对 2.25",
+      "higher_refs": [
+        "OC06_MEIKO_E1",
+        "OC06_MEIKO_E2",
+        "OC06_MEIKO_G2",
+        "OC06_MEIKO_X1"
+      ],
+      "lower_refs": [
+        "OC06_Miku_E2",
+        "OC06_Miku_E3",
+        "OC06_MEIKO_G2",
+        "OC06_Miku_E8",
+        "OC06_Miku_E5"
+      ]
+    },
+    {
+      "group_id": "F14",
+      "oc": "桐谷遥",
+      "metric": "emotion",
+      "higher": "OC06_Len",
+      "lower": "OC06_Miku",
+      "dimension_comparison": "袒露 2.25 对 3.25；投入 3.5 对 2.25",
+      "higher_refs": [
+        "OC06_Len_E1",
+        "OC06_Len_E2",
+        "OC06_Len_E3",
+        "OC06_Len_F1",
+        "OC06_Len_Z1"
+      ],
+      "lower_refs": [
+        "OC06_Miku_E2",
+        "OC06_Miku_E3",
+        "OC06_MEIKO_G2",
+        "OC06_Miku_E8",
+        "OC06_Miku_E5"
+      ]
+    },
+    {
+      "group_id": "F15",
+      "oc": "桐谷遥",
+      "metric": "emotion",
+      "higher": "OC06_Rin",
+      "lower": "OC06_KAITO",
+      "dimension_comparison": "袒露 2.5 对 3.5；投入 2.5 对 1.25",
+      "higher_refs": [
+        "OC06_Rin_E6",
+        "OC06_Rin_E5",
+        "OC06_Rin_E2",
+        "OC06_Rin_X1",
+        "OC06_Rin_E3",
+        "OC06_Rin_G1"
+      ],
+      "lower_refs": [
+        "OC06_KAITO_E1",
+        "OC06_KAITO_E2",
+        "OC06_KAITO_E3",
+        "OC06_KAITO_G1",
+        "OC06_KAITO_G3",
+        "OC05_KAITO_X2"
+      ]
+    },
+    {
+      "group_id": "F16",
+      "oc": "桃井爱莉",
+      "metric": "growth",
+      "higher": "OC07_MEIKO",
+      "lower": "OC07_Luka",
+      "dimension_comparison": "S 2.5 对 2.25",
+      "higher_refs": [
+        "OC07_MEIKO_E6",
+        "OC07_MEIKO_F1",
+        "OC07_MEIKO_E5"
+      ],
+      "lower_refs": [
+        "OC07_Luka_X1",
+        "OC07_Luka_F1",
+        "OC07_Miku_F1"
+      ]
+    },
+    {
+      "group_id": "F17",
+      "oc": "桃井爱莉",
+      "metric": "emotion",
+      "higher": "OC07_Len",
+      "lower": "OC07_Miku",
+      "dimension_comparison": "袒露 3.5 对 3.25；投入 2.5 对 2.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC07_Len_G1",
+        "OC07_Len_E3",
+        "OC07_Len_E2"
+      ],
+      "lower_refs": [
+        "OC07_Miku_E4",
+        "OC07_Miku_E6",
+        "OC07_Miku_X1",
+        "OC07_Miku_F1",
+        "OC07_Miku_E1"
+      ]
+    },
+    {
+      "group_id": "F18",
+      "oc": "桃井爱莉",
+      "metric": "emotion",
+      "higher": "OC07_KAITO",
+      "lower": "OC07_MEIKO",
+      "dimension_comparison": "表达 3.5 对 2.25；袒露 3.5 对 3.25；投入 2.5 对 3.5；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC07_KAITO_X2",
+        "OC07_KAITO_E5",
+        "OC07_KAITO_F1",
+        "OC07_KAITO_X1"
+      ],
+      "lower_refs": [
+        "OC07_MEIKO_E1",
+        "OC07_MEIKO_E2",
+        "OC07_MEIKO_E3",
+        "OC07_MEIKO_E5",
+        "OC07_Miku_X1",
+        "OC07_MEIKO_E7",
+        "OC07_MEIKO_E8",
+        "OC07_MEIKO_E6"
+      ]
+    },
+    {
+      "group_id": "F19",
+      "oc": "日野森雫",
+      "metric": "emotion",
+      "higher": "OC08_Luka",
+      "lower": "OC08_Miku",
+      "dimension_comparison": "投入 2.5 对 2.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC08_Luka_E3",
+        "OC08_Luka_X1",
+        "OC08_Luka_G1",
+        "OC08_Luka_E6",
+        "OC08_Luka_G2"
+      ],
+      "lower_refs": [
+        "OC08_Miku_F2",
+        "OC08_Miku_E2",
+        "OC08_Miku_F1",
+        "OC08_Miku_X2",
+        "OC08_Miku_X1",
+        "OC08_MEIKO_X2"
+      ]
+    },
+    {
+      "group_id": "F19",
+      "oc": "日野森雫",
+      "metric": "emotion",
+      "higher": "OC08_Luka",
+      "lower": "OC08_MEIKO",
+      "dimension_comparison": "袒露 3.5 对 3.25；投入 2.5 对 2.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC08_Luka_E3",
+        "OC08_Luka_X1",
+        "OC08_Luka_G1",
+        "OC08_Luka_E6",
+        "OC08_Luka_G2"
+      ],
+      "lower_refs": [
+        "OC08_MEIKO_E1",
+        "OC08_MEIKO_F1",
+        "OC08_Len_X1",
+        "OC08_MEIKO_X2",
+        "OC08_MEIKO_X3"
+      ]
+    },
+    {
+      "group_id": "F19",
+      "oc": "日野森雫",
+      "metric": "emotion",
+      "higher": "OC08_Miku",
+      "lower": "OC08_MEIKO",
+      "dimension_comparison": "袒露 3.5 对 3.25",
+      "higher_refs": [
+        "OC08_Miku_F2",
+        "OC08_Miku_E2",
+        "OC08_Miku_F1",
+        "OC08_Miku_X2",
+        "OC08_Miku_X1",
+        "OC08_MEIKO_X2"
+      ],
+      "lower_refs": [
+        "OC08_MEIKO_E1",
+        "OC08_MEIKO_F1",
+        "OC08_Len_X1",
+        "OC08_MEIKO_X2",
+        "OC08_MEIKO_X3"
+      ]
+    },
+    {
+      "group_id": "F20",
+      "oc": "日野森雫",
+      "metric": "emotion",
+      "higher": "OC08_KAITO",
+      "lower": "OC08_Len",
+      "dimension_comparison": "袒露 2.5 对 2.25；投入 2.25 对 2.5；定位 2.5 对 2.25",
+      "higher_refs": [
+        "OC08_KAITO_E1",
+        "OC08_KAITO_E3",
+        "OC08_KAITO_E5",
+        "OC08_KAITO_X2",
+        "OC08_KAITO_F1",
+        "OC08_KAITO_X1",
+        "OC08_Miku_X2"
+      ],
+      "lower_refs": [
+        "OC08_Len_E1",
+        "OC08_Len_E3",
+        "OC08_MEIKO_X2",
+        "OC08_Len_E6",
+        "OC08_Len_F1",
+        "OC08_MEIKO_X1"
+      ]
+    },
+    {
+      "group_id": "F21",
+      "oc": "小豆泽心羽",
+      "metric": "emotion",
+      "higher": "OC09_MEIKO",
+      "lower": "OC09_Miku",
+      "dimension_comparison": "投入 2.75 对 2.5",
+      "higher_refs": [
+        "OC09_MEIKO_E6",
+        "OC09_MEIKO_E1",
+        "OC09_MEIKO_G2",
+        "OC09_MEIKO_G1",
+        "OC09_MEIKO_X1",
+        "OC09_MEIKO_E5"
+      ],
+      "lower_refs": [
+        "OC09_Miku_E1",
+        "OC09_Miku_E2",
+        "OC09_Miku_E8",
+        "OC09_Miku_G1",
+        "OC09_Miku_X2"
+      ]
+    },
+    {
+      "group_id": "F21",
+      "oc": "小豆泽心羽",
+      "metric": "emotion",
+      "higher": "OC09_MEIKO",
+      "lower": "OC09_Len",
+      "dimension_comparison": "袒露 3.5 对 3.25；投入 2.75 对 2.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC09_MEIKO_E6",
+        "OC09_MEIKO_E1",
+        "OC09_MEIKO_G2",
+        "OC09_MEIKO_G1",
+        "OC09_MEIKO_X1",
+        "OC09_MEIKO_E5"
+      ],
+      "lower_refs": [
+        "OC09_Len_E2",
+        "OC09_Len_E4",
+        "OC09_Len_G1",
+        "OC09_Len_E1",
+        "OC09_Rin_X3",
+        "OC09_Rin_X2"
+      ]
+    },
+    {
+      "group_id": "F21",
+      "oc": "小豆泽心羽",
+      "metric": "emotion",
+      "higher": "OC09_Miku",
+      "lower": "OC09_Len",
+      "dimension_comparison": "袒露 3.5 对 3.25；投入 2.5 对 2.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC09_Miku_E1",
+        "OC09_Miku_E2",
+        "OC09_Miku_E8",
+        "OC09_Miku_G1",
+        "OC09_Miku_X2"
+      ],
+      "lower_refs": [
+        "OC09_Len_E2",
+        "OC09_Len_E4",
+        "OC09_Len_G1",
+        "OC09_Len_E1",
+        "OC09_Rin_X3",
+        "OC09_Rin_X2"
+      ]
+    },
+    {
+      "group_id": "F22",
+      "oc": "小豆泽心羽",
+      "metric": "emotion",
+      "higher": "OC09_Luka",
+      "lower": "OC09_Rin",
+      "dimension_comparison": "袒露 2.5 对 2.25",
+      "higher_refs": [
+        "OC09_Luka_E2",
+        "OC09_Luka_E3",
+        "OC09_Luka_X1",
+        "OC09_Luka_F1",
+        "OC09_KAITO_X1"
+      ],
+      "lower_refs": [
+        "OC09_Rin_E2",
+        "OC09_Rin_X2",
+        "OC09_Rin_G1",
+        "OC09_Rin_X1",
+        "OC09_Rin_E1",
+        "OC09_Rin_X3",
+        "OC09_Rin_G2"
+      ]
+    },
+    {
+      "group_id": "F22",
+      "oc": "小豆泽心羽",
+      "metric": "emotion",
+      "higher": "OC09_Luka",
+      "lower": "OC09_KAITO",
+      "dimension_comparison": "袒露 2.5 对 2.25；投入 2.5 对 2.25",
+      "higher_refs": [
+        "OC09_Luka_E2",
+        "OC09_Luka_E3",
+        "OC09_Luka_X1",
+        "OC09_Luka_F1",
+        "OC09_KAITO_X1"
+      ],
+      "lower_refs": [
+        "OC09_KAITO_E3",
+        "OC09_KAITO_E4",
+        "OC09_KAITO_X1",
+        "OC09_KAITO_G1",
+        "OC09_Rin_X1",
+        "OC09_KAITO_X2",
+        "OC09_KAITO_E1"
+      ]
+    },
+    {
+      "group_id": "F22",
+      "oc": "小豆泽心羽",
+      "metric": "emotion",
+      "higher": "OC09_Rin",
+      "lower": "OC09_KAITO",
+      "dimension_comparison": "投入 2.5 对 2.25",
+      "higher_refs": [
+        "OC09_Rin_E2",
+        "OC09_Rin_X2",
+        "OC09_Rin_G1",
+        "OC09_Rin_X1",
+        "OC09_Rin_E1",
+        "OC09_Rin_X3",
+        "OC09_Rin_G2"
+      ],
+      "lower_refs": [
+        "OC09_KAITO_E3",
+        "OC09_KAITO_E4",
+        "OC09_KAITO_X1",
+        "OC09_KAITO_G1",
+        "OC09_Rin_X1",
+        "OC09_KAITO_X2",
+        "OC09_KAITO_E1"
+      ]
+    },
+    {
+      "group_id": "F23",
+      "oc": "白石杏",
+      "metric": "growth",
+      "higher": "OC10_Luka",
+      "lower": "OC10_MEIKO",
+      "dimension_comparison": "S 2.5 对 2.25",
+      "higher_refs": [
+        "OC10_Luka_F1",
+        "OC10_Luka_X1",
+        "OC10_Luka_X2",
+        "OC10_Luka_X3",
+        "OC10_Luka_F2",
+        "OC10_Luka_E1"
+      ],
+      "lower_refs": [
+        "OC10_MEIKO_F1",
+        "OC10_MEIKO_E4",
+        "OC10_MEIKO_X1",
+        "OC10_KAITO_X2",
+        "OC09_MEIKO_X1",
+        "OC10_MEIKO_E1",
+        "OC10_MEIKO_E6"
+      ]
+    },
+    {
+      "group_id": "F24",
+      "oc": "白石杏",
+      "metric": "emotion",
+      "higher": "OC10_Miku",
+      "lower": "OC10_Rin",
+      "dimension_comparison": "袒露 3.5 对 3.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC10_Miku_E2",
+        "OC10_Miku_E3",
+        "OC10_Miku_E4",
+        "OC10_Miku_G1",
+        "OC10_Miku_G2",
+        "OC10_Miku_X1",
+        "OC10_Miku_E5",
+        "OC10_Miku_X2",
+        "OC10_Miku_X3"
+      ],
+      "lower_refs": [
+        "OC10_Rin_E2",
+        "OC10_Rin_F1",
+        "OC10_Rin_X1",
+        "OC10_Rin_E4",
+        "OC10_Rin_E5",
+        "OC10_Rin_E6",
+        "OC10_Len_X1"
+      ]
+    },
+    {
+      "group_id": "F25",
+      "oc": "白石杏",
+      "metric": "emotion",
+      "higher": "OC10_Luka",
+      "lower": "OC10_MEIKO",
+      "dimension_comparison": "袒露 3.5 对 2.25；投入 2.5 对 3.5",
+      "higher_refs": [
+        "OC10_Luka_E1",
+        "OC10_Luka_E3",
+        "OC10_Luka_F2",
+        "OC10_Luka_F1",
+        "OC10_Luka_X1",
+        "OC10_Luka_E7",
+        "OC10_Luka_E8",
+        "OC10_Luka_X2"
+      ],
+      "lower_refs": [
+        "OC10_MEIKO_F1",
+        "OC10_MEIKO_X1",
+        "OC10_MEIKO_E1",
+        "OC10_MEIKO_E3",
+        "OC09_MEIKO_X1",
+        "OC10_KAITO_X2"
+      ]
+    },
+    {
+      "group_id": "F26",
+      "oc": "东云彰人",
+      "metric": "emotion",
+      "higher": "OC11_KAITO",
+      "lower": "OC11_Miku",
+      "dimension_comparison": "表达 2.25 对 1；投入 1.25 对 2.25",
+      "higher_refs": [
+        "OC11_KAITO_F1",
+        "OC11_KAITO_X1"
+      ],
+      "lower_refs": [
+        "OC11_KAITO_X1",
+        "OC11_Miku_F1",
+        "OC11_Miku_X1",
+        "OC11_Miku_X2"
+      ]
+    },
+    {
+      "group_id": "F27",
+      "oc": "东云彰人",
+      "metric": "emotion",
+      "higher": "OC11_Luka",
+      "lower": "OC11_Rin",
+      "dimension_comparison": "表达 3.5 对 2.25；袒露 2.5 对 3.5；投入 1.25 对 2.5；定位 3.75 对 2.5",
+      "higher_refs": [
+        "OC11_Luka_X2",
+        "OC11_Len_X3",
+        "OC11_Luka_E3",
+        "OC11_Luka_F1",
+        "OC11_Luka_X1",
+        "OC11_Luka_X3"
+      ],
+      "lower_refs": [
+        "OC11_Len_X1",
+        "OC11_Len_X3",
+        "OC11_Rin_X1",
+        "OC11_Rin_X3"
+      ]
+    },
+    {
+      "group_id": "F28",
+      "oc": "青柳冬弥",
+      "metric": "growth",
+      "higher": "OC12_KAITO",
+      "lower": "OC12_Miku",
+      "dimension_comparison": "S 2.5 对 2.25",
+      "higher_refs": [
+        "OC12_KAITO_G1",
+        "OC12_KAITO_G2",
+        "OC12_KAITO_G3",
+        "OC10_KAITO_F1",
+        "OC12_KAITO_E1",
+        "OC12_KAITO_E5",
+        "OC12_KAITO_X1",
+        "OC12_KAITO_X3",
+        "OC12_Luka_X1",
+        "OC12_Luka_X3"
+      ],
+      "lower_refs": [
+        "OC12_Miku_G1",
+        "OC12_Miku_G2",
+        "OC12_Miku_X1",
+        "OC12_Miku_E1",
+        "OC12_Miku_E3",
+        "OC12_Miku_X2",
+        "OC12_Miku_X3",
+        "OC12_Miku_E2"
+      ]
+    },
+    {
+      "group_id": "F29",
+      "oc": "青柳冬弥",
+      "metric": "growth",
+      "higher": "OC12_Rin",
+      "lower": "OC12_Len",
+      "dimension_comparison": "K 2.25 对 2",
+      "higher_refs": [
+        "OC12_Rin_X1",
+        "OC12_Rin_F1",
+        "OC12_Rin_E2",
+        "OC12_Rin_E3",
+        "OC12_Luka_X1",
+        "OC12_Luka_X3"
+      ],
+      "lower_refs": [
+        "OC12_Rin_X1",
+        "OC12_Rin_F1",
+        "OC12_Len_F1",
+        "OC12_Len_X1",
+        "OC12_Len_X2"
+      ]
+    },
+    {
+      "group_id": "F30",
+      "oc": "青柳冬弥",
+      "metric": "emotion",
+      "higher": "OC12_Luka",
+      "lower": "OC12_Miku",
+      "dimension_comparison": "投入 2.5 对 2.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC12_Luka_G2",
+        "OC12_Luka_X1",
+        "OC12_Luka_X3",
+        "OC12_Luka_X2",
+        "OC12_Luka_G1",
+        "OC11_Luka_X3"
+      ],
+      "lower_refs": [
+        "OC12_Miku_E5",
+        "OC12_Miku_E6",
+        "OC12_Miku_E2",
+        "OC12_Miku_X1",
+        "OC10_Miku_X2",
+        "OC12_Miku_E1"
+      ]
+    },
+    {
+      "group_id": "F30",
+      "oc": "青柳冬弥",
+      "metric": "emotion",
+      "higher": "OC12_Luka",
+      "lower": "OC12_Rin",
+      "dimension_comparison": "袒露 3.5 对 3.25；投入 2.5 对 2.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC12_Luka_G2",
+        "OC12_Luka_X1",
+        "OC12_Luka_X3",
+        "OC12_Luka_X2",
+        "OC12_Luka_G1",
+        "OC11_Luka_X3"
+      ],
+      "lower_refs": [
+        "OC12_Rin_F1",
+        "OC12_Rin_E2",
+        "OC12_Rin_E3",
+        "OC12_Rin_X1",
+        "OC12_Luka_X1",
+        "OC12_Luka_X3",
+        "OC09_Rin_X3"
+      ]
+    },
+    {
+      "group_id": "F30",
+      "oc": "青柳冬弥",
+      "metric": "emotion",
+      "higher": "OC12_Miku",
+      "lower": "OC12_Rin",
+      "dimension_comparison": "袒露 3.5 对 3.25",
+      "higher_refs": [
+        "OC12_Miku_E5",
+        "OC12_Miku_E6",
+        "OC12_Miku_E2",
+        "OC12_Miku_X1",
+        "OC10_Miku_X2",
+        "OC12_Miku_E1"
+      ],
+      "lower_refs": [
+        "OC12_Rin_F1",
+        "OC12_Rin_E2",
+        "OC12_Rin_E3",
+        "OC12_Rin_X1",
+        "OC12_Luka_X1",
+        "OC12_Luka_X3",
+        "OC09_Rin_X3"
+      ]
+    },
+    {
+      "group_id": "F31",
+      "oc": "天马司",
+      "metric": "emotion",
+      "higher": "OC13_Miku",
+      "lower": "OC13_MEIKO",
+      "dimension_comparison": "定位 2.5 对 2.25",
+      "higher_refs": [
+        "OC13_Miku_E4",
+        "OC13_Miku_E5",
+        "OC13_Miku_E6",
+        "OC13_Miku_E2",
+        "OC13_Miku_E3",
+        "OC13_KAITO_X1",
+        "OC13_Miku_E8",
+        "OC13_Luka_X4",
+        "OC13_Miku_G2"
+      ],
+      "lower_refs": [
+        "OC13_MEIKO_F1",
+        "OC13_MEIKO_X1",
+        "OC13_MEIKO_X2"
+      ]
+    },
+    {
+      "group_id": "F32",
+      "oc": "天马司",
+      "metric": "emotion",
+      "higher": "OC13_Luka",
+      "lower": "OC13_Rin",
+      "dimension_comparison": "袒露 2.5 对 2.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC13_Luka_E1",
+        "OC13_Luka_F1",
+        "OC13_Luka_X4",
+        "OC13_Luka_X2",
+        "OC13_Luka_X3"
+      ],
+      "lower_refs": [
+        "OC13_Rin_E1",
+        "OC13_Rin_Y1",
+        "OC13_Rin_E3",
+        "OC13_Rin_F1"
+      ]
+    },
+    {
+      "group_id": "F33",
+      "oc": "天马司",
+      "metric": "emotion",
+      "higher": "OC13_KAITO",
+      "lower": "OC13_Len",
+      "dimension_comparison": "表达 3.5 对 3.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC13_KAITO_E6",
+        "OC13_Miku_E6",
+        "OC13_KAITO_X4",
+        "OC13_KAITO_E1",
+        "OC13_KAITO_E3",
+        "OC13_KAITO_X1",
+        "OC13_KAITO_X3",
+        "OC13_KAITO_G2"
+      ],
+      "lower_refs": [
+        "OC13_Len_E3",
+        "OC13_Rin_E1",
+        "OC13_Len_E2",
+        "OC13_Len_E5"
+      ]
+    },
+    {
+      "group_id": "F34",
+      "oc": "凤笑梦",
+      "metric": "growth",
+      "higher": "OC14_Len",
+      "lower": "OC14_MEIKO",
+      "dimension_comparison": "S 2.5 对 2.25",
+      "higher_refs": [
+        "OC14_Len_G1",
+        "OC14_Len_G2",
+        "OC14_Len_X3",
+        "OC14_Len_X2",
+        "OC14_Len_E2",
+        "OC14_Len_X1"
+      ],
+      "lower_refs": [
+        "OC14_MEIKO_G1",
+        "OC14_MEIKO_F1",
+        "OC14_MEIKO_X1",
+        "OC14_MEIKO_X2",
+        "OC14_MEIKO_X3",
+        "OC14_MEIKO_X4",
+        "OC14_MEIKO_X5",
+        "OC13_MEIKO_X2"
+      ]
+    },
+    {
+      "group_id": "F35",
+      "oc": "凤笑梦",
+      "metric": "emotion",
+      "higher": "OC14_KAITO",
+      "lower": "OC14_Miku",
+      "dimension_comparison": "袒露 3.5 对 2.25；投入 2.5 对 3.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC14_KAITO_E2",
+        "OC14_KAITO_E3",
+        "OC14_KAITO_F1",
+        "OC14_KAITO_X1",
+        "OC14_KAITO_X2"
+      ],
+      "lower_refs": [
+        "OC14_Miku_E1",
+        "OC14_Miku_E2",
+        "OC14_Miku_E3",
+        "OC14_Miku_E7",
+        "OC14_Miku_E4",
+        "OC14_Miku_E5",
+        "OC14_Miku_E6",
+        "OC14_Miku_X1"
+      ]
+    },
+    {
+      "group_id": "F36",
+      "oc": "凤笑梦",
+      "metric": "emotion",
+      "higher": "OC14_Rin",
+      "lower": "OC14_Luka",
+      "dimension_comparison": "投入 2.25 对 2",
+      "higher_refs": [
+        "OC14_Rin_E1",
+        "OC14_Rin_E2",
+        "OC14_Rin_X2",
+        "OC14_Rin_G1",
+        "OC14_Rin_X1",
+        "OC14_Miku_X1"
+      ],
+      "lower_refs": [
+        "OC14_Luka_X1",
+        "OC14_Luka_X2",
+        "OC14_Luka_F1",
+        "OC14_Luka_X5",
+        "OC14_Luka_X3",
+        "OC14_Rin_X2"
+      ]
+    },
+    {
+      "group_id": "F37",
+      "oc": "草薙宁宁",
+      "metric": "emotion",
+      "higher": "OC15_Len",
+      "lower": "OC15_KAITO",
+      "dimension_comparison": "袒露 2.5 对 2.25",
+      "higher_refs": [
+        "OC15_Len_E1",
+        "OC15_Len_E2",
+        "OC15_Len_E3",
+        "OC15_KAITO_X1",
+        "OC15_Luka_X1",
+        "OC15_KAITO_X2"
+      ],
+      "lower_refs": [
+        "OC15_KAITO_E1",
+        "OC15_KAITO_E2",
+        "OC15_KAITO_E3",
+        "OC15_KAITO_X1",
+        "OC15_KAITO_X3",
+        "OC15_Rin_E5"
+      ]
+    },
+    {
+      "group_id": "F37",
+      "oc": "草薙宁宁",
+      "metric": "emotion",
+      "higher": "OC15_Len",
+      "lower": "OC15_Miku",
+      "dimension_comparison": "袒露 2.5 对 2.25；定位 2.5 对 2.25",
+      "higher_refs": [
+        "OC15_Len_E1",
+        "OC15_Len_E2",
+        "OC15_Len_E3",
+        "OC15_KAITO_X1",
+        "OC15_Luka_X1",
+        "OC15_KAITO_X2"
+      ],
+      "lower_refs": [
+        "OC15_Miku_E1",
+        "OC15_Miku_E2",
+        "OC15_Miku_E3",
+        "OC15_Miku_X3",
+        "OC15_Miku_E4",
+        "OC15_Miku_X4",
+        "OC13_Miku_E8"
+      ]
+    },
+    {
+      "group_id": "F37",
+      "oc": "草薙宁宁",
+      "metric": "emotion",
+      "higher": "OC15_KAITO",
+      "lower": "OC15_Miku",
+      "dimension_comparison": "定位 2.5 对 2.25",
+      "higher_refs": [
+        "OC15_KAITO_E1",
+        "OC15_KAITO_E2",
+        "OC15_KAITO_E3",
+        "OC15_KAITO_X1",
+        "OC15_KAITO_X3",
+        "OC15_Rin_E5"
+      ],
+      "lower_refs": [
+        "OC15_Miku_E1",
+        "OC15_Miku_E2",
+        "OC15_Miku_E3",
+        "OC15_Miku_X3",
+        "OC15_Miku_E4",
+        "OC15_Miku_X4",
+        "OC13_Miku_E8"
+      ]
+    },
+    {
+      "group_id": "F38",
+      "oc": "神代类",
+      "metric": "emotion",
+      "higher": "OC16_Luka",
+      "lower": "OC16_Miku",
+      "dimension_comparison": "投入 2.5 对 3.25；定位 3.75 对 2.5",
+      "higher_refs": [
+        "OC16_Luka_F1",
+        "OC16_Luka_E3",
+        "OC16_Luka_X1",
+        "OC16_Luka_X3",
+        "OC14_Luka_X3"
+      ],
+      "lower_refs": [
+        "OC16_Miku_G1",
+        "OC16_Miku_E1",
+        "OC16_Miku_X1",
+        "OC16_MEIKO_X1",
+        "OC16_Miku_E2"
+      ]
+    },
+    {
+      "group_id": "F39",
+      "oc": "神代类",
+      "metric": "emotion",
+      "higher": "OC16_KAITO",
+      "lower": "OC16_MEIKO",
+      "dimension_comparison": "定位 3.75 对 3.5",
+      "higher_refs": [
+        "OC16_KAITO_E1",
+        "OC16_KAITO_E2",
+        "OC16_KAITO_E3",
+        "OC16_KAITO_G2",
+        "OC16_KAITO_X2",
+        "OC16_KAITO_X3",
+        "OC16_KAITO_E4",
+        "OC13_KAITO_X4"
+      ],
+      "lower_refs": [
+        "OC16_MEIKO_F1",
+        "OC16_MEIKO_E3",
+        "OC16_MEIKO_E5",
+        "OC16_MEIKO_X1",
+        "OC13_MEIKO_X2",
+        "OC16_MEIKO_X2",
+        "OC16_Len_E2"
+      ]
+    },
+    {
+      "group_id": "F40",
+      "oc": "宵崎奏",
+      "metric": "growth",
+      "higher": "OC17_Rin",
+      "lower": "OC17_Luka",
+      "dimension_comparison": "S 2.5 对 2.25",
+      "higher_refs": [
+        "OC17_Rin_G1",
+        "OC17_Rin_G2",
+        "OC17_Rin_G3",
+        "OC17_Rin_X1",
+        "OC17_Rin_X2",
+        "OC17_Rin_E1",
+        "OC17_KAITO_G3"
+      ],
+      "lower_refs": [
+        "OC17_Luka_G1",
+        "OC17_Luka_G2",
+        "OC17_Luka_G3",
+        "OC17_Luka_X3",
+        "OC17_Luka_X4",
+        "OC17_Luka_X5",
+        "OC17_Luka_G4",
+        "OC17_Luka_X1",
+        "OC17_Luka_X2",
+        "OC17_Luka_E2"
+      ]
+    },
+    {
+      "group_id": "F41",
+      "oc": "宵崎奏",
+      "metric": "emotion",
+      "higher": "OC17_KAITO",
+      "lower": "OC17_Len",
+      "dimension_comparison": "袒露 3.75 对 2.25；投入 2.25 对 3.5",
+      "higher_refs": [
+        "OC17_KAITO_E2",
+        "OC17_KAITO_X3",
+        "OC17_KAITO_G3",
+        "OC17_KAITO_X1"
+      ],
+      "lower_refs": [
+        "OC17_Len_E2",
+        "OC17_Len_E3",
+        "OC17_Len_X3",
+        "OC17_Len_F1",
+        "OC17_Len_X1"
+      ]
+    },
+    {
+      "group_id": "F42",
+      "oc": "朝比奈真冬",
+      "metric": "growth",
+      "higher": "OC18_Rin",
+      "lower": "OC18_Len",
+      "dimension_comparison": "S 2.5 对 2.25",
+      "higher_refs": [
+        "OC18_Rin_F1",
+        "OC18_Rin_X1",
+        "OC18_Rin_X3",
+        "OC18_Rin_X4",
+        "OC18_Rin_X6",
+        "OC18_Rin_E1",
+        "OC18_Rin_E3"
+      ],
+      "lower_refs": [
+        "OC18_Len_G1",
+        "OC18_Len_G2",
+        "OC18_Len_X2",
+        "OC18_Len_X3",
+        "OC18_Len_X4",
+        "OC18_Len_E1"
+      ]
+    },
+    {
+      "group_id": "F43",
+      "oc": "朝比奈真冬",
+      "metric": "emotion",
+      "higher": "OC18_KAITO",
+      "lower": "OC18_Len",
+      "dimension_comparison": "袒露 3.75 对 2.5；投入 2.5 对 3.5",
+      "higher_refs": [
+        "OC18_KAITO_E3",
+        "OC18_KAITO_X1",
+        "OC18_KAITO_G2",
+        "OC18_KAITO_G4"
+      ],
+      "lower_refs": [
+        "OC18_Len_E1",
+        "OC18_Len_E2",
+        "OC18_Len_X4",
+        "OC18_Len_G2",
+        "OC18_Len_X2",
+        "OC18_Len_X3",
+        "OC18_Rin_X5",
+        "OC18_Luka_E3",
+        "OC18_Len_G1"
+      ]
+    },
+    {
+      "group_id": "F44",
+      "oc": "朝比奈真冬",
+      "metric": "emotion",
+      "higher": "OC18_MEIKO",
+      "lower": "OC18_Luka",
+      "dimension_comparison": "投入 2.5 对 2.25",
+      "higher_refs": [
+        "OC18_MEIKO_F1",
+        "OC18_MEIKO_X1"
+      ],
+      "lower_refs": [
+        "OC18_Luka_E2",
+        "OC18_Luka_X2",
+        "OC18_Luka_X3",
+        "OC18_Luka_E1",
+        "OC18_Luka_X1",
+        "OC18_Rin_X5"
+      ]
+    },
+    {
+      "group_id": "F45",
+      "oc": "东云绘名",
+      "metric": "growth",
+      "higher": "OC19_MEIKO",
+      "lower": "OC19_Miku",
+      "dimension_comparison": "K 3.5 对 3.25；S 2.5 对 2.25",
+      "higher_refs": [
+        "OC19_MEIKO_G1",
+        "OC19_MEIKO_G2",
+        "OC19_MEIKO_X1",
+        "OC19_MEIKO_X2",
+        "OC19_MEIKO_E6",
+        "OC19_MEIKO_E2"
+      ],
+      "lower_refs": [
+        "OC19_Miku_G1",
+        "OC19_Miku_G2",
+        "OC19_Miku_G3",
+        "OC19_Miku_X4",
+        "OC19_KAITO_F2",
+        "OC19_KAITO_X3",
+        "OC19_Miku_X1"
+      ]
+    },
+    {
+      "group_id": "F46",
+      "oc": "东云绘名",
+      "metric": "emotion",
+      "higher": "OC19_Len",
+      "lower": "OC19_Miku",
+      "dimension_comparison": "定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC19_Len_E1",
+        "OC19_Len_E2",
+        "OC19_Len_G2",
+        "OC19_Len_G3",
+        "OC19_Len_X1",
+        "OC19_Len_E4",
+        "OC19_Len_E5",
+        "OC19_Len_X3",
+        "OC19_Len_G1"
+      ],
+      "lower_refs": [
+        "OC19_Miku_X1",
+        "OC19_Miku_X3",
+        "OC19_Miku_G1",
+        "OC19_Miku_G2",
+        "OC19_Miku_E1",
+        "OC19_Miku_E3"
+      ]
+    },
+    {
+      "group_id": "F46",
+      "oc": "东云绘名",
+      "metric": "emotion",
+      "higher": "OC19_Len",
+      "lower": "OC19_KAITO",
+      "dimension_comparison": "表达 2.25 对 3.25；袒露 3.5 对 2.5；投入 3.5 对 3.25；定位 2.75 对 2.5",
+      "higher_refs": [
+        "OC19_Len_E1",
+        "OC19_Len_E2",
+        "OC19_Len_G2",
+        "OC19_Len_G3",
+        "OC19_Len_X1",
+        "OC19_Len_E4",
+        "OC19_Len_E5",
+        "OC19_Len_X3",
+        "OC19_Len_G1"
+      ],
+      "lower_refs": [
+        "OC19_KAITO_F2",
+        "OC19_KAITO_X5",
+        "OC19_Miku_X1",
+        "OC19_KAITO_F1",
+        "OC19_KAITO_X3",
+        "OC19_Luka_X1"
+      ]
+    },
+    {
+      "group_id": "F46",
+      "oc": "东云绘名",
+      "metric": "emotion",
+      "higher": "OC19_Len",
+      "lower": "OC19_Luka",
+      "dimension_comparison": "投入 3.5 对 3.25；定位 2.75 对 2.25",
+      "higher_refs": [
+        "OC19_Len_E1",
+        "OC19_Len_E2",
+        "OC19_Len_G2",
+        "OC19_Len_G3",
+        "OC19_Len_X1",
+        "OC19_Len_E4",
+        "OC19_Len_E5",
+        "OC19_Len_X3",
+        "OC19_Len_G1"
+      ],
+      "lower_refs": [
+        "OC19_Luka_E1",
+        "OC19_Luka_X2",
+        "OC19_Luka_G1",
+        "OC19_Luka_G2",
+        "OC19_MEIKO_X1",
+        "OC18_Luka_X2",
+        "OC19_Len_X3"
+      ]
+    },
+    {
+      "group_id": "F46",
+      "oc": "东云绘名",
+      "metric": "emotion",
+      "higher": "OC19_Miku",
+      "lower": "OC19_KAITO",
+      "dimension_comparison": "表达 2.25 对 3.25；袒露 3.5 对 2.5；投入 3.5 对 3.25",
+      "higher_refs": [
+        "OC19_Miku_X1",
+        "OC19_Miku_X3",
+        "OC19_Miku_G1",
+        "OC19_Miku_G2",
+        "OC19_Miku_E1",
+        "OC19_Miku_E3"
+      ],
+      "lower_refs": [
+        "OC19_KAITO_F2",
+        "OC19_KAITO_X5",
+        "OC19_Miku_X1",
+        "OC19_KAITO_F1",
+        "OC19_KAITO_X3",
+        "OC19_Luka_X1"
+      ]
+    },
+    {
+      "group_id": "F46",
+      "oc": "东云绘名",
+      "metric": "emotion",
+      "higher": "OC19_Miku",
+      "lower": "OC19_Luka",
+      "dimension_comparison": "投入 3.5 对 3.25；定位 2.5 对 2.25",
+      "higher_refs": [
+        "OC19_Miku_X1",
+        "OC19_Miku_X3",
+        "OC19_Miku_G1",
+        "OC19_Miku_G2",
+        "OC19_Miku_E1",
+        "OC19_Miku_E3"
+      ],
+      "lower_refs": [
+        "OC19_Luka_E1",
+        "OC19_Luka_X2",
+        "OC19_Luka_G1",
+        "OC19_Luka_G2",
+        "OC19_MEIKO_X1",
+        "OC18_Luka_X2",
+        "OC19_Len_X3"
+      ]
+    },
+    {
+      "group_id": "F46",
+      "oc": "东云绘名",
+      "metric": "emotion",
+      "higher": "OC19_KAITO",
+      "lower": "OC19_Luka",
+      "dimension_comparison": "表达 3.25 对 2.25；袒露 2.5 对 3.5；定位 2.5 对 2.25",
+      "higher_refs": [
+        "OC19_KAITO_F2",
+        "OC19_KAITO_X5",
+        "OC19_Miku_X1",
+        "OC19_KAITO_F1",
+        "OC19_KAITO_X3",
+        "OC19_Luka_X1"
+      ],
+      "lower_refs": [
+        "OC19_Luka_E1",
+        "OC19_Luka_X2",
+        "OC19_Luka_G1",
+        "OC19_Luka_G2",
+        "OC19_MEIKO_X1",
+        "OC18_Luka_X2",
+        "OC19_Len_X3"
+      ]
+    },
+    {
+      "group_id": "F47",
+      "oc": "晓山瑞希",
+      "metric": "emotion",
+      "higher": "OC20_MEIKO",
+      "lower": "OC20_Len",
+      "dimension_comparison": "投入 3.75 对 3.5",
+      "higher_refs": [
+        "OC20_MEIKO_G5",
+        "OC20_MEIKO_G6",
+        "OC20_MEIKO_X1",
+        "OC19_Rin_E2",
+        "OC17_Miku_X6",
+        "OC20_MEIKO_G8",
+        "OC20_MEIKO_G3"
+      ],
+      "lower_refs": [
+        "OC20_Len_X1",
+        "OC20_Len_X3",
+        "OC20_Len_G1",
+        "OC20_Len_X2",
+        "OC20_Len_E7"
+      ]
+    },
+    {
+      "group_id": "F47",
+      "oc": "晓山瑞希",
+      "metric": "emotion",
+      "higher": "OC20_MEIKO",
+      "lower": "OC20_Luka",
+      "dimension_comparison": "投入 3.75 对 3.5；定位 3.75 对 3.5",
+      "higher_refs": [
+        "OC20_MEIKO_G5",
+        "OC20_MEIKO_G6",
+        "OC20_MEIKO_X1",
+        "OC19_Rin_E2",
+        "OC17_Miku_X6",
+        "OC20_MEIKO_G8",
+        "OC20_MEIKO_G3"
+      ],
+      "lower_refs": [
+        "OC20_Luka_E5",
+        "OC20_Luka_X1",
+        "OC20_Luka_E2",
+        "OC20_Luka_G1",
+        "OC20_Luka_G2",
+        "OC20_Luka_G4",
+        "OC20_Luka_G5",
+        "OC17_Miku_X6",
+        "OC20_Luka_E4"
+      ]
+    },
+    {
+      "group_id": "F47",
+      "oc": "晓山瑞希",
+      "metric": "emotion",
+      "higher": "OC20_Len",
+      "lower": "OC20_Luka",
+      "dimension_comparison": "定位 3.75 对 3.5",
+      "higher_refs": [
+        "OC20_Len_X1",
+        "OC20_Len_X3",
+        "OC20_Len_G1",
+        "OC20_Len_X2",
+        "OC20_Len_E7"
+      ],
+      "lower_refs": [
+        "OC20_Luka_E5",
+        "OC20_Luka_X1",
+        "OC20_Luka_E2",
+        "OC20_Luka_G1",
+        "OC20_Luka_G2",
+        "OC20_Luka_G4",
+        "OC20_Luka_G5",
+        "OC17_Miku_X6",
+        "OC20_Luka_E4"
+      ]
+    }
+  ],
+  "unresolved_current_ties": 0,
+  "rule": "每个OC内六VS，两套细分指数与精确1:1综合均检测未舍入及显示两位小数同分；有碰撞须回到正文重新评价，不随机打散。"
+}

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check audit coverage, nullable results, nine explanations and fixed-version provenance."""
-import argparse, hashlib, json
+import argparse, hashlib, json, copy
+from refined_scores import compute
 from tie_review_gate import require_review
 from pathlib import Path
 
@@ -43,8 +44,24 @@ def validate(path, corpus_dir=None):
  assert len(seen)==120 and len({r['oc'] for r in d['records']})==20
  assert counts['reviewed']==114 and counts['retained']==6
  for oc in {r['oc'] for r in d['records']}:assert len([r for r in d['records'] if r['oc']==oc])==6
+ model=json.loads(path.with_name('refinement-judgments.json').read_text());recomputed=compute(copy.deepcopy(d['records']),model['judgments'])
+ assert len(model['judgments'])==120 and len({j['pair_id'] for j in model['judgments']})==120
+ for row,rebuilt in zip(d['records'],recomputed):
+  assert row['refined']==rebuilt['refined']
+  j=row['refinement_judgment'];assert j==next(x for x in model['judgments'] if x['pair_id']==row['pair_id'])
+  assert j['growth_comparison'] and j['emotion_comparison']
+  for k in j['growth_refs']+j['emotion_refs']:assert k in refs
+  assert abs(row['refined']['combined_index']-(row['refined']['growth_index']+row['refined']['emotion_index'])/2)<1e-10
+ order=json.loads(path.with_name('refined-order-review.json').read_text());mapping={r['pair_id']:r for r in d['records']}
+ assert order['unresolved_current_ties']==0 and len(order['pairwise_comparisons'])==80
+ for comparison in order['pairwise_comparisons']:
+  high=mapping[comparison['higher']];low=mapping[comparison['lower']];metric=comparison['metric']
+  assert high['oc']==low['oc']==comparison['oc']
+  assert high['refined'][metric+'_index']>low['refined'][metric+'_index']
+  assert comparison['dimension_comparison']
+  assert all(k in refs for k in comparison['higher_refs']+comparison['lower_refs'])
  tie_count=require_review(d['records'],json.loads(path.with_name('tie-review.json').read_text()),refs)
- print(json.dumps({'pairs':120,'reviewed_current_ties':tie_count,**counts,'fixed_version_refs':len(refs),'checks':'passed'},ensure_ascii=False))
+ print(json.dumps({'pairs':120,'reviewed_coarse_tie_history':tie_count,'current_refined_ties':0,'composite_weight':'1:1',**counts,'fixed_version_refs':len(refs),'checks':'passed'},ensure_ascii=False))
 
 if __name__=='__main__':
  ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--input',type=Path,default=Path(__file__).with_name('assessments.json'));ap.add_argument('--corpus-dir',type=Path);a=ap.parse_args();validate(a.input,a.corpus_dir)

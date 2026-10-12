@@ -1,0 +1,3806 @@
+{
+  "version": "evidence-quarter-refinement-5",
+  "as_of": "2026-10-12",
+  "scope": "20角色内部各六VS；成长、情感、综合均作完整顺序，不要求不同OC之间分数不重复",
+  "inputs": "保留V4原始整数档；所有120组分别逐对对照正文，编码同档子级0/1/2/3，不由排名、共现数或目标分差自动分配。",
+  "quarter_rule": "细档=原整数档+子级/4。子级0/1/2/3对应本档下部/中下/中上/上部；不超过4，不跨入下一整数语义档。K/S和情感四维细分，C/T/B仍是真实独立线/时期/功能的原值。",
+  "subgrade_anchors": [
+    "0：当前只充分支持本档的最低必要特征；结果/个人表达仍窄或依赖共同背景。",
+    "1：本人/对方实际行动或内容具体，但持续范围、核心程度、落实或关系意义仍有限。",
+    "2：本档内容较强；有清楚前后结果、本人具体认领、较深自我内容或较完整的实际主动回应。",
+    "3：本档上部；核心个人意义/结果与明确认领更强，或个別且有延续的实际回应更充分；仍缺下一整数档的必要条件。"
+  ],
+  "growth_formula": "50*K细/4 + 15*C/10 + 20*S细/4 + 10*T/3 + 5*B/4",
+  "emotion_formula": "四情感细档合计/16*100",
+  "normalization": "成长、情感各按同角色六位VS的最高细分原指数归一100；保留细分原指数及历史粗档指数。",
+  "combined_formula": "综合指数 = (相对细分成长指数 + 相对细分情感指数) / 2",
+  "composite_rule": "严格1:1；先用未舍入两分取平均，最后显示两位小数。不对综合再归一，因此成长与情感首位不同时，综合首位可低于100。",
+  "order_rule": "默认名次按各自细分指数降序；原K→S→C→T→B因果优先序保留在粗档附录，不冒称与指数排序相同。",
+  "limitation": "0.25子级为有来源的逐对判读估计，不是可观察的真实喜欢百分比；唯一模型顺序不证明剧情客观上不存在接近关系。对子档归因/方向仍保留旧核验边界，Codex判读，未有人类或独立第二编码者复评。",
+  "judgments": [
+    {
+      "pair_id": "OC01_Miku",
+      "growth_subgrades": [
+        0,
+        0
+      ],
+      "emotion_subgrades": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "growth_comparison": "已确认音乐起点、长期创作身份和本人特殊归因，原上限保持。",
+      "emotion_comparison": "深层、持续、主动回应和显式重要关系均已有证据，保留四项4。",
+      "growth_refs": [
+        "OC01_Miku_TRIAL_G1",
+        "OC01_Miku_TRIAL_G2",
+        "OC01_Miku_TRIAL_G3",
+        "OC01_Miku_TRIAL_G4",
+        "OC01_Miku_TRIAL_G5",
+        "OC01_Miku_TRIAL_G6",
+        "OC01_Miku_TRIAL_G7"
+      ],
+      "emotion_refs": [
+        "OC01_Miku_TRIAL_A01",
+        "OC01_Miku_TRIAL_A02",
+        "OC01_Miku_TRIAL_A03",
+        "OC01_Miku_TRIAL_A04",
+        "OC01_Miku_TRIAL_A05",
+        "OC01_Miku_TRIAL_A06",
+        "OC01_Miku_TRIAL_A07"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC01_Rin",
+      "growth_subgrades": [
+        0,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "growth_comparison": "受伤后替代练习实际落实；职业取舍仍共同梳理且有后续疑问，核心因果取K3下部。",
+      "emotion_comparison": "饼干回礼和漫画为主动回应；212真实袒露但主要共同职业谈话，个人持续依靠定位仍较弱。",
+      "growth_refs": [
+        "OC01_Rin_TRIAL_G1",
+        "OC01_Rin_TRIAL_G2",
+        "OC01_Rin_TRIAL_G3",
+        "OC01_Rin_TRIAL_G4",
+        "OC01_Rin_R2",
+        "OC01_Len_R3"
+      ],
+      "emotion_refs": [
+        "OC01_Rin_TRIAL_A19",
+        "OC01_Rin_TRIAL_A20",
+        "OC01_Rin_TRIAL_A21",
+        "OC01_Rin_TRIAL_A22",
+        "OC01_Rin_TRIAL_A23",
+        "OC01_Rin_R1",
+        "OC01_Rin_R3",
+        "OC01_Len_R3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC01_Len",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "growth_comparison": "143先主动引出童年回顾，最终创作解释来自咲希；212连明确称个人活动也为大事な想い、提両立可能，并主动承诺以后随时相談。两次针对自我道路的具体梳理使K3内略前于铃的主要实务线，仍不独占决定。",
+      "emotion_comparison": "职业深层咨询确实参与；拨片属具体分享，漫画先借提议未完成，个别投入不增加细分。",
+      "growth_refs": [
+        "OC01_Len_TRIAL_G1",
+        "OC01_Len_TRIAL_G2",
+        "OC01_Len_TRIAL_G3",
+        "OC01_Len_TRIAL_G4",
+        "OC01_Len_TRIAL_G5",
+        "OC01_Len_TRIAL_G6",
+        "OC01_Len_R1",
+        "OC01_Len_R2",
+        "OC01_Len_R3"
+      ],
+      "emotion_refs": [
+        "OC01_Len_TRIAL_A24",
+        "OC01_Len_TRIAL_A25",
+        "OC01_Len_TRIAL_A22",
+        "OC01_Len_TRIAL_A23",
+        "OC01_Len_TRIAL_A29",
+        "OC01_Len_Z1",
+        "OC01_Len_Z2",
+        "OC01_Len_R3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC01_Luka",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "早期重聚和后续合作/歌词有真实因果；0003早期重大归因是具名共同归因，取S3下部。",
+      "emotion_comparison": "主线主动说朋友冲突，后期仍分享不安；照片、樱花与个人卡片覆盖多种非求助关心，同档持续性较强。",
+      "growth_refs": [
+        "OC01_Luka_TRIAL_G1",
+        "OC01_Luka_TRIAL_G2",
+        "OC01_Luka_TRIAL_G3",
+        "OC01_Luka_TRIAL_G4",
+        "OC01_Luka_TRIAL_G5",
+        "OC01_Luka_R1"
+      ],
+      "emotion_refs": [
+        "OC01_Luka_TRIAL_A08",
+        "OC01_Luka_TRIAL_A09",
+        "OC01_Luka_TRIAL_A10",
+        "OC01_Luka_TRIAL_A11",
+        "OC01_Luka_TRIAL_A12",
+        "OC01_Luka_TRIAL_A13",
+        "OC01_Luka_R2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC01_MEIKO",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "growth_comparison": "128共同创作与182公开WITH及自我价值都有本人清楚确认，核心创作结果的作用较直接。",
+      "emotion_comparison": "0211主动来找她说明重要抉择不安，0784愿按她愿望帮筹备；比连多一条明确自发求助及愿望回应路径。",
+      "growth_refs": [
+        "OC01_MEIKO_TRIAL_G1",
+        "OC01_MEIKO_TRIAL_G2",
+        "OC01_MEIKO_TRIAL_G3",
+        "OC01_MEIKO_TRIAL_G4"
+      ],
+      "emotion_refs": [
+        "OC01_MEIKO_TRIAL_A26",
+        "OC01_MEIKO_TRIAL_A27",
+        "OC01_MEIKO_TRIAL_A28",
+        "OC01_MEIKO_TRIAL_A29",
+        "OC01_MEIKO_R1",
+        "OC01_MEIKO_R2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC01_KAITO",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "growth_comparison": "034肯定个人表达，0594本人明确回顾持续变得能表达，核心变化和个别重大归因较直接。",
+      "emotion_comparison": "一歌主动记住并再次向他表达感谢、谈羞耻与自我怀疑；个别关心成立，但赠票/分享部分为群体语境。",
+      "growth_refs": [
+        "OC01_KAITO_TRIAL_G1",
+        "OC01_KAITO_TRIAL_G2",
+        "OC01_KAITO_TRIAL_G3",
+        "OC01_KAITO_TRIAL_G4",
+        "OC01_KAITO_R1"
+      ],
+      "emotion_refs": [
+        "OC01_KAITO_TRIAL_A14",
+        "OC01_KAITO_TRIAL_A15",
+        "OC01_KAITO_TRIAL_A16",
+        "OC01_KAITO_TRIAL_A17",
+        "OC01_KAITO_TRIAL_A18",
+        "OC01_KAITO_R1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC02_Miku",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "growth_comparison": "本人确认组乐队帮助；职业觉悟仍未得到具体答案，K2保持具体行动层。",
+      "emotion_comparison": "有演奏感谢和具体咨询，交留言卡多为应请求，定位是可求教者。",
+      "growth_refs": [
+        "OC02_Miku_E2",
+        "OC02_Miku_G1",
+        "OC02_Miku_E8",
+        "OC02_Miku_E1"
+      ],
+      "emotion_refs": [
+        "OC02_Miku_E5",
+        "OC02_Miku_G1",
+        "OC02_Miku_E8",
+        "OC02_Miku_E1",
+        "OC02_Miku_E2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC02_Rin",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "创作认知、合奏调整有独立作用，137对持续走到现在有具名共同重大回顾。",
+      "emotion_comparison": "作曲困惑与恶评担忧在不同阶段真实交托；头饰、邀实现愿望是个别化回应。",
+      "growth_refs": [
+        "OC02_Rin_G1",
+        "OC02_Rin_G2",
+        "OC02_Rin_G3",
+        "OC02_Rin_E6",
+        "OC02_Rin_E4"
+      ],
+      "emotion_refs": [
+        "OC02_Rin_G1",
+        "OC02_Rin_E4",
+        "OC02_Rin_E6",
+        "OC02_Rin_E7",
+        "OC02_Rin_E9"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC02_Len",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "65直面住院记忆并形成创作方向，后续技艺改变归因清楚但尚非重大人生结果。",
+      "emotion_comparison": "住院孤独与怕落后是真实本人袒露；带面包和伙伴意义具体，围绕自己的脆弱交流较集中。",
+      "growth_refs": [
+        "OC02_Len_G1",
+        "OC02_Len_G2",
+        "OC02_Len_G3",
+        "OC02_Len_E1",
+        "OC02_Len_E3"
+      ],
+      "emotion_refs": [
+        "OC02_Len_E1",
+        "OC02_Len_E2",
+        "OC02_Len_E3",
+        "OC02_Len_G2",
+        "OC02_Len_G1",
+        "OC02_Len_E7"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC02_Luka",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        1,
+        3
+      ],
+      "growth_comparison": "1承接失去时间的核心恐惧，后期重大共同回顾和个别安心归因互相补充。",
+      "emotion_comparison": "本人请求以后私下相談、明确这样的先辈使安心，稳定求助意向比普通学习咨询更清楚。",
+      "growth_refs": [
+        "OC02_Luka_G1",
+        "OC02_Luka_G2",
+        "OC02_Luka_G3",
+        "OC02_Luka_E1",
+        "OC02_Luka_E2",
+        "OC02_Luka_E4"
+      ],
+      "emotion_refs": [
+        "OC02_Luka_E1",
+        "OC02_Luka_E2",
+        "OC02_Luka_G1",
+        "OC02_Luka_E4",
+        "OC02_Luka_E7"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC02_MEIKO",
+      "growth_subgrades": [
+        0,
+        0
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        0,
+        2
+      ],
+      "growth_comparison": "共同追问创作意图产生具体作用，最终新方法不独占给MEIKO。",
+      "emotion_comparison": "化妆/可靠先辈的具体互动成立；帅气可靠称赞个别化，但暂无深层交托。 其中成为可靠先辈的自我疑问，比单纯技法咨询更个人化，信任细分取2.50。",
+      "growth_refs": [
+        "OC02_MEIKO_F1",
+        "OC02_MEIKO_E1",
+        "OC02_MEIKO_E2"
+      ],
+      "emotion_refs": [
+        "OC02_MEIKO_E5",
+        "OC02_MEIKO_E1",
+        "OC02_MEIKO_E2",
+        "OC02_MEIKO_E4"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC02_KAITO",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "65与121对表达/主题有具体诊断，作用清楚但与连等共同完成。",
+      "emotion_comparison": "深层住院叙述真实听见；其后的主要关系行为为方法咨询与具名赠票，个别持续互动弱于连。",
+      "growth_refs": [
+        "OC02_KAITO_G1",
+        "OC02_KAITO_G2",
+        "OC02_KAITO_E1",
+        "OC02_KAITO_E4"
+      ],
+      "emotion_refs": [
+        "OC02_KAITO_E1",
+        "OC02_KAITO_E2",
+        "OC02_KAITO_G1",
+        "OC02_KAITO_E4",
+        "OC02_KAITO_E7"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC03_Miku",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "合奏改变和自己思考的行动有本人回顾，保持具体成长而非根基启蒙。",
+      "emotion_comparison": "合奏对伙伴关系的意义有本人确认，但具体陪练仍偏工作性投入。",
+      "growth_refs": [
+        "OC03_Miku_X1",
+        "OC03_Miku_X4",
+        "OC03_Miku_X2",
+        "OC03_Miku_E7"
+      ],
+      "emotion_refs": [
+        "OC03_Miku_X1",
+        "OC03_Miku_X3",
+        "OC03_Miku_X2",
+        "OC03_Miku_E7",
+        "OC03_Miku_X5"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC03_Rin",
+      "growth_subgrades": [
+        1,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "growth_comparison": "96邀请办法被回想并落实，本人明确说成功多亏铃，具体因果归因充分。",
+      "emotion_comparison": "本人请其倾听邀请顾虑并感谢，头纱只是提出愿望回应，未确认交付。",
+      "growth_refs": [
+        "OC03_Rin_X1",
+        "OC03_Rin_G1",
+        "OC03_Rin_E3",
+        "OC03_Rin_E2"
+      ],
+      "emotion_refs": [
+        "OC03_Rin_E3",
+        "OC03_Rin_E4",
+        "OC03_Rin_X1",
+        "OC03_Rin_E6",
+        "OC03_Rin_E1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC03_Len",
+      "growth_subgrades": [
+        1,
+        0
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "growth_comparison": "40直接触及怕争吵与重要同伴关系，方法被接受；归因仍以共同感谢为主。",
+      "emotion_comparison": "真说怕与志步争吵又不愿其受苦，拨片和画本是具体个别行为，关系围绕伙伴沟通。",
+      "growth_refs": [
+        "OC03_Len_G1",
+        "OC03_Len_E4"
+      ],
+      "emotion_refs": [
+        "OC03_Len_E2",
+        "OC03_Len_E3",
+        "OC03_Len_G1",
+        "OC03_Len_E6",
+        "OC03_Len_E7",
+        "OC03_Len_E4"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC03_Luka",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "0098自信与添麻烦困惑、121方法形成两条作用，核心自我帮助较稳定。",
+      "emotion_comparison": "主动单独谈不安、请求把脆弱说出来，后来专带苹果派回报；信任与回访比一般咨询更明确。",
+      "growth_refs": [
+        "OC03_Luka_X1",
+        "OC03_Luka_G1",
+        "OC03_Luka_G2",
+        "OC03_Luka_E2"
+      ],
+      "emotion_refs": [
+        "OC03_Luka_E4",
+        "OC03_Luka_E6",
+        "OC03_Luka_X1",
+        "OC03_Luka_E2",
+        "OC03_Luka_E7"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC03_MEIKO",
+      "growth_subgrades": [
+        2,
+        3
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "自我排斥、队长责任与220谈话准备都触及持续核心问题，已核四线且多次具体勇气归因。",
+      "emotion_comparison": "被排斥/恶评/队长负荷多次交托并回顾肯定，个人持续依靠证据较集中，回礼意向不算完成。",
+      "growth_refs": [
+        "OC03_MEIKO_G1",
+        "OC03_MEIKO_G3",
+        "OC03_MEIKO_G4",
+        "OC03_MEIKO_X1",
+        "OC03_MEIKO_X2",
+        "OC03_MEIKO_X3",
+        "OC03_MEIKO_E3"
+      ],
+      "emotion_refs": [
+        "OC03_MEIKO_X2",
+        "OC03_MEIKO_E5",
+        "OC03_MEIKO_E6",
+        "OC03_MEIKO_G1",
+        "OC03_MEIKO_E3",
+        "OC03_MEIKO_X1",
+        "OC03_MEIKO_E7"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC03_KAITO",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "growth_comparison": "合奏诊断与帮助他人方法有本人确认，阶段范围目前较窄。",
+      "emotion_comparison": "爱犬照片仅承诺、料理属本人群体投入，不能以未交付照片判持续高档。",
+      "growth_refs": [
+        "OC03_KAITO_G1",
+        "OC03_KAITO_X1",
+        "OC03_KAITO_E4",
+        "OC03_KAITO_E2"
+      ],
+      "emotion_refs": [
+        "OC03_KAITO_E1",
+        "OC03_KAITO_E2",
+        "OC03_KAITO_E4",
+        "OC03_KAITO_X1",
+        "OC03_KAITO_Y2",
+        "OC03_KAITO_Y3",
+        "OC03_KAITO_Y5"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC04_Miku",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "growth_comparison": "与Luka共同推动赏月，另有针对练习盲点的个别菜单支持；该具体作用使K2内略前。",
+      "emotion_comparison": "姐姐歉疚/咲希担忧真实交托，团子和初诣邀请有个别行动但定位表述较一般。",
+      "growth_refs": [
+        "OC04_Miku_X1",
+        "OC04_Miku_X2",
+        "OC04_Miku_F1"
+      ],
+      "emotion_refs": [
+        "OC04_Miku_X1",
+        "OC04_Miku_E1",
+        "OC04_Miku_X2",
+        "OC04_Miku_E5",
+        "OC04_Miku_F1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC04_Rin",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "110帮助从Iolite回顾确认目标音乐，针对核心艺术方向且本人归因明确。",
+      "emotion_comparison": "本人认真写鼓舞、展示童年相册与目标心意，投入有个人选择及跨情境回应。",
+      "growth_refs": [
+        "OC04_Rin_G1",
+        "OC04_Rin_G2",
+        "OC04_Rin_G3",
+        "OC04_Rin_G4",
+        "OC04_Rin_X1",
+        "OC04_Rin_X2"
+      ],
+      "emotion_refs": [
+        "OC04_Rin_X1",
+        "OC04_Rin_G2",
+        "OC04_Rin_G1",
+        "OC04_Rin_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC04_Len",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "growth_comparison": "0493针对她伤害朋友的自责作具体肯定，本人接受；尚未具名归因长期人际改变。",
+      "emotion_comparison": "0493深层自责口述清楚，但带谱及之后合作主要是具体训练关系，持续定位较弱。",
+      "growth_refs": [
+        "OC04_Len_F1",
+        "OC04_Len_E1",
+        "OC04_Len_E2",
+        "OC04_Len_Y6",
+        "OC04_Len_Y4",
+        "OC04_Len_Y8"
+      ],
+      "emotion_refs": [
+        "OC04_Len_Y6",
+        "OC04_Len_E1",
+        "OC04_Len_E2",
+        "OC04_Len_Y1",
+        "OC04_Len_Y8",
+        "OC04_Len_E3",
+        "OC04_Len_Y4",
+        "OC04_Len_Y7"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC04_Luka",
+      "growth_subgrades": [
+        0,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "赏月为共同推动，后期实际陪练成立；未再确认独立K2结果，核心作用与Miku很接近。",
+      "emotion_comparison": "同样听姐姐/咲希脆弱，专程团子回报且本人说頼りにしてます，定位与求助连续性略强。",
+      "growth_refs": [
+        "OC04_Miku_X1",
+        "OC04_Miku_X2",
+        "OC04_Luka_F1",
+        "OC04_Luka_E1"
+      ],
+      "emotion_refs": [
+        "OC04_Luka_E1",
+        "OC04_Miku_X1",
+        "OC04_Miku_X2",
+        "OC04_Luka_F1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC04_MEIKO",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        0,
+        2
+      ],
+      "growth_comparison": "0159缓解说重话的紧绷，实际行动改变未核，保持K1的个人情绪帮助。",
+      "emotion_comparison": "真实口述仅言辞重，较深自责是内心独白；书法/选玩具及可倾诉意义是具体双向关系。 明确向其承认对穗波说得过重属于个人自责分享，信任细分2.50；内心中学自责仍不口述计3。",
+      "growth_refs": [
+        "OC04_MEIKO_F1",
+        "OC04_MEIKO_X1",
+        "OC04_MEIKO_X2",
+        "OC04_MEIKO_E2"
+      ],
+      "emotion_refs": [
+        "OC04_MEIKO_E3",
+        "OC04_MEIKO_E2",
+        "OC04_MEIKO_X1",
+        "OC04_MEIKO_Z1",
+        "OC04_MEIKO_X2",
+        "OC04_MEIKO_F1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC04_KAITO",
+      "growth_subgrades": [
+        1,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "growth_comparison": "示范—模仿—弹成难点的过程和本人归因完整，K2实务结果明确。",
+      "emotion_comparison": "具体陪练、设计咨询和群体赠票，以技术合作为主，暂无深层袒露。",
+      "growth_refs": [
+        "OC04_KAITO_G1",
+        "OC04_KAITO_G2",
+        "OC04_KAITO_X1"
+      ],
+      "emotion_refs": [
+        "OC04_KAITO_G1",
+        "OC04_KAITO_E3",
+        "OC04_KAITO_X1",
+        "OC04_KAITO_E4",
+        "OC04_KAITO_E6",
+        "OC03_KAITO_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC05_Miku",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        1,
+        3
+      ],
+      "growth_comparison": "主线使憧憬转为行动、17帮助自我认识，重要自我问题的直接作用较强。",
+      "emotion_comparison": "怕成为负担与帮不了遥是真实交托，愿共唱和按愿望庆生；主动行动仍偏共同活动。",
+      "growth_refs": [
+        "OC05_Miku_G1",
+        "OC05_Miku_G3",
+        "OC05_Miku_G4",
+        "OC05_Miku_G5",
+        "OC05_Miku_X1"
+      ],
+      "emotion_refs": [
+        "OC05_Miku_E1",
+        "OC05_Miku_E2",
+        "OC05_Miku_G1",
+        "OC05_Miku_G4",
+        "OC05_Miku_E5",
+        "OC05_Rin_E4",
+        "OC05_Miku_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC05_Rin",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "growth_comparison": "实际舞台陪同与鼓励有具体作用，但主线决定性提议由Miku提出。",
+      "emotion_comparison": "共同听主线自我怀疑，明确先辈定位及希望再live，亲近明确但尚缺更完整个别回访。",
+      "growth_refs": [
+        "OC05_Rin_G1",
+        "OC05_Rin_G2",
+        "OC05_Rin_G3",
+        "OC05_Rin_G4"
+      ],
+      "emotion_refs": [
+        "OC05_Rin_E1",
+        "OC05_Rin_E2",
+        "OC05_Rin_E3",
+        "OC05_Rin_G1",
+        "OC05_Rin_G3",
+        "OC05_Rin_E4",
+        "OC05_Rin_E5"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC05_Len",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "98模拟帮助学校/工作矛盾的方法被采用，具体归因多为感谢而非重大确认。",
+      "emotion_comparison": "学校与工作焦虑是真实袒露；205邀活动是另一SEKAI，不能扩成MMJ人格长期关系。",
+      "growth_refs": [
+        "OC05_Len_F1",
+        "OC05_Len_E2"
+      ],
+      "emotion_refs": [
+        "OC05_Len_E1",
+        "OC05_Len_E4",
+        "OC05_Len_E6",
+        "OC05_Len_F1",
+        "OC05_Len_E2",
+        "OC05_Len_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC05_Luka",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "独有价值提问参与核心自我认识，实际发现亦有粉丝，作用保留共同背景。",
+      "emotion_comparison": "追不上队友/成为负担直接托付，周年medley按愿望设计且实现、长期教学认可较清楚。",
+      "growth_refs": [
+        "OC05_Luka_G1",
+        "OC05_Luka_G2",
+        "OC05_Luka_G3",
+        "OC05_Miku_X1",
+        "OC05_Luka_X1"
+      ],
+      "emotion_refs": [
+        "OC05_Luka_E1",
+        "OC05_Luka_E3",
+        "OC05_Luka_X1",
+        "OC05_Luka_G1",
+        "OC05_Luka_G3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC05_MEIKO",
+      "growth_subgrades": [
+        1,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "呼吸练习后确实改善访谈，方法及结果的具体归因充分。",
+      "emotion_comparison": "具体求助和頼り称赞成立，参与庆祝不是个人专门赠礼，投入仍低档。",
+      "growth_refs": [
+        "OC05_MEIKO_F1",
+        "OC05_MEIKO_E4"
+      ],
+      "emotion_refs": [
+        "OC05_MEIKO_F1",
+        "OC05_MEIKO_E4",
+        "OC05_MEIKO_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC05_KAITO",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "growth_comparison": "行业知识、安全和演前鼓励是明确具体帮助，未核核心改变。",
+      "emotion_comparison": "本人整装看纪念直播并评论是主动行动，但主要职业学习与具体欣赏。",
+      "growth_refs": [
+        "OC05_KAITO_F1",
+        "OC05_KAITO_E2",
+        "OC05_KAITO_E3",
+        "OC05_KAITO_X1"
+      ],
+      "emotion_refs": [
+        "OC05_KAITO_E1",
+        "OC05_KAITO_E3",
+        "OC05_KAITO_X1",
+        "OC05_KAITO_X2",
+        "OC05_KAITO_F1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC06_Miku",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "主线追问意愿且帮她再上台，关键劝说仍有实乃理，个人成果归因较弱。",
+      "emotion_comparison": "78核心职业困惑真实听见，但与其他多位共同；分享照片是个人行动，暂无更强特殊定位。",
+      "growth_refs": [
+        "OC06_Miku_G1",
+        "OC06_Miku_X1",
+        "OC06_MEIKO_G2"
+      ],
+      "emotion_refs": [
+        "OC06_Miku_E2",
+        "OC06_Miku_E3",
+        "OC06_MEIKO_G2",
+        "OC06_Miku_E8",
+        "OC06_Miku_E5"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC06_Rin",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "具体灯海提示与舞台陪同真实，核心心理转折不独占。",
+      "emotion_comparison": "邀请购物、关心签名等活动是本人主动，具体双向交往比单次被祝福充分。",
+      "growth_refs": [
+        "OC06_Rin_G1",
+        "OC06_Miku_X1",
+        "OC06_Rin_E2"
+      ],
+      "emotion_refs": [
+        "OC06_Rin_E6",
+        "OC06_Rin_E5",
+        "OC06_Rin_E2",
+        "OC06_Rin_X1",
+        "OC06_Rin_E3",
+        "OC06_Rin_G1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC06_Len",
+      "growth_subgrades": [
+        1,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "growth_comparison": "舞步窍门本人具名归因明确，133职业解释主要KAITO而非連。",
+      "emotion_comparison": "主动邀练、已赠哑铃、实际播放节目构成持续行动；本人袒露目前仍具体工作选择问题。",
+      "growth_refs": [
+        "OC06_Len_E2",
+        "OC06_Len_E3",
+        "OC06_Len_F1",
+        "OC06_Len_X1",
+        "OC06_Len_X2",
+        "OC06_Len_X3"
+      ],
+      "emotion_refs": [
+        "OC06_Len_E1",
+        "OC06_Len_E2",
+        "OC06_Len_E3",
+        "OC06_Len_F1",
+        "OC06_Len_Z1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC06_Luka",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "157罪疚与1110解开迷惑明确前后相连，核心自我变化的个人渠道较清楚。",
+      "emotion_comparison": "真实讲夺走希望的内疚，另专带联想到其脸颊的点心；个别求助和关心更集中。",
+      "growth_refs": [
+        "OC06_Luka_F1",
+        "OC06_Luka_X2",
+        "OC06_Luka_X1"
+      ],
+      "emotion_refs": [
+        "OC06_Luka_E5",
+        "OC06_Luka_E6",
+        "OC06_Luka_X2",
+        "OC06_Luka_E7",
+        "OC06_Luka_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC06_MEIKO",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "78职业初心的反思和85新一步回顾有连续因果，多问题支持。",
+      "emotion_comparison": "本人职业责任与伤害粉丝恐惧详细交托，训练和跳绳回应保留具体/未交付边界。",
+      "growth_refs": [
+        "OC06_MEIKO_G1",
+        "OC06_MEIKO_G2",
+        "OC06_MEIKO_G3",
+        "OC06_MEIKO_E1",
+        "OC06_MEIKO_E2",
+        "OC06_MEIKO_X1"
+      ],
+      "emotion_refs": [
+        "OC06_MEIKO_E1",
+        "OC06_MEIKO_E2",
+        "OC06_MEIKO_G2",
+        "OC06_MEIKO_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC06_KAITO",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "growth_comparison": "粉丝合作与职业特色实际两线，归因包含共同思考、实乃理和团队作用。",
+      "emotion_comparison": "核心粉丝担忧真实听见，但周年仅同看，不能借实乃理的个人行动提高投入。",
+      "growth_refs": [
+        "OC06_KAITO_G1",
+        "OC06_KAITO_G2",
+        "OC06_KAITO_G3"
+      ],
+      "emotion_refs": [
+        "OC06_KAITO_E1",
+        "OC06_KAITO_E2",
+        "OC06_KAITO_E3",
+        "OC06_KAITO_G1",
+        "OC06_KAITO_G3",
+        "OC05_KAITO_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC07_Miku",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "赞赏与愿助练习成立，核心理想转折早由爱莉/连提出。",
+      "emotion_comparison": "痛苦旧事是共同听见，周年设计具体成立；暂无个别长期理解的更强定位。",
+      "growth_refs": [
+        "OC07_Miku_F1",
+        "OC07_Miku_E4",
+        "OC07_Miku_E6",
+        "OC07_Miku_X1"
+      ],
+      "emotion_refs": [
+        "OC07_Miku_E4",
+        "OC07_Miku_E6",
+        "OC07_Miku_X1",
+        "OC07_Miku_F1",
+        "OC07_Miku_E1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC07_Rin",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "0091回到职业梦想的共同重大归因与经营探索有核心作用，非只实务陪伴。",
+      "emotion_comparison": "过去综艺与旧友痛苦真实听见、本人制作糖偶并邀共同上台，长期个人回应较明确。",
+      "growth_refs": [
+        "OC07_Rin_X1",
+        "OC07_Rin_X2",
+        "OC07_Rin_G1",
+        "OC07_Rin_E4",
+        "OC07_Rin_E5",
+        "OC07_Miku_F1",
+        "OC07_Rin_X3"
+      ],
+      "emotion_refs": [
+        "OC07_Rin_E3",
+        "OC07_Rin_E4",
+        "OC07_Rin_E5",
+        "OC07_Rin_X1",
+        "OC07_Rin_G1",
+        "OC07_Miku_X1",
+        "OC07_Rin_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC07_Len",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "从她为人设计MC反推旧时希望，直接重识职业自我，具名说心情转轻。",
+      "emotion_comparison": "对自己的综艺否定/理想能实际交托，并主动为连设计MC，个别理解渠道较Miku共同听众集中。",
+      "growth_refs": [
+        "OC07_Len_G1",
+        "OC07_Len_E3",
+        "OC07_Miku_F1"
+      ],
+      "emotion_refs": [
+        "OC07_Len_G1",
+        "OC07_Len_E3",
+        "OC07_Len_E2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC07_Luka",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "0226使她准备去谈伙伴负荷，实际人际行动；结果完整落实仍有限。",
+      "emotion_comparison": "深层旧事共同听见，但个人回报只确认参与周年，关系多是具体托付伙伴事务。",
+      "growth_refs": [
+        "OC07_Luka_X1",
+        "OC07_Luka_F1",
+        "OC07_Miku_F1"
+      ],
+      "emotion_refs": [
+        "OC07_Luka_E1",
+        "OC07_Luka_E2",
+        "OC07_Luka_E3",
+        "OC07_Luka_X1",
+        "OC07_Miku_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC07_MEIKO",
+      "growth_subgrades": [
+        1,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "growth_comparison": "168本人明确采用伸展后顺畅，实务方法归因完整，214仍具体取稿协助。",
+      "emotion_comparison": "专属活动、搬箱、邀朋友/同练形成持续回报；深层旧事多共同交流，定位未特殊。",
+      "growth_refs": [
+        "OC07_MEIKO_E6",
+        "OC07_MEIKO_F1",
+        "OC07_MEIKO_E5"
+      ],
+      "emotion_refs": [
+        "OC07_MEIKO_E1",
+        "OC07_MEIKO_E2",
+        "OC07_MEIKO_E3",
+        "OC07_MEIKO_E5",
+        "OC07_Miku_X1",
+        "OC07_MEIKO_E7",
+        "OC07_MEIKO_E8",
+        "OC07_MEIKO_E6"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC07_KAITO",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "旧友疏远和跨域顾虑均促本人行动，涉及持续职业/人际核心问题。",
+      "emotion_comparison": "主动回访讲结果、珍惜所说的话并托付被贬低/旧友痛苦，个别咨询连续性比一般共同听众更强。",
+      "growth_refs": [
+        "OC07_KAITO_F1",
+        "OC07_KAITO_X2",
+        "OC07_KAITO_E2",
+        "OC07_KAITO_E5"
+      ],
+      "emotion_refs": [
+        "OC07_KAITO_X2",
+        "OC07_KAITO_E5",
+        "OC07_KAITO_F1",
+        "OC07_KAITO_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC08_Miku",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "growth_comparison": "151核心初心与挑战有实际决定，52共同服装成果不独占。",
+      "emotion_comparison": "本人直接讲失去带头心情与过去压力，但回报多共同礼物/应援，定位仍具体顾问。",
+      "growth_refs": [
+        "OC08_Miku_F1",
+        "OC08_Miku_F2",
+        "OC08_Miku_X2",
+        "OC08_KAITO_X3"
+      ],
+      "emotion_refs": [
+        "OC08_Miku_F2",
+        "OC08_Miku_E2",
+        "OC08_Miku_F1",
+        "OC08_Miku_X2",
+        "OC08_Miku_X1",
+        "OC08_MEIKO_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC08_Rin",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "growth_comparison": "场地与服装讨论是真实实务帮助，没有新核心因果。",
+      "emotion_comparison": "本人绣铃肖像及购物照看有具体行动，直接定位证据仍一般伙伴。",
+      "growth_refs": [
+        "OC08_Rin_F1",
+        "OC08_Rin_E1",
+        "OC08_Rin_E2",
+        "OC08_Rin_E4",
+        "OC08_MEIKO_X2"
+      ],
+      "emotion_refs": [
+        "OC08_Rin_F1",
+        "OC08_Rin_E1",
+        "OC08_Rin_E2",
+        "OC08_Rin_E4",
+        "OC08_Miku_X2",
+        "OC08_MEIKO_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC08_Len",
+      "growth_subgrades": [
+        1,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "growth_comparison": "礼物设计被实际采纳且本人明确夸其顾及各人，具体结果归因充分。",
+      "emotion_comparison": "实际教笑容/wink并为其进步开心，具体合作多于个人深层交托。",
+      "growth_refs": [
+        "OC08_Len_F1",
+        "OC08_Len_X1",
+        "OC08_MEIKO_X1",
+        "OC08_MEIKO_X2"
+      ],
+      "emotion_refs": [
+        "OC08_Len_E1",
+        "OC08_Len_E3",
+        "OC08_MEIKO_X2",
+        "OC08_Len_E6",
+        "OC08_Len_F1",
+        "OC08_MEIKO_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC08_Luka",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "11完美面具与真实自我的提示被回想采用，核心自我问题更直接。",
+      "emotion_comparison": "恐惧真实自己不被欢迎直接袒露、本人邀远足并说一起更开心，个别自我信任较集中。",
+      "growth_refs": [
+        "OC08_Luka_G1",
+        "OC08_Luka_G2",
+        "OC08_Luka_E7",
+        "OC08_Luka_X1"
+      ],
+      "emotion_refs": [
+        "OC08_Luka_E3",
+        "OC08_Luka_X1",
+        "OC08_Luka_G1",
+        "OC08_Luka_E6",
+        "OC08_Luka_G2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC08_MEIKO",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "183想报恩/怕介入的沟通方法使准备行动，结果尚未完整确认。",
+      "emotion_comparison": "复杂旧组合关系是真实个人难题，按其歌声专绣图案且收礼确认，个别回应充分但范围较窄。",
+      "growth_refs": [
+        "OC08_MEIKO_F1",
+        "OC08_MEIKO_X1",
+        "OC08_MEIKO_X2",
+        "OC08_MEIKO_X3",
+        "OC08_Len_X1"
+      ],
+      "emotion_refs": [
+        "OC08_MEIKO_E1",
+        "OC08_MEIKO_F1",
+        "OC08_Len_X1",
+        "OC08_MEIKO_X2",
+        "OC08_MEIKO_X3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC08_KAITO",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "growth_comparison": "直说帮助真冬、服装设计及分任务三项实际变化，具体方法覆盖较广。",
+      "emotion_comparison": "亲自教缝纫并愿继续供材料，实际双向互动；深层本人困惑目前未口述。",
+      "growth_refs": [
+        "OC08_KAITO_F1",
+        "OC08_KAITO_X1",
+        "OC08_KAITO_X2",
+        "OC08_KAITO_X3",
+        "OC08_KAITO_E3",
+        "OC08_KAITO_E5"
+      ],
+      "emotion_refs": [
+        "OC08_KAITO_E1",
+        "OC08_KAITO_E3",
+        "OC08_KAITO_E5",
+        "OC08_KAITO_X2",
+        "OC08_KAITO_F1",
+        "OC08_KAITO_X1",
+        "OC08_Miku_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC09_Miku",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "主线确认愿望并回到杏、后续歌唱方法多线，重要自我愿望渠道直接。",
+      "emotion_comparison": "本人袒露被否定及负于杏的执念；与她歌唱的特别心跳感有个人差异，信任较深。",
+      "growth_refs": [
+        "OC09_Miku_G1",
+        "OC09_Miku_G2",
+        "OC09_Miku_X1",
+        "OC09_Miku_X2"
+      ],
+      "emotion_refs": [
+        "OC09_Miku_E1",
+        "OC09_Miku_E2",
+        "OC09_Miku_E8",
+        "OC09_Miku_G1",
+        "OC09_Miku_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC09_Rin",
+      "growth_subgrades": [
+        0,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "growth_comparison": "K4保留作品启蒙媒介事实，后续编曲方法有具体作用；不移植为SEKAI人格根基。",
+      "emotion_comparison": "作品感激与编曲交流、帮清扫/相册均具体，心中意义区分作品与人格，不因启蒙加深情。",
+      "growth_refs": [
+        "OC09_Rin_G1",
+        "OC09_Rin_G2",
+        "OC09_Rin_X1",
+        "OC09_Rin_X2",
+        "OC09_Rin_E1"
+      ],
+      "emotion_refs": [
+        "OC09_Rin_E2",
+        "OC09_Rin_X2",
+        "OC09_Rin_G1",
+        "OC09_Rin_X1",
+        "OC09_Rin_E1",
+        "OC09_Rin_X3",
+        "OC09_Rin_G2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC09_Len",
+      "growth_subgrades": [
+        0,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "K4同为作品经杏演唱的音乐起点，之后主要实际支持和共同咨询。",
+      "emotion_comparison": "主线否定痛苦真实倾诉、肯定其一直见证会开心，个人投入主要合唱与为铃礼物参与。",
+      "growth_refs": [
+        "OC09_Len_G1",
+        "OC09_Rin_X2",
+        "OC09_Len_E2",
+        "OC09_Len_E1"
+      ],
+      "emotion_refs": [
+        "OC09_Len_E2",
+        "OC09_Len_E4",
+        "OC09_Len_G1",
+        "OC09_Len_E1",
+        "OC09_Rin_X3",
+        "OC09_Rin_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC09_Luka",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "摄影初心与共同歌唱的帮助实际确认，核心创作侧重一次问题。",
+      "emotion_comparison": "摄影目标是个人具体自我表达；邀跨世界活动及具名摄影谢礼是实际回应，但未有创伤袒露。 120本人说摄影的自我感动及想传达温暖，比编曲任务咨询更能看到自己的感受，信任细分2.50。",
+      "growth_refs": [
+        "OC09_Miku_X1",
+        "OC09_Luka_X1",
+        "OC09_KAITO_X1",
+        "OC09_Luka_F1"
+      ],
+      "emotion_refs": [
+        "OC09_Luka_E2",
+        "OC09_Luka_E3",
+        "OC09_Luka_X1",
+        "OC09_Luka_F1",
+        "OC09_KAITO_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC09_MEIKO",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        3,
+        3
+      ],
+      "growth_comparison": "童年总做不到的固有认识得到具体回应，尚未彻底重构自信，归因主要相談感谢。",
+      "emotion_comparison": "详细交托童年自我否定、咖啡安心经常被本人确认并主动实际帮店，关系有生活性回报。 帮店为本人自发提出并实际分工完成，相较请求陪练含更多为对方需求付出，投入细分2.75。",
+      "growth_refs": [
+        "OC09_MEIKO_G1",
+        "OC09_MEIKO_G2",
+        "OC09_MEIKO_E1",
+        "OC09_MEIKO_E2",
+        "OC09_MEIKO_E6",
+        "OC09_MEIKO_X1"
+      ],
+      "emotion_refs": [
+        "OC09_MEIKO_E6",
+        "OC09_MEIKO_E1",
+        "OC09_MEIKO_G2",
+        "OC09_MEIKO_G1",
+        "OC09_MEIKO_X1",
+        "OC09_MEIKO_E5"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC09_KAITO",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "采样焦虑转为确认自己的意图，摄影成果也具名确认，个人艺术问题作用明确。",
+      "emotion_comparison": "采样与海外紧张是真实具体求助，咖啡蛋糕为本人回报，暂缺如Luka摄影目标的个别自我分享广度。",
+      "growth_refs": [
+        "OC09_KAITO_G1",
+        "OC09_KAITO_G2",
+        "OC09_Rin_X1",
+        "OC09_Luka_X1",
+        "OC09_KAITO_X1",
+        "OC09_KAITO_X2"
+      ],
+      "emotion_refs": [
+        "OC09_KAITO_E3",
+        "OC09_KAITO_E4",
+        "OC09_KAITO_X1",
+        "OC09_KAITO_G1",
+        "OC09_Rin_X1",
+        "OC09_KAITO_X2",
+        "OC09_KAITO_E1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC10_Miku",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "辨相棒不安及面对记忆选择属于核心作用，1058取忆的直接支撑仍归铃。",
+      "emotion_comparison": "多次真实讲相棒/丧失困惑并主动单独报决心、准备蛋糕，持续信任范围较广。",
+      "growth_refs": [
+        "OC10_Miku_G1",
+        "OC10_Miku_G2",
+        "OC10_Miku_X1",
+        "OC10_Miku_X3",
+        "OC10_Miku_E4"
+      ],
+      "emotion_refs": [
+        "OC10_Miku_E2",
+        "OC10_Miku_E3",
+        "OC10_Miku_E4",
+        "OC10_Miku_G1",
+        "OC10_Miku_G2",
+        "OC10_Miku_X1",
+        "OC10_Miku_E5",
+        "OC10_Miku_X2",
+        "OC10_Miku_X3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC10_Rin",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "growth_comparison": "1058直接承接面对丧失的决定并取回重要记忆，但已核核心线较单一。",
+      "emotion_comparison": "真实陪看会哭的凪照片、取回记忆，加上按愿望买烟花；个别亲近清楚，持续范围略窄于Miku。",
+      "growth_refs": [
+        "OC10_Rin_F1",
+        "OC10_Miku_X1",
+        "OC10_Rin_X1"
+      ],
+      "emotion_refs": [
+        "OC10_Rin_E2",
+        "OC10_Rin_F1",
+        "OC10_Rin_X1",
+        "OC10_Rin_E4",
+        "OC10_Rin_E5",
+        "OC10_Rin_E6",
+        "OC10_Len_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC10_Len",
+      "growth_subgrades": [
+        0,
+        1
+      ],
+      "emotion_subgrades": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "growth_comparison": "共同交流与协助真实，但关键不安诊断和解决发生连离场后。",
+      "emotion_comparison": "烟花愿望被本人回应，核心相棒恐惧不是向他袒露，直接定位较一般。",
+      "growth_refs": [
+        "OC10_Len_G1",
+        "OC10_Len_E1",
+        "OC10_Len_E2",
+        "OC10_Len_X1"
+      ],
+      "emotion_refs": [
+        "OC10_Len_E1",
+        "OC10_Len_E2",
+        "OC10_Len_G1",
+        "OC10_Len_E3",
+        "OC10_Len_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC10_Luka",
+      "growth_subgrades": [
+        1,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "201方法实际推动练习、后续英语自信本人回顾，直接落实较摄影间接传达充分。",
+      "emotion_comparison": "相棒成长不安真实交托，并分享凪给的曲；个别相談比普通摄影信任更深。",
+      "growth_refs": [
+        "OC10_Luka_F1",
+        "OC10_Luka_X1",
+        "OC10_Luka_X2",
+        "OC10_Luka_X3",
+        "OC10_Luka_F2",
+        "OC10_Luka_E1"
+      ],
+      "emotion_refs": [
+        "OC10_Luka_E1",
+        "OC10_Luka_E3",
+        "OC10_Luka_F2",
+        "OC10_Luka_F1",
+        "OC10_Luka_X1",
+        "OC10_Luka_E7",
+        "OC10_Luka_E8",
+        "OC10_Luka_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC10_MEIKO",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "growth_comparison": "摄影思路经心羽传达且本人确认自己风格，实际作用成立但渠道间接。",
+      "emotion_comparison": "憧憬可靠姐姐及实际帮店/秘密清洁很具体，但已核袒露是摄影不自信，低于深层搭档困惑。",
+      "growth_refs": [
+        "OC10_MEIKO_F1",
+        "OC10_MEIKO_E4",
+        "OC10_MEIKO_X1",
+        "OC10_KAITO_X2",
+        "OC09_MEIKO_X1",
+        "OC10_MEIKO_E1",
+        "OC10_MEIKO_E6"
+      ],
+      "emotion_refs": [
+        "OC10_MEIKO_F1",
+        "OC10_MEIKO_X1",
+        "OC10_MEIKO_E1",
+        "OC10_MEIKO_E3",
+        "OC09_MEIKO_X1",
+        "OC10_KAITO_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC10_KAITO",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "growth_comparison": "材料比喻促理解团队磨合，后续共同商量，归因仍一般感谢。",
+      "emotion_comparison": "具体团队相談、带清洁用品及愿分享构成合作关系，暂无更深本人交托。",
+      "growth_refs": [
+        "OC10_KAITO_F1",
+        "OC10_KAITO_X1",
+        "OC10_KAITO_X3",
+        "OC10_KAITO_X2"
+      ],
+      "emotion_refs": [
+        "OC10_KAITO_F1",
+        "OC10_KAITO_X2",
+        "OC10_KAITO_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC11_Miku",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "growth_comparison": "歌唱反馈与预警有具体帮助，新技法已由彰人自行采用。",
+      "emotion_comparison": "回应其兴趣邀看摊位是主动个人行动；情感表达仍共同祝福的一般谢谢。",
+      "growth_refs": [
+        "OC11_Miku_F1",
+        "OC11_Miku_X1",
+        "OC11_Miku_X2",
+        "OC11_KAITO_X1"
+      ],
+      "emotion_refs": [
+        "OC11_KAITO_X1",
+        "OC11_Miku_F1",
+        "OC11_Miku_X1",
+        "OC11_Miku_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC11_Rin",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "0671真实支撑核心自我与同伴记忆，后续具名共同呼声帮助不独占。",
+      "emotion_comparison": "真实听不能是自己的焦虑、本人回忆持续支持，惊喜练曲实际回应愿望。",
+      "growth_refs": [
+        "OC11_Rin_F1",
+        "OC11_Rin_X1",
+        "OC11_Len_X1",
+        "OC11_Len_X3",
+        "OC11_Rin_X3"
+      ],
+      "emotion_refs": [
+        "OC11_Len_X1",
+        "OC11_Len_X3",
+        "OC11_Rin_X1",
+        "OC11_Rin_X3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC11_Len",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "核心自我和相棒支撑跨情境，主线核心方法保留MEIKO作用。",
+      "emotion_comparison": "本人明确歌与话入心、多次相助，相棒痛苦真实向连说，个人信任与持续意义更集中。",
+      "growth_refs": [
+        "OC11_Len_G1",
+        "OC11_Rin_X1",
+        "OC11_Len_X1",
+        "OC11_Luka_X2",
+        "OC11_Len_X3",
+        "OC11_Len_X2"
+      ],
+      "emotion_refs": [
+        "OC11_Luka_X2",
+        "OC11_Len_X3",
+        "OC11_Len_E1",
+        "OC11_Len_G1",
+        "OC11_Rin_X1",
+        "OC11_Rin_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC11_Luka",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        1,
+        3
+      ],
+      "growth_comparison": "109帮助释放压抑情感找到表演法，创作方向因果直接，79安全消息不当全部人生改变。",
+      "emotion_comparison": "本人反复确认话与歌入心，是较强个人意义；深层创伤向谦而非Luka、投入主要受邀。 1153本人内心明确歌与话反复入心、实际多次得到帮助，表达细分3.50；未把凪/谦创伤转成她的听众经历。",
+      "growth_refs": [
+        "OC11_Luka_G1",
+        "OC11_Luka_G2",
+        "OC11_Luka_F1",
+        "OC11_Luka_X1",
+        "OC11_Luka_X2",
+        "OC11_Len_X3"
+      ],
+      "emotion_refs": [
+        "OC11_Luka_X2",
+        "OC11_Len_X3",
+        "OC11_Luka_E3",
+        "OC11_Luka_F1",
+        "OC11_Luka_X1",
+        "OC11_Luka_X3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC11_MEIKO",
+      "growth_subgrades": [
+        2,
+        0
+      ],
+      "emotion_subgrades": [
+        0,
+        2,
+        1,
+        2
+      ],
+      "growth_comparison": "主线茶杯比喻直接促见冬弥，重要关系因果清楚但本人归因仍共谢。",
+      "emotion_comparison": "真实听相棒否定痛苦，伸展/集会有本人动作，但直接情感表达及特殊定位仍较弱。",
+      "growth_refs": [
+        "OC11_MEIKO_G1",
+        "OC11_Len_G1",
+        "OC11_Len_X2",
+        "OC11_MEIKO_X1",
+        "OC11_Miku_X1",
+        "OC11_MEIKO_E3"
+      ],
+      "emotion_refs": [
+        "OC11_MEIKO_E3",
+        "OC11_Len_X2",
+        "OC11_Len_G1",
+        "OC11_MEIKO_G1",
+        "OC11_MEIKO_X1",
+        "OC11_Miku_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC11_KAITO",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "growth_comparison": "59误会类比促重新理解远野，实际准备尝试，未核成效回顾。",
+      "emotion_comparison": "具名歉谢关心与团队相談充分，个人主动投入目前仅受邀参与。",
+      "growth_refs": [
+        "OC11_KAITO_F1",
+        "OC10_KAITO_X3",
+        "OC11_KAITO_X1"
+      ],
+      "emotion_refs": [
+        "OC11_KAITO_F1",
+        "OC11_KAITO_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC12_Miku",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "growth_comparison": "0403压抑负担、71古典意义及87料理有不同结果，核心自我讨论较深但料理未完美成功。",
+      "emotion_comparison": "童年期待与吞痛苦真实说出，蛋糕工具实际贡献，但定位主要具体料理/相談师友。",
+      "growth_refs": [
+        "OC12_Miku_G1",
+        "OC12_Miku_G2",
+        "OC12_Miku_X1",
+        "OC12_Miku_E1",
+        "OC12_Miku_E3",
+        "OC12_Miku_X2",
+        "OC12_Miku_X3",
+        "OC12_Miku_E2"
+      ],
+      "emotion_refs": [
+        "OC12_Miku_E5",
+        "OC12_Miku_E6",
+        "OC12_Miku_E2",
+        "OC12_Miku_X1",
+        "OC10_Miku_X2",
+        "OC12_Miku_E1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC12_Rin",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "139实际顾客模拟提高接客，191/204另属应援和照料，不增核心教学线。",
+      "emotion_comparison": "103父亲训练真实共同听见，个人回报主要相册协作；持续自我相談的个别渠道较少。",
+      "growth_refs": [
+        "OC12_Rin_X1",
+        "OC12_Rin_F1",
+        "OC12_Rin_E2",
+        "OC12_Rin_E3",
+        "OC12_Luka_X1",
+        "OC12_Luka_X3"
+      ],
+      "emotion_refs": [
+        "OC12_Rin_F1",
+        "OC12_Rin_E2",
+        "OC12_Rin_E3",
+        "OC12_Rin_X1",
+        "OC12_Luka_X1",
+        "OC12_Luka_X3",
+        "OC09_Rin_X3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC12_Len",
+      "growth_subgrades": [
+        0,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "139同样有实际接客帮助，1415反思核心答案来自冬弥与过去自己，新增作用以陪伴为主。",
+      "emotion_comparison": "共同碎片/场所分享与黄色花束真实，旧自我前的对白不自动当向连深层交托。",
+      "growth_refs": [
+        "OC12_Rin_X1",
+        "OC12_Rin_F1",
+        "OC12_Len_F1",
+        "OC12_Len_X1",
+        "OC12_Len_X2"
+      ],
+      "emotion_refs": [
+        "OC12_Rin_F1",
+        "OC12_Len_F1",
+        "OC12_Len_X2",
+        "OC12_Len_X1",
+        "OC11_Rin_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC12_Luka",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "44帮助超越仅能提供音乐知识的框架，本人回顾能为团队做事，核心自我作用直接。",
+      "emotion_comparison": "完整父亲逃离故事与本人成果分享，按喜好准备器皿虽未确认交付，个别顾问意义较清楚。",
+      "growth_refs": [
+        "OC12_Luka_G1",
+        "OC12_Luka_G2",
+        "OC12_Luka_G3",
+        "OC11_Luka_X3",
+        "OC12_Luka_X1",
+        "OC12_Luka_X3",
+        "OC12_Luka_X2",
+        "OC12_Len_X1"
+      ],
+      "emotion_refs": [
+        "OC12_Luka_G2",
+        "OC12_Luka_X1",
+        "OC12_Luka_X3",
+        "OC12_Luka_X2",
+        "OC12_Luka_G1",
+        "OC11_Luka_X3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC12_MEIKO",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "125提示回看难说的自我情绪被实际采用，父亲最终和解仍由本人完成。",
+      "emotion_comparison": "相棒痛苦和父亲负担多场实际向店内听众交托，咖啡店作为放下负荷的归属有本人明确说明。",
+      "growth_refs": [
+        "OC12_MEIKO_F1",
+        "OC12_MEIKO_X1",
+        "OC12_MEIKO_E2",
+        "OC12_MEIKO_E4",
+        "OC12_Rin_X1",
+        "OC12_MEIKO_X2",
+        "OC12_Luka_X2"
+      ],
+      "emotion_refs": [
+        "OC12_MEIKO_E1",
+        "OC12_MEIKO_E2",
+        "OC12_MEIKO_X2",
+        "OC12_MEIKO_F1",
+        "OC12_MEIKO_E4",
+        "OC12_Luka_X1",
+        "OC12_Luka_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC12_KAITO",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "21相棒支持、71古典资产及编曲改善三项具体归因，情绪/伙伴作用较Miku实务支线集中。",
+      "emotion_comparison": "本人明确充分依靠、愿继续依靠并解释长期心理作用，深层父亲/搭档相談及回报均有具名证据。",
+      "growth_refs": [
+        "OC12_KAITO_G1",
+        "OC12_KAITO_G2",
+        "OC12_KAITO_G3",
+        "OC10_KAITO_F1",
+        "OC12_KAITO_E1",
+        "OC12_KAITO_E5",
+        "OC12_KAITO_X1",
+        "OC12_KAITO_X3",
+        "OC12_Luka_X1",
+        "OC12_Luka_X3"
+      ],
+      "emotion_refs": [
+        "OC12_KAITO_E1",
+        "OC12_KAITO_E3",
+        "OC12_KAITO_X1",
+        "OC12_KAITO_G1",
+        "OC12_Luka_X1",
+        "OC12_Luka_X3",
+        "OC12_KAITO_X2",
+        "OC12_KAITO_E5"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC13_Miku",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "主线协助重连表演初心且后续演出共归因，童年真正起点不是Miku创造。",
+      "emotion_comparison": "脚本/角色困难具体相談和周年脚本本人参与，童年内心未口述，亲近主要协作。",
+      "growth_refs": [
+        "OC13_Miku_G1",
+        "OC13_Miku_G2",
+        "OC13_Miku_X1",
+        "OC13_Miku_X2",
+        "OC13_Miku_E6",
+        "OC13_Miku_E5"
+      ],
+      "emotion_refs": [
+        "OC13_Miku_E4",
+        "OC13_Miku_E5",
+        "OC13_Miku_E6",
+        "OC13_Miku_E2",
+        "OC13_Miku_E3",
+        "OC13_KAITO_X1",
+        "OC13_Miku_E8",
+        "OC13_Luka_X4",
+        "OC13_Miku_G2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC13_Rin",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "growth_comparison": "游戏与活动共同参与真实，无新K2结果，不把被帮助次数当成长。",
+      "emotion_comparison": "司主动实现重逢及游戏愿望，185实际问宁宁困难；相談尚具体任务，个人照顾以伙伴游戏为主。",
+      "growth_refs": [
+        "OC13_Rin_F1",
+        "OC13_Rin_E1",
+        "OC13_Rin_E3",
+        "OC13_Rin_X1",
+        "OC13_Rin_X2"
+      ],
+      "emotion_refs": [
+        "OC13_Rin_E1",
+        "OC13_Rin_Y1",
+        "OC13_Rin_E3",
+        "OC13_Rin_F1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC13_Len",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "回礼方式决定有实际促进，原本手做意愿已存在，非核心身份转折。",
+      "emotion_comparison": "持续演出安心与主动回报、组织重逢很明确，但核心本人脆弱交托目前不足。",
+      "growth_refs": [
+        "OC13_Len_F1",
+        "OC13_Len_E2",
+        "OC13_Len_E3",
+        "OC13_Len_E5",
+        "OC13_Rin_E1"
+      ],
+      "emotion_refs": [
+        "OC13_Len_E3",
+        "OC13_Rin_E1",
+        "OC13_Len_E2",
+        "OC13_Len_E5"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC13_Luka",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "16改变兄妹理解并回家、100本人再确认，持续重要关系作用清楚。",
+      "emotion_comparison": "本人说明咲希争执并回来谢，帮摆人偶/防受凉为生活性照顾，比单纯愿望实现更私人。",
+      "growth_refs": [
+        "OC13_Luka_X4",
+        "OC13_Luka_X5",
+        "OC13_Luka_X3",
+        "OC13_Luka_F1",
+        "OC13_Luka_E1",
+        "OC13_Luka_X2"
+      ],
+      "emotion_refs": [
+        "OC13_Luka_E1",
+        "OC13_Luka_F1",
+        "OC13_Luka_X4",
+        "OC13_Luka_X2",
+        "OC13_Luka_X3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC13_MEIKO",
+      "growth_subgrades": [
+        1,
+        0
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "growth_comparison": "113通过环境和问故事触发演出方向，关键建议及最终推理不独占给MEIKO。",
+      "emotion_comparison": "庆祝演出、礼物和具体表演困难真实，直接关系较共同创作/节日型。",
+      "growth_refs": [
+        "OC13_MEIKO_F1",
+        "OC13_MEIKO_X3",
+        "OC13_MEIKO_X1",
+        "OC13_MEIKO_X2"
+      ],
+      "emotion_refs": [
+        "OC13_MEIKO_F1",
+        "OC13_MEIKO_X1",
+        "OC13_MEIKO_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC13_KAITO",
+      "growth_subgrades": [
+        2,
+        3
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "主线明星意义与多项实际脚本/表演支持，虽非童年起点，但本人具体合作归因多且清楚。",
+      "emotion_comparison": "持续个人合作、被其依靠开心以及共同日记，将关系延伸到回忆记录，定位比临时表演伙伴更稳定。",
+      "growth_refs": [
+        "OC13_KAITO_G1",
+        "OC13_KAITO_G2",
+        "OC13_KAITO_X3",
+        "OC13_KAITO_X5",
+        "OC13_KAITO_X2",
+        "OC13_KAITO_X6",
+        "OC13_KAITO_X7",
+        "OC13_KAITO_X4",
+        "OC13_KAITO_E6",
+        "OC13_Miku_E6"
+      ],
+      "emotion_refs": [
+        "OC13_KAITO_E6",
+        "OC13_Miku_E6",
+        "OC13_KAITO_X4",
+        "OC13_KAITO_E1",
+        "OC13_KAITO_E3",
+        "OC13_KAITO_X1",
+        "OC13_KAITO_X3",
+        "OC13_KAITO_G2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC14_Miku",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "相机办法促实际回家拿器材并组织活动，核心未来选择不平均归共同演出。",
+      "emotion_comparison": "零食会、拾贝及相机回应属持续生活活动，真实自我脆弱相談仍具体方法。",
+      "growth_refs": [
+        "OC14_Miku_F1",
+        "OC14_Miku_X1",
+        "OC14_Miku_E2",
+        "OC14_Miku_E7",
+        "OC14_MEIKO_X3",
+        "OC14_MEIKO_X4"
+      ],
+      "emotion_refs": [
+        "OC14_Miku_E1",
+        "OC14_Miku_E2",
+        "OC14_Miku_E3",
+        "OC14_Miku_E7",
+        "OC14_Miku_E4",
+        "OC14_Miku_E5",
+        "OC14_Miku_E6",
+        "OC14_Miku_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC14_Rin",
+      "growth_subgrades": [
+        1,
+        0
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "15参与拆强笑及支持说困境，核心关系作用实际，但具名结果归因不充分。",
+      "emotion_comparison": "相机/分享活动与被认作经营者开心成立，悲伤详细袒露主要对OC伙伴而非铃。",
+      "growth_refs": [
+        "OC14_Rin_G1",
+        "OC14_Rin_G2",
+        "OC14_Len_X3",
+        "OC14_Rin_X1",
+        "OC14_Rin_X2",
+        "OC14_Miku_X1"
+      ],
+      "emotion_refs": [
+        "OC14_Rin_E1",
+        "OC14_Rin_E2",
+        "OC14_Rin_X2",
+        "OC14_Rin_G1",
+        "OC14_Rin_X1",
+        "OC14_Miku_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC14_Len",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "15情绪求助和131/149视点、竞演实践直接落实，表演/企划的本人具体归因较充分。",
+      "emotion_comparison": "反复合作、记得电影角色送钥匙扣是个别回应，演员困难相談尚未完整深层哭诉。",
+      "growth_refs": [
+        "OC14_Len_G1",
+        "OC14_Len_G2",
+        "OC14_Len_X3",
+        "OC14_Len_X2",
+        "OC14_Len_E2",
+        "OC14_Len_X1"
+      ],
+      "emotion_refs": [
+        "OC14_Len_E2",
+        "OC14_Len_E3",
+        "OC14_Len_X1",
+        "OC14_Len_G2",
+        "OC14_Len_E4",
+        "OC14_Len_E5",
+        "OC14_Len_E6",
+        "OC14_Len_X4",
+        "OC14_Len_G1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC14_Luka",
+      "growth_subgrades": [
+        0,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        0,
+        2
+      ],
+      "growth_comparison": "训练方法实际尝试但本人没感觉变强，217等待非现实救援因果。",
+      "emotion_comparison": "可靠姐姐的称赞含周年演出语境，具体节目制作成立，尚未更私人袒露或连续回报。",
+      "growth_refs": [
+        "OC14_Luka_F1",
+        "OC14_Rin_X1",
+        "OC14_Luka_X5",
+        "OC14_Luka_X1",
+        "OC14_Luka_X2",
+        "OC14_Luka_X3",
+        "OC14_Luka_X4"
+      ],
+      "emotion_refs": [
+        "OC14_Luka_X1",
+        "OC14_Luka_X2",
+        "OC14_Luka_F1",
+        "OC14_Luka_X5",
+        "OC14_Luka_X3",
+        "OC14_Rin_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC14_MEIKO",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "104分离未来及0897祖父失落触及个人核心，部分未来顿悟为群体共同支持，归因较连更间接。",
+      "emotion_comparison": "祖父相会后的泪与怕记忆流失真实托付，专门零食回报和失落承接使个人意义更集中。",
+      "growth_refs": [
+        "OC14_MEIKO_G1",
+        "OC14_MEIKO_F1",
+        "OC14_MEIKO_X1",
+        "OC14_MEIKO_X2",
+        "OC14_MEIKO_X3",
+        "OC14_MEIKO_X4",
+        "OC14_MEIKO_X5",
+        "OC13_MEIKO_X2"
+      ],
+      "emotion_refs": [
+        "OC14_MEIKO_X1",
+        "OC14_MEIKO_X2",
+        "OC14_MEIKO_X4",
+        "OC14_MEIKO_F1",
+        "OC13_MEIKO_X2",
+        "OC14_Miku_E6"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC14_KAITO",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "164把经营改革恐惧转为向哥哥求经验并落实，涉及本人重要道路，仍不独占兄长教育。",
+      "emotion_comparison": "真实说怕伤旧客又要保剧团，核心矛盾的个人信任比Miku日常玩法求助更深。",
+      "growth_refs": [
+        "OC14_KAITO_F1",
+        "OC14_KAITO_X1",
+        "OC14_KAITO_X2",
+        "OC14_MEIKO_X3",
+        "OC14_MEIKO_X4"
+      ],
+      "emotion_refs": [
+        "OC14_KAITO_E2",
+        "OC14_KAITO_E3",
+        "OC14_KAITO_F1",
+        "OC14_KAITO_X1",
+        "OC14_KAITO_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC15_Miku",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "growth_comparison": "0145理解共同笑容后决定再来，008恢复先由本人完成，不夸大成长。",
+      "emotion_comparison": "愿再玩、具体依赖困惑与带书/选曲真实，定位仍共同娱乐支持伙伴。",
+      "growth_refs": [
+        "OC15_Miku_G1",
+        "OC15_Miku_F1",
+        "OC15_Miku_X3",
+        "OC15_Miku_X4",
+        "OC15_Miku_X2"
+      ],
+      "emotion_refs": [
+        "OC15_Miku_E1",
+        "OC15_Miku_E2",
+        "OC15_Miku_E3",
+        "OC15_Miku_X3",
+        "OC15_Miku_E4",
+        "OC15_Miku_X4",
+        "OC13_Miku_E8"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC15_Rin",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "1416针对丢过去自我作直接提示，185训练效果本人确认，多独立问题已核。",
+      "emotion_comparison": "真实说怕陌生人及不喜欢过去自己、想变的负担，演出回应具体，个人自我信任较深。",
+      "growth_refs": [
+        "OC15_Rin_G1",
+        "OC15_Rin_G2",
+        "OC15_Rin_G3",
+        "OC15_Rin_F1",
+        "OC15_Rin_X1",
+        "OC15_Rin_X2",
+        "OC15_Rin_E8"
+      ],
+      "emotion_refs": [
+        "OC15_Rin_G1",
+        "OC15_Rin_G2",
+        "OC15_Rin_E2",
+        "OC15_Rin_E3",
+        "OC15_Rin_F1",
+        "OC15_Rin_E5"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC15_Len",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "growth_comparison": "114直接指出性格不同不等于有墙并改善交谈，针对长期社交困惑而非完全治愈。",
+      "emotion_comparison": "本人说明同学和导演困难并接受共玩，寄语实际递交；关系比普通协作更个别，但未深层创伤。",
+      "growth_refs": [
+        "OC15_Len_F1",
+        "OC15_KAITO_X1",
+        "OC15_KAITO_X2",
+        "OC15_Len_E1",
+        "OC15_Len_E2"
+      ],
+      "emotion_refs": [
+        "OC15_Len_E1",
+        "OC15_Len_E2",
+        "OC15_Len_E3",
+        "OC15_KAITO_X1",
+        "OC15_Luka_X1",
+        "OC15_KAITO_X2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC15_Luka",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "32分离未来及208休整被本人理解/实行，关键心理认识直接，路线仍由本人决定。",
+      "emotion_comparison": "本人详细说无法想象独自道路、后期仍回顾无需独自烦恼，海景/毯子/寄语真实延续依靠。",
+      "growth_refs": [
+        "OC15_Luka_G1",
+        "OC15_Luka_G2",
+        "OC15_Luka_X2",
+        "OC14_Luka_X2",
+        "OC14_Luka_X3",
+        "OC14_Luka_X1",
+        "OC14_Len_X1",
+        "OC15_Luka_X1"
+      ],
+      "emotion_refs": [
+        "OC15_Luka_G2",
+        "OC14_Luka_X2",
+        "OC14_Luka_X1",
+        "OC15_Luka_G1",
+        "OC14_Len_X1",
+        "OC15_Luka_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC15_MEIKO",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "勇气、同学关系与1416自我诊断多线作用清楚，核心变化仍共同完成。",
+      "emotion_comparison": "深层自我压力与多场专属演出/玩偶筹备相结合，持续个别回应比一般致谢充分。",
+      "growth_refs": [
+        "OC15_MEIKO_G1",
+        "OC15_MEIKO_G2",
+        "OC15_MEIKO_F1",
+        "OC15_MEIKO_X1",
+        "OC15_MEIKO_X2",
+        "OC15_KAITO_X1",
+        "OC15_Rin_X2",
+        "OC15_MEIKO_E8"
+      ],
+      "emotion_refs": [
+        "OC15_MEIKO_E2",
+        "OC15_MEIKO_E8",
+        "OC15_MEIKO_F1",
+        "OC15_KAITO_X1",
+        "OC13_MEIKO_X2",
+        "OC15_Rin_E5",
+        "OC15_MEIKO_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC15_KAITO",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "growth_comparison": "同学理解有核心追问，但95应援也加重过劳，成果具名归因主要连/风祭，保留边界。",
+      "emotion_comparison": "具体机器/同学问题愿讲，但合作应援感谢与群体节目投入较工作性，定位为具体顾问。",
+      "growth_refs": [
+        "OC15_KAITO_G1",
+        "OC15_KAITO_G2",
+        "OC15_KAITO_G3",
+        "OC15_KAITO_F1",
+        "OC15_KAITO_X1",
+        "OC15_KAITO_X2",
+        "OC15_KAITO_X3",
+        "OC15_KAITO_E2",
+        "OC15_KAITO_E3",
+        "OC15_MEIKO_X2"
+      ],
+      "emotion_refs": [
+        "OC15_KAITO_E1",
+        "OC15_KAITO_E2",
+        "OC15_KAITO_E3",
+        "OC15_KAITO_X1",
+        "OC15_KAITO_X3",
+        "OC15_Rin_E5"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC16_Miku",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "growth_comparison": "74触及追梦与伙伴的核心选择，1003照片诊断具体，但不独占完整自我解释。",
+      "emotion_comparison": "珍惜其认真面对自己并真实托付选择，装置/教角色持续回应；显式长期依靠定位暂不如Luka。",
+      "growth_refs": [
+        "OC16_Miku_G1",
+        "OC16_Miku_X2",
+        "OC16_Rin_F1",
+        "OC16_MEIKO_X1"
+      ],
+      "emotion_refs": [
+        "OC16_Miku_G1",
+        "OC16_Miku_E1",
+        "OC16_Miku_X1",
+        "OC16_MEIKO_X1",
+        "OC16_Miku_E2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC16_Rin",
+      "growth_subgrades": [
+        1,
+        0
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "growth_comparison": "58真实推动重看不敢说原因，后续关键信任比喻来自Luka，个人归因仍共谢。",
+      "emotion_comparison": "童年被拒/同伴沟通真实听见，装置与周年回应持续，但关系定位目前是具体合作伙伴。",
+      "growth_refs": [
+        "OC16_Rin_F1",
+        "OC16_Rin_X1",
+        "OC16_Rin_X2",
+        "OC16_Luka_X1",
+        "OC16_MEIKO_X1",
+        "OC16_Rin_E3"
+      ],
+      "emotion_refs": [
+        "OC16_Rin_E1",
+        "OC16_Rin_E2",
+        "OC16_Rin_E3",
+        "OC16_Rin_X1",
+        "OC16_Rin_X2",
+        "OC16_Rin_E4",
+        "OC16_Rin_E5",
+        "OC16_MEIKO_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC16_Len",
+      "growth_subgrades": [
+        1,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "growth_comparison": "24结尾点子被采用并本人具名确认，219合作执行不新增独立核心教学线。",
+      "emotion_comparison": "婚礼邀约、机器人/表演教学、周年回应跨情境，本人脆弱目前没向连同样深讲。",
+      "growth_refs": [
+        "OC16_Len_X1",
+        "OC16_Len_F1",
+        "OC16_Len_E1",
+        "OC16_Len_E4",
+        "OC16_Len_E5",
+        "OC16_Miku_X2"
+      ],
+      "emotion_refs": [
+        "OC16_Len_E5",
+        "OC16_Len_E6",
+        "OC16_Len_F1",
+        "OC16_Len_E1",
+        "OC16_Len_E10",
+        "OC16_Len_E9",
+        "OC16_Len_E7",
+        "OC16_Len_E3",
+        "OC16_Len_E4"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC16_Luka",
+      "growth_subgrades": [
+        2,
+        3
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "58信任、82情绪承接、172实际请教形成多问题核心支持，本人求助习惯变化明确。",
+      "emotion_comparison": "本人说难控制情绪与怕被拒，回访确认可以自然求助，显式持续依靠使情感意义较Miku更强。",
+      "growth_refs": [
+        "OC16_Luka_X1",
+        "OC16_Luka_F1",
+        "OC16_Luka_X3",
+        "OC16_Luka_X2",
+        "OC16_Luka_E3",
+        "OC14_Luka_X2",
+        "OC14_Luka_X3"
+      ],
+      "emotion_refs": [
+        "OC16_Luka_F1",
+        "OC16_Luka_E3",
+        "OC16_Luka_X1",
+        "OC16_Luka_X3",
+        "OC14_Luka_X3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC16_MEIKO",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "82共同承诺使实际求助/获得妙案，K2结果直接；不能把58主导诊断移给她K3。",
+      "emotion_comparison": "真实听私情负担并获回访，装置/周年持续双向回应；个人依靠很明确但童年核心归属更多向KAITO说。",
+      "growth_refs": [
+        "OC16_MEIKO_F1",
+        "OC16_MEIKO_E2",
+        "OC16_Len_E2",
+        "OC16_MEIKO_X1",
+        "OC16_MEIKO_X2",
+        "OC16_MEIKO_X3",
+        "OC16_MEIKO_E6"
+      ],
+      "emotion_refs": [
+        "OC16_MEIKO_F1",
+        "OC16_MEIKO_E3",
+        "OC16_MEIKO_E5",
+        "OC16_MEIKO_X1",
+        "OC13_MEIKO_X2",
+        "OC16_MEIKO_X2",
+        "OC16_Len_E2"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC16_KAITO",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "3辨认归属恐惧且本人行动恢复，211机制帮助新办法，核心自我与归属的个人渠道持续。",
+      "emotion_comparison": "童年远拒、孤独及失归属真实交托，日记记录与后续直接求观点，将关系连接核心过去与当前归属。",
+      "growth_refs": [
+        "OC16_KAITO_G1",
+        "OC16_KAITO_G2",
+        "OC16_KAITO_G3",
+        "OC16_KAITO_E1",
+        "OC16_KAITO_X1",
+        "OC16_KAITO_X2",
+        "OC16_KAITO_X3",
+        "OC16_KAITO_E2",
+        "OC13_KAITO_X4"
+      ],
+      "emotion_refs": [
+        "OC16_KAITO_E1",
+        "OC16_KAITO_E2",
+        "OC16_KAITO_E3",
+        "OC16_KAITO_G2",
+        "OC16_KAITO_X2",
+        "OC16_KAITO_X3",
+        "OC16_KAITO_E4",
+        "OC13_KAITO_X4"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC17_Miku",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "主线给继续创作/救助的实际方向，本人明确相信其判断，入门根基仍属父亲。",
+      "emotion_comparison": "创作无意义痛苦真实交托、持续安心，并主动给正月体验/CD/手作，信任围绕核心救助选择。",
+      "growth_refs": [
+        "OC17_Miku_G1",
+        "OC17_Miku_G2",
+        "OC17_Miku_G3",
+        "OC17_Miku_X2",
+        "OC17_Miku_X1",
+        "OC17_Miku_E2"
+      ],
+      "emotion_refs": [
+        "OC17_Miku_E2",
+        "OC17_Miku_G2",
+        "OC17_Miku_G1",
+        "OC17_Miku_X2",
+        "OC17_Miku_E9",
+        "OC17_KAITO_X1",
+        "OC17_Miku_X6"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC17_Rin",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "116自我音乐意义和155反向交流任务均有本人具体归因，父亲启蒙不归铃。",
+      "emotion_comparison": "救助义务与幸福家庭矛盾实际说出，主动报结果和分享成片/选礼物使关系持续。",
+      "growth_refs": [
+        "OC17_Rin_G1",
+        "OC17_Rin_G2",
+        "OC17_Rin_G3",
+        "OC17_Rin_X1",
+        "OC17_Rin_X2",
+        "OC17_Rin_E1",
+        "OC17_KAITO_G3"
+      ],
+      "emotion_refs": [
+        "OC17_Rin_E1",
+        "OC17_Rin_X2",
+        "OC17_Rin_G2",
+        "OC17_Rin_G1",
+        "OC17_Rin_E4"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC17_Len",
+      "growth_subgrades": [
+        1,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "growth_comparison": "共同手作快乐有本人直接归因，165传信只是实務帮助，核心创作未全归连。",
+      "emotion_comparison": "主动寻找低落连、缓解不安与教烛礼实际，奏本人的深层痛苦目前没同等向连说。",
+      "growth_refs": [
+        "OC17_Len_F1",
+        "OC17_Len_X1",
+        "OC17_Len_X2",
+        "OC17_Len_E2",
+        "OC17_Len_E3",
+        "OC17_Len_X3"
+      ],
+      "emotion_refs": [
+        "OC17_Len_E2",
+        "OC17_Len_E3",
+        "OC17_Len_X3",
+        "OC17_Len_F1",
+        "OC17_Len_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC17_Luka",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        1,
+        3
+      ],
+      "growth_comparison": "26创作目的及63自身快乐产生实际认识，关键发现仍与瑞希生活体验共同完成。",
+      "emotion_comparison": "本人反复认可引路与自身快乐建议，是较明确稳定顾问意义；所讲困惑尚不等于父亲负罪深层口述。",
+      "growth_refs": [
+        "OC17_Luka_G1",
+        "OC17_Luka_G2",
+        "OC17_Luka_G3",
+        "OC17_Luka_X3",
+        "OC17_Luka_X4",
+        "OC17_Luka_X5",
+        "OC17_Luka_G4",
+        "OC17_Luka_X1",
+        "OC17_Luka_X2",
+        "OC17_Luka_E2"
+      ],
+      "emotion_refs": [
+        "OC17_Luka_E1",
+        "OC17_Luka_E2",
+        "OC17_Luka_X3",
+        "OC17_Luka_G1",
+        "OC17_Luka_G4",
+        "OC17_Luka_X5",
+        "OC17_Luka_E6"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC17_MEIKO",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "growth_comparison": "作品类型提醒与湖风险关心明确，尚未核具体改变后果。",
+      "emotion_comparison": "主动请听作品及周年点心确实，但主要具体关心/咨询，暂无深层交托或稳定特殊依靠。",
+      "growth_refs": [
+        "OC17_MEIKO_F1",
+        "OC17_MEIKO_X1",
+        "OC17_MEIKO_X2",
+        "OC17_MEIKO_E2"
+      ],
+      "emotion_refs": [
+        "OC17_MEIKO_E2",
+        "OC17_MEIKO_F1",
+        "OC17_MEIKO_X2",
+        "OC17_MEIKO_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC17_KAITO",
+      "growth_subgrades": [
+        2,
+        0
+      ],
+      "emotion_subgrades": [
+        1,
+        3,
+        1,
+        2
+      ],
+      "growth_comparison": "116对压抑愿望的反驳与绘名共促幸福曲，主要具名归因保留铃/绘名，不移占。",
+      "emotion_comparison": "父亲负罪与无资格幸福的痛苦实际通话听见，个人蛋糕回报明确但范围较具体。 116介入实际通话并听到父亲负罪/无资格幸福的自我否定，这是该档很强的核心脆弱交托，信任细分3.75；不宣称私人独谈。",
+      "growth_refs": [
+        "OC17_KAITO_G1",
+        "OC17_KAITO_G2",
+        "OC17_KAITO_G3",
+        "OC17_KAITO_G4",
+        "OC17_KAITO_X1",
+        "OC17_KAITO_X2",
+        "OC17_KAITO_X3",
+        "OC17_Rin_X3"
+      ],
+      "emotion_refs": [
+        "OC17_KAITO_E2",
+        "OC17_KAITO_X3",
+        "OC17_KAITO_G3",
+        "OC17_KAITO_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC18_Miku",
+      "growth_subgrades": [
+        0,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "growth_comparison": "本人与奏共同赋予自我能存在/保留心意的根基意义，K4保留；重大共同归因S3内较充分。",
+      "emotion_comparison": "本人持续确认相遇很好、真实说消失/回忆恐惧并亲手回报，显式根基关系4保留，不移用Miku自己的誓言。",
+      "growth_refs": [
+        "OC18_Miku_G2",
+        "OC18_Miku_G3",
+        "OC18_Miku_G4",
+        "OC18_Miku_G5",
+        "OC18_Miku_G6",
+        "OC18_Miku_G7",
+        "OC18_Miku_X1",
+        "OC18_Miku_X3",
+        "OC18_Len_X4",
+        "OC18_Miku_E4"
+      ],
+      "emotion_refs": [
+        "OC18_Miku_E1",
+        "OC18_Miku_X1",
+        "OC18_Len_X4",
+        "OC18_Miku_G3",
+        "OC18_Miku_G6",
+        "OC18_Miku_E7",
+        "OC18_Miku_E8",
+        "OC18_Miku_E9",
+        "OC18_Miku_X2",
+        "OC18_Rin_X5",
+        "OC18_Miku_X3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC18_Rin",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "134父亲温柔提示使开口、35歌词提醒两任务有实际作用，仍保留瑞希/父亲共同贡献。",
+      "emotion_comparison": "父亲意义和无法否定的困惑真实口述，照顾惊雷及手作回应持续，个人顾问意义较清楚。",
+      "growth_refs": [
+        "OC18_Rin_F1",
+        "OC18_Rin_X1",
+        "OC18_Rin_X3",
+        "OC18_Rin_X4",
+        "OC18_Rin_X6",
+        "OC18_Rin_E1",
+        "OC18_Rin_E3"
+      ],
+      "emotion_refs": [
+        "OC18_Rin_E1",
+        "OC18_Rin_E2",
+        "OC18_Rin_E3",
+        "OC18_Rin_X1",
+        "OC18_Rin_F1",
+        "OC18_Rin_X4",
+        "OC18_Rin_X5",
+        "OC17_Miku_X6"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC18_Len",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "61辨温暖和0834身体自照实际改变，核心自我感知直接；父亲开口并非该线结果。",
+      "emotion_comparison": "纪念品/手作/游戏回应持续，但61童年迷路主要内心，信任细分不按口述创伤加分。",
+      "growth_refs": [
+        "OC18_Len_G1",
+        "OC18_Len_G2",
+        "OC18_Len_X2",
+        "OC18_Len_X3",
+        "OC18_Len_X4",
+        "OC18_Len_E1"
+      ],
+      "emotion_refs": [
+        "OC18_Len_E1",
+        "OC18_Len_E2",
+        "OC18_Len_X4",
+        "OC18_Len_G2",
+        "OC18_Len_X2",
+        "OC18_Len_X3",
+        "OC18_Rin_X5",
+        "OC18_Luka_E3",
+        "OC18_Len_G1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC18_Luka",
+      "growth_subgrades": [
+        1,
+        0
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "growth_comparison": "112给回忆形成自我的方向，实际敢试关键也有奏承诺，个人成果归因仍感谢。",
+      "emotion_comparison": "本人说不敢再探湖但未详细口述记忆，较一般礼物相談有个人脆弱；庆生及群体刺绣有本人行动。",
+      "growth_refs": [
+        "OC18_Luka_G1",
+        "OC18_Luka_X3",
+        "OC18_Luka_E2",
+        "OC18_Luka_X1",
+        "OC18_Luka_X2",
+        "OC18_Rin_X5"
+      ],
+      "emotion_refs": [
+        "OC18_Luka_E2",
+        "OC18_Luka_X2",
+        "OC18_Luka_X3",
+        "OC18_Luka_E1",
+        "OC18_Luka_X1",
+        "OC18_Rin_X5"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC18_MEIKO",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "疲倦倚睡的个别照料实际，没核个别新的K2+改变。",
+      "emotion_comparison": "允许近身倚睡、认一直见守并亲手专送蝴蝶手帕，是生活性信赖；没有深层创伤口述。 疲倦时实际接受倚睡，是把身体休息交给她的具体生活信赖，信任细分2.50；不扩成口述核心创伤。",
+      "growth_refs": [
+        "OC18_MEIKO_F1",
+        "OC18_MEIKO_X1",
+        "OC18_Len_X3"
+      ],
+      "emotion_refs": [
+        "OC18_MEIKO_F1",
+        "OC18_MEIKO_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC18_KAITO",
+      "growth_subgrades": [
+        2,
+        0
+      ],
+      "emotion_subgrades": [
+        1,
+        3,
+        2,
+        2
+      ],
+      "growth_comparison": "母亲关系与保护自我尖锐提醒被回应/实际表达，核心作用较直接，结果归因尚不独占给他。",
+      "emotion_comparison": "本人直接问没人听拒绝该怎么办和恐惧，桔梗手帕亲送；深层自身问题交托比对连的具体感受更完整。 089及100本人直接回应没人听拒绝、再问怎么做，并让他看见保护自我时的恐惧，信任细分3.75；冲突非赞成其全部方法。",
+      "growth_refs": [
+        "OC18_KAITO_G1",
+        "OC18_KAITO_G2",
+        "OC18_KAITO_G3",
+        "OC18_KAITO_G4",
+        "OC18_KAITO_G5",
+        "OC18_KAITO_G6",
+        "OC18_KAITO_X1",
+        "OC18_KAITO_E2",
+        "OC18_KAITO_E3"
+      ],
+      "emotion_refs": [
+        "OC18_KAITO_E3",
+        "OC18_KAITO_X1",
+        "OC18_KAITO_G2",
+        "OC18_KAITO_G4"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC19_Miku",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "14推动面对伙伴歌曲与相见是关键支持，恢复绘画仍有奏/瑞希；184主导建议不归她。",
+      "emotion_comparison": "真实讲虚无/否定与父亲打击，连续买涂色本怕其寂寞、具体关心主动，但显式定位仍师友。",
+      "growth_refs": [
+        "OC19_Miku_G1",
+        "OC19_Miku_G2",
+        "OC19_Miku_G3",
+        "OC19_Miku_X4",
+        "OC19_KAITO_F2",
+        "OC19_KAITO_X3",
+        "OC19_Miku_X1"
+      ],
+      "emotion_refs": [
+        "OC19_Miku_X1",
+        "OC19_Miku_X3",
+        "OC19_Miku_G1",
+        "OC19_Miku_G2",
+        "OC19_Miku_E1",
+        "OC19_Miku_E3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC19_Rin",
+      "growth_subgrades": [
+        2,
+        3
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "自我认可、画中未来和父画三问题持续有实际提示，本人具体愿继续走的归因较充分。",
+      "emotion_comparison": "无人认可、追梦与父亲痛苦实际连续交托，教构图/带材料按兴趣回应，个人艺术理解较集中。",
+      "growth_refs": [
+        "OC19_Rin_G1",
+        "OC19_Rin_G2",
+        "OC19_Rin_G3",
+        "OC19_Rin_G4",
+        "OC19_Rin_G5",
+        "OC19_Rin_G6",
+        "OC19_Rin_X1",
+        "OC19_Rin_E5"
+      ],
+      "emotion_refs": [
+        "OC19_Rin_E3",
+        "OC19_Rin_E4",
+        "OC19_Rin_E5",
+        "OC19_Rin_G2",
+        "OC19_Rin_G1",
+        "OC19_Rin_G5",
+        "OC19_Rin_E1",
+        "OC19_Rin_E2",
+        "OC19_Rin_X2",
+        "OC19_Rin_G3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC19_Len",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "父亲也痛苦的追问与197用擅长的画辨世界都有实际被回想采用，核心创作/家人认识直接。",
+      "emotion_comparison": "具体讲父作差距与表达他人世界压力并亲自教画，彼此回应围绕持续艺术自我而非一般点子求助。",
+      "growth_refs": [
+        "OC19_Len_G1",
+        "OC19_Len_G2",
+        "OC19_Len_G3",
+        "OC19_Len_G4",
+        "OC19_Len_G5",
+        "OC19_Len_X1",
+        "OC19_Len_X2",
+        "OC19_Len_X3",
+        "OC19_Len_E2"
+      ],
+      "emotion_refs": [
+        "OC19_Len_E1",
+        "OC19_Len_E2",
+        "OC19_Len_G2",
+        "OC19_Len_G3",
+        "OC19_Len_X1",
+        "OC19_Len_E4",
+        "OC19_Len_E5",
+        "OC19_Len_X3",
+        "OC19_Len_G1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC19_Luka",
+      "growth_subgrades": [
+        1,
+        2
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "growth_comparison": "39陪伴使能说观点、生日方法实际奏效，仍具体改变而非对奏的核心教学移植。",
+      "emotion_comparison": "父亲/无法被接纳真实听见，蛋糕和教学有回报；部分甜食分享有处理剩食实务动机。 068本人答应讲入团前经历并说当时精神濒临极限，39另有实际陪伴，信任细分3.50；回忆中内心逐句不当口述。 再比较主动回应和本人关系定位：部分蛋糕分享兼有处理剩食的实务动机、教画有尚未兑现部分，持续投入取3.25；未见像连的艺术认可或Miku的孤独牵挂那样更明确个人角色意义，定位取2.25。",
+      "growth_refs": [
+        "OC19_Luka_G1",
+        "OC19_Luka_G2",
+        "OC19_Luka_E1",
+        "OC19_MEIKO_X1",
+        "OC19_Luka_X1",
+        "OC19_Luka_X2",
+        "OC18_Luka_X2"
+      ],
+      "emotion_refs": [
+        "OC19_Luka_E1",
+        "OC19_Luka_X2",
+        "OC19_Luka_G1",
+        "OC19_Luka_G2",
+        "OC19_MEIKO_X1",
+        "OC18_Luka_X2",
+        "OC19_Len_X3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC19_MEIKO",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "39改变守望方法并被0310本人明确回顾，150实际联络支持持续但非独占关系修复。",
+      "emotion_comparison": "本人明确MEIKOにだから相談できること，持续朋友安全/守望痛苦交托与回报，定位有可区别的稳定信任。",
+      "growth_refs": [
+        "OC19_MEIKO_G1",
+        "OC19_MEIKO_G2",
+        "OC19_MEIKO_X1",
+        "OC19_MEIKO_X2",
+        "OC19_MEIKO_E6",
+        "OC19_MEIKO_E2"
+      ],
+      "emotion_refs": [
+        "OC19_MEIKO_X1",
+        "OC19_MEIKO_E2",
+        "OC19_MEIKO_G2",
+        "OC19_MEIKO_G1",
+        "OC19_MEIKO_E6",
+        "OC19_MEIKO_X2",
+        "OC19_MEIKO_E4",
+        "OC17_Miku_X6"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC19_KAITO",
+      "growth_subgrades": [
+        2,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "growth_comparison": "184从最讨厌之事重看作品意图，实际课题思路有具名确认，系统技法教育仍雪平。",
+      "emotion_comparison": "持续感谢并按喜好赠咖啡/冰淇淋，本人深层父亲痛苦没向他同样说出，合作侧重具体课题。",
+      "growth_refs": [
+        "OC19_KAITO_F1",
+        "OC19_KAITO_F2",
+        "OC19_KAITO_X3",
+        "OC19_KAITO_X1",
+        "OC19_KAITO_X2",
+        "OC19_KAITO_X5",
+        "OC19_Miku_X1",
+        "OC19_Luka_X1"
+      ],
+      "emotion_refs": [
+        "OC19_KAITO_F2",
+        "OC19_KAITO_X5",
+        "OC19_Miku_X1",
+        "OC19_KAITO_F1",
+        "OC19_KAITO_X3",
+        "OC19_Luka_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC20_Miku",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "0285察觉并保密痛苦是具体支持，没确认独立核心行动改变。",
+      "emotion_comparison": "本人要求不要告诉别人、专为她开心备聚会，脆弱保密与持续实际回报结合。",
+      "growth_refs": [
+        "OC20_Miku_G1",
+        "OC20_Miku_G2",
+        "OC20_Miku_G3",
+        "OC20_Miku_X1",
+        "OC20_Miku_X2",
+        "OC20_Miku_E6"
+      ],
+      "emotion_refs": [
+        "OC20_Miku_X1",
+        "OC20_Miku_X2",
+        "OC20_Miku_G3",
+        "OC20_Miku_G1",
+        "OC20_Miku_G2",
+        "OC20_Miku_E6",
+        "OC17_Miku_X6"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC20_Rin",
+      "growth_subgrades": [
+        1,
+        1
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "growth_comparison": "本人要求留下聊天、谢照看奏是实際支持，未把铃内心设想缓解当已实现K2。",
+      "emotion_comparison": "本人具体讲人际弄僵后又回避，胸针/发饰/奖章回应持续，未完整托付核心秘密。",
+      "growth_refs": [
+        "OC20_Rin_X1",
+        "OC20_Rin_F1",
+        "OC20_Rin_Y7",
+        "OC20_Rin_Y8"
+      ],
+      "emotion_refs": [
+        "OC20_Rin_X1",
+        "OC20_Rin_F1",
+        "OC20_Rin_Y8",
+        "OC20_Rin_Y7",
+        "OC20_Rin_Y2",
+        "OC20_Rin_E1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC20_Len",
+      "growth_subgrades": [
+        1,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "growth_comparison": "缎带祝愿后本人明确有干劲去行动，核心退路解释主要Luka，K2因果保持。",
+      "emotion_comparison": "本人明确少有人认真共忧伤、定位连的温柔，蛋糕/玩偶实际个人回应；理解深但行动引路主要Luka。",
+      "growth_refs": [
+        "OC20_Len_G1",
+        "OC20_Len_X1",
+        "OC20_Len_X3"
+      ],
+      "emotion_refs": [
+        "OC20_Len_X1",
+        "OC20_Len_X3",
+        "OC20_Len_G1",
+        "OC20_Len_X2",
+        "OC20_Len_E7"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC20_Luka",
+      "growth_subgrades": [
+        2,
+        2
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "growth_comparison": "093将退路经验化为支持伙伴的行动方法，重要自我/关系因果直接。",
+      "emotion_comparison": "本人把少有人理解真实真冬的她当同边、赠吊坠后特意修复，持续依靠与主动关心充分。",
+      "growth_refs": [
+        "OC20_Luka_G1",
+        "OC20_Luka_G2",
+        "OC20_Luka_G3",
+        "OC20_Luka_G4",
+        "OC20_Luka_G5",
+        "OC20_Luka_G6",
+        "OC20_Luka_E5"
+      ],
+      "emotion_refs": [
+        "OC20_Luka_E5",
+        "OC20_Luka_X1",
+        "OC20_Luka_E2",
+        "OC20_Luka_G1",
+        "OC20_Luka_G2",
+        "OC20_Luka_G4",
+        "OC20_Luka_G5",
+        "OC17_Miku_X6",
+        "OC20_Luka_E4"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC20_MEIKO",
+      "growth_subgrades": [
+        2,
+        3
+      ],
+      "emotion_subgrades": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "growth_comparison": "112面对逃避、145/150提醒在危机被回想并参与重连，核心自我作用跨阶段且本人愿面对有明确归因。",
+      "emotion_comparison": "未来支持承诺与话被带入真实面对自己及危机回想，连续回报按其兴趣选择，长期核心困境的关系意义最强。",
+      "growth_refs": [
+        "OC20_MEIKO_G1",
+        "OC20_MEIKO_G2",
+        "OC20_MEIKO_G3",
+        "OC20_MEIKO_G4",
+        "OC20_MEIKO_G5",
+        "OC20_MEIKO_G6",
+        "OC20_MEIKO_G7",
+        "OC20_MEIKO_G8",
+        "OC20_MEIKO_G9",
+        "OC20_MEIKO_X1"
+      ],
+      "emotion_refs": [
+        "OC20_MEIKO_G5",
+        "OC20_MEIKO_G6",
+        "OC20_MEIKO_X1",
+        "OC19_Rin_E2",
+        "OC17_Miku_X6",
+        "OC20_MEIKO_G8",
+        "OC20_MEIKO_G3"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    },
+    {
+      "pair_id": "OC20_KAITO",
+      "growth_subgrades": [
+        1,
+        0
+      ],
+      "emotion_subgrades": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "growth_comparison": "145选路提醒被本人回想并参与准备行动，结果遭暴露，仍无个别重大结果归因。",
+      "emotion_comparison": "本人想邀其同赴会、定饮料和庆生多为具体意向，深层自身秘密尚未真正向其交托。",
+      "growth_refs": [
+        "OC20_KAITO_G1",
+        "OC20_KAITO_G2",
+        "OC20_KAITO_X1",
+        "OC20_KAITO_X2"
+      ],
+      "emotion_refs": [
+        "OC20_KAITO_E2",
+        "OC20_KAITO_G1",
+        "OC20_KAITO_X1",
+        "OC20_KAITO_X2",
+        "OC19_Luka_X1"
+      ],
+      "judgment_confidence": "研究者单轮估计；相邻名次可能对0.25子档变化敏感"
+    }
+  ]
+}

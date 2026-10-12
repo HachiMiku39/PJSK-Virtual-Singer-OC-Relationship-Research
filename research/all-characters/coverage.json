@@ -157,12 +157,16 @@
   "complete_growth_indices": 120,
   "complete_emotion_indices": 120,
   "unknown_emotion_dimensions": 0,
-  "audited_reference_count": 987,
+  "audited_reference_count": 998,
   "unique_audited_sources": 585,
   "review_completed_pair_count": 120,
   "fully_scored_pair_count": 120,
   "approval_count_definition": "9维均有证据支持分档的组数；保留未来新增待查项的空值规则",
   "tie_review_completed_count": 50,
   "unreviewed_tied_groups": 0,
-  "final_tied_group_count": 47
+  "final_tied_group_count": 47,
+  "refined_scored_pairs": 120,
+  "refined_unresolved_ties": 0,
+  "refined_composite_formula": "综合指数 = (相对细分成长指数 + 相对细分情感指数) / 2",
+  "coarse_tie_history_count": 47
 }
