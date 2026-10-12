@@ -1,0 +1,4414 @@
+{
+  "as_of": "2026-10-12",
+  "rule": "任何角色在同一套分数内出现两个VS同分，都必须完成有来源的比较评价；修订形成的新同分再次评价。",
+  "method": "先对照已核正文、逐维理由和真实因果/情感方向；在2/3档边界扩读。不是按检索次数、篇数、发行时间或小数噪声自动拆分。",
+  "original_group_count": 46,
+  "original_unique_pairs": 93,
+  "score_changes": [
+    {
+      "pair_id": "OC06_Len",
+      "metric": "emotion",
+      "dimension": "investment",
+      "before": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "after": [
+        2,
+        2,
+        3,
+        2
+      ],
+      "reason": "同分深评修订2→3：本人主动邀共同训练，连确认已收到并使用遥赠的哑铃；0942遥又主动提出并实际播放录下的节目，三项组成跨情境个人投入。不按礼物数量加档、不把连邀下一轮练习反记为遥主动；3档是持续具体关心而非排他深情4。",
+      "refs": [
+        "OC06_Len_Z1",
+        "OC06_Len_F1"
+      ]
+    },
+    {
+      "pair_id": "OC10_Rin",
+      "metric": "emotion",
+      "dimension": "investment",
+      "before": [
+        2,
+        3,
+        2,
+        2
+      ],
+      "after": [
+        2,
+        3,
+        3,
+        2
+      ],
+      "reason": "同分深评修订2→3：0532本人邀请铃参加文化祭；181本人记得铃想看烟花，实际选购多种烟花并邀大家参加，跨情境主动回应其个人愿望充分。205共唱作补充，集体场合不等于平均赠礼；保留2档表达/定位，不凭投入反推深情。",
+      "refs": [
+        "OC10_Rin_E5",
+        "OC10_Len_X1",
+        "OC10_Rin_E6"
+      ]
+    }
+  ],
+  "review_count": 50,
+  "final_tied_group_count": 47,
+  "unreviewed_final_ties": 0,
+  "interpretation": "完成深入评价不保证能强行排出唯一顺序。不同档位配置的等权总分碰撞，以及同档不同关系路径，都可能合理并列；已明确说明证据边界。",
+  "reviews": [
+    {
+      "id": "T01",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "星乃一歌",
+        "metric": "growth",
+        "raw_index": 68.41666667,
+        "pairs": [
+          "OC01_Rin",
+          "OC01_Len"
+        ]
+      },
+      "comparison": "铃与连共同承接职业取舍，但各自另一条强线不同：铃改变受伤后的练习方法，连以Miku经历帮助厘清创作。共同谈话不折半；同一职业选择的220/1484后续疑问不重复计C，也未解决到K4/S3。两者已核n2、S2、三阶段与三功能相等，不能把创作题材天然排在身体练习之上。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC01_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            3,
+            7,
+            2,
+            2,
+            3
+          ],
+          "reviewed_story_refs": [
+            "OC01_Rin_TRIAL_G1",
+            "OC01_Rin_TRIAL_G2",
+            "OC01_Rin_TRIAL_G3",
+            "OC01_Rin_TRIAL_G4"
+          ],
+          "specific_evidence_notes": [
+            "最新职业选择剧情中有重要参与，已经超过日常帮助。 与 Len 共同帮助一歌梳理，决定属于一歌本人。后续仍有遗憾与新变数，暂不升 K4 或 S3。 2026-10-12补证：220第8话及卡1484后篇重新追问优先乐队的选择；尚无已反悔或矛盾已解的结论，详见../latest/evidence.json N04。",
+            "沿用独立线：受伤后改变练习方法；厘清个人音乐活动与 Leo/need 的优先顺序。同一问题回顾不重复计数。",
+            "沿用原报告S判定；共同归因须有实际参与，不把同场六人平均记账。具体S2与重大S3的完整解释见一歌原成长报告。",
+            "乐队起步、外部听众磨炼、职业/个人创作三个剧情阶段，T2；不按发行年跨年。",
+            "原报告功能：练习支持、情绪与自我梳理、职业选择"
+          ]
+        },
+        {
+          "pair_id": "OC01_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            3,
+            7,
+            2,
+            2,
+            3
+          ],
+          "reviewed_story_refs": [
+            "OC01_Len_TRIAL_G1",
+            "OC01_Len_TRIAL_G2",
+            "OC01_Len_TRIAL_G3",
+            "OC01_Len_TRIAL_G4",
+            "OC01_Len_TRIAL_G5",
+            "OC01_Len_TRIAL_G6"
+          ],
+          "specific_evidence_notes": [
+            "有独立的回顾提示作用，也共同参与重大职业困惑。 创作答案的关键点拨也来自咲希。模拟演出暂按具体帮助 K1，不再增加强剧情线。 2026-10-12补证：220第8话及卡1484后篇重新追问优先乐队的选择；尚无已反悔或矛盾已解的结论，详见../latest/evidence.json N04。",
+            "沿用独立线：通过回顾 Miku 经历寻找歌声使用与创作方针的答案；厘清个人音乐活动与 Leo/need 的优先顺序。同一问题回顾不重复计数。",
+            "沿用原报告S判定；共同归因须有实际参与，不把同场六人平均记账。具体S2与重大S3的完整解释见一歌原成长报告。",
+            "乐队起步、外部听众磨炼、职业/个人创作三个剧情阶段，T2；不按发行年跨年。",
+            "原报告功能：创作与排练支持、自我梳理、职业选择"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T02",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "星乃一歌",
+        "metric": "growth",
+        "raw_index": 77.66666667,
+        "pairs": [
+          "OC01_Luka",
+          "OC01_KAITO"
+        ]
+      },
+      "comparison": "Luka侧重重聚、听众姐妹与共同创作；KAITO侧重自我表达、MV传播和合奏协调。后者自我改变归因更直接，前者有具名共同归因，均达到S3但未有S4专属特殊定位。三条独立问题与四功能不按独占程度机械加分；暂无同尺度证据判定其一跨入更高档。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC01_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            3,
+            9,
+            3,
+            2,
+            4
+          ],
+          "reviewed_story_refs": [
+            "OC01_Luka_TRIAL_G1",
+            "OC01_Luka_TRIAL_G2",
+            "OC01_Luka_TRIAL_G3",
+            "OC01_Luka_TRIAL_G4",
+            "OC01_Luka_TRIAL_G5"
+          ],
+          "specific_evidence_notes": [
+            "早期关系修复与后期创作成长都有因果证据。 S3 包含具名的共同归因。若只接受完全个别化的重大成长归因，应下调 S，不能隐去这一判断边界。",
+            "沿用独立线：主线重聚与对穗波心意的理解；为发生隔阂的听众姐妹写出能传达心意的歌曲；协调共同创作者的意图。同一问题回顾不重复计数。",
+            "沿用原报告S判定；共同归因须有实际参与，不把同场六人平均记账。具体S2与重大S3的完整解释见一歌原成长报告。",
+            "乐队起步、外部听众磨炼、职业/个人创作三个剧情阶段，T2；不按发行年跨年。",
+            "原报告功能：创作方法、自我认识、伙伴与共同创作关系、听众沟通"
+          ]
+        },
+        {
+          "pair_id": "OC01_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            3,
+            9,
+            3,
+            2,
+            4
+          ],
+          "reviewed_story_refs": [
+            "OC01_KAITO_TRIAL_G1",
+            "OC01_KAITO_TRIAL_G2",
+            "OC01_KAITO_TRIAL_G3",
+            "OC01_KAITO_TRIAL_G4"
+          ],
+          "specific_evidence_notes": [
+            "表达自我的长期变化有非常直接的回顾归因。 2023 纪念卡与早期表达剧情属于同一成长线，只增强 S 与 T，不重复增加 C。合奏诊断也不等于独占穗波的成长功劳。",
+            "沿用独立线：相信并坦率表达自己的想法；把音乐传播方式从现场演出扩展到 MV；识别并协调合奏中各人的表达意图。同一问题回顾不重复计数。",
+            "沿用原报告S判定；共同归因须有实际参与，不把同场六人平均记账。具体S2与重大S3的完整解释见一歌原成长报告。",
+            "乐队起步、外部听众磨炼、职业/个人创作三个剧情阶段，T2；不按发行年跨年。",
+            "原报告功能：创作方法、自我肯定、合作协调、音乐传播"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T03",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "星乃一歌",
+        "metric": "emotion",
+        "raw_index": 68.75,
+        "pairs": [
+          "OC01_Rin",
+          "OC01_Luka",
+          "OC01_KAITO"
+        ]
+      },
+      "comparison": "铃以应援饼干和漫画往来、Luka以照片/赏花/卡片、KAITO以持续回访及赠票分享建立亲近，三者共同或个别承接深层困惑。各有持续表达与主动回应，但未达到深层且稳定的4档或本人特殊定位3。投入形式的丰富程度不能直接等价感情强弱，保留同档并标明关系类型不同。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC01_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC01_Rin_TRIAL_A19",
+            "OC01_Rin_TRIAL_A20",
+            "OC01_Rin_TRIAL_A21",
+            "OC01_Rin_TRIAL_A22",
+            "OC01_Rin_TRIAL_A23"
+          ],
+          "specific_evidence_notes": [
+            "不只口头谢谢：用同样有文字的饼干回应应援，又在另一情境中明确说理解并珍惜 Rin 的心意。",
+            "能在职业取舍中说出自己真正害怕的事情，并承认两人的陪伴使自己能笑出来。",
+            "主动约见回礼、记得带漫画，愿意理解并回应 Rin 的愿望，支持跨情境的主动投入。",
+            "有个人感谢和伙伴式陪伴意义，但没有据此认定更高的特殊、稳定关系定位。"
+          ]
+        },
+        {
+          "pair_id": "OC01_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC01_Luka_TRIAL_A08",
+            "OC01_Luka_TRIAL_A09",
+            "OC01_Luka_TRIAL_A10",
+            "OC01_Luka_TRIAL_A11",
+            "OC01_Luka_TRIAL_A12",
+            "OC01_Luka_TRIAL_A13"
+          ],
+          "specific_evidence_notes": [
+            "对 Luka 的安心、欣赏及希望分享美好事物的情感在不同情境中具体表现，暂支持持续的 3 档，未达到深层且稳定的 4 档。",
+            "会袒露重要朋友之间的冲突和自己的无措，后期仍能向她承认演出前不安。",
+            "主动拍照分享作品、想让她看见樱花，并按个人印象制作卡片，具有多种主动关心。",
+            "具名承认她的个人意义，并表现对她的信任；未找到与 Miku 相当的明确、深层关系定位，因此取 2。"
+          ]
+        },
+        {
+          "pair_id": "OC01_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC01_KAITO_TRIAL_A14",
+            "OC01_KAITO_TRIAL_A15",
+            "OC01_KAITO_TRIAL_A16",
+            "OC01_KAITO_TRIAL_A17",
+            "OC01_KAITO_TRIAL_A18"
+          ],
+          "specific_evidence_notes": [
+            "主动、具体地珍视他曾说过的话，在早期谈话与后续纪念日再次表达，并非只统计谢谢的次数。",
+            "愿意承认作词中的羞耻、自我怀疑与不足，也明确希望今后继续向他咨询。",
+            "主动找他谈话、参与专门赠票、邀请分享食物，交往超出一次技术求助。",
+            "已经体现为愿意持续求助的个人支持者，但尚未找到深层关系定位的明确表述，取 2。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T04",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "星乃一歌",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC01_Len",
+          "OC01_MEIKO"
+        ]
+      },
+      "comparison": "补读110/128确认拨片是杂志附录，漫画原为铃带来，向连先借的提议未落实，不能把铃的专门回礼移给连。MEIKO则有周年筹备与回应愿望，但跨情境个别投入仍不充分。连的职业困惑与MEIKO的职业不安均是真实深层袒露3；当前没有支持表达/投入升级的差异，保留并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC01_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC01_Len_TRIAL_A24",
+            "OC01_Len_TRIAL_A25",
+            "OC01_Len_TRIAL_A22",
+            "OC01_Len_TRIAL_A23",
+            "OC01_Len_TRIAL_A29",
+            "OC01_Len_Z1",
+            "OC01_Len_Z2"
+          ],
+          "specific_evidence_notes": [
+            "会觉得 Len 温柔，也明确感受到与两人谈话后心情变轻；个别化的持续情感表达暂不如前三组充分。",
+            "与 Rin 同场承接职业抉择的内心冲突，同样支持 3；不因两人共同在场而折半，也不升为排他信任。",
+            "同分深评仍2：110主动赠不适用的杂志附录拨片；128漫画原为铃带来，曾提先借给连，但连婉拒，未当作另一次已完成的个别投入。具体往来成立，未核足以升跨情境个人关心3的证据。",
+            "体现出可以说心事的伙伴意义，尚无强显式关系定位。"
+          ]
+        },
+        {
+          "pair_id": "OC01_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC01_MEIKO_TRIAL_A26",
+            "OC01_MEIKO_TRIAL_A27",
+            "OC01_MEIKO_TRIAL_A28",
+            "OC01_MEIKO_TRIAL_A29"
+          ],
+          "specific_evidence_notes": [
+            "有具体的感谢和亲近，但目前较强的原文主要说明帮助与成长归因，暂不把它改写成深厚依恋。",
+            "面对职业抉择的不安时能够谈自己的疑惑，支持深层袒露的 3 档。",
+            "主动参与纪念日筹备、询问并回应她的愿望；个人主动投入成立，但本轮尚缺更充分的跨情境个别证据。",
+            "有具名的支持者意义与信任，未发现高档显式定位。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T05",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "天马咲希",
+        "metric": "emotion",
+        "raw_index": 50.0,
+        "pairs": [
+          "OC02_Miku",
+          "OC02_MEIKO"
+        ]
+      },
+      "comparison": "Miku的咨询以演奏和前辈学习为主，MEIKO以化妆和成为可靠先辈为主；后者可靠帅气的称赞是具体个人意义，并不自动特殊定位3。前者交旧留言卡与道谢、后者邀分享零食均为具体投入，未见深层且跨情境升级证据。日常亲近的题材不能充当总关系优先标准。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC02_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC02_Miku_E5",
+            "OC02_Miku_G1",
+            "OC02_Miku_E8",
+            "OC02_Miku_E1",
+            "OC02_Miku_E2"
+          ],
+          "specific_evidence_notes": [
+            "具名感谢昨天的共同演奏；75行开心主要指演奏，保守取2",
+            "会讨论职业疑惑和求教前辈方法，未见本轮深层痛苦向Miku个别袒露",
+            "应要求带来旧留言卡、主动来道谢，是关系投入；一歌庆生主持不是专门为Miku的投入",
+            "有具名帮助者和可求教者意义，未见特殊关系宣言"
+          ]
+        },
+        {
+          "pair_id": "OC02_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC02_MEIKO_E5",
+            "OC02_MEIKO_E1",
+            "OC02_MEIKO_E2",
+            "OC02_MEIKO_E4"
+          ],
+          "specific_evidence_notes": [
+            "对共同研究化妆的邀请开心并感谢，2档",
+            "询问自己能否成为可靠先辈、坦白用新色不安，具体咨询2",
+            "主动邀请休息时分享零食，日常具体投入2",
+            "评价MEIKO可靠帅气、有先辈感，2；尚非明确特殊深层定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T06",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "天马咲希",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC02_Len",
+          "OC02_KAITO"
+        ]
+      },
+      "comparison": "连和KAITO确实一起听见住院孤独及创作焦虑，不能仅因为同场就分摊信任3。连偏表达未写成的音乐，KAITO偏鼓励及设计建议；带面包和赠票有本人行动却尚不足连续个别关心3。重大成长归因也不能替代情感表达3，未发现可靠拉开情感总分的证据。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC02_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC02_Len_E1",
+            "OC02_Len_E2",
+            "OC02_Len_E3",
+            "OC02_Len_G2",
+            "OC02_Len_G1",
+            "OC02_Len_E7"
+          ],
+          "specific_evidence_notes": [
+            "多场明确感谢，主要针对帮助，未足以升级为稳定深层个人表达3",
+            "住院孤独、未能写成的音乐及怕自己落后的焦虑都向连真实说出，支持3",
+            "共同庆祝有个人参与；65中面包是咲希主动带来，2档，非排他赠礼",
+            "具名信任创作/练习伙伴，未有强特殊关系定位"
+          ]
+        },
+        {
+          "pair_id": "OC02_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC02_KAITO_E1",
+            "OC02_KAITO_E2",
+            "OC02_KAITO_G1",
+            "OC02_KAITO_E4",
+            "OC02_KAITO_E7"
+          ],
+          "specific_evidence_notes": [
+            "有具名重要领悟与设计建议的感谢，保守2，成长重大不自动情感3",
+            "向其和连说住院孤独与表达困惑，并后续主动咨询，深层袒露3",
+            "带面包、主动参与赠票有实际行动，2；不把睡觉误当训练后的同练请求加成",
+            "具名信任与持续求助的支持者意义2，未见特殊关系宣言"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T07",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "望月穗波",
+        "metric": "emotion",
+        "raw_index": 50.0,
+        "pairs": [
+          "OC03_Miku",
+          "OC03_Rin",
+          "OC03_KAITO"
+        ]
+      },
+      "comparison": "Miku承接练习结果担心，铃承接邀请同伴怕添麻烦，KAITO承接设计与日常照看。三者已知咨询内容都是具体困难2。为铃做头纱和为KAITO拍爱犬只是承诺，不能按完成长期项目升投入3；Miku共同练习也是具体行为。尚无同尺度深层袒露或持续个人投入的差异。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC03_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC03_Miku_X1",
+            "OC03_Miku_X3",
+            "OC03_Miku_X2",
+            "OC03_Miku_E7",
+            "OC03_Miku_X5"
+          ],
+          "specific_evidence_notes": [
+            "自己的合奏感谢与庆生开心成立，保守2；原候选三条均在转述一歌感情",
+            "会说明自己做不出成果的担心，并求教技法；具体信任2，未检出深层稳定袒露",
+            "主动约Miku练困难乐句，具体共同活动2；生日受祝福不算付出",
+            "明确认可初次合奏给伙伴相处的意义，支持个人支持者意义2；不借一歌的喜欢证明"
+          ]
+        },
+        {
+          "pair_id": "OC03_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC03_Rin_E3",
+            "OC03_Rin_E4",
+            "OC03_Rin_X1",
+            "OC03_Rin_E6",
+            "OC03_Rin_E1"
+          ],
+          "specific_evidence_notes": [
+            "感谢帮助邀请成功并感谢担心，具体2，不凭感谢次数升3",
+            "讨论怕强邀造成困扰、请铃倾听，具体个人咨询2；非深层誓言",
+            "主动提出为她做头纱、一起体验，是回应愿望2；尚不证明已经完成或稳定多场3",
+            "具名倾听及方法支持者2，未见强特殊关系宣言"
+          ]
+        },
+        {
+          "pair_id": "OC03_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC03_KAITO_E1",
+            "OC03_KAITO_E2",
+            "OC03_KAITO_E4",
+            "OC03_KAITO_X1",
+            "OC03_KAITO_Y2",
+            "OC03_KAITO_Y3",
+            "OC03_KAITO_Y5"
+          ],
+          "specific_evidence_notes": [
+            "具名感谢持续看守和照顾柴犬，个人具体2",
+            "票样咨询与简要告诉自己的困惑，2；169没有把事情完整讲给他，不能判深层3",
+            "1021本人主动说为了KAITO拍爱犬照片/视频，215本人参与给VS们做菜并明确照顾KAITO喜爱冰淇淋的期待，具体投入2；照片仅承诺未展示交付，冰淇淋主要爱莉/心羽做，不冒称穗波独制或强升3",
+            "认可持续支持、会听设计建议，个人支持者2，非特殊关系声明"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T08",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "望月穗波",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC03_Len",
+          "OC03_Luka"
+        ]
+      },
+      "comparison": "连实际听见害怕与志步争吵又不愿其独自受苦；Luka实际听见怕再给朋友添麻烦，均为深层人际脆弱3。拨片/画本与专给Luka的苹果派都个别化，但不凭物品种类判断谁更亲。Luka的单独求助不自动胜过连真实参与的共同咨询；保留总分并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC03_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC03_Len_E2",
+            "OC03_Len_E3",
+            "OC03_Len_G1",
+            "OC03_Len_E6",
+            "OC03_Len_E7",
+            "OC03_Len_E4"
+          ],
+          "specific_evidence_notes": [
+            "具体感谢沟通帮助和日常亲近2；苹果派收到认可表达可作为日常感受，不能当深层信任",
+            "坦白怕与志步争吵、又不愿她独自受苦，连实际承接，深层3",
+            "按其个人形象选拨片，按请求带大画本，具体2",
+            "能求助、接受伙伴沟通意见的个人支持者2，未有特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC03_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC03_Luka_E4",
+            "OC03_Luka_E6",
+            "OC03_Luka_X1",
+            "OC03_Luka_E2",
+            "OC03_Luka_E7"
+          ],
+          "specific_evidence_notes": [
+            "对协助的具体感谢2，主体开心的有些台词是Luka，不加给穗波",
+            "单独来说明怕再给朋友添麻烦、承认想把不安讲出来，深层3；不写为不安彻底消失",
+            "218带自己喜欢店的苹果派专门想给Luka尝，2，明确包含不同SEKAI形象",
+            "能单独求助、说明脆弱的个人师友意义2，不以交情功能推3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T09",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "日野森志步",
+        "metric": "growth",
+        "raw_index": 50.16666667,
+        "pairs": [
+          "OC04_Miku",
+          "OC04_Luka"
+        ]
+      },
+      "comparison": "赏月同一事件中志步明确共同归因Miku与Luka推动，不能重复成两个不同问题也不能只留其中一人的功劳。Miku训练菜单提议与Luka陪练均尚未核到第二条独立K2结果；两者三阶段两功能成立，保持n1/S2/K2，不能以出场次数补差。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC04_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            4,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC04_Miku_X1",
+            "OC04_Miku_X2",
+            "OC04_Miku_F1"
+          ],
+          "specific_evidence_notes": [
+            "0277有具名共同因果，志步从谈话后去看姐姐配信并参与赏月，K2；不把初音创作软件的人生影响自动移植",
+            "赏月关系一线；训练菜单仍为提议，不当已完成新成长线",
+            "本人明确说若没有Miku与Luka推一把就没有那样的共同时间，S2",
+            "早期理解咲希、外部成长中的姐姐关系、专业阶段练习支持三阶段",
+            "伙伴家人沟通与技艺/排练支持两类"
+          ]
+        },
+        {
+          "pair_id": "OC04_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            4,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC04_Miku_X1",
+            "OC04_Miku_X2",
+            "OC04_Luka_F1",
+            "OC04_Luka_E1"
+          ],
+          "specific_evidence_notes": [
+            "姐姐关系的共同帮助具名确认K2；182仅继续陪练，不造新的核心道路作用",
+            "姐姐赏月一线；69训练先取K1，未对Luka单独核到决定性技术变化",
+            "0277志步具名共同归因Miku和Luka，S2",
+            "早期咲希体调沟通、外部磨炼、专业排练三阶段，不授剧情跨年",
+            "家人/伙伴沟通与技艺支持两类"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T10",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "日野森志步",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC04_Miku",
+          "OC04_Len",
+          "OC04_Luka"
+        ]
+      },
+      "comparison": "Miku/Luka真实承接姐姐歉疚与咲希担忧；连0493真实承接强硬表达伤到穗波的自责，三者信任3成立。连随后合作认可和托付起拍是具体伙伴意义2，不是特殊定位3。专送团子与带谱均为个人具体投入，没证据将音乐信任或家人话题自动排为更亲。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC04_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC04_Miku_X1",
+            "OC04_Miku_E1",
+            "OC04_Miku_X2",
+            "OC04_Miku_E5",
+            "OC04_Miku_F1"
+          ],
+          "specific_evidence_notes": [
+            "为具体推动和帮助感谢，2；喜欢Miku的人多不是本人深情表态",
+            "会讲对姐姐没做什么的歉疚、对咲希的自责与担心，深层3，双方确实参与",
+            "专程带团子表达感谢、邀同行初诣，2；送Miku玩偶的受礼者是一歌",
+            "具名感谢、期待Miku替自己找练习盲点，个人支持者2"
+          ]
+        },
+        {
+          "pair_id": "OC04_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC04_Len_Y6",
+            "OC04_Len_E1",
+            "OC04_Len_E2",
+            "OC04_Len_Y1",
+            "OC04_Len_Y8",
+            "OC04_Len_E3",
+            "OC04_Len_Y4",
+            "OC04_Len_Y7"
+          ],
+          "specific_evidence_notes": [
+            "0493本人接受他针对自己的具体肯定并道谢，后仍有排练往来，个人感谢2；不从成长改变推深情3",
+            "0493直接对连和铃说因自己的强硬表达失败、伤到穗波等伙伴，他真实回应；深层人际自责袒露3。110集体分享与1487理想之梦只是补充，梦本身不是他实际带她登台",
+            "按请求带父亲乐谱给连，明确日常投入2",
+            "本人愿向他说明过去伤人之事、承接肯定并说共同特训よろしく，后又具名认可他在合奏中的作用与托付起拍，具体支持/合作伙伴2；非特殊唯一定位3/4"
+          ]
+        },
+        {
+          "pair_id": "OC04_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC04_Luka_E1",
+            "OC04_Miku_X1",
+            "OC04_Miku_X2",
+            "OC04_Luka_F1"
+          ],
+          "specific_evidence_notes": [
+            "具体感谢共同推动、集训陪练，2；开门的小事不升深层3",
+            "讲未顾及姐姐、自责没察觉咲希的担忧；两位真实倾听，3",
+            "带团子专程道谢是志步→Luka明确行为，2",
+            "直接说頼りにしてます并愿其陪练，个人支持者2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T11",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "日野森志步",
+        "metric": "emotion",
+        "raw_index": 50.0,
+        "pairs": [
+          "OC04_MEIKO",
+          "OC04_KAITO"
+        ]
+      },
+      "comparison": "扩读0159至95行：志步确实说言辞很重，但中学疏离、想帮却做不到及自问为何只能那样说的深层自责主要是76–79内心独白，未向MEIKO完整口述；与0493连的口述不同。因此MEIKO仍信任2，KAITO的技术/设计咨询也2。教书法/选玩具与具名赠票是具体投入，两者保留同总分。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC04_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC04_MEIKO_E3",
+            "OC04_MEIKO_E2",
+            "OC04_MEIKO_X1",
+            "OC04_MEIKO_Z1",
+            "OC04_MEIKO_X2",
+            "OC04_MEIKO_F1"
+          ],
+          "specific_evidence_notes": [
+            "具名谢理解与帮助，2；82行一直应援的是姐姐，不是MEIKO",
+            "同分扩读0159至95行仍取2：本人说对穗波言辞很重，但76–79中学疏离、想帮却做不到和自问为何只能那样说主要是内心独白，未完整对MEIKO口述；不能与0493对连明确说伤到朋友的深层袒露混同。",
+            "教书法、后续看学习情况并帮选玩具，都是OC实际贡献，2",
+            "可倾诉并感谢理解自己温柔的支持者2；不因指导反向等同被其深度塑造"
+          ]
+        },
+        {
+          "pair_id": "OC04_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC04_KAITO_G1",
+            "OC04_KAITO_E3",
+            "OC04_KAITO_X1",
+            "OC04_KAITO_E4",
+            "OC04_KAITO_E6",
+            "OC03_KAITO_X2"
+          ],
+          "specific_evidence_notes": [
+            "谢具体改善与咨询设计，休息合奏觉得舒适，2；安心别害怕是安慰KAITO，不是自己的感觉",
+            "主动请陪练、说明自己需要改进部分及咨询，具体信任2；不夸大为创伤袒露",
+            "找并带KAITO去庆祝、参与具名赠票感谢，2，保留群体赠礼语境",
+            "认可其理解音色与持续支持意义2，未见特殊定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T12",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "花里实乃理",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC05_Miku",
+          "OC05_Rin",
+          "OC05_Len",
+          "OC05_Luka"
+        ]
+      },
+      "comparison": "Miku/Rin听见无助、自我怀疑，连听见学校与工作的矛盾，Luka听见追不上伙伴/成为负担；均为真实核心袒露3，不能把题材严重性凭主观排序。共唱、庆生设计、实际邀活动分别支持投入2；“先辈”“うちのレン”属于具体个人定位2而非唯一或稳定依靠3。未见可靠整体排序。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC05_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC05_Miku_E1",
+            "OC05_Miku_E2",
+            "OC05_Miku_G1",
+            "OC05_Miku_G4",
+            "OC05_Miku_E5",
+            "OC05_Rin_E4",
+            "OC05_Miku_X1"
+          ],
+          "specific_evidence_notes": [
+            "乐于共同唱和感谢安心，2；不把角色受到重大帮助自动写情感3",
+            "向她说怕给同伴添麻烦和不知道如何帮遥，深层3",
+            "参与按Miku愿望设计庆生、主动约再合唱，2",
+            "确认支持者个人意义2，人生偶像起点归遥"
+          ]
+        },
+        {
+          "pair_id": "OC05_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC05_Rin_E1",
+            "OC05_Rin_E2",
+            "OC05_Rin_E3",
+            "OC05_Rin_G1",
+            "OC05_Rin_G3",
+            "OC05_Rin_E4",
+            "OC05_Rin_E5"
+          ],
+          "specific_evidence_notes": [
+            "实际感谢与希望共唱的亲近2",
+            "主线的无助和17自我怀疑向两人共同说出，铃确实回应，3",
+            "主动希望再一起live，2；不把被庆生当投入",
+            "明说对自己而言铃是先辈、愿求教，2，称先辈本身不升3"
+          ]
+        },
+        {
+          "pair_id": "OC05_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC05_Len_E1",
+            "OC05_Len_E4",
+            "OC05_Len_E6",
+            "OC05_Len_F1",
+            "OC05_Len_E2",
+            "OC05_Len_X2"
+          ],
+          "specific_evidence_notes": [
+            "具体称赞可靠、谢关心与庆生2",
+            "说害怕失去同学、影响工作、自己考虑不周的矛盾，深层3",
+            "205真实邀铃连同做音乐活动，2，保留跨SEKAI形象，不虚构MMJ连被指导",
+            "“うちのレン”与可靠头脑有个人支持者意义2"
+          ]
+        },
+        {
+          "pair_id": "OC05_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC05_Luka_E1",
+            "OC05_Luka_E3",
+            "OC05_Luka_X1",
+            "OC05_Luka_G1",
+            "OC05_Luka_G3"
+          ],
+          "specific_evidence_notes": [
+            "欣赏偶像演出并感谢长期教学，2；对另一SEKAI的Luka也明确标场景",
+            "直接袒露怕永远追不上队友、成为负担，Luka实际承接，3",
+            "按她想和众人唱歌的愿望设计且实现周年medley，2，非只同框庆祝",
+            "实际求教并认可教师/支持者意义2，未明示特殊定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T13",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "桐谷遥",
+        "metric": "growth",
+        "raw_index": 63.83333333,
+        "pairs": [
+          "OC06_Luka",
+          "OC06_KAITO"
+        ]
+      },
+      "comparison": "Luka解决过往退团/希望罪疚并改善跳跃，KAITO帮助粉丝合作及职业特色，两者各两条独立问题。前者题材更内在，后者更偏职业，但当前K3口径均覆盖重要自我/道路；1110的回顾增强S2，不新增C。缺少明确S3重大结果归因差异，保持成长并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC06_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            3,
+            7,
+            2,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC06_Luka_F1",
+            "OC06_Luka_X2",
+            "OC06_Luka_X1"
+          ],
+          "specific_evidence_notes": [
+            "157直接回应引退后夺走希望的罪疚，后续明确迷い吹っ切れ，K3",
+            "跳跃方法23与过去偶像责任157问题独立，后续1110并入157",
+            "1110具名说听她后解开迷惑，具体归因S2",
+            "独立活动技艺到职业发展与过往责任两阶段",
+            "舞台技艺和自我认识两类"
+          ]
+        },
+        {
+          "pair_id": "OC06_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            3,
+            7,
+            2,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC06_KAITO_G1",
+            "OC06_KAITO_G2",
+            "OC06_KAITO_G3"
+          ],
+          "specific_evidence_notes": [
+            "43影响是否与粉丝合作、133帮助认识MMJ自身职业特色，K3",
+            "43-04/05同一线；133为新的个性/工作选择任务",
+            "133具名共同感谢且说想法整理，S2；不独占实乃理/同伴作用",
+            "独立筹办活动43到专业工作选择133两阶段",
+            "粉丝/团队协作与职业自我认识两类"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T14",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "桐谷遥",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC06_Miku",
+          "OC06_Luka",
+          "OC06_MEIKO"
+        ]
+      },
+      "comparison": "原三者都实际听见职业责任或罪疚，信任3；见面开心/具体感谢仍表达2。深评连的主动训练、已赠哑铃与实际播放节目，确认跨情境个人投入3，原2档偏低。修订后连加入这组，但其优势在投入、弱项在信任，与其他三者不能直接说情感更强或更弱。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC06_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC06_Miku_E2",
+            "OC06_Miku_E3",
+            "OC06_MEIKO_G2",
+            "OC06_Miku_E8",
+            "OC06_Miku_E5"
+          ],
+          "specific_evidence_notes": [
+            "久违开心与被迎接的安心是真实个人回应2，218是基础形象需区分",
+            "78向众人详细讲担心失真伤害粉丝、缺勇气，Miku实际回应，3",
+            "主动分享横滨照片，2；书法是给粉丝，不算给Miku",
+            "具名持续倾听支持者意义2；不从再上台作用直接推特殊情感定位"
+          ]
+        },
+        {
+          "pair_id": "OC06_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC06_Luka_E5",
+            "OC06_Luka_E6",
+            "OC06_Luka_X2",
+            "OC06_Luka_E7",
+            "OC06_Luka_X1"
+          ],
+          "specific_evidence_notes": [
+            "谢实际建议并互动亲近，2，未据成长重要取情感3",
+            "直接说自己从粉丝夺走希望的内疚，深层3；不是长谷川向谁倾诉",
+            "看点心联想到Luka脸颊而专门带来，具体个别关心2",
+            "能托付罪疚并接受理解的个人师友2，无强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC06_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC06_MEIKO_E1",
+            "OC06_MEIKO_E2",
+            "OC06_MEIKO_G2",
+            "OC06_MEIKO_X1"
+          ],
+          "specific_evidence_notes": [
+            "回顾个人勇气并感谢具体训练方法，2；不是从K3自动抬3",
+            "直接述职业责任和怕伤害粉丝的内心冲突，深层3",
+            "主动问愿望、答应补购跳绳并共同训练，具体2",
+            "认可可托付职业困惑与持续支持的个人意义2；MEIKO自称粉丝不倒算遥的定位3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T15",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "桐谷遥",
+        "metric": "emotion",
+        "raw_index": 50.0,
+        "pairs": [
+          "OC06_Rin",
+          "OC06_Len",
+          "OC06_KAITO"
+        ]
+      },
+      "comparison": "铃购物邀请/听烦恼是具体投入2；KAITO的周年同看直播仅确认共同参与1，实乃理的评论整装不能移给遥。连则有本人邀训练、已经收到的哑铃及实际播放节目，支持跨情境投入3，调高一档移出原同分组。剩余铃与KAITO分别偏主动交往、深层职业袒露，等权总分仍并列。",
+      "score_changes": [
+        {
+          "pair_id": "OC06_Len",
+          "metric": "emotion",
+          "dimension": "investment",
+          "before": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "after": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "reason": "同分深评修订2→3：本人主动邀共同训练，连确认已收到并使用遥赠的哑铃；0942遥又主动提出并实际播放录下的节目，三项组成跨情境个人投入。不按礼物数量加档、不把连邀下一轮练习反记为遥主动；3档是持续具体关心而非排他深情4。",
+          "refs": [
+            "OC06_Len_Z1",
+            "OC06_Len_F1"
+          ]
+        }
+      ],
+      "conclusion": "有正文支持的边界修订，重算并再次检查新同分",
+      "members": [
+        {
+          "pair_id": "OC06_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC06_Rin_E6",
+            "OC06_Rin_E5",
+            "OC06_Rin_E2",
+            "OC06_Rin_X1",
+            "OC06_Rin_E3",
+            "OC06_Rin_G1"
+          ],
+          "specific_evidence_notes": [
+            "谢久违的愉快、共同咨询，具体2",
+            "会共同咨询方法，2；0424明说今天不是咨询",
+            "亲自邀请铃购物，并听她烦恼、问所想签名，明确日常关心2",
+            "作为可共同活动与求教的伙伴2，未特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC06_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC06_Len_E1",
+            "OC06_Len_E2",
+            "OC06_Len_E3",
+            "OC06_Len_F1",
+            "OC06_Len_Z1"
+          ],
+          "specific_evidence_notes": [
+            "谢具体舞蹈/共同谈话与训练，2",
+            "主动说明工作选择困惑并共同求意见，具体2，未见深层自责袒露3",
+            "同分深评修订2→3：本人主动邀共同训练，连确认已收到并使用遥赠的哑铃；0942遥又主动提出并实际播放录下的节目，三项组成跨情境个人投入。不按礼物数量加档、不把连邀下一轮练习反记为遥主动；3档是持续具体关心而非排他深情4。",
+            "愿其陪练并认可帮助意义2，不因礼物而判特殊3"
+          ]
+        },
+        {
+          "pair_id": "OC06_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            2,
+            3,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC06_KAITO_E1",
+            "OC06_KAITO_E2",
+            "OC06_KAITO_E3",
+            "OC06_KAITO_G1",
+            "OC06_KAITO_G3",
+            "OC05_KAITO_X2"
+          ],
+          "specific_evidence_notes": [
+            "谢送礼、职业支持与陪伴2，不凭受礼升投入",
+            "说担心粉丝失去希望、个人拿不定主意，并主动请求客观意见，深层3",
+            "作为共同观看纪念直播者参与庆祝，1；评论/整装的明确行为属于实乃理，不平均给遥2",
+            "认可个人职业理解者/支持者2，无特殊关系声明"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T16",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "桃井爱莉",
+        "metric": "growth",
+        "raw_index": 46.83333333,
+        "pairs": [
+          "OC07_Luka",
+          "OC07_MEIKO"
+        ]
+      },
+      "comparison": "Luka使爱莉愿找雫谈，MEIKO伸展方法使动作顺畅，分别是真实行为改变K2，不能把人际话题天然视为核心K3。两者各一条已核问题、有本人具体归因S2、两个阶段和两类功能。214取原稿是实务帮助，不冒充爱莉的人生顿悟以破同分。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC07_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            4,
+            2,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC07_Luka_X1",
+            "OC07_Luka_F1",
+            "OC07_Miku_F1"
+          ],
+          "specific_evidence_notes": [
+            "0226真实倾听并给先找雫谈的办法，爱莉准备去做，K2；抽奖陪同只是实务K1",
+            "0226伙伴沟通一线；替她陪雫出门不造成长线",
+            "本人说困扰清爽、感谢主动问并准备行动，语境明确，S2",
+            "独立经营同伴负荷到专业理想交流两阶段",
+            "伙伴沟通、练习实务两类，未将遥的罪疚安慰转给爱莉"
+          ]
+        },
+        {
+          "pair_id": "OC07_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            2,
+            4,
+            2,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC07_MEIKO_E6",
+            "OC07_MEIKO_F1",
+            "OC07_MEIKO_E5"
+          ],
+          "specific_evidence_notes": [
+            "168明确自己采用伸展后动作顺，K2；214沉海取原稿是共同实务帮助，非爱莉核心顿悟",
+            "伸展改善一线；214-06爱莉自行帮助漫画作者，无VS同场，不造MEIKO强线",
+            "本人明确因所教伸展使动作顺S2",
+            "独立筹备/合宿到专业训练与跨世界探索两阶段",
+            "技艺方法及实际事务两类，漫画作者的愿望不当爱莉被改变"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T17",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "桃井爱莉",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC07_Miku",
+          "OC07_Len"
+        ]
+      },
+      "comparison": "Miku实际听爱莉痛苦旧事，连实际听综艺时期自我否定与核心理想；共同听众与个别交流都可支持真实袒露3。为Miku设计愿望聚会、为连设计MC及传授司会经验皆具体投入2，尚未确证深层持续的4档或新的3档个人表达。保持并列而列出不同咨询方向。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC07_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC07_Miku_E4",
+            "OC07_Miku_E6",
+            "OC07_Miku_X1",
+            "OC07_Miku_F1",
+            "OC07_Miku_E1"
+          ],
+          "specific_evidence_notes": [
+            "具名谢谢实际帮助，包含感谢照顾实乃理，具体2",
+            "主动请众人听痛苦旧事并说自己的忧虑，Miku真实参与对话，深层3，非独占袒露",
+            "参与设计以Miku愿望为中心的周年聚会，具体2；受祝福不是投入",
+            "愿意求助并认可支持者个人意义2，无特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC07_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC07_Len_G1",
+            "OC07_Len_E3",
+            "OC07_Len_E2"
+          ],
+          "specific_evidence_notes": [
+            "谢具体理解与支持2，未凭工作成功升级情感3",
+            "讲曾否定综艺时期自己、核心理想及后续顾虑，深层3",
+            "主动为其设计MC，并愿运用经验教其司会，具体2",
+            "有能咨询、理解过去与理想的个人师友意义2，未强特殊定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T18",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "桃井爱莉",
+        "metric": "emotion",
+        "raw_index": 62.5,
+        "pairs": [
+          "OC07_MEIKO",
+          "OC07_KAITO"
+        ]
+      },
+      "comparison": "MEIKO是表达2、投入3，KAITO是表达3、投入2。前者搬箱、生日设计和约活动形成持续回报，后者回访、珍惜其话与具名后续感谢形成持续表达；两者都有真实旧事袒露3。不能为了破总分同值擅自增加表达或投入的权重，保留并列并提示选择不同维度会有不同偏向。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC07_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            2,
+            3,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC07_MEIKO_E1",
+            "OC07_MEIKO_E2",
+            "OC07_MEIKO_E3",
+            "OC07_MEIKO_E5",
+            "OC07_Miku_X1",
+            "OC07_MEIKO_E7",
+            "OC07_MEIKO_E8",
+            "OC07_MEIKO_E6"
+          ],
+          "specific_evidence_notes": [
+            "基础MEIKO重逢的开心、邀其见朋友与看直播，个人2",
+            "能咨询筹备、向共同听众讲自己的痛苦，MEIKO真实同理回应，3；兔子故事是她来问爱莉",
+            "亲自搬箱回报、设计专属生日活动并主动约同练/见朋友，跨情境具体3",
+            "具名顾问与实际支持者2，没借基础形象资格授特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC07_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            3,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC07_KAITO_X2",
+            "OC07_KAITO_E5",
+            "OC07_KAITO_F1",
+            "OC07_KAITO_X1"
+          ],
+          "specific_evidence_notes": [
+            "主动回来向他讲结果、保留并说出珍惜的话，后期仍具名感谢，跨情境个人3",
+            "直接说明被贬低、害怕空转、曾与朋友疏远的内心冲突，深层3",
+            "回应其愿望准备带自己推荐的DVD，多带些分享，具体2",
+            "认可能听痛苦且整理思绪的持续支持者2，未见强特殊宣言"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T19",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "日野森雫",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC08_Miku",
+          "OC08_Luka",
+          "OC08_MEIKO"
+        ]
+      },
+      "comparison": "Miku听过去压力及失去带头心情，Luka听完美面具/被拒绝恐惧，MEIKO听旧组合报恩与介入两难，三者深层袒露3均成立。应援/远足/刺绣是个别具体投入2；MEIKO歌声刺绣制作及收礼已确认，却没有凭一次精心礼物升稳定关系档的依据。保留并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC08_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC08_Miku_F2",
+            "OC08_Miku_E2",
+            "OC08_Miku_F1",
+            "OC08_Miku_X2",
+            "OC08_Miku_X1",
+            "OC08_MEIKO_X2"
+          ],
+          "specific_evidence_notes": [
+            "具体谢谢咨询、对帮助她表演的开心2",
+            "直接述过去压力、如今失去带头心情等核心困惑，深层3",
+            "亲自邀请一起应援，参与亲手礼物且明确让连转交Miku達，具体2",
+            "愿向其求助并接受理解的个人顾问2，未证特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC08_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC08_Luka_E3",
+            "OC08_Luka_X1",
+            "OC08_Luka_G1",
+            "OC08_Luka_E6",
+            "OC08_Luka_G2"
+          ],
+          "specific_evidence_notes": [
+            "谢谢理解、邀请野餐并明确说一起更开心，个人2，未因成长重要抬情感3",
+            "主动说明完美面具、真实自己不受欢迎的恐惧，深层3",
+            "本人邀Luka远足并提出途中风景，明确个别日常投入2",
+            "可托付自我压力的个人师友2，未见特殊排他定位"
+          ]
+        },
+        {
+          "pair_id": "OC08_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC08_MEIKO_E1",
+            "OC08_MEIKO_F1",
+            "OC08_Len_X1",
+            "OC08_MEIKO_X2",
+            "OC08_MEIKO_X3"
+          ],
+          "specific_evidence_notes": [
+            "对见面开心、谢肯定并愿主动聊困惑，个人2",
+            "解释曾被帮助、想报答却怕介入的复杂旧组合关系，深层3",
+            "亲手为MEIKO强有力歌声设计刺绣，制作和收礼对象得到确认，具体2",
+            "实际咨询并认可信心支持者的个人意义2，无特殊定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T20",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "日野森雫",
+        "metric": "emotion",
+        "raw_index": 50.0,
+        "pairs": [
+          "OC08_Len",
+          "OC08_KAITO"
+        ]
+      },
+      "comparison": "连的笑容/wink教学与KAITO缝纫教学是雫真实个人贡献，但同一系列指导不能按多句对话当跨情境稳定投入3。礼物设计的朋友定位不是连；向真冬承诺也不是向KAITO袒露。两者具体咨询与伙伴意义2成立，尚无更深自我交托证据可拉开。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC08_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC08_Len_E1",
+            "OC08_Len_E3",
+            "OC08_MEIKO_X2",
+            "OC08_Len_E6",
+            "OC08_Len_F1",
+            "OC08_MEIKO_X1"
+          ],
+          "specific_evidence_notes": [
+            "感谢合作并替连能力进步开心，具体2",
+            "会请求礼物设计意见并解释自己想回报朋友，具体2，朋友定位不是连",
+            "亲自教连笑容与wink、帮助练习，具体投入2；共同礼物不硬说已当面送连",
+            "认可可共同创作、顾及他人的个人合作伙伴2，未见特殊声明"
+          ]
+        },
+        {
+          "pair_id": "OC08_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC08_KAITO_E1",
+            "OC08_KAITO_E3",
+            "OC08_KAITO_E5",
+            "OC08_KAITO_X2",
+            "OC08_KAITO_F1",
+            "OC08_KAITO_X1",
+            "OC08_Miku_X2"
+          ],
+          "specific_evidence_notes": [
+            "具名谢实际安排/设计并称赞努力，个人2",
+            "询问如何帮助他人、如何安排学习练习，具体2；未将向真冬承诺当向KAITO袒露",
+            "亲自教缝纫并愿带更多材料支持KAITO達，具体2",
+            "本人称其努力、愿交流帮助的具体伙伴2，未强特殊定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T21",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "小豆泽心羽",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC09_Miku",
+          "OC09_Len",
+          "OC09_MEIKO"
+        ]
+      },
+      "comparison": "Miku/连听见被否定的痛苦，MEIKO听见童年长期自我否定，各为信任3；Miku合唱心跳感是一处个人表达，不自动持续3，MEIKO咖啡安心也不自动稳定依靠3。连相册、Miku陪唱、MEIKO一次帮店与群体周年参与尚缺更充分跨情境个别证据，暂保留投入2和并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC09_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC09_Miku_E1",
+            "OC09_Miku_E2",
+            "OC09_Miku_E8",
+            "OC09_Miku_G1",
+            "OC09_Miku_X2"
+          ],
+          "specific_evidence_notes": [
+            "感谢并说与Miku合唱有不同于杏等人的心跳感，个人2；不足连续深层情感3",
+            "说受否定后无改变的痛苦，后述负于杏后的执念，深层3",
+            "主动请求共同歌唱与陪练，具体2；基本形象作品庆典不独占VBS人格",
+            "信任与个人歌唱伙伴意义2，未强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC09_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC09_Len_E2",
+            "OC09_Len_E4",
+            "OC09_Len_G1",
+            "OC09_Len_E1",
+            "OC09_Rin_X3",
+            "OC09_Rin_X2"
+          ],
+          "specific_evidence_notes": [
+            "听一直见证她的连肯定而开心，具体2；未据一句感情抬持续3",
+            "主线吐露被否定、没改变的痛苦，连真实回应，深层3",
+            "本人主动邀连共同歌唱，并参与帮其准备铃礼物，具体2",
+            "把连认作持续见证与合唱伙伴2；作品起点和人格关系分别记"
+          ]
+        },
+        {
+          "pair_id": "OC09_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC09_MEIKO_E6",
+            "OC09_MEIKO_E1",
+            "OC09_MEIKO_G2",
+            "OC09_MEIKO_G1",
+            "OC09_MEIKO_X1",
+            "OC09_MEIKO_E5"
+          ],
+          "specific_evidence_notes": [
+            "亲自说咖啡使自己安心且谢长期相談，具体2",
+            "详细讲童年总做不到、只能树下仰望他人的自我否定，深层3",
+            "主动提出回报并实际帮咖啡店，具名参与周年祝福，具体2",
+            "安心休息和可讲深层困惑的个人顾问2，未强特殊定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T22",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "小豆泽心羽",
+        "metric": "emotion",
+        "raw_index": 50.0,
+        "pairs": [
+          "OC09_Rin",
+          "OC09_Luka",
+          "OC09_KAITO"
+        ]
+      },
+      "comparison": "铃的编曲/杏心情、Luka的摄影温暖、KAITO的采样与新环境紧张均为具体咨询2；作品入门影响不能直接转为人格情感4。铃清扫/相册建议围绕具体任务，Luka/KAITO同次摄影谢礼各有具名对象，不能重复每件礼物制造持续3。未见核心袒露差异，保留并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC09_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC09_Rin_E2",
+            "OC09_Rin_X2",
+            "OC09_Rin_G1",
+            "OC09_Rin_X1",
+            "OC09_Rin_E1",
+            "OC09_Rin_X3",
+            "OC09_Rin_G2"
+          ],
+          "specific_evidence_notes": [
+            "谢具体鼓励及对作品有感激，个人2；作品启蒙不自动转情感4",
+            "具体解释编曲困难和想传达杏的心情，2；未见核心创伤袒露3",
+            "亲自帮铃打扫、为她礼物提供装饰及照片建议，具体2",
+            "作品有入门意义、SEKAI中也可共同创作；维持2并明确两个影响层次"
+          ]
+        },
+        {
+          "pair_id": "OC09_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC09_Luka_E2",
+            "OC09_Luka_E3",
+            "OC09_Luka_X1",
+            "OC09_Luka_F1",
+            "OC09_KAITO_X1"
+          ],
+          "specific_evidence_notes": [
+            "因其理解照片感动而开心并谢歌唱，个人2",
+            "主动说摄影目标及想传达温暖，具体2；152是听Luka争路不算自己深层袒露",
+            "亲自邀跨SEKAI聚会，具名赠咖啡/蛋糕回报摄影，具体2",
+            "能理解创作、可信任的个人顾问2，无强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC09_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC09_KAITO_E3",
+            "OC09_KAITO_E4",
+            "OC09_KAITO_X1",
+            "OC09_KAITO_G1",
+            "OC09_Rin_X1",
+            "OC09_KAITO_X2",
+            "OC09_KAITO_E1"
+          ],
+          "specific_evidence_notes": [
+            "谢具体指导与海外鼓励，2；未单靠礼物判情感3",
+            "本人问采样与编曲不安、说明新环境紧张，具体2，不以他人创伤升级3",
+            "亲自叫来KAITO并具名赠咖啡和蛋糕，确切个人回报2",
+            "认可可具体咨询、理解创作的个人支持者2，未强特殊定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T23",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "白石杏",
+        "metric": "growth",
+        "raw_index": 46.83333333,
+        "pairs": [
+          "OC10_Luka",
+          "OC10_MEIKO"
+        ]
+      },
+      "comparison": "Luka的201表达方法实际推动练习和英语自信，MEIKO的摄影建议由心羽传达但杏本人确认效果，分别独立一条K2/S2。129未向心羽落实的建议不计新强线，咖啡店照料不倒算OC成长。直接/间接渠道不自动决定档位，保持两个阶段两功能的同分。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC10_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            4,
+            2,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC10_Luka_F1",
+            "OC10_Luka_X1",
+            "OC10_Luka_X2",
+            "OC10_Luka_X3",
+            "OC10_Luka_F2",
+            "OC10_Luka_E1"
+          ],
+          "specific_evidence_notes": [
+            "201建议表达负胜负心的实战对话，杏次日发起练习并在1468回顾英语更自信，K2",
+            "201一条；129她拒绝告诉心羽，尚未落实建议，保留K1且不算强线",
+            "201具名说因其知道该做什么，216具名说有英语信心，S2",
+            "RW挑战期相棒交流到海外语言演唱两阶段",
+            "伙伴情绪与演唱语言方法两类；派对协作不虚构第三核心功能"
+          ]
+        },
+        {
+          "pair_id": "OC10_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            2,
+            4,
+            2,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC10_MEIKO_F1",
+            "OC10_MEIKO_E4",
+            "OC10_MEIKO_X1",
+            "OC10_KAITO_X2",
+            "OC09_MEIKO_X1",
+            "OC10_MEIKO_E1",
+            "OC10_MEIKO_E6"
+          ],
+          "specific_evidence_notes": [
+            "60本人确认因共同演唱思路拍出自己风格，K2；思路由MEIKO经心羽传达，间接作用有本人确认",
+            "60花嫁摄影一线，憧憬姐姐的自觉同一任务不重复计数",
+            "本人说因其可拍出自己风格S2，不把羞涩视根本人生起点",
+            "初期咖啡店具体支持到RW活动中的摄影帮助两阶段",
+            "形象表达与实际照料两类，OC帮店不倒算VS改造OC"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T24",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "白石杏",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC10_Rin",
+          "OC10_Luka",
+          "OC10_MEIKO"
+        ]
+      },
+      "comparison": "铃有本人文化祭邀请，以及181按其想看烟花愿望主动选购并组织活动，跨情境个别关心充分，投入2改3，移出原三者同分。Luka选曲是请求工作意见、夜市邀请是共同兴趣；MEIKO秘密清洁和帮店则是持续回报。剩余二者是信任3/投入2与信任2/投入3的交叉优势，仍并列。",
+      "score_changes": [
+        {
+          "pair_id": "OC10_Rin",
+          "metric": "emotion",
+          "dimension": "investment",
+          "before": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "after": [
+            2,
+            3,
+            3,
+            2
+          ],
+          "reason": "同分深评修订2→3：0532本人邀请铃参加文化祭；181本人记得铃想看烟花，实际选购多种烟花并邀大家参加，跨情境主动回应其个人愿望充分。205共唱作补充，集体场合不等于平均赠礼；保留2档表达/定位，不凭投入反推深情。",
+          "refs": [
+            "OC10_Rin_E5",
+            "OC10_Len_X1",
+            "OC10_Rin_E6"
+          ]
+        }
+      ],
+      "conclusion": "有正文支持的边界修订，重算并再次检查新同分",
+      "members": [
+        {
+          "pair_id": "OC10_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            2,
+            3,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC10_Rin_E2",
+            "OC10_Rin_F1",
+            "OC10_Rin_X1",
+            "OC10_Rin_E4",
+            "OC10_Rin_E5",
+            "OC10_Rin_E6",
+            "OC10_Len_X1"
+          ],
+          "specific_evidence_notes": [
+            "说共同看视频能帮助自己开心回想并谢取回记忆，个人2",
+            "主动说独看就哭、后来面对记忆痛苦，铃确实参与，深层3",
+            "同分深评修订2→3：0532本人邀请铃参加文化祭；181本人记得铃想看烟花，实际选购多种烟花并邀大家参加，跨情境主动回应其个人愿望充分。205共唱作补充，集体场合不等于平均赠礼；保留2档表达/定位，不凭投入反推深情。",
+            "能一起面对悲伤的重要支持伙伴2，未本人强特殊关系定位"
+          ]
+        },
+        {
+          "pair_id": "OC10_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC10_Luka_E1",
+            "OC10_Luka_E3",
+            "OC10_Luka_F2",
+            "OC10_Luka_F1",
+            "OC10_Luka_X1",
+            "OC10_Luka_E7",
+            "OC10_Luka_E8",
+            "OC10_Luka_X2"
+          ],
+          "specific_evidence_notes": [
+            "谢派对、英语实际帮助并愿一起活动，个人2",
+            "愿请其听相棒不安且真实讨论成长焦虑，深层3；语言紧张本身2",
+            "本人邀选曲、邀同逛夜市并分享凪给的曲，具体2",
+            "愿咨询和认识个人方法帮助的师友2，未强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC10_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC10_MEIKO_F1",
+            "OC10_MEIKO_X1",
+            "OC10_MEIKO_E1",
+            "OC10_MEIKO_E3",
+            "OC09_MEIKO_X1",
+            "OC10_KAITO_X2"
+          ],
+          "specific_evidence_notes": [
+            "谢个人帮助并在被夸时羞涩，喜欢可靠姐姐风格，具体2",
+            "承认模特没有自信、希望像姐姐一样，具体2；未核直接核心失落袒露3",
+            "亲自帮店、带清洁剂并参与为MEIKO秘密清洁计划，跨实际回报3",
+            "本人明确憧憬MEIKO/雫可靠姐姐形象2，非排他唯一定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T25",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "东云彰人",
+        "metric": "emotion",
+        "raw_index": 43.75,
+        "pairs": [
+          "OC11_Miku",
+          "OC11_KAITO"
+        ]
+      },
+      "comparison": "Miku表达1但有本人照顾其好奇的摊位邀约2，KAITO具名歉谢表达2而只有受邀生日参与1。两者的咨询/关系意义都2，没有深层本人袒露3。受邀出席不能改称主动个别关心；也不能把Miku一般生日感谢升个人表达2。总分相等源于不同方向，保留并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC11_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC11_KAITO_X1",
+            "OC11_Miku_F1",
+            "OC11_Miku_X1",
+            "OC11_Miku_X2"
+          ],
+          "specific_evidence_notes": [
+            "收到共同祝福的谢谢1；没核到更深Miku个别感情表达",
+            "本人询问演唱意见、世界困惑，具体咨询2；恶作剧可能求助不是创伤袒露",
+            "本人应Miku好奇而邀她同看热狗摊，具体照顾兴趣2；没有给虚拟形象买食物的假说",
+            "会求个人演唱意见的具体支持者2，未强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC11_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            2,
+            2,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC11_KAITO_F1",
+            "OC11_KAITO_X1"
+          ],
+          "specific_evidence_notes": [
+            "误会后主动歉谢对方关心、具名谢方法2",
+            "明确向共同听众说明团队不顺与远野顾虑，具体2，不借别人创伤抬3",
+            "回应邀约愿到共同生日场合1；未核个别馈赠或主动投入2，保留低档并说明取证范围",
+            "可向其共同讨论团队问题的个人顾问2，无强特殊定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T26",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "东云彰人",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC11_Rin",
+          "OC11_Luka"
+        ]
+      },
+      "comparison": "铃真实听见不前行就不能是自己的核心焦虑，信任3；Luka歌声与话反复入心且有连续个人意义，表达/定位3，但79创伤向谦讲，不得转借给Luka。铃帮助连惊喜的排练是投入2，Luka受邀聚会1。两者优势跨维，无证据给出等权总分以外的唯一顺序。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC11_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC11_Len_X1",
+            "OC11_Len_X3",
+            "OC11_Rin_X1",
+            "OC11_Rin_X3"
+          ],
+          "specific_evidence_notes": [
+            "本人谢相助并与两人笑着恢复交流，具体2",
+            "说不前行会失去大事物、不能是自己，铃真参与，深层3",
+            "回应铃为给连惊喜而练曲的请求，共同练习是确切2；没把给连花束转给铃",
+            "本人记得其一直支持、共同歌唱的个人伙伴2，无强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC11_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            3,
+            2,
+            1,
+            3
+          ],
+          "reviewed_story_refs": [
+            "OC11_Luka_X2",
+            "OC11_Len_X3",
+            "OC11_Luka_E3",
+            "OC11_Luka_F1",
+            "OC11_Luka_X1",
+            "OC11_Luka_X3"
+          ],
+          "specific_evidence_notes": [
+            "本人觉得歌与话反复入心并主动珍惜持续帮助，3；不是仅看其演唱的惊叹",
+            "以歌回应个人情绪并请教表达法，具体2；79创伤正式对象是谦，不借给Luka3",
+            "参加受邀周年聚会的本人对话可支持互动1；承诺带礼物的是杏，不给彰人个人赠礼2",
+            "本人承认反复引领、入心及呼唤自己的重要性，连续个人意义3，非排他4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T27",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "青柳冬弥",
+        "metric": "growth",
+        "raw_index": 68.08333333,
+        "pairs": [
+          "OC12_Miku",
+          "OC12_KAITO"
+        ]
+      },
+      "comparison": "Miku的古典价值、自我压抑及料理三问题，与KAITO的相棒支持、古典分析及编曲三问题均独立。共谈古典不否定各自实际作用，也不把Miku创造古典起点记K4。两者本人具体归因S2成立，但尚未有可区分的S3重大结果定位；三功能/两时期保持，保留成长并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC12_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            3,
+            9,
+            2,
+            1,
+            3
+          ],
+          "reviewed_story_refs": [
+            "OC12_Miku_G1",
+            "OC12_Miku_G2",
+            "OC12_Miku_X1",
+            "OC12_Miku_E1",
+            "OC12_Miku_E3",
+            "OC12_Miku_X2",
+            "OC12_Miku_X3",
+            "OC12_Miku_E2"
+          ],
+          "specific_evidence_notes": [
+            "0403面对童年练习负担与自我压抑，71改看古典分析的意义，K3；不是Miku创造古典起点K4",
+            "古典能力用途71与自我情绪0403虽关联，前者判断作品后者长期压抑原因不同；87实际料理新任务第三线；0890童年忆事未接受休息，不多计",
+            "71本人说过去努力以此保留、0403具名说因她思考，S2；杯糕有改变却未完美成功",
+            "RW挑战期古典回顾与后续个人料理/创作任务两阶段，时间不按发售年",
+            "艺术认识、自我情绪、具体料理三类"
+          ]
+        },
+        {
+          "pair_id": "OC12_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            3,
+            9,
+            2,
+            1,
+            3
+          ],
+          "reviewed_story_refs": [
+            "OC12_KAITO_G1",
+            "OC12_KAITO_G2",
+            "OC12_KAITO_G3",
+            "OC10_KAITO_F1",
+            "OC12_KAITO_E1",
+            "OC12_KAITO_E5",
+            "OC12_KAITO_X1",
+            "OC12_KAITO_X3",
+            "OC12_Luka_X1",
+            "OC12_Luka_X3"
+          ],
+          "specific_evidence_notes": [
+            "21直接使决定以相棒身份支持彰人、71解释过去古典练习资产，重要关系/自我认识K3",
+            "21相棒支持、71古典分析、grade2编曲方法改善三个任务；咖啡放松是持续功能，不另按次造强线",
+            "本人说教学使轨道改善、长期关照使重新面对问题，S2，未授独占重大人生起点S3/4",
+            "组团后RW早期相棒磨合到进级后的作品与共同照料两阶段；未靠现实年数授T3",
+            "伙伴、自我情绪、音乐技艺三类，休息茶点并入负荷照料不膨胀四类"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T28",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "青柳冬弥",
+        "metric": "growth",
+        "raw_index": 46.83333333,
+        "pairs": [
+          "OC12_Rin",
+          "OC12_Len"
+        ]
+      },
+      "comparison": "139中铃和连都真实模拟顾客且冬弥具名感谢，不能按互动先后分配高低。连1415主要陪伴，核心古典/游戏认识来自冬弥自己与过去的自己，不多记一条K3；铃191应援和204餐食是具体照料，也不另记强线。两者均一条K2线和两个阶段，保留并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC12_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            2,
+            4,
+            2,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC12_Rin_X1",
+            "OC12_Rin_F1",
+            "OC12_Rin_E2",
+            "OC12_Rin_E3",
+            "OC12_Luka_X1",
+            "OC12_Luka_X3"
+          ],
+          "specific_evidence_notes": [
+            "139实际扮顾客助练，改进接客K2；重拾音乐喜悦是本人体验、杏教学，不能全部给铃核心K3",
+            "139接客一条；191应援与204餐食为具体支持K1不另强线",
+            "139本人具名谢练习、191说应援鼓励，具体S2，不独占活动所有收获",
+            "RW期103共同听父亲旧事到其后191/204具体支持两阶段",
+            "实际接客练习与情绪照料两类"
+          ]
+        },
+        {
+          "pair_id": "OC12_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            2,
+            4,
+            2,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC12_Rin_X1",
+            "OC12_Rin_F1",
+            "OC12_Len_F1",
+            "OC12_Len_X1",
+            "OC12_Len_X2"
+          ],
+          "specific_evidence_notes": [
+            "139真实模拟顾客使练习有成果K2；1415解决古典与游戏的反思主要本人及其过去自我，连陪伴不独占K3",
+            "接客一线；1415陪同回看作为K1，没核连个别导致另一个核心自觉",
+            "139本人具名谢铃连练习S2；不把本人音乐欢喜均分给在场VS",
+            "RW附近139实务练习到其后1415碎片困境共同陪伴两阶段",
+            "接客实务与情绪/内心陪伴两类"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T29",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "青柳冬弥",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC12_Miku",
+          "OC12_Rin",
+          "OC12_Luka"
+        ]
+      },
+      "comparison": "Miku0403听见童年家人期待与吞痛苦，铃/Luka在103真正听见逃离古典的父亲故事，不能以私人/群体渠道决定信任3高低。Miku蛋糕工具、铃相册装饰、Luka按喜好选器皿均具体2，后者尚未在此窗确认交付。未有特殊定位3或个别稳定表达3差异，维持并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC12_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC12_Miku_E5",
+            "OC12_Miku_E6",
+            "OC12_Miku_E2",
+            "OC12_Miku_X1",
+            "OC10_Miku_X2",
+            "OC12_Miku_E1"
+          ],
+          "specific_evidence_notes": [
+            "谢具体谈话与陪教2，未因核心指导自动抬表达3",
+            "本人说吞痛苦、家人期待、逃离古典的负担，深层3",
+            "参与Miku纪念蛋糕准备工具及制作，明确本人贡献2；125讲过去不是给Miku投入",
+            "本人明确当料理老师、可托付个人复杂困惑的支持者2，无特殊排他定位"
+          ]
+        },
+        {
+          "pair_id": "OC12_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC12_Rin_F1",
+            "OC12_Rin_E2",
+            "OC12_Rin_E3",
+            "OC12_Rin_X1",
+            "OC12_Luka_X1",
+            "OC12_Luka_X3",
+            "OC09_Rin_X3"
+          ],
+          "specific_evidence_notes": [
+            "具名谢陪练与应援、接受餐食照料，具体2",
+            "本人对在场铃/Luka/MEIKO/KAITO讲父亲训练与后来逃离，铃有回应，共同深层袒露3",
+            "实际为连送铃的相册选照片、剪装饰，铃是明确收礼者，具体2",
+            "可参与真实咨询和陪伴的个人支持伙伴2，未强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC12_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC12_Luka_G2",
+            "OC12_Luka_X1",
+            "OC12_Luka_X3",
+            "OC12_Luka_X2",
+            "OC12_Luka_G1",
+            "OC11_Luka_X3"
+          ],
+          "specific_evidence_notes": [
+            "谢照看并愿分享过去与个人成果2，未凭露营改变重要升情感3",
+            "真实讲父亲训练、无法再努力和曾逃离古典，深层3",
+            "特意按她/MEIKO喜好挑咖啡店用器皿作谢礼，具体筹备2；尚未此窗证明最终交付",
+            "认可可请教、使自己发现贡献的师友2，未特殊排他定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T30",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "天马司",
+        "metric": "emotion",
+        "raw_index": 50.0,
+        "pairs": [
+          "OC13_Miku",
+          "OC13_MEIKO"
+        ]
+      },
+      "comparison": "Miku脚本/角色、MEIKO表演难题都是具体咨询2；司童年大段回想未口述给Miku，不能借此升信任3。Miku筹生日脚本、MEIKO专门节目及不让寿星回礼都是投入2。因舞台主导权或生日出场频率判谁更亲没有充分依据，保留并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC13_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC13_Miku_E4",
+            "OC13_Miku_E5",
+            "OC13_Miku_E6",
+            "OC13_Miku_E2",
+            "OC13_Miku_E3",
+            "OC13_KAITO_X1",
+            "OC13_Miku_E8",
+            "OC13_Luka_X4",
+            "OC13_Miku_G2"
+          ],
+          "specific_evidence_notes": [
+            "本人说来应援很开心、感谢具体咨询，2；被Miku庆生不是自己投入",
+            "本人会问角色与脚本困惑，具体2；童年回想主要内心，不自动算向其深层袒露3",
+            "应请求亲自写庆生脚本、主动来帮聚会筹备，具体2",
+            "有个人咨询者及共同表演伙伴意义2，没强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC13_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC13_MEIKO_F1",
+            "OC13_MEIKO_X1",
+            "OC13_MEIKO_X2"
+          ],
+          "specific_evidence_notes": [
+            "本人对一起庆祝与活动回应亲近、看快乐自己也有精神，2",
+            "讲自己遇表演难题并一起讨论，具体2；没有核心创伤3",
+            "明确参与专门为MEIKO生日的表演/礼物并反对让寿星回礼，具体投入2",
+            "共同创作、庆祝与咨询伙伴的个人意义2，无更强特殊定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T31",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "天马司",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC13_Rin",
+          "OC13_Luka"
+        ]
+      },
+      "comparison": "铃185实际听见司不知道怎样帮助宁宁及已经尝试的做法；Luka听见与咲希争执和睡眠需求，都具体2而非司核心创伤3。司替铃组织重逢/游戏与给Luka布置人偶/防受凉属于跨情境个别投入3。承担不同需要并不能排序亲密，尚无表达或特殊定位升级。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC13_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC13_Rin_E1",
+            "OC13_Rin_Y1",
+            "OC13_Rin_E3",
+            "OC13_Rin_F1"
+          ],
+          "specific_evidence_notes": [
+            "本人说实现铃连重逢愿望很高兴，具体个人2",
+            "185-06铃真实询问后，司向铃与KAITO讲自己不知道怎样帮宁宁恢复表演、说明已试过的方法与愿望，具体困难分享2；不是把类的童年孤独借成司的深层创伤3",
+            "亲自代抽签、为重逢愿望组织见面、回应游戏并给新规则，跨情境个别关心3",
+            "愿照顾其愿望、一起活动的个人伙伴2，未强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC13_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC13_Luka_E1",
+            "OC13_Luka_F1",
+            "OC13_Luka_X4",
+            "OC13_Luka_X2",
+            "OC13_Luka_X3"
+          ],
+          "specific_evidence_notes": [
+            "专门来道谢、称羡她的睡眠并理解方法，具体2",
+            "说明与咲希争执及不知是否回家、之后请求安眠办法，具体2，未更深核心自我痛苦袒露3",
+            "主动帮摆人偶并担心受凉准备盖物，跨情境实际个别照顾3",
+            "能信赖相談及主动照顾的个人师友2，无强特殊定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T32",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "天马司",
+        "metric": "emotion",
+        "raw_index": 62.5,
+        "pairs": [
+          "OC13_Len",
+          "OC13_KAITO"
+        ]
+      },
+      "comparison": "对连司主动想回报持续照顾和演出安心；对KAITO持续合作、被其依靠也很开心，分别支持表达3。重逢/巧克力与文化祭/用品/日记分别支持投入3。KAITO是初心见证者，但司未据此作更强显式特殊关系定位；连也未接收核心创伤口述，保留同档并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC13_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            3,
+            2,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC13_Len_E3",
+            "OC13_Rin_E1",
+            "OC13_Len_E2",
+            "OC13_Len_E5"
+          ],
+          "specific_evidence_notes": [
+            "本人明确最近不断受其照顾、在演出中有他安心、想回报，跨情境珍惜3",
+            "会共同商量礼物及对同伴担忧，具体2；没本人核心创伤向连袒露3",
+            "主动邀其画巧克力设计作回报，并组织实现其重逢愿望，跨情境個别3",
+            "把具体照顾/共同演出视个人支持意义2，未强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC13_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            3,
+            2,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC13_KAITO_E6",
+            "OC13_Miku_E6",
+            "OC13_KAITO_X4",
+            "OC13_KAITO_E1",
+            "OC13_KAITO_E3",
+            "OC13_KAITO_X1",
+            "OC13_KAITO_X3",
+            "OC13_KAITO_G2"
+          ],
+          "specific_evidence_notes": [
+            "持续主动谢实际合作、后来明确被其依靠很高兴，跨情境个人珍惜3",
+            "主动问脚本与角色困难，具体2；单次自我反省不能硬当深层创伤袒露3",
+            "邀其看文化祭、按请求带用品并共做日记，跨情境实际个别3",
+            "可靠合作顾问和明星初心见证者2；未本人强特殊排他定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T33",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "凤笑梦",
+        "metric": "growth",
+        "raw_index": 70.16666667,
+        "pairs": [
+          "OC14_Len",
+          "OC14_MEIKO"
+        ]
+      },
+      "comparison": "连的15悲伤/求助、131视点训练及149竞演运营，与MEIKO的104分离未来、0897失落记忆及217地图筹备各三条。连两项均表演却是独立任务；MEIKO祖父碎片不等于真实复活或夺取祖父人生影响K4。共同结果与本人具体归因只达S2，功能与三阶段一致，暂无高档差异。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC14_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            3,
+            9,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC14_Len_G1",
+            "OC14_Len_G2",
+            "OC14_Len_X3",
+            "OC14_Len_X2",
+            "OC14_Len_E2",
+            "OC14_Len_X1"
+          ],
+          "specific_evidence_notes": [
+            "15直接支持允许自己悲伤与求助，核心同伴沟通K3；131把导师视点训练变成可实施请求",
+            "15面对困境、131视点方法、149自己举办并参与演技比赛是三个任务；149和131虽同演技，但另有独立运营/竞演实践",
+            "本人具名说因连学到演技及赛事运营、131实际广泛求反馈，具体S2",
+            "公园危机、外部演技学习、承接主办企划与后来海外同行三阶段；只计前三T2",
+            "情绪沟通与表演/企划两类，很多反馈不按数量增加功能"
+          ]
+        },
+        {
+          "pair_id": "OC14_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            3,
+            9,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC14_MEIKO_G1",
+            "OC14_MEIKO_F1",
+            "OC14_MEIKO_X1",
+            "OC14_MEIKO_X2",
+            "OC14_MEIKO_X3",
+            "OC14_MEIKO_X4",
+            "OC14_MEIKO_X5",
+            "OC13_MEIKO_X2"
+          ],
+          "specific_evidence_notes": [
+            "104旁白明确梦与分离仍能相聚，使本人产生未来想法，0897理解祖父碎片及保存意义，K3；真正祖父影响不移植给MEIKO",
+            "104未来同伴、0897失落与记忆、217地图筹备三个任务；131短意见无个别实际采纳不另加",
+            "本人说因她遮红眼助很大、旅行册实际採用建议，S2；104“大家”不单独归她所有功劳",
+            "公园活动/演员反馈、未来分离和失落、实际海外筹备三阶段，非发行年数",
+            "情绪/自我与实际企划任务两类，祖父相会不是她现实复活祖父"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T34",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "凤笑梦",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC14_Miku",
+          "OC14_KAITO"
+        ]
+      },
+      "comparison": "Miku是信任2/投入3：零食会、拾贝与相机回应；KAITO是信任3/投入2：真实讲改革怕旧客受伤，但个别回报只确认爆米花活动。不能将KAITO经营帮助的重要性直接换情感表达3，也不能把Miku热闹活动当深层袒露3；等权总分保留，并展示不同关系特征。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC14_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC14_Miku_E1",
+            "OC14_Miku_E2",
+            "OC14_Miku_E3",
+            "OC14_Miku_E7",
+            "OC14_Miku_E4",
+            "OC14_Miku_E5",
+            "OC14_Miku_E6",
+            "OC14_Miku_X1"
+          ],
+          "specific_evidence_notes": [
+            "本人说来听演奏、应援都很开心并具名谢拍照，个人2",
+            "主动问纸飞机方法，具体2；218替一歌讲喜爱不是自己深层袒露",
+            "亲自带零食开女孩会、与其拾贝再共享、带相机让其实现涂画愿望，跨情境个别3",
+            "愿主动邀请、分享并请教的个人伙伴2，无强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC14_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC14_KAITO_E2",
+            "OC14_KAITO_E3",
+            "OC14_KAITO_F1",
+            "OC14_KAITO_X1",
+            "OC14_KAITO_X2"
+          ],
+          "specific_evidence_notes": [
+            "本人谢持续关心与听清不安，2，未因重要职业问题升表达3",
+            "直接讲怕旧客受伤、害怕改革却想保住剧团的内在冲突，深层3",
+            "亲自带机器并邀其与众人一起做爆米花，具体2",
+            "愿求帮助且听重要经营困惑的个人支持者2，哥哥称谓不是特殊排他定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T35",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "凤笑梦",
+        "metric": "emotion",
+        "raw_index": 50.0,
+        "pairs": [
+          "OC14_Rin",
+          "OC14_Luka"
+        ]
+      },
+      "comparison": "铃察觉笑梦悲伤不等于笑梦向铃完整说出，信任2；Luka周年“喜欢”属于实际祝福演出，不能单凭角色台词升深情3/4。相机/涂画与设计Luka节目都具体投入2，尚没有支持持续个人关系升级的差异，保留并列并标注演出与真实互动范围。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC14_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC14_Rin_E1",
+            "OC14_Rin_E2",
+            "OC14_Rin_X2",
+            "OC14_Rin_G1",
+            "OC14_Rin_X1",
+            "OC14_Miku_X1"
+          ],
+          "specific_evidence_notes": [
+            "与不同SEKAI铃成朋友、被其认作经营者而开心，个人2；不是把便当喜欢当对铃感情",
+            "会共同讨论具体心态训练/烦恼，2；主线悲伤深层完整袒露主要后来对OC同伴，不据她察觉给信任3",
+            "本人把相机/笔带来让铃也拍照涂画，具体实际2",
+            "会分享活动、愿共同谈具体难题的个人伙伴2，无强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC14_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC14_Luka_X1",
+            "OC14_Luka_X2",
+            "OC14_Luka_F1",
+            "OC14_Luka_X5",
+            "OC14_Luka_X3",
+            "OC14_Rin_X2"
+          ],
+          "specific_evidence_notes": [
+            "本人谢看顾；周年演出中说喜欢可靠Luka，记作策划祝福的表达2，明确属于演出，不直接升深情4",
+            "会问具体训练和说想支持同伴的动机，具体2，没深层创伤袒露3",
+            "本人明确一起设计Luka主演的周年节目，给她具体祝福投入2",
+            "认可温柔可靠的个人姐姐式支持者2；剧中奇迹/台词不是现实因果证明"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T36",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "草薙宁宁",
+        "metric": "emotion",
+        "raw_index": 50.0,
+        "pairs": [
+          "OC15_Miku",
+          "OC15_Len",
+          "OC15_KAITO"
+        ]
+      },
+      "comparison": "Miku听“被照顾过多”，连/KAITO听导演与同学关系顾虑，均是实际具体咨询2。连转交寄语真实已做，书和电影有答应带来的部分，共同庆生表演也实际参与，但尚不足凭分散日常动作升稳定3。不能把其他OC核心过去借给宁宁；三者仍无高档差异。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC15_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC15_Miku_E1",
+            "OC15_Miku_E2",
+            "OC15_Miku_E3",
+            "OC15_Miku_X3",
+            "OC15_Miku_E4",
+            "OC15_Miku_X4",
+            "OC13_Miku_E8"
+          ],
+          "specific_evidence_notes": [
+            "体谅Miku开心、感谢照顾并愿再来玩，具体2",
+            "说明被照顾后觉得甘えすぎ并问支持原因，个人具体2；尚不据这句授核心创伤袒露3",
+            "本人答应按其喜好带书、亲自负责共同庆生演出的选曲，具体2",
+            "确认能来玩与共做表演的个人支持伙伴2，未强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC15_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC15_Len_E1",
+            "OC15_Len_E2",
+            "OC15_Len_E3",
+            "OC15_KAITO_X1",
+            "OC15_Luka_X1",
+            "OC15_KAITO_X2"
+          ],
+          "specific_evidence_notes": [
+            "具名谢自己寻物、相談和信自己会回来，个人2",
+            "说明导演不能带队和与同学正反性格的不安，具体2；没直接核心创伤3",
+            "主动答应带电影数据、实际递交给MMJ连的寄语回报，具体2；不同SEKAI分别标识",
+            "真正帮助自己理解同学与愿一起活动的个人伙伴2，无强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC15_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC15_KAITO_E1",
+            "OC15_KAITO_E2",
+            "OC15_KAITO_E3",
+            "OC15_KAITO_X1",
+            "OC15_KAITO_X3",
+            "OC15_Rin_E5"
+          ],
+          "specific_evidence_notes": [
+            "谢持续应援和实践帮助，个人2，未凭共同感谢量自动3",
+            "说明同学之间墙与用机器站台的担心，具体2；谈自己教笑梦不等于核心袒露3",
+            "本人参与准备送给歌手的节目并练舞选曲，明确实际2；误会类给药不是赠礼",
+            "可相談与实践依靠的个人顾问2，无强特殊定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T37",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "神代类",
+        "metric": "emotion",
+        "raw_index": 68.75,
+        "pairs": [
+          "OC16_Miku",
+          "OC16_Luka"
+        ]
+      },
+      "comparison": "Miku是投入3/定位2，Luka是投入2/定位3。类为Miku制作装置及教角色属持续行动；Luka给予可随时求助的承诺，类后来明确求助习惯改变，属持续个人依靠。都有本人真实深层袒露3和持续珍惜3，但相互优势不同，不改权重硬排总分。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC16_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC16_Miku_G1",
+            "OC16_Miku_E1",
+            "OC16_Miku_X1",
+            "OC16_MEIKO_X1",
+            "OC16_Miku_E2"
+          ],
+          "specific_evidence_notes": [
+            "本人明确珍惜她一直认真向自己，并持续感谢共同协作，个人跨情境3",
+            "直接讲追梦与舍不得伙伴矛盾、对自己感伤的贬低，深层3",
+            "给她筹备周年娱乐节目、教角色理解并制作互动装置，跨情境具体3",
+            "愿讲重要选择且认可认真理解的个人支持者2，无特殊排他定位"
+          ]
+        },
+        {
+          "pair_id": "OC16_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            3,
+            3,
+            2,
+            3
+          ],
+          "reviewed_story_refs": [
+            "OC16_Luka_F1",
+            "OC16_Luka_E3",
+            "OC16_Luka_X1",
+            "OC16_Luka_X3",
+            "OC14_Luka_X3"
+          ],
+          "specific_evidence_notes": [
+            "主动报告成果、详细确认持续帮助使自己更能求助，跨情境个人珍惜3",
+            "说感情难控制、甚至想别人替自己控制的痛苦，以及怕被拒绝，深层3",
+            "专门回来讲结果并参与借用品制作其周年节目，具体2，未核更强多次个别行动3",
+            "本人明确因她/MEIKO承诺能更自然求助、持续回访，稳定个人依靠意义3，无排他4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T38",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "神代类",
+        "metric": "emotion",
+        "raw_index": 75.0,
+        "pairs": [
+          "OC16_MEIKO",
+          "OC16_KAITO"
+        ]
+      },
+      "comparison": "MEIKO实际听情绪控制痛苦并被类回访，KAITO实际听童年孤独/失去归属焦虑；都达到深层袒露3。装置/周年与文化祭/用品/日记都跨情境投入3，类也具名认可持续依靠3。深层内容各有差别但未出现唯一、稳定核心身份关系的4档证据，保留并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC16_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "reviewed_story_refs": [
+            "OC16_MEIKO_F1",
+            "OC16_MEIKO_E3",
+            "OC16_MEIKO_E5",
+            "OC16_MEIKO_X1",
+            "OC13_MEIKO_X2",
+            "OC16_MEIKO_X2",
+            "OC16_Len_E2"
+          ],
+          "specific_evidence_notes": [
+            "本人主动确认谈话使平静、她故事很有趣、成伙伴很高兴，跨情境个人3",
+            "愿说感情干扰思考、想别人代控的私情负担，MEIKO确切听并回应，深层3",
+            "主动邀其看基础形象周年直播并准备礼物、展示作品构想、带互动装置共玩，跨情境实际3",
+            "本人明确因可随时頼她/ルカ而改变求助习惯，稳定个人依靠3，非排他4"
+          ]
+        },
+        {
+          "pair_id": "OC16_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "reviewed_story_refs": [
+            "OC16_KAITO_E1",
+            "OC16_KAITO_E2",
+            "OC16_KAITO_E3",
+            "OC16_KAITO_G2",
+            "OC16_KAITO_X2",
+            "OC16_KAITO_X3",
+            "OC16_KAITO_E4",
+            "OC13_KAITO_X4"
+          ],
+          "specific_evidence_notes": [
+            "主动反复感谢持续照顾、讲与过去独演不同的个人变化，跨情境珍惜3",
+            "直接讲童年被远拒与孤独、担心失去现在归属，真实深层袒露3；基础KAITO和WxS形态各标清",
+            "替周年安排给建议、应其请求带用品并共同制作回忆日记，跨情境实际3",
+            "本人曾经以为一直独演、如今会直接求其观点并分享核心过去，稳定个人师友依靠3，未唯一4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T39",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "宵崎奏",
+        "metric": "growth",
+        "raw_index": 63.83333333,
+        "pairs": [
+          "OC17_Rin",
+          "OC17_Luka"
+        ]
+      },
+      "comparison": "铃116重新梳理为家人创作、155反向让别人认识自己，与Luka26目标微笑及63允许自身快乐均为两个独立K3任务。112湖提示未核Luka单独解决奏音乐对现实的难题，不多记第三线；父亲启蒙不转给铃K4。本人具体归因S2与两功能/时期相等，维持并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC17_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            3,
+            7,
+            2,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC17_Rin_G1",
+            "OC17_Rin_G2",
+            "OC17_Rin_G3",
+            "OC17_Rin_X1",
+            "OC17_Rin_X2",
+            "OC17_Rin_E1",
+            "OC17_KAITO_G3"
+          ],
+          "specific_evidence_notes": [
+            "116引回曾为家人幸福创作、辨自己音乐意义，核心自我K3；父亲真正启蒙不移植铃K4",
+            "116从询问到幸福新曲分享合并一线；155倒过来让对方知道自己，是另一种创作任务",
+            "116本人说经铃整理思考，155具名说因谈话找到办法与实际效果，S2；不独占绘名/KAITO作用",
+            "初期救助后14具体交流到进级116/后期155方法两阶段；无剧情跨年T3证明",
+            "自我情绪/家人认识与创作沟通两类"
+          ]
+        },
+        {
+          "pair_id": "OC17_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            3,
+            7,
+            2,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC17_Luka_G1",
+            "OC17_Luka_G2",
+            "OC17_Luka_G3",
+            "OC17_Luka_X3",
+            "OC17_Luka_X4",
+            "OC17_Luka_X5",
+            "OC17_Luka_G4",
+            "OC17_Luka_X1",
+            "OC17_Luka_X2",
+            "OC17_Luka_E2"
+          ],
+          "specific_evidence_notes": [
+            "26追問曲终点促明确想她微笑，63建议自己心情也重要并被本人采纳，创作/自我K3；瑞希真实拓展世界是26关键共同贡献",
+            "26目的与63自我快乐两个任务；112带看湖有提示，却后续自身梦中行动并非Luka明确解决音乐对现实问题，先不造第三强线",
+            "35本人明确若她未示路真冬可能没作此词，具体S2；不把真冬成果等同奏特殊关系S4",
+            "初期创作26、后续生活/自我63及进级救助112两个时期，未按发行年授跨年",
+            "音乐创作方向与自我/情绪负荷两类；运动催促含压力，不作纯正面教学"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T40",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "宵崎奏",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC17_Len",
+          "OC17_KAITO"
+        ]
+      },
+      "comparison": "连更多接受奏寻找、教礼仪与鼓励爱好，投入3但奏自我分享主要快乐/新认识2；KAITO在实际介入通话中听父亲负罪与无资格幸福，信任3但个别回报2。不把绘名接话独占成KAITO功劳，也不把连受到奏照看改成奏向连深层倾诉。两者总分交叉相等，保留。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC17_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC17_Len_E2",
+            "OC17_Len_E3",
+            "OC17_Len_X3",
+            "OC17_Len_F1",
+            "OC17_Len_X1"
+          ],
+          "specific_evidence_notes": [
+            "本人谢谢及时通知，并特别说喜欢其温柔配色的鸟，个人2",
+            "本人向连直说自己的快乐与新认识，具体自我分享2；不写核心创伤袒露3",
+            "察觉其不开心主动寻找、教烛礼与缓解选择不安，跨情境具体3",
+            "愿听其困难、鼓励个人爱好的具体伙伴2，无更强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC17_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC17_KAITO_E2",
+            "OC17_KAITO_X3",
+            "OC17_KAITO_G3",
+            "OC17_KAITO_X1"
+          ],
+          "specific_evidence_notes": [
+            "本人接受具体关心并感谢，2；不以重要自我指导自动抬情感3",
+            "父亲负罪与没有资格追幸福的情绪在他实际介入的通话中坦露，深层3，绘名是真正共同接话者",
+            "亲自带其周年冰淇淋蛋糕、参与准备祝福，明确2；CD对象Miku不能转给他",
+            "可听到真实苦处、实际回应并照看的个人顾问2，无更强特殊定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T41",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "朝比奈真冬",
+        "metric": "growth",
+        "raw_index": 63.83333333,
+        "pairs": [
+          "OC18_Rin",
+          "OC18_Len"
+        ]
+      },
+      "comparison": "铃帮助父亲旧温柔与歌词表达，连帮助辨认温暖及身体自照，均两个K3任务。134父亲开口有瑞希/父亲和本人努力；61真实温暖有伙伴提供，不能独占升S3。0834饮食变化与回想分别支持具体S2，两者两时期两功能一致，暂无可靠更高档差异。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC18_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            3,
+            7,
+            2,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC18_Rin_F1",
+            "OC18_Rin_X1",
+            "OC18_Rin_X3",
+            "OC18_Rin_X4",
+            "OC18_Rin_X6",
+            "OC18_Rin_E1",
+            "OC18_Rin_E3"
+          ],
+          "specific_evidence_notes": [
+            "134提醒父亲旧温柔有可能仍在，和瑞希支持共同促开口，核心家人关系K3；35被看顾提醒歌词方向",
+            "35歌词表达与134信父亲两个任务；161帮奏休息是具体间接支持，不造第三核心线",
+            "35本人明确因铃来想起重要事，具体S2；134最终开口也有瑞希、父亲与自身努力",
+            "早期自我/歌词探索35到离家后的父亲沟通134及持续照看两阶段",
+            "创作自我表达与家庭/同伴情绪支持两类，不把雷声害怕写成真实危害"
+          ]
+        },
+        {
+          "pair_id": "OC18_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            3,
+            7,
+            2,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC18_Len_G1",
+            "OC18_Len_G2",
+            "OC18_Len_X2",
+            "OC18_Len_X3",
+            "OC18_Len_X4",
+            "OC18_Len_E1"
+          ],
+          "specific_evidence_notes": [
+            "61直接把温暖与伙伴相处关联，真冬开始辨自己感受并决定留下看表演，核心自我感知K3；不是连创造童年温暖",
+            "61温暖辨认与0834身体自照两个任务；112陪找湖属于支持、未核新个别方向不另强线；あやとり尚只接受教法不授已掌握",
+            "0834本人觉得两人来了后更愿认真吃、61回想其话辨暖，具体S2；不独占伙伴真实提供温暖",
+            "母家时期自我情绪与初期练习到离家后112/116关照两阶段",
+            "自我情绪与身体/实际活动两类，旁人的实地故事不当他的教学"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T42",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "朝比奈真冬",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC18_Len",
+          "OC18_KAITO"
+        ]
+      },
+      "comparison": "连接受博物馆纪念品和亲手礼物、共同游戏，投入3但61童年大段内心回忆未完整说给他，信任2；KAITO实际听见没人听拒绝/怎么办/恐惧，信任3但确认的个别回报主要桔梗手帕2。不能把温柔程度主观换档，等权总分保留并展示交叉差别。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC18_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC18_Len_E1",
+            "OC18_Len_E2",
+            "OC18_Len_X4",
+            "OC18_Len_G2",
+            "OC18_Len_X2",
+            "OC18_Len_X3",
+            "OC18_Rin_X5",
+            "OC18_Luka_E3",
+            "OC18_Len_G1"
+          ],
+          "specific_evidence_notes": [
+            "谢本人看顾，也谢彰人照顾连，个人2，未据他温柔自动给OC深情3",
+            "说胸冷/苦、愿解释实际处境及问游戏方法，具体2；61童年迷路大段是内心回忆，不当对连口述创伤3",
+            "按其想看带博物馆纪念品、亲手做礼物/刺绣并回应共同游戏，跨情境具体3",
+            "愿照顾其感受、认可其陪伴与温暖理解的个人伙伴2，无更强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC18_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC18_KAITO_E3",
+            "OC18_KAITO_X1",
+            "OC18_KAITO_G2",
+            "OC18_KAITO_G4"
+          ],
+          "specific_evidence_notes": [
+            "本人谢传物并按其形象准备礼物，具体2；对他的生活意义仍不以成长分代情感分",
+            "直接说曾说嫌却无人听、再问怎么做和自己的恐惧，真向他回应，深层3",
+            "自己按他的印象绣桔梗手帕且亲自赠出，实际个别2；让他代转饼干不是送他",
+            "会直接问重要办法、接受反驳并主动回报的个人顾问2，无本人更强特殊定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T43",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "朝比奈真冬",
+        "metric": "emotion",
+        "raw_index": 50.0,
+        "pairs": [
+          "OC18_Luka",
+          "OC18_MEIKO"
+        ]
+      },
+      "comparison": "Luka听不敢再探湖及具体帮助问题，所惧记忆未在此窗详细讲给她；MEIKO允许近身倚睡体现实际信赖，但没有核心创伤口述。二者信任2，生日筹备/群体刺绣与专送蝴蝶手帕都是具体投入2；礼物个别程度有差但尚未改变档位，保留并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC18_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC18_Luka_E2",
+            "OC18_Luka_X2",
+            "OC18_Luka_X3",
+            "OC18_Luka_E1",
+            "OC18_Luka_X1",
+            "OC18_Rin_X5"
+          ],
+          "specific_evidence_notes": [
+            "本人具名谢回忆帮忙并参与其特殊生日愿望，个人2；目前无更深Luka个別宣言",
+            "直接说不敢重探湖、问具体帮助同伴和赠礼困惑，具体2；未知所惧记忆详细内容没有向她说出的此窗，不授深层3",
+            "本人帮准备其生日聚会、将亲手刺绣礼物给予明确歌手群体，具体2；不借瑞希带拼图",
+            "能咨询自我线索与具体困难的个人支持者2，无更强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC18_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC18_MEIKO_F1",
+            "OC18_MEIKO_X1"
+          ],
+          "specific_evidence_notes": [
+            "本人明确她一直见守、累时接受照顾并谢，具体2",
+            "愿在疲倦状态接受她近身倚睡照料，具体信任2；无核心创伤口述3",
+            "亲手按其形象绣蝴蝶手帕并专门交给她，确切个别投入2",
+            "本人把她认作一直看顾自己的具体支持者2，未强特殊定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T44",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "东云绘名",
+        "metric": "growth",
+        "raw_index": 59.33333333,
+        "pairs": [
+          "OC19_Miku",
+          "OC19_MEIKO"
+        ]
+      },
+      "comparison": "Miku14推动面对歌曲中伙伴心意，MEIKO39改变对瑞希的等待方法，分别核心创作/关系K3。184主导建议来自KAITO，不能给Miku新增独立教学线；150位置消息不另充当MEIKO成长教学线。各一条独立K2+问题与具体S2，功能和时期相同，保留并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC19_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            3,
+            4,
+            2,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC19_Miku_G1",
+            "OC19_Miku_G2",
+            "OC19_Miku_G3",
+            "OC19_Miku_X4",
+            "OC19_KAITO_F2",
+            "OC19_KAITO_X3",
+            "OC19_Miku_X1"
+          ],
+          "specific_evidence_notes": [
+            "14明确让她看曲含伙伴心意并去相见，影响重要创作/同伴困惑K3；真正重新愿画有奏/瑞希关键作用",
+            "14一线；68听入团过去无另一个实际改变；184提示课题主导KAITO，Miku只共同被感谢，不能平均再授个人强线",
+            "184本人明确想谢两位并说帮助了课题思路，共同S2；实际方法归KAITO，不变成Miku独占教学",
+            "初期14放弃困境与后来68回看过去/持续照看两阶段；不按发售年份",
+            "创作/自我表达与伙伴情绪支持两类，送涂色本是OC投入不是VS给她美术课"
+          ]
+        },
+        {
+          "pair_id": "OC19_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            3,
+            4,
+            2,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC19_MEIKO_G1",
+            "OC19_MEIKO_G2",
+            "OC19_MEIKO_X1",
+            "OC19_MEIKO_X2",
+            "OC19_MEIKO_E6",
+            "OC19_MEIKO_E2"
+          ],
+          "specific_evidence_notes": [
+            "39使理解说出未必会轻松且改等瑞希愿意，重要关系K3；150真相危机中提供联络事实和继续守候，为具体实务帮助",
+            "39完整守望一线；150消息助找人但不把普通位置通知另授独立教学成长线，避免与别对同类消息标准不一致",
+            "0310本人明确因其话想到等、视角不同很感谢，具体S2；150重要重连仍有本人/OC同伴行动",
+            "早期未说秘密的守望方法到后来秘密曝光后的实际共同联络两阶段",
+            "伙伴情绪/沟通与实际信息帮助两类，不等同揭露他人私事功劳"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T45",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "东云绘名",
+        "metric": "emotion",
+        "raw_index": 62.5,
+        "pairs": [
+          "OC19_Miku",
+          "OC19_Len",
+          "OC19_Luka",
+          "OC19_KAITO"
+        ]
+      },
+      "comparison": "Miku/连/Luka实际听过无人认可/父亲作品差距等深层压力，信任3；KAITO此窗主要作品课题与奏担忧2，却有连续具名珍惜和准备回报的表达3。四者跨情境个别投入3均成立；涂色本、绘画、蛋糕及冰淇淋不能按价格数量排序。等权总分保留，注明KAITO与前三者的交叉优势。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC19_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            3,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC19_Miku_X1",
+            "OC19_Miku_X3",
+            "OC19_Miku_G1",
+            "OC19_Miku_G2",
+            "OC19_Miku_E1",
+            "OC19_Miku_E3"
+          ],
+          "specific_evidence_notes": [
+            "有对她不孤单的个人牵挂、主动谢帮助并回报，2，未以赠礼次数自动抬感情3",
+            "直接说画虚无、无人认可、过去考试/父亲打击，她真实听，深层3",
+            "连续按系列买涂色本怕她寂寞、给熊饼/冰淇淋并参与年末聚会，跨情境个别3",
+            "愿说重要苦痛、珍惜其个人照看/陪伴的支持伙伴2，未强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC19_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            2,
+            3,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC19_Len_E1",
+            "OC19_Len_E2",
+            "OC19_Len_G2",
+            "OC19_Len_G3",
+            "OC19_Len_X1",
+            "OC19_Len_E4",
+            "OC19_Len_E5",
+            "OC19_Len_X3",
+            "OC19_Len_G1"
+          ],
+          "specific_evidence_notes": [
+            "本人因其喜欢作品而有元气、谢周年带出门机会，个人2，未凭温柔声线抬深情3",
+            "主动说没画好、与父作差距、表达他人世界做不到的压力，他真实接话，深层3",
+            "教画、邀其旁看作画作回报并参与挑周年唱片，跨情境具体3",
+            "能与其讨论作品/父作、自己愿回报帮助的具体师友2，未强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC19_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            3,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC19_Luka_E1",
+            "OC19_Luka_X2",
+            "OC19_Luka_G1",
+            "OC19_Luka_G2",
+            "OC19_MEIKO_X1",
+            "OC18_Luka_X2",
+            "OC19_Len_X3"
+          ],
+          "specific_evidence_notes": [
+            "谢陪伴、愿分享甜食并问个人喜好，具体2，未强更深宣言",
+            "真实讲作品失败/父親与无法被接纳的过去，Luka实际听且发问，深层3",
+            "按其形象挑生日蛋糕、邀共享蛋糕并答应教画，跨情境实际3；剩食分享动机保留实务因素",
+            "可相談方法、表达真实担心并回报的具体伙伴2，无强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC19_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            3,
+            2,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC19_KAITO_F2",
+            "OC19_KAITO_X5",
+            "OC19_Miku_X1",
+            "OC19_KAITO_F1",
+            "OC19_KAITO_X3",
+            "OC19_Luka_X1"
+          ],
+          "specific_evidence_notes": [
+            "主动解释自己为何想谢谢、反复准备合其喜好的回报，跨情境珍惜3",
+            "说明担忧奏、嫌课题未理解，具体2；真实深层被否定的童年此窗没有向他倾诉，不借给信任3",
+            "此前赠咖啡、后亲自选冰淇淋附感谢字并筹其纪念会，跨情境个别3",
+            "愿讨论想法、认实际点子帮助的个人顾问2，未更强特殊定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T46",
+      "round": "initial_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "晓山瑞希",
+        "metric": "emotion",
+        "raw_index": 75.0,
+        "pairs": [
+          "OC20_Len",
+          "OC20_Luka",
+          "OC20_MEIKO"
+        ]
+      },
+      "comparison": "连被瑞希明确定位少有人愿认真共忧伤的温柔，Luka被定位理解真冬/自己并修复珍惜吊坠，MEIKO的话与愿未来支持的承诺被带入行动和危机回想。三者都有实际自身逃避困惑袒露、持续个别回报和有区别的个人意义3；这不等于向每人完整披露身份秘密，也没有唯一依靠4的证据。三种支持路径并列，不能凭哪次剧情更激烈升4。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较差异，但未达到改档依据",
+      "members": [
+        {
+          "pair_id": "OC20_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "reviewed_story_refs": [
+            "OC20_Len_X1",
+            "OC20_Len_X3",
+            "OC20_Len_G1",
+            "OC20_Len_X2",
+            "OC20_Len_E7"
+          ],
+          "specific_evidence_notes": [
+            "明确感谢其认真为自己思考，并跨场景珍惜其温柔，个人表达3",
+            "在他真正倾听/回应时说出自己逃避、说不出重要之事的深层自我困惑3，不借奏的病情",
+            "亲自带回报蛋糕、帮涂色并把适合他的青蛙玩偶送出，跨情境个别实际3",
+            "本人说一起玩的人不少，但能认真共忧伤的人少，明确把这种温柔定位为连的个人意义3；不写唯一救赎4"
+          ]
+        },
+        {
+          "pair_id": "OC20_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "reviewed_story_refs": [
+            "OC20_Luka_E5",
+            "OC20_Luka_X1",
+            "OC20_Luka_E2",
+            "OC20_Luka_G1",
+            "OC20_Luka_G2",
+            "OC20_Luka_G4",
+            "OC20_Luka_G5",
+            "OC17_Miku_X6",
+            "OC20_Luka_E4"
+          ],
+          "specific_evidence_notes": [
+            "主动寻她修礼物、谢珍惜并持续具名谢真实理解，跨情境个人珍惜3",
+            "实际说自己胆怯、逃避且不知道能为朋友做什么，她回应，深层自我困惑3",
+            "送个人联想的蛋糕与吊坠、发现损坏后专门找零件修复，跨情境实际个人3",
+            "本人因少有人理解真实真冬而对她在自己这边安心，又把她的方法用于自身，持续且有区别的信任意义3；不写排他唯一4"
+          ]
+        },
+        {
+          "pair_id": "OC20_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "reviewed_story_refs": [
+            "OC20_MEIKO_G5",
+            "OC20_MEIKO_G6",
+            "OC20_MEIKO_X1",
+            "OC19_Rin_E2",
+            "OC17_Miku_X6",
+            "OC20_MEIKO_G8",
+            "OC20_MEIKO_G3"
+          ],
+          "specific_evidence_notes": [
+            "本人称她其实温柔、反复谢具体理解并愿让她喜欢所赠物，跨情境个人珍惜3",
+            "亲口说逃避自己的问题、害怕以后也帮不了朋友，她真正听并回应，深层3；145部分忧虑仅内心，不冒充口述",
+            "前期带杂志、亲手饼干与后来专为她选择贝壳，跨情境个别实际3",
+            "面对自身问题时把她的话与愿未来扶住自己的承诺带入行动、危机后又回想，持续有区别的个人信任意义3；不写唯一终身依赖4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T47",
+      "round": "after_revision_new_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "桐谷遥",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC06_Miku",
+          "OC06_Len",
+          "OC06_Luka",
+          "OC06_MEIKO"
+        ]
+      },
+      "comparison": "修订后的新同分再次深评：连信任2/投入3，其余三者信任3/投入2。连已落实的哑铃、本人邀练及播放节目支持投入3，但工作选择咨询仍非深层自责袒露3；另外三者真实听罪疚/职业责任，而一次礼物或邀练未证明跨情境个人投入3。不存在维度全面支配，等权总分并列，按倾诉或主动回报可读出不同偏向。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较交叉优势与升级边界，无可靠整体顺序",
+      "members": [
+        {
+          "pair_id": "OC06_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC06_Miku_E2",
+            "OC06_Miku_E3",
+            "OC06_MEIKO_G2",
+            "OC06_Miku_E8",
+            "OC06_Miku_E5"
+          ],
+          "specific_evidence_notes": [
+            "久违开心与被迎接的安心是真实个人回应2，218是基础形象需区分",
+            "78向众人详细讲担心失真伤害粉丝、缺勇气，Miku实际回应，3",
+            "主动分享横滨照片，2；书法是给粉丝，不算给Miku",
+            "具名持续倾听支持者意义2；不从再上台作用直接推特殊情感定位"
+          ]
+        },
+        {
+          "pair_id": "OC06_Len",
+          "vs": "镜音连",
+          "vector_after_review": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC06_Len_E1",
+            "OC06_Len_E2",
+            "OC06_Len_E3",
+            "OC06_Len_F1",
+            "OC06_Len_Z1"
+          ],
+          "specific_evidence_notes": [
+            "谢具体舞蹈/共同谈话与训练，2",
+            "主动说明工作选择困惑并共同求意见，具体2，未见深层自责袒露3",
+            "同分深评修订2→3：本人主动邀共同训练，连确认已收到并使用遥赠的哑铃；0942遥又主动提出并实际播放录下的节目，三项组成跨情境个人投入。不按礼物数量加档、不把连邀下一轮练习反记为遥主动；3档是持续具体关心而非排他深情4。",
+            "愿其陪练并认可帮助意义2，不因礼物而判特殊3"
+          ]
+        },
+        {
+          "pair_id": "OC06_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC06_Luka_E5",
+            "OC06_Luka_E6",
+            "OC06_Luka_X2",
+            "OC06_Luka_E7",
+            "OC06_Luka_X1"
+          ],
+          "specific_evidence_notes": [
+            "谢实际建议并互动亲近，2，未据成长重要取情感3",
+            "直接说自己从粉丝夺走希望的内疚，深层3；不是长谷川向谁倾诉",
+            "看点心联想到Luka脸颊而专门带来，具体个别关心2",
+            "能托付罪疚并接受理解的个人师友2，无强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC06_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC06_MEIKO_E1",
+            "OC06_MEIKO_E2",
+            "OC06_MEIKO_G2",
+            "OC06_MEIKO_X1"
+          ],
+          "specific_evidence_notes": [
+            "回顾个人勇气并感谢具体训练方法，2；不是从K3自动抬3",
+            "直接述职业责任和怕伤害粉丝的内心冲突，深层3",
+            "主动问愿望、答应补购跳绳并共同训练，具体2",
+            "认可可托付职业困惑与持续支持的个人意义2；MEIKO自称粉丝不倒算遥的定位3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T48",
+      "round": "after_revision_new_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "桐谷遥",
+        "metric": "emotion",
+        "raw_index": 50.0,
+        "pairs": [
+          "OC06_Rin",
+          "OC06_KAITO"
+        ]
+      },
+      "comparison": "修订后剩余同分再次深评：铃主动邀购物并关心签名烦恼，投入2；KAITO仅确认共同周年参与1，不能挪用实乃理行为。KAITO实际听职业深层顾虑3，铃已核咨询为具体问题2。两者交叉优势，维持总分并列，缺口在是否有新增个别投入或更深本人袒露。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较交叉优势与升级边界，无可靠整体顺序",
+      "members": [
+        {
+          "pair_id": "OC06_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC06_Rin_E6",
+            "OC06_Rin_E5",
+            "OC06_Rin_E2",
+            "OC06_Rin_X1",
+            "OC06_Rin_E3",
+            "OC06_Rin_G1"
+          ],
+          "specific_evidence_notes": [
+            "谢久违的愉快、共同咨询，具体2",
+            "会共同咨询方法，2；0424明说今天不是咨询",
+            "亲自邀请铃购物，并听她烦恼、问所想签名，明确日常关心2",
+            "作为可共同活动与求教的伙伴2，未特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC06_KAITO",
+          "vs": "KAITO",
+          "vector_after_review": [
+            2,
+            3,
+            1,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC06_KAITO_E1",
+            "OC06_KAITO_E2",
+            "OC06_KAITO_E3",
+            "OC06_KAITO_G1",
+            "OC06_KAITO_G3",
+            "OC05_KAITO_X2"
+          ],
+          "specific_evidence_notes": [
+            "谢送礼、职业支持与陪伴2，不凭受礼升投入",
+            "说担心粉丝失去希望、个人拿不定主意，并主动请求客观意见，深层3",
+            "作为共同观看纪念直播者参与庆祝，1；评论/整装的明确行为属于实乃理，不平均给遥2",
+            "认可个人职业理解者/支持者2，无特殊关系声明"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T49",
+      "round": "after_revision_new_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "白石杏",
+        "metric": "emotion",
+        "raw_index": 62.5,
+        "pairs": [
+          "OC10_Miku",
+          "OC10_Rin"
+        ]
+      },
+      "comparison": "新同分再次深评：Miku实际陪杏面对核心记忆、并有主动活动/回报；铃实际听独看凪照片会哭并取回重要记忆，且有本人文化祭邀请与按愿望买烟花。两者[2,3,3,2]均成立；目前没稳定深层个人表达3、特殊定位3或深层且稳定4档的区别。不能以Miku在主线地位、铃片段较新来分高低，保留并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较交叉优势与升级边界，无可靠整体顺序",
+      "members": [
+        {
+          "pair_id": "OC10_Miku",
+          "vs": "初音未来",
+          "vector_after_review": [
+            2,
+            3,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC10_Miku_E2",
+            "OC10_Miku_E3",
+            "OC10_Miku_E4",
+            "OC10_Miku_G1",
+            "OC10_Miku_G2",
+            "OC10_Miku_X1",
+            "OC10_Miku_E5",
+            "OC10_Miku_X2",
+            "OC10_Miku_X3"
+          ],
+          "specific_evidence_notes": [
+            "记得其记住料理建议而开心，谢具体咨询，个人2；1058遗忘中的天真会面不能当稳定情感高分",
+            "袒露害怕被相棒抛下、记忆痛苦和丧失，深层3",
+            "主动回来向Miku单独报告决心、为纪念日带工具制作蛋糕、按大家愿望带烟花，跨情境个人3",
+            "能察觉自己并托付重要烦恼的个人理解者2，没有特殊排他定位"
+          ]
+        },
+        {
+          "pair_id": "OC10_Rin",
+          "vs": "镜音铃",
+          "vector_after_review": [
+            2,
+            3,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC10_Rin_E2",
+            "OC10_Rin_F1",
+            "OC10_Rin_X1",
+            "OC10_Rin_E4",
+            "OC10_Rin_E5",
+            "OC10_Rin_E6",
+            "OC10_Len_X1"
+          ],
+          "specific_evidence_notes": [
+            "说共同看视频能帮助自己开心回想并谢取回记忆，个人2",
+            "主动说独看就哭、后来面对记忆痛苦，铃确实参与，深层3",
+            "同分深评修订2→3：0532本人邀请铃参加文化祭；181本人记得铃想看烟花，实际选购多种烟花并邀大家参加，跨情境主动回应其个人愿望充分。205共唱作补充，集体场合不等于平均赠礼；保留2档表达/定位，不凭投入反推深情。",
+            "能一起面对悲伤的重要支持伙伴2，未本人强特殊关系定位"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T50",
+      "round": "after_revision_new_tie_deep_review",
+      "status": "深入评价完成",
+      "input": {
+        "oc": "白石杏",
+        "metric": "emotion",
+        "raw_index": 56.25,
+        "pairs": [
+          "OC10_Luka",
+          "OC10_MEIKO"
+        ]
+      },
+      "comparison": "修订后剩余同分再次深评：Luka信任3/投入2，实际听相棒成长不安，但选曲属职业求助、夜市是共同兴趣；MEIKO信任2/投入3，接到的是摄影自信具体困惑，却有帮店与秘密清洁的连续回报。已核窗口不支持互相补到3，保持交叉优势和等权总分并列。",
+      "score_changes": [],
+      "conclusion": "保留并列：已比较交叉优势与升级边界，无可靠整体顺序",
+      "members": [
+        {
+          "pair_id": "OC10_Luka",
+          "vs": "巡音流歌",
+          "vector_after_review": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC10_Luka_E1",
+            "OC10_Luka_E3",
+            "OC10_Luka_F2",
+            "OC10_Luka_F1",
+            "OC10_Luka_X1",
+            "OC10_Luka_E7",
+            "OC10_Luka_E8",
+            "OC10_Luka_X2"
+          ],
+          "specific_evidence_notes": [
+            "谢派对、英语实际帮助并愿一起活动，个人2",
+            "愿请其听相棒不安且真实讨论成长焦虑，深层3；语言紧张本身2",
+            "本人邀选曲、邀同逛夜市并分享凪给的曲，具体2",
+            "愿咨询和认识个人方法帮助的师友2，未强特殊定位"
+          ]
+        },
+        {
+          "pair_id": "OC10_MEIKO",
+          "vs": "MEIKO",
+          "vector_after_review": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "reviewed_story_refs": [
+            "OC10_MEIKO_F1",
+            "OC10_MEIKO_X1",
+            "OC10_MEIKO_E1",
+            "OC10_MEIKO_E3",
+            "OC09_MEIKO_X1",
+            "OC10_KAITO_X2"
+          ],
+          "specific_evidence_notes": [
+            "谢个人帮助并在被夸时羞涩，喜欢可靠姐姐风格，具体2",
+            "承认模特没有自信、希望像姐姐一样，具体2；未核直接核心失落袒露3",
+            "亲自帮店、带清洁剂并参与为MEIKO秘密清洁计划，跨实际回报3",
+            "本人明确憧憬MEIKO/雫可靠姐姐形象2，非排他唯一定位"
+          ]
+        }
+      ]
+    }
+  ],
+  "final_ties": [
+    {
+      "oc": "星乃一歌",
+      "metric": "growth",
+      "raw_index": 68.41666667,
+      "pairs": [
+        "OC01_Rin",
+        "OC01_Len"
+      ],
+      "review_id": "T01"
+    },
+    {
+      "oc": "星乃一歌",
+      "metric": "growth",
+      "raw_index": 77.66666667,
+      "pairs": [
+        "OC01_Luka",
+        "OC01_KAITO"
+      ],
+      "review_id": "T02"
+    },
+    {
+      "oc": "星乃一歌",
+      "metric": "emotion",
+      "raw_index": 68.75,
+      "pairs": [
+        "OC01_Rin",
+        "OC01_Luka",
+        "OC01_KAITO"
+      ],
+      "review_id": "T03"
+    },
+    {
+      "oc": "星乃一歌",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC01_Len",
+        "OC01_MEIKO"
+      ],
+      "review_id": "T04"
+    },
+    {
+      "oc": "天马咲希",
+      "metric": "emotion",
+      "raw_index": 50.0,
+      "pairs": [
+        "OC02_Miku",
+        "OC02_MEIKO"
+      ],
+      "review_id": "T05"
+    },
+    {
+      "oc": "天马咲希",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC02_Len",
+        "OC02_KAITO"
+      ],
+      "review_id": "T06"
+    },
+    {
+      "oc": "望月穗波",
+      "metric": "emotion",
+      "raw_index": 50.0,
+      "pairs": [
+        "OC03_Miku",
+        "OC03_Rin",
+        "OC03_KAITO"
+      ],
+      "review_id": "T07"
+    },
+    {
+      "oc": "望月穗波",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC03_Len",
+        "OC03_Luka"
+      ],
+      "review_id": "T08"
+    },
+    {
+      "oc": "日野森志步",
+      "metric": "growth",
+      "raw_index": 50.16666667,
+      "pairs": [
+        "OC04_Miku",
+        "OC04_Luka"
+      ],
+      "review_id": "T09"
+    },
+    {
+      "oc": "日野森志步",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC04_Miku",
+        "OC04_Len",
+        "OC04_Luka"
+      ],
+      "review_id": "T10"
+    },
+    {
+      "oc": "日野森志步",
+      "metric": "emotion",
+      "raw_index": 50.0,
+      "pairs": [
+        "OC04_MEIKO",
+        "OC04_KAITO"
+      ],
+      "review_id": "T11"
+    },
+    {
+      "oc": "花里实乃理",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC05_Miku",
+        "OC05_Rin",
+        "OC05_Len",
+        "OC05_Luka"
+      ],
+      "review_id": "T12"
+    },
+    {
+      "oc": "桐谷遥",
+      "metric": "growth",
+      "raw_index": 63.83333333,
+      "pairs": [
+        "OC06_Luka",
+        "OC06_KAITO"
+      ],
+      "review_id": "T13"
+    },
+    {
+      "oc": "桐谷遥",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC06_Miku",
+        "OC06_Len",
+        "OC06_Luka",
+        "OC06_MEIKO"
+      ],
+      "review_id": "T47"
+    },
+    {
+      "oc": "桐谷遥",
+      "metric": "emotion",
+      "raw_index": 50.0,
+      "pairs": [
+        "OC06_Rin",
+        "OC06_KAITO"
+      ],
+      "review_id": "T48"
+    },
+    {
+      "oc": "桃井爱莉",
+      "metric": "growth",
+      "raw_index": 46.83333333,
+      "pairs": [
+        "OC07_Luka",
+        "OC07_MEIKO"
+      ],
+      "review_id": "T16"
+    },
+    {
+      "oc": "桃井爱莉",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC07_Miku",
+        "OC07_Len"
+      ],
+      "review_id": "T17"
+    },
+    {
+      "oc": "桃井爱莉",
+      "metric": "emotion",
+      "raw_index": 62.5,
+      "pairs": [
+        "OC07_MEIKO",
+        "OC07_KAITO"
+      ],
+      "review_id": "T18"
+    },
+    {
+      "oc": "日野森雫",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC08_Miku",
+        "OC08_Luka",
+        "OC08_MEIKO"
+      ],
+      "review_id": "T19"
+    },
+    {
+      "oc": "日野森雫",
+      "metric": "emotion",
+      "raw_index": 50.0,
+      "pairs": [
+        "OC08_Len",
+        "OC08_KAITO"
+      ],
+      "review_id": "T20"
+    },
+    {
+      "oc": "小豆泽心羽",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC09_Miku",
+        "OC09_Len",
+        "OC09_MEIKO"
+      ],
+      "review_id": "T21"
+    },
+    {
+      "oc": "小豆泽心羽",
+      "metric": "emotion",
+      "raw_index": 50.0,
+      "pairs": [
+        "OC09_Rin",
+        "OC09_Luka",
+        "OC09_KAITO"
+      ],
+      "review_id": "T22"
+    },
+    {
+      "oc": "白石杏",
+      "metric": "growth",
+      "raw_index": 46.83333333,
+      "pairs": [
+        "OC10_Luka",
+        "OC10_MEIKO"
+      ],
+      "review_id": "T23"
+    },
+    {
+      "oc": "白石杏",
+      "metric": "emotion",
+      "raw_index": 62.5,
+      "pairs": [
+        "OC10_Miku",
+        "OC10_Rin"
+      ],
+      "review_id": "T49"
+    },
+    {
+      "oc": "白石杏",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC10_Luka",
+        "OC10_MEIKO"
+      ],
+      "review_id": "T50"
+    },
+    {
+      "oc": "东云彰人",
+      "metric": "emotion",
+      "raw_index": 43.75,
+      "pairs": [
+        "OC11_Miku",
+        "OC11_KAITO"
+      ],
+      "review_id": "T25"
+    },
+    {
+      "oc": "东云彰人",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC11_Rin",
+        "OC11_Luka"
+      ],
+      "review_id": "T26"
+    },
+    {
+      "oc": "青柳冬弥",
+      "metric": "growth",
+      "raw_index": 68.08333333,
+      "pairs": [
+        "OC12_Miku",
+        "OC12_KAITO"
+      ],
+      "review_id": "T27"
+    },
+    {
+      "oc": "青柳冬弥",
+      "metric": "growth",
+      "raw_index": 46.83333333,
+      "pairs": [
+        "OC12_Rin",
+        "OC12_Len"
+      ],
+      "review_id": "T28"
+    },
+    {
+      "oc": "青柳冬弥",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC12_Miku",
+        "OC12_Rin",
+        "OC12_Luka"
+      ],
+      "review_id": "T29"
+    },
+    {
+      "oc": "天马司",
+      "metric": "emotion",
+      "raw_index": 50.0,
+      "pairs": [
+        "OC13_Miku",
+        "OC13_MEIKO"
+      ],
+      "review_id": "T30"
+    },
+    {
+      "oc": "天马司",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC13_Rin",
+        "OC13_Luka"
+      ],
+      "review_id": "T31"
+    },
+    {
+      "oc": "天马司",
+      "metric": "emotion",
+      "raw_index": 62.5,
+      "pairs": [
+        "OC13_Len",
+        "OC13_KAITO"
+      ],
+      "review_id": "T32"
+    },
+    {
+      "oc": "凤笑梦",
+      "metric": "growth",
+      "raw_index": 70.16666667,
+      "pairs": [
+        "OC14_Len",
+        "OC14_MEIKO"
+      ],
+      "review_id": "T33"
+    },
+    {
+      "oc": "凤笑梦",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC14_Miku",
+        "OC14_KAITO"
+      ],
+      "review_id": "T34"
+    },
+    {
+      "oc": "凤笑梦",
+      "metric": "emotion",
+      "raw_index": 50.0,
+      "pairs": [
+        "OC14_Rin",
+        "OC14_Luka"
+      ],
+      "review_id": "T35"
+    },
+    {
+      "oc": "草薙宁宁",
+      "metric": "emotion",
+      "raw_index": 50.0,
+      "pairs": [
+        "OC15_Miku",
+        "OC15_Len",
+        "OC15_KAITO"
+      ],
+      "review_id": "T36"
+    },
+    {
+      "oc": "神代类",
+      "metric": "emotion",
+      "raw_index": 68.75,
+      "pairs": [
+        "OC16_Miku",
+        "OC16_Luka"
+      ],
+      "review_id": "T37"
+    },
+    {
+      "oc": "神代类",
+      "metric": "emotion",
+      "raw_index": 75.0,
+      "pairs": [
+        "OC16_MEIKO",
+        "OC16_KAITO"
+      ],
+      "review_id": "T38"
+    },
+    {
+      "oc": "宵崎奏",
+      "metric": "growth",
+      "raw_index": 63.83333333,
+      "pairs": [
+        "OC17_Rin",
+        "OC17_Luka"
+      ],
+      "review_id": "T39"
+    },
+    {
+      "oc": "宵崎奏",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC17_Len",
+        "OC17_KAITO"
+      ],
+      "review_id": "T40"
+    },
+    {
+      "oc": "朝比奈真冬",
+      "metric": "growth",
+      "raw_index": 63.83333333,
+      "pairs": [
+        "OC18_Rin",
+        "OC18_Len"
+      ],
+      "review_id": "T41"
+    },
+    {
+      "oc": "朝比奈真冬",
+      "metric": "emotion",
+      "raw_index": 56.25,
+      "pairs": [
+        "OC18_Len",
+        "OC18_KAITO"
+      ],
+      "review_id": "T42"
+    },
+    {
+      "oc": "朝比奈真冬",
+      "metric": "emotion",
+      "raw_index": 50.0,
+      "pairs": [
+        "OC18_Luka",
+        "OC18_MEIKO"
+      ],
+      "review_id": "T43"
+    },
+    {
+      "oc": "东云绘名",
+      "metric": "growth",
+      "raw_index": 59.33333333,
+      "pairs": [
+        "OC19_Miku",
+        "OC19_MEIKO"
+      ],
+      "review_id": "T44"
+    },
+    {
+      "oc": "东云绘名",
+      "metric": "emotion",
+      "raw_index": 62.5,
+      "pairs": [
+        "OC19_Miku",
+        "OC19_Len",
+        "OC19_Luka",
+        "OC19_KAITO"
+      ],
+      "review_id": "T45"
+    },
+    {
+      "oc": "晓山瑞希",
+      "metric": "emotion",
+      "raw_index": 75.0,
+      "pairs": [
+        "OC20_Len",
+        "OC20_Luka",
+        "OC20_MEIKO"
+      ],
+      "review_id": "T46"
+    }
+  ]
+}
