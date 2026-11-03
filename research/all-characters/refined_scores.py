@@ -14,8 +14,8 @@ def compute(records, judgments):
  for r in records:
   j=lookup[r['pair_id']];qk,qs=j['growth_subgrades'];eq=j['emotion_subgrades']
   assert len(eq)==4 and all(isinstance(q,int) and 0<=q<=3 for q in [qk,qs,*eq])
-  K,C,S,T,B=r['growth']['vector'];gv=[K+qk/4,C,S+qs/4,T,B]
-  ev=[None if v is None else v+q/4 for v,q in zip(r['emotion']['vector'],eq)]
+  K,C,S,T,B=j.get('growth_base_override',r['growth']['vector']);gv=[K+qk/4,C,S+qs/4,T,B]
+  ev=[None if v is None else v+q/4 for v,q in zip(j.get('emotion_base_override',r['emotion']['vector']),eq)]
   assert gv[0]<=4 and gv[2]<=4 and all(v is None or v<=4 for v in ev)
   gi=50*gv[0]/4+15*C/10+20*gv[2]/4+10*T/3+5*B/4;ei=None if None in ev else sum(ev)/16*100
   temporary.append({'pair_id':r['pair_id'],'oc':r['oc'],'growth':{'index':gi},'emotion':{'index':ei}})

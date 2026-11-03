@@ -1,3 +1,5 @@
+> **2026-11-03 增量更新**：[新剧情复评与变动说明](research/all-characters/november-update.md) · [最新评分](research/all-characters/refined-ranking.md) · [交互图表](research/all-characters/dashboard.html)。旧整数档及Excel为10月12日历史快照。
+
 # PJSK 虚拟歌手与原创角色的关系研究
 
 截至2026-10-12日服公开剧情，研究20名原创角色与6位虚拟歌手的120组关系。成长作用与情感表现分别细分评分，综合先计算两套角色内相对指数的1:1原平均，再以每角色最高原平均归一100。每组列9个维度的理由、独立剧情线及日文来源。

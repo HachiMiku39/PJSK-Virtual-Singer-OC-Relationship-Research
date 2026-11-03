@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-12",
+  "as_of": "2026-11-03",
   "original_groups": 47,
   "pairwise_comparisons": [
     {
@@ -1540,19 +1540,10 @@
       "group_id": "F40",
       "oc": "宵崎奏",
       "metric": "growth",
-      "higher": "OC17_Rin",
-      "lower": "OC17_Luka",
-      "dimension_comparison": "S 2.5 对 2.25",
+      "higher": "OC17_Luka",
+      "lower": "OC17_Rin",
+      "dimension_comparison": "K 3.75 对 3.5；S 2.75 对 2.5",
       "higher_refs": [
-        "OC17_Rin_G1",
-        "OC17_Rin_G2",
-        "OC17_Rin_G3",
-        "OC17_Rin_X1",
-        "OC17_Rin_X2",
-        "OC17_Rin_E1",
-        "OC17_KAITO_G3"
-      ],
-      "lower_refs": [
         "OC17_Luka_G1",
         "OC17_Luka_G2",
         "OC17_Luka_G3",
@@ -1562,7 +1553,22 @@
         "OC17_Luka_G4",
         "OC17_Luka_X1",
         "OC17_Luka_X2",
-        "OC17_Luka_E2"
+        "OC17_Luka_E2",
+        "N1103_E223_03",
+        "N1103_E223_05",
+        "N1103_E223_06",
+        "N1103_E223_07",
+        "N1103_E223_08",
+        "N1103_C1491"
+      ],
+      "lower_refs": [
+        "OC17_Rin_G1",
+        "OC17_Rin_G2",
+        "OC17_Rin_G3",
+        "OC17_Rin_X1",
+        "OC17_Rin_X2",
+        "OC17_Rin_E1",
+        "OC17_KAITO_G3"
       ]
     },
     {
@@ -1653,7 +1659,8 @@
         "OC18_Luka_X3",
         "OC18_Luka_E1",
         "OC18_Luka_X1",
-        "OC18_Rin_X5"
+        "OC18_Rin_X5",
+        "N1103_C1490"
       ]
     },
     {
@@ -1760,7 +1767,8 @@
         "OC19_Luka_G2",
         "OC19_MEIKO_X1",
         "OC18_Luka_X2",
-        "OC19_Len_X3"
+        "OC19_Len_X3",
+        "N1103_C1491"
       ]
     },
     {
@@ -1809,7 +1817,8 @@
         "OC19_Luka_G2",
         "OC19_MEIKO_X1",
         "OC18_Luka_X2",
-        "OC19_Len_X3"
+        "OC19_Len_X3",
+        "N1103_C1491"
       ]
     },
     {
@@ -1834,7 +1843,8 @@
         "OC19_Luka_G2",
         "OC19_MEIKO_X1",
         "OC18_Luka_X2",
-        "OC19_Len_X3"
+        "OC19_Len_X3",
+        "N1103_C1491"
       ]
     },
     {

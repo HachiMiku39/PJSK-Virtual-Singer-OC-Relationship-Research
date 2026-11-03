@@ -36,11 +36,12 @@ def validate(path, corpus_dir=None):
     else:assert abs(v-100*r[kind]['index']/denom)<1e-8 and 0<=v<=100+1e-8
    if denom is not None:assert abs(max(r[kind]['relative_index'] for r in rr)-100)<1e-8
  for ref in refs.values():
-  source=d['source_catalog'][ref['source_id']];assert d['source_commit'] in source['url']
+  source=d['source_catalog'][ref['source_id']];assert source.get('commit',d['source_commit']) in source['url']
   assert ref['start_line']>=1 and ref['end_line']>=ref['start_line'];assert ref['reviewed_line_runs']
   assert all(ref['start_line']<=s<=e<=ref['end_line'] for s,e in ref['reviewed_line_runs'])
   if corpus_dir:
-   b=(corpus_dir/source['path']).read_bytes();assert hashlib.sha256(b).hexdigest()==source['sha256'];assert ref['end_line']<=len(b.decode().splitlines())
+   version_dir=corpus_dir.parent/'november' if source.get('commit') else corpus_dir
+   b=(version_dir/source['path']).read_bytes();assert hashlib.sha256(b).hexdigest()==source['sha256'];assert ref['end_line']<=len(b.decode().splitlines())
  assert len(seen)==120 and len({r['oc'] for r in d['records']})==20
  assert counts['reviewed']==114 and counts['retained']==6
  for oc in {r['oc'] for r in d['records']}:assert len([r for r in d['records'] if r['oc']==oc])==6
