@@ -76,7 +76,7 @@
       "basis": "[E19 一歌卡0494后篇：受伤后改用 Rin 代奏、自己分析的练习方法](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/0494_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_R4%20%E3%81%B2%E3%82%89%E3%82%81%E3%81%8D%E3%82%92%E5%BE%85%E3%81%A3%E3%81%A6%20%28event_69%29.txt#L146)；[E20 《Echo of a Prayer》第7话：与 Rin、Len 谈话后拒绝个人事务所签约](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L61)；[E21 同话：一歌明确感谢两人帮助厘清自己的想法](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L58)；[E22 同活动第8话：尊重一歌自己的决定，但朋友仍担心她压抑个人愿望](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-08%20%E6%B3%A2%E7%B4%8B%E3%81%AF%E5%BA%83%E3%81%8C%E3%81%A3%E3%81%A6.txt#L82)",
       "functions": "练习支持、情绪与自我梳理、职业选择",
       "summary": "最新职业选择剧情中有重要参与，已经超过日常帮助。",
-      "limits": "与 Len 共同帮助一歌梳理，决定属于一歌本人。后续仍有遗憾与新变数，暂不升 K4 或 S3。",
+      "limits": "与 Len 共同帮助一歌梳理，决定属于一歌本人。后续仍有遗憾与新变数，暂不升 K4 或 S3。 2026-10-12补证：220第8话及卡1484后篇重新追问优先乐队的选择；尚无已反悔或矛盾已解的结论，详见../latest/evidence.json N04。",
       "I": 68.41666666666667,
       "vector": [
         3,
@@ -111,7 +111,7 @@
       "basis": "[E23 《This moment with you！》第2话：Len 提议从过去寻找创作困惑的线索](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-02%20%E3%81%97%E3%82%85%E3%82%8F%E3%81%97%E3%82%85%E3%82%8F%E3%81%A8%E3%83%A2%E3%83%A4%E3%83%A2%E3%83%A4.txt#L83)；[E03 同活动第6话：一歌明确定位朋友、前辈与重要存在](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/143%20This%20moment%20with%20you%EF%BC%81%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/143-06%20%E3%83%A2%E3%83%A4%E3%83%A2%E3%83%A4%E3%81%AE%E6%AD%A3%E4%BD%93.txt#L25)；[E20 《Echo of a Prayer》第7话：与 Rin、Len 谈话后拒绝个人事务所签约](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L61)；[E21 同话：一歌明确感谢两人帮助厘清自己的想法](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-07%20%E5%A4%A7%E4%BA%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF.txt#L58)；[E22 同活动第8话：尊重一歌自己的决定，但朋友仍担心她压抑个人愿望](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/event/212%20Echo%20of%20a%20Prayer%20%28Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/212-08%20%E6%B3%A2%E7%B4%8B%E3%81%AF%E5%BA%83%E3%81%8C%E3%81%A3%E3%81%A6.txt#L82)；[E24 Len 卡1437后篇：模拟对邦演出，帮助一歌预想现场](https://github.com/ci-ke/ProjectSekai-story/blob/fdfbd5de4f28f21a326d031439feb9b0491111a5/story_jp/card/23%20VS_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3/1437_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3%20%28Ln%29_R3%20%E3%81%9D%E3%81%AE%E9%81%B8%E6%8A%9E%E3%82%92%E8%A6%8B%E5%AE%88%E3%81%A3%E3%81%A6%20%28event_212%29.txt#L103)",
       "functions": "创作与排练支持、自我梳理、职业选择",
       "summary": "有独立的回顾提示作用，也共同参与重大职业困惑。",
-      "limits": "创作答案的关键点拨也来自咲希。模拟演出暂按具体帮助 K1，不再增加强剧情线。",
+      "limits": "创作答案的关键点拨也来自咲希。模拟演出暂按具体帮助 K1，不再增加强剧情线。 2026-10-12补证：220第8话及卡1484后篇重新追问优先乐队的选择；尚无已反悔或矛盾已解的结论，详见../latest/evidence.json N04。",
       "I": 68.41666666666667,
       "vector": [
         3,
@@ -490,5 +490,11 @@
       "quote": "一歌: ……私にはミクの曲があったから、 寂しさを乗り越えられたんだろうな",
       "description": "一歌卡0416前篇：Miku 的歌曲帮助她度过中学孤独期"
     }
-  ]
+  ],
+  "latest_evidence_review": {
+    "date": "2026-10-12",
+    "evidence_file": "../latest/evidence.json",
+    "score_revision": false,
+    "note": "补218—220和同期卡牌；职业选择仍开放，现有数值保留9月21日首轮口径"
+  }
 }

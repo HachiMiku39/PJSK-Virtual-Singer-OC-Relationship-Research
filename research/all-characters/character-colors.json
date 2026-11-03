@@ -1,0 +1,164 @@
+{
+  "as_of": "2026-10-12",
+  "scope": "PJSK角色代表色（20 OC与6 VS）",
+  "source_type": "萌娘百科社区条目的可访问镜像；作为可视化配色参考，不作为剧情评分证据",
+  "entries": {
+    "OC01": {
+      "name": "星乃一歌",
+      "hex": "#33AAEE",
+      "source_url": "https://moegirl.uk/index.php?title=Leo%2Fneed&variant=zh-cn",
+      "evidence": "组合条目的“角色形象/代表色”；仅采用各角色色，不使用团体色"
+    },
+    "OC02": {
+      "name": "天马咲希",
+      "hex": "#FFDD44",
+      "source_url": "https://moegirl.uk/index.php?title=Leo%2Fneed&variant=zh-cn",
+      "evidence": "组合条目的“角色形象/代表色”；仅采用各角色色，不使用团体色"
+    },
+    "OC03": {
+      "name": "望月穗波",
+      "hex": "#EE6666",
+      "source_url": "https://moegirl.uk/index.php?title=Leo%2Fneed&variant=zh-cn",
+      "evidence": "组合条目的“角色形象/代表色”；仅采用各角色色，不使用团体色"
+    },
+    "OC04": {
+      "name": "日野森志步",
+      "hex": "#BBDD22",
+      "source_url": "https://moegirl.uk/index.php?title=Leo%2Fneed&variant=zh-cn",
+      "evidence": "组合条目的“角色形象/代表色”；仅采用各角色色，不使用团体色"
+    },
+    "OC05": {
+      "name": "花里实乃理",
+      "hex": "#FFCCAA",
+      "source_url": "https://moegirl.uk/index.php?title=MORE+MORE+JUMP%21&variant=zh-hans",
+      "evidence": "组合条目的“角色形象/代表色”；仅采用各角色色，不使用团体色"
+    },
+    "OC06": {
+      "name": "桐谷遥",
+      "hex": "#99CCFF",
+      "source_url": "https://moegirl.uk/index.php?title=MORE+MORE+JUMP%21&variant=zh-hans",
+      "evidence": "组合条目的“角色形象/代表色”；仅采用各角色色，不使用团体色"
+    },
+    "OC07": {
+      "name": "桃井爱莉",
+      "hex": "#FFAACC",
+      "source_url": "https://moegirl.uk/index.php?title=MORE+MORE+JUMP%21&variant=zh-hans",
+      "evidence": "组合条目的“角色形象/代表色”；仅采用各角色色，不使用团体色"
+    },
+    "OC08": {
+      "name": "日野森雫",
+      "hex": "#99EEDD",
+      "source_url": "https://moegirl.uk/index.php?title=MORE+MORE+JUMP%21&variant=zh-hans",
+      "evidence": "组合条目的“角色形象/代表色”；仅采用各角色色，不使用团体色"
+    },
+    "OC09": {
+      "name": "小豆泽心羽",
+      "hex": "#FF6699",
+      "source_url": "https://moegirl.uk/index.php?title=Vivid+BAD+SQUAD&variant=zh-hk",
+      "evidence": "组合条目的“角色形象/代表色”；仅采用各角色色，不使用团体色"
+    },
+    "OC10": {
+      "name": "白石杏",
+      "hex": "#00BBDD",
+      "source_url": "https://moegirl.uk/index.php?title=Vivid+BAD+SQUAD&variant=zh-hk",
+      "evidence": "组合条目的“角色形象/代表色”；仅采用各角色色，不使用团体色"
+    },
+    "OC11": {
+      "name": "东云彰人",
+      "hex": "#FF7722",
+      "source_url": "https://moegirl.uk/index.php?title=Vivid+BAD+SQUAD&variant=zh-hk",
+      "evidence": "组合条目的“角色形象/代表色”；仅采用各角色色，不使用团体色"
+    },
+    "OC12": {
+      "name": "青柳冬弥",
+      "hex": "#0077DD",
+      "source_url": "https://moegirl.uk/index.php?title=Vivid+BAD+SQUAD&variant=zh-hk",
+      "evidence": "组合条目的“角色形象/代表色”；仅采用各角色色，不使用团体色"
+    },
+    "OC13": {
+      "name": "天马司",
+      "hex": "#FFBB00",
+      "source_url": "https://moegirl.uk/index.php?title=%E5%A4%A9%E9%A9%AC%E5%8F%B8&variant=zh",
+      "evidence": "角色条目明确列出的PJSK代表色"
+    },
+    "OC14": {
+      "name": "凤笑梦",
+      "hex": "#FF66BB",
+      "source_url": "https://moegirl.uk/index.php?title=%E5%87%A4%E7%AC%91%E6%A2%A6&variant=zh-hans",
+      "evidence": "角色条目明确列出的PJSK代表色"
+    },
+    "OC15": {
+      "name": "草薙宁宁",
+      "hex": "#33DD99",
+      "source_url": "https://moegirl.uk/index.php?title=%E8%8D%89%E8%96%99%E5%AE%81%E5%AE%81&variant=zh-cn",
+      "evidence": "角色条目明确列出的PJSK代表色"
+    },
+    "OC16": {
+      "name": "神代类",
+      "hex": "#BB88EE",
+      "source_url": "https://moegirl.uk/index.php?title=%E7%A5%9E%E4%BB%A3%E7%B1%BB&variant=zh-cn",
+      "evidence": "角色条目明确列出的PJSK代表色"
+    },
+    "OC17": {
+      "name": "宵崎奏",
+      "hex": "#BB6688",
+      "source_url": "https://moegirl.uk/index.php?title=%E5%AE%B5%E5%B4%8E%E5%A5%8F&variant=zh-hk",
+      "evidence": "角色条目明确列出的PJSK代表色"
+    },
+    "OC18": {
+      "name": "朝比奈真冬",
+      "hex": "#8888CC",
+      "source_url": "https://moegirl.uk/index.php?title=%E6%9C%9D%E6%AF%94%E5%A5%88%E7%9C%9F%E5%86%AC&variant=zh",
+      "evidence": "角色条目明确列出的PJSK代表色"
+    },
+    "OC19": {
+      "name": "东云绘名",
+      "hex": "#CCAA88",
+      "source_url": "https://moegirl.uk/index.php?title=%E4%B8%9C%E4%BA%91%E7%BB%98%E5%90%8D&variant=zh",
+      "evidence": "角色条目明确列出的PJSK代表色"
+    },
+    "OC20": {
+      "name": "晓山瑞希",
+      "hex": "#DDAACC",
+      "source_url": "https://moegirl.uk/index.php?title=%E6%99%93%E5%B1%B1%E7%91%9E%E5%B8%8C&variant=zh-sg",
+      "evidence": "角色条目明确列出的PJSK代表色"
+    },
+    "Miku": {
+      "name": "初音未来",
+      "hex": "#33CCBB",
+      "source_url": "https://moegirl.uk/index.php?title=%E5%88%9D%E9%9F%B3%E6%9C%AA%E6%9D%A5%28%E4%B8%96%E7%95%8C%E8%AE%A1%E5%88%92%29&variant=zh-hans",
+      "evidence": "PJSK条目列出的角色代表色；不混用音源本体常见印象色"
+    },
+    "Rin": {
+      "name": "镜音铃",
+      "hex": "#FFCC11",
+      "source_url": "https://moegirl.uk/index.php?title=%E9%95%9C%E9%9F%B3%E9%93%83%28%E4%B8%96%E7%95%8C%E8%AE%A1%E5%88%92%29&variant=zh-hant",
+      "evidence": "PJSK条目列出的角色代表色；不混用音源本体常见印象色"
+    },
+    "Len": {
+      "name": "镜音连",
+      "hex": "#FFEE11",
+      "source_url": "https://moegirl.uk/index.php?title=%E8%99%9A%E6%8B%9F%E6%AD%8C%E6%89%8B%28%E4%B8%96%E7%95%8C%E8%AE%A1%E5%88%92%29&variant=zh-cn",
+      "evidence": "PJSK条目列出的角色代表色；不混用音源本体常见印象色"
+    },
+    "Luka": {
+      "name": "巡音流歌",
+      "hex": "#FFBBCC",
+      "source_url": "https://moegirl.uk/index.php?title=%E5%B7%A1%E9%9F%B3%E6%B5%81%E6%AD%8C%28%E4%B8%96%E7%95%8C%E8%AE%A1%E5%88%92%29&variant=zh-sg",
+      "evidence": "PJSK条目列出的角色代表色；不混用音源本体常见印象色"
+    },
+    "MEIKO": {
+      "name": "MEIKO",
+      "hex": "#DD4444",
+      "source_url": "https://moegirl.uk/index.php?title=MEIKO%28%E4%B8%96%E7%95%8C%E8%AE%A1%E5%88%92%29&variant=zh-cn",
+      "evidence": "PJSK条目列出的角色代表色；不混用音源本体常见印象色"
+    },
+    "KAITO": {
+      "name": "KAITO",
+      "hex": "#3366CC",
+      "source_url": "https://moegirl.uk/index.php?title=KAITO%28%E4%B8%96%E7%95%8C%E8%AE%A1%E5%88%92%29&variant=zh-cn",
+      "evidence": "PJSK条目列出的角色代表色；不混用音源本体常见印象色"
+    }
+  },
+  "rendering": "线/点保留原HEX；浅色加深色细描边，正文使用深色；热力图为该角色色与白色的明度混合；实线圆点为成长，虚线方点为情感。"
+}
