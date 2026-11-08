@@ -1,0 +1,1209 @@
+{
+  "as_of": "2026-11-03",
+  "baseline": "aa934ac00875eae6e89066292fe96c8bd9abb283",
+  "snapshot": "1d1b260b8a4f789f99940ebd40477bae0837f2cb",
+  "delta": [
+    {
+      "path": "card/20 N25_暁山瑞希/1493_暁山瑞希_R2 勉強と楽しいの両立 (event_223).txt",
+      "old_exists": false,
+      "lines": 171,
+      "bytes": 9146
+    },
+    {
+      "path": "card/24 VS_巡音ルカ/1491_巡音ルカ (N25)_R4 鍵を壊すために (event_223).txt",
+      "old_exists": false,
+      "lines": 153,
+      "bytes": 8066
+    },
+    {
+      "path": "card/02 Ln_天馬咲希/1475_天馬咲希_R4 押し込めた想い.txt",
+      "old_exists": true,
+      "lines": 239,
+      "bytes": 13310
+    },
+    {
+      "path": "card/18 N25_朝比奈まふゆ/1490_朝比奈まふゆ_R4 ほんの少しの温もりを (event_223).txt",
+      "old_exists": false,
+      "lines": 140,
+      "bytes": 6876
+    },
+    {
+      "path": "card/19 N25_東雲絵名/1492_東雲絵名_R3 覚悟を想って (event_223).txt",
+      "old_exists": false,
+      "lines": 136,
+      "bytes": 7465
+    },
+    {
+      "path": "card/17 N25_宵崎奏/1489_宵崎奏_R4 暗闇の果てに (event_223).txt",
+      "old_exists": false,
+      "lines": 137,
+      "bytes": 7527
+    },
+    {
+      "path": "card/25 VS_MEIKO/1494_MEIKO_RB Happy Anniversary！！2026.txt",
+      "old_exists": false,
+      "lines": 177,
+      "bytes": 13231
+    },
+    {
+      "path": "card/03 Ln_望月穂波/1488_望月穂波_RB Happy Birthday！！2026.txt",
+      "old_exists": false,
+      "lines": 177,
+      "bytes": 11254
+    },
+    {
+      "path": "area/talk_event_223.txt",
+      "old_exists": false,
+      "lines": 60,
+      "bytes": 2924
+    },
+    {
+      "path": "area/talk_event_213.txt",
+      "old_exists": true,
+      "lines": 101,
+      "bytes": 5219
+    },
+    {
+      "path": "area/talk_event_216.txt",
+      "old_exists": true,
+      "lines": 84,
+      "bytes": 4089
+    },
+    {
+      "path": "area/talk_event_217.txt",
+      "old_exists": true,
+      "lines": 77,
+      "bytes": 4589
+    },
+    {
+      "path": "special/sp071 コネクトライブ GO Hoppin' Parade 前日ストーリー.txt",
+      "old_exists": false,
+      "lines": 90,
+      "bytes": 6472
+    },
+    {
+      "path": "mysekai/16 WxS_神代類.txt",
+      "old_exists": true,
+      "lines": 2471,
+      "bytes": 106000
+    },
+    {
+      "path": "mysekai/33 MMJ_鏡音リン.txt",
+      "old_exists": true,
+      "lines": 2234,
+      "bytes": 86525
+    },
+    {
+      "path": "mysekai/28 MMJ_初音ミク.txt",
+      "old_exists": true,
+      "lines": 1967,
+      "bytes": 77334
+    },
+    {
+      "path": "mysekai/12 VBS_青柳冬弥.txt",
+      "old_exists": true,
+      "lines": 2594,
+      "bytes": 111951
+    },
+    {
+      "path": "mysekai/11 VBS_東雲彰人.txt",
+      "old_exists": true,
+      "lines": 2492,
+      "bytes": 100220
+    },
+    {
+      "path": "mysekai/10 VBS_白石杏.txt",
+      "old_exists": true,
+      "lines": 2471,
+      "bytes": 104688
+    },
+    {
+      "path": "mysekai/20 N25_暁山瑞希.txt",
+      "old_exists": true,
+      "lines": 2432,
+      "bytes": 101990
+    },
+    {
+      "path": "mysekai/02 Ln_天馬咲希.txt",
+      "old_exists": true,
+      "lines": 2372,
+      "bytes": 94672
+    },
+    {
+      "path": "mysekai/08 MMJ_日野森雫.txt",
+      "old_exists": true,
+      "lines": 2443,
+      "bytes": 97470
+    },
+    {
+      "path": "mysekai/01 Ln_星乃一歌.txt",
+      "old_exists": true,
+      "lines": 2422,
+      "bytes": 91196
+    },
+    {
+      "path": "mysekai/31 N25_初音ミク.txt",
+      "old_exists": true,
+      "lines": 2240,
+      "bytes": 74582
+    },
+    {
+      "path": "mysekai/13 WxS_天馬司.txt",
+      "old_exists": true,
+      "lines": 2480,
+      "bytes": 102802
+    },
+    {
+      "path": "mysekai/04 Ln_日野森志歩.txt",
+      "old_exists": true,
+      "lines": 2305,
+      "bytes": 86861
+    },
+    {
+      "path": "mysekai/03 Ln_望月穂波.txt",
+      "old_exists": true,
+      "lines": 2463,
+      "bytes": 93108
+    },
+    {
+      "path": "mysekai/19 N25_東雲絵名.txt",
+      "old_exists": true,
+      "lines": 2391,
+      "bytes": 95572
+    },
+    {
+      "path": "mysekai/07 MMJ_桃井愛莉.txt",
+      "old_exists": true,
+      "lines": 2379,
+      "bytes": 99369
+    },
+    {
+      "path": "mysekai/27 Ln_初音ミク.txt",
+      "old_exists": true,
+      "lines": 2009,
+      "bytes": 77699
+    },
+    {
+      "path": "mysekai/30 WxS_初音ミク.txt",
+      "old_exists": true,
+      "lines": 1949,
+      "bytes": 77855
+    },
+    {
+      "path": "mysekai/17 N25_宵崎奏.txt",
+      "old_exists": true,
+      "lines": 2327,
+      "bytes": 85778
+    },
+    {
+      "path": "mysekai/39 VBS_鏡音レン.txt",
+      "old_exists": true,
+      "lines": 2392,
+      "bytes": 99704
+    },
+    {
+      "path": "mysekai/15 WxS_草薙寧々.txt",
+      "old_exists": true,
+      "lines": 2373,
+      "bytes": 92808
+    },
+    {
+      "path": "mysekai/55 WxS_KAITO.txt",
+      "old_exists": true,
+      "lines": 2287,
+      "bytes": 93853
+    },
+    {
+      "path": "mysekai/05 MMJ_花里みのり.txt",
+      "old_exists": true,
+      "lines": 2479,
+      "bytes": 109203
+    },
+    {
+      "path": "mysekai/14 WxS_鳳えむ.txt",
+      "old_exists": true,
+      "lines": 2418,
+      "bytes": 98774
+    },
+    {
+      "path": "mysekai/09 VBS_小豆沢こはね.txt",
+      "old_exists": true,
+      "lines": 2555,
+      "bytes": 111112
+    },
+    {
+      "path": "mysekai/29 VBS_初音ミク.txt",
+      "old_exists": true,
+      "lines": 2019,
+      "bytes": 82018
+    },
+    {
+      "path": "mysekai/18 N25_朝比奈まふゆ.txt",
+      "old_exists": true,
+      "lines": 2348,
+      "bytes": 85124
+    },
+    {
+      "path": "mysekai/06 MMJ_桐谷遥.txt",
+      "old_exists": true,
+      "lines": 2430,
+      "bytes": 98379
+    },
+    {
+      "path": "mysekai/49 VBS_MEIKO.txt",
+      "old_exists": true,
+      "lines": 2287,
+      "bytes": 89029
+    },
+    {
+      "path": "mysekai/42 Ln_巡音ルカ.txt",
+      "old_exists": true,
+      "lines": 2218,
+      "bytes": 80055
+    },
+    {
+      "path": "virtual_live/521 いつかの君へ、旋律を アフターライブ (event_223).txt",
+      "old_exists": false,
+      "lines": 70,
+      "bytes": 3255
+    },
+    {
+      "path": "virtual_live/520 HAPPY BIRTHDAYライブ 穂波 2026.txt",
+      "old_exists": false,
+      "lines": 72,
+      "bytes": 3151
+    },
+    {
+      "path": "virtual_live/522 HAPPY ANNIVERSARYライブ MEIKO 2026.txt",
+      "old_exists": false,
+      "lines": 97,
+      "bytes": 4847
+    },
+    {
+      "path": "virtual_live/346 カウントダウン2025ライブ.txt",
+      "old_exists": true,
+      "lines": 131,
+      "bytes": 6420
+    },
+    {
+      "path": "event/097 Light Up the Fire (VBS_白石杏)/097-07 『RAD WEEKEND』.txt",
+      "old_exists": true,
+      "lines": 323,
+      "bytes": 20688
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-20 Vivid BAD SQUAD Memories 20.txt",
+      "old_exists": false,
+      "lines": 99,
+      "bytes": 5315
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-17 Vivid BAD SQUAD Memories 17.txt",
+      "old_exists": false,
+      "lines": 128,
+      "bytes": 7369
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-07 Vivid BAD SQUAD Memories 7.txt",
+      "old_exists": false,
+      "lines": 110,
+      "bytes": 6440
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-12 Vivid BAD SQUAD Memories 12.txt",
+      "old_exists": false,
+      "lines": 220,
+      "bytes": 8577
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-01 Vivid BAD SQUAD Memories 1.txt",
+      "old_exists": false,
+      "lines": 113,
+      "bytes": 5940
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-08 Vivid BAD SQUAD Memories 8.txt",
+      "old_exists": false,
+      "lines": 65,
+      "bytes": 4456
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-11 Vivid BAD SQUAD Memories 11.txt",
+      "old_exists": false,
+      "lines": 136,
+      "bytes": 8325
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-06 Vivid BAD SQUAD Memories 6.txt",
+      "old_exists": false,
+      "lines": 112,
+      "bytes": 7058
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-14 Vivid BAD SQUAD Memories 14.txt",
+      "old_exists": false,
+      "lines": 125,
+      "bytes": 8222
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-09 Vivid BAD SQUAD Memories 9.txt",
+      "old_exists": false,
+      "lines": 173,
+      "bytes": 8208
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-18 Vivid BAD SQUAD Memories 18.txt",
+      "old_exists": false,
+      "lines": 128,
+      "bytes": 8767
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-10 Vivid BAD SQUAD Memories 10.txt",
+      "old_exists": false,
+      "lines": 185,
+      "bytes": 10917
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-05 Vivid BAD SQUAD Memories 5.txt",
+      "old_exists": false,
+      "lines": 87,
+      "bytes": 5545
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-19 Vivid BAD SQUAD Memories 19.txt",
+      "old_exists": false,
+      "lines": 89,
+      "bytes": 5983
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-15 Vivid BAD SQUAD Memories 15.txt",
+      "old_exists": false,
+      "lines": 245,
+      "bytes": 12183
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-03 Vivid BAD SQUAD Memories 3.txt",
+      "old_exists": false,
+      "lines": 112,
+      "bytes": 5535
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-16 Vivid BAD SQUAD Memories 16.txt",
+      "old_exists": false,
+      "lines": 76,
+      "bytes": 4163
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-04 Vivid BAD SQUAD Memories 4.txt",
+      "old_exists": false,
+      "lines": 146,
+      "bytes": 8501
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-13 Vivid BAD SQUAD Memories 13.txt",
+      "old_exists": false,
+      "lines": 124,
+      "bytes": 6024
+    },
+    {
+      "path": "event/221 Vivid BAD SQUAD Memories/221-02 Vivid BAD SQUAD Memories 2.txt",
+      "old_exists": false,
+      "lines": 118,
+      "bytes": 7182
+    },
+    {
+      "path": "event/223 いつかの君へ、旋律を (N25_宵崎奏)/223-01 答えの出ない日々.txt",
+      "old_exists": false,
+      "lines": 126,
+      "bytes": 5212
+    },
+    {
+      "path": "event/223 いつかの君へ、旋律を (N25_宵崎奏)/223-07 本当の想い.txt",
+      "old_exists": false,
+      "lines": 100,
+      "bytes": 3410
+    },
+    {
+      "path": "event/223 いつかの君へ、旋律を (N25_宵崎奏)/223-02 気になる出会い.txt",
+      "old_exists": false,
+      "lines": 52,
+      "bytes": 2382
+    },
+    {
+      "path": "event/223 いつかの君へ、旋律を (N25_宵崎奏)/223-06 恐怖の理由.txt",
+      "old_exists": false,
+      "lines": 69,
+      "bytes": 3626
+    },
+    {
+      "path": "event/223 いつかの君へ、旋律を (N25_宵崎奏)/223-04 新たに見える未来.txt",
+      "old_exists": false,
+      "lines": 58,
+      "bytes": 3748
+    },
+    {
+      "path": "event/223 いつかの君へ、旋律を (N25_宵崎奏)/223-03 きっかけは音楽で.txt",
+      "old_exists": false,
+      "lines": 74,
+      "bytes": 3957
+    },
+    {
+      "path": "event/223 いつかの君へ、旋律を (N25_宵崎奏)/223-08 暗闇の向こうにある音.txt",
+      "old_exists": false,
+      "lines": 95,
+      "bytes": 3259
+    },
+    {
+      "path": "event/223 いつかの君へ、旋律を (N25_宵崎奏)/223-05 答え.txt",
+      "old_exists": false,
+      "lines": 60,
+      "bytes": 2864
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-16 MORE MORE JUMP！  Memories 16.txt",
+      "old_exists": false,
+      "lines": 148,
+      "bytes": 8915
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-06 MORE MORE JUMP！  Memories 6.txt",
+      "old_exists": false,
+      "lines": 120,
+      "bytes": 9043
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-18 MORE MORE JUMP！  Memories 18.txt",
+      "old_exists": false,
+      "lines": 118,
+      "bytes": 7477
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-12 MORE MORE JUMP！  Memories 12.txt",
+      "old_exists": false,
+      "lines": 123,
+      "bytes": 9874
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-03 MORE MORE JUMP！  Memories 3.txt",
+      "old_exists": false,
+      "lines": 146,
+      "bytes": 9716
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-11 MORE MORE JUMP！  Memories 11.txt",
+      "old_exists": false,
+      "lines": 95,
+      "bytes": 8120
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-09 MORE MORE JUMP！  Memories 9.txt",
+      "old_exists": false,
+      "lines": 104,
+      "bytes": 7722
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-20 MORE MORE JUMP！  Memories 20.txt",
+      "old_exists": false,
+      "lines": 113,
+      "bytes": 7476
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-05 MORE MORE JUMP！  Memories 5.txt",
+      "old_exists": false,
+      "lines": 152,
+      "bytes": 11700
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-15 MORE MORE JUMP！  Memories 15.txt",
+      "old_exists": false,
+      "lines": 141,
+      "bytes": 7845
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-01 MORE MORE JUMP！  Memories 1.txt",
+      "old_exists": false,
+      "lines": 170,
+      "bytes": 12025
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-13 MORE MORE JUMP！  Memories 13.txt",
+      "old_exists": false,
+      "lines": 152,
+      "bytes": 11362
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-19 MORE MORE JUMP！  Memories 19.txt",
+      "old_exists": false,
+      "lines": 201,
+      "bytes": 13256
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-04 MORE MORE JUMP！  Memories 4.txt",
+      "old_exists": false,
+      "lines": 175,
+      "bytes": 10292
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-08 MORE MORE JUMP！  Memories 8.txt",
+      "old_exists": false,
+      "lines": 105,
+      "bytes": 8090
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-17 MORE MORE JUMP！  Memories 17.txt",
+      "old_exists": false,
+      "lines": 181,
+      "bytes": 14104
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-14 MORE MORE JUMP！  Memories 14.txt",
+      "old_exists": false,
+      "lines": 185,
+      "bytes": 13132
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-07 MORE MORE JUMP！  Memories 7.txt",
+      "old_exists": false,
+      "lines": 160,
+      "bytes": 10935
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-10 MORE MORE JUMP！  Memories 10.txt",
+      "old_exists": false,
+      "lines": 115,
+      "bytes": 8847
+    },
+    {
+      "path": "event/222 MORE MORE JUMP！ Memories/222-02 MORE MORE JUMP！  Memories 2.txt",
+      "old_exists": false,
+      "lines": 171,
+      "bytes": 10177
+    }
+  ],
+  "scope": {
+    "as_of": "2026-11-03",
+    "snapshot": "1d1b260b8a4f789f99940ebd40477bae0837f2cb",
+    "changed_judgments": [
+      "OC10_Len",
+      "OC17_Miku",
+      "OC17_Luka",
+      "OC17_MEIKO",
+      "OC18_Luka",
+      "OC19_Luka"
+    ],
+    "excluded": "1494、521、522对应11月5日/活动后内容，不纳入11月3日实装评分；回顾221/222不重复加独立线。",
+    "coverage": "96个日文文件差异自动筛选；重点阅读全文223八话、1488—1493卡、区域、520、sp071；回顾与MySEKAI筛选，不声称96篇全部人工逐句复核。"
+  },
+  "changes": [
+    {
+      "pair_id": "OC10_Len",
+      "old": {
+        "growth_vector": [
+          1.0,
+          0,
+          1.25,
+          1,
+          1
+        ],
+        "emotion_vector": [
+          1.0,
+          2.25,
+          2.25,
+          1.0
+        ],
+        "growth_index_raw": 23.333333333333332,
+        "emotion_index_raw": 40.625,
+        "growth_index": 32.146957520091846,
+        "emotion_index": 54.166666666666664,
+        "combined_index_raw": 43.15681209337926,
+        "growth_denominator": 72.58333333333333,
+        "emotion_denominator": 75.0,
+        "combined_denominator": 100.0,
+        "combined_index": 43.15681209337926,
+        "growth_rank": 6,
+        "emotion_rank": 6,
+        "combined_rank": 6,
+        "gap_to_next": null,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      },
+      "new": {
+        "growth_vector": [
+          1.0,
+          0,
+          1.25,
+          1,
+          1
+        ],
+        "emotion_vector": [
+          1.0,
+          2.25,
+          2.5,
+          1.0
+        ],
+        "growth_index_raw": 23.333333333333332,
+        "emotion_index_raw": 42.1875,
+        "growth_index": 32.146957520091846,
+        "emotion_index": 56.25,
+        "combined_index_raw": 44.19847876004592,
+        "growth_denominator": 72.58333333333333,
+        "emotion_denominator": 75.0,
+        "combined_denominator": 100.0,
+        "combined_index": 44.19847876004592,
+        "growth_rank": 6,
+        "emotion_rank": 6,
+        "combined_rank": 6,
+        "gap_to_next": null,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      }
+    },
+    {
+      "pair_id": "OC10_KAITO",
+      "old": {
+        "growth_vector": [
+          2.25,
+          4,
+          1.25,
+          0,
+          2
+        ],
+        "emotion_vector": [
+          2.25,
+          2.25,
+          2.25,
+          2.25
+        ],
+        "growth_index_raw": 42.875,
+        "emotion_index_raw": 56.25,
+        "growth_index": 59.07003444316877,
+        "emotion_index": 75.0,
+        "combined_index_raw": 67.03501722158438,
+        "growth_denominator": 72.58333333333333,
+        "emotion_denominator": 75.0,
+        "combined_denominator": 100.0,
+        "combined_index": 67.03501722158438,
+        "growth_rank": 5,
+        "emotion_rank": 5,
+        "combined_rank": 5,
+        "gap_to_next": 23.878205128205124,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      },
+      "new": {
+        "growth_vector": [
+          2.25,
+          4,
+          1.25,
+          0,
+          2
+        ],
+        "emotion_vector": [
+          2.25,
+          2.25,
+          2.25,
+          2.25
+        ],
+        "growth_index_raw": 42.875,
+        "emotion_index_raw": 56.25,
+        "growth_index": 59.07003444316877,
+        "emotion_index": 75.0,
+        "combined_index_raw": 67.03501722158438,
+        "growth_denominator": 72.58333333333333,
+        "emotion_denominator": 75.0,
+        "combined_denominator": 100.0,
+        "combined_index": 67.03501722158438,
+        "growth_rank": 5,
+        "emotion_rank": 5,
+        "combined_rank": 5,
+        "gap_to_next": 22.83653846153846,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      }
+    },
+    {
+      "pair_id": "OC17_Miku",
+      "old": {
+        "growth_vector": [
+          3.5,
+          7,
+          2.5,
+          2,
+          2
+        ],
+        "emotion_vector": [
+          3.5,
+          3.5,
+          3.5,
+          3.75
+        ],
+        "growth_index_raw": 75.91666666666667,
+        "emotion_index_raw": 89.0625,
+        "growth_index": 100.0,
+        "emotion_index": 100.0,
+        "combined_index_raw": 100.0,
+        "growth_denominator": 75.91666666666667,
+        "emotion_denominator": 89.0625,
+        "combined_denominator": 100.0,
+        "combined_index": 100.0,
+        "growth_rank": 1,
+        "emotion_rank": 1,
+        "combined_rank": 1,
+        "gap_to_next": 6.5813545939492,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      },
+      "new": {
+        "growth_vector": [
+          3.75,
+          7,
+          2.75,
+          2,
+          2
+        ],
+        "emotion_vector": [
+          3.5,
+          3.75,
+          3.5,
+          3.75
+        ],
+        "growth_index_raw": 80.29166666666667,
+        "emotion_index_raw": 90.625,
+        "growth_index": 100.0,
+        "emotion_index": 100.0,
+        "combined_index_raw": 100.0,
+        "growth_denominator": 80.29166666666667,
+        "emotion_denominator": 90.625,
+        "combined_denominator": 100.0,
+        "combined_index": 100.0,
+        "growth_rank": 1,
+        "emotion_rank": 1,
+        "combined_rank": 1,
+        "gap_to_next": 8.972317162643378,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      }
+    },
+    {
+      "pair_id": "OC17_Rin",
+      "old": {
+        "growth_vector": [
+          3.5,
+          7,
+          2.5,
+          1,
+          2
+        ],
+        "emotion_vector": [
+          3.5,
+          3.5,
+          3.5,
+          2.5
+        ],
+        "growth_index_raw": 72.58333333333333,
+        "emotion_index_raw": 81.25,
+        "growth_index": 95.609220636663,
+        "emotion_index": 91.2280701754386,
+        "combined_index_raw": 93.4186454060508,
+        "growth_denominator": 75.91666666666667,
+        "emotion_denominator": 89.0625,
+        "combined_denominator": 100.0,
+        "combined_index": 93.4186454060508,
+        "growth_rank": 2,
+        "emotion_rank": 2,
+        "combined_rank": 2,
+        "gap_to_next": 4.332043060450246,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      },
+      "new": {
+        "growth_vector": [
+          3.5,
+          7,
+          2.5,
+          1,
+          2
+        ],
+        "emotion_vector": [
+          3.5,
+          3.5,
+          3.5,
+          2.5
+        ],
+        "growth_index_raw": 72.58333333333333,
+        "emotion_index_raw": 81.25,
+        "growth_index": 90.39958484691229,
+        "emotion_index": 89.65517241379311,
+        "combined_index_raw": 90.0273786303527,
+        "growth_denominator": 80.29166666666667,
+        "emotion_denominator": 90.625,
+        "combined_denominator": 100.0,
+        "combined_index": 90.0273786303527,
+        "growth_rank": 3,
+        "emotion_rank": 2,
+        "combined_rank": 3,
+        "gap_to_next": 12.429092926292427,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      }
+    },
+    {
+      "pair_id": "OC17_Len",
+      "old": {
+        "growth_vector": [
+          2.25,
+          4,
+          2.5,
+          1,
+          1
+        ],
+        "emotion_vector": [
+          2.25,
+          2.25,
+          3.5,
+          2.5
+        ],
+        "growth_index_raw": 51.208333333333336,
+        "emotion_index_raw": 65.625,
+        "growth_index": 67.45334796926454,
+        "emotion_index": 73.6842105263158,
+        "combined_index_raw": 70.56877924779016,
+        "growth_denominator": 75.91666666666667,
+        "emotion_denominator": 89.0625,
+        "combined_denominator": 100.0,
+        "combined_index": 70.56877924779016,
+        "growth_rank": 5,
+        "emotion_rank": 5,
+        "combined_rank": 5,
+        "gap_to_next": 20.740655150499734,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      },
+      "new": {
+        "growth_vector": [
+          2.25,
+          4,
+          2.5,
+          1,
+          1
+        ],
+        "emotion_vector": [
+          2.25,
+          2.25,
+          3.5,
+          2.5
+        ],
+        "growth_index_raw": 51.208333333333336,
+        "emotion_index_raw": 65.625,
+        "growth_index": 63.77789309807992,
+        "emotion_index": 72.41379310344827,
+        "combined_index_raw": 68.0958431007641,
+        "growth_denominator": 80.29166666666667,
+        "emotion_denominator": 90.625,
+        "combined_denominator": 100.0,
+        "combined_index": 68.0958431007641,
+        "growth_rank": 5,
+        "emotion_rank": 5,
+        "combined_rank": 5,
+        "gap_to_next": 4.8377860887926545,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      }
+    },
+    {
+      "pair_id": "OC17_Luka",
+      "old": {
+        "growth_vector": [
+          3.5,
+          7,
+          2.25,
+          1,
+          2
+        ],
+        "emotion_vector": [
+          3.5,
+          2.5,
+          2.25,
+          3.75
+        ],
+        "growth_index_raw": 71.33333333333333,
+        "emotion_index_raw": 75.0,
+        "growth_index": 93.96267837541163,
+        "emotion_index": 84.21052631578948,
+        "combined_index_raw": 89.08660234560055,
+        "growth_denominator": 75.91666666666667,
+        "emotion_denominator": 89.0625,
+        "combined_denominator": 100.0,
+        "combined_index": 89.08660234560055,
+        "growth_rank": 3,
+        "emotion_rank": 3,
+        "combined_rank": 3,
+        "gap_to_next": 8.502320565409136,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      },
+      "new": {
+        "growth_vector": [
+          3.75,
+          7,
+          2.75,
+          1,
+          2
+        ],
+        "emotion_vector": [
+          3.5,
+          3.0,
+          2.25,
+          3.75
+        ],
+        "growth_index_raw": 76.95833333333333,
+        "emotion_index_raw": 78.125,
+        "growth_index": 95.84846912298909,
+        "emotion_index": 86.20689655172414,
+        "combined_index_raw": 91.02768283735662,
+        "growth_denominator": 80.29166666666667,
+        "emotion_denominator": 90.625,
+        "combined_denominator": 100.0,
+        "combined_index": 91.02768283735662,
+        "growth_rank": 2,
+        "emotion_rank": 3,
+        "combined_rank": 2,
+        "gap_to_next": 1.0003042070039214,
+        "order_caution": "暂定：综合差距不足2分，子档微调可能换位"
+      }
+    },
+    {
+      "pair_id": "OC17_MEIKO",
+      "old": {
+        "growth_vector": [
+          1.25,
+          0,
+          1.25,
+          1,
+          2
+        ],
+        "emotion_vector": [
+          2.25,
+          2.25,
+          2.25,
+          2.25
+        ],
+        "growth_index_raw": 27.708333333333332,
+        "emotion_index_raw": 56.25,
+        "growth_index": 36.498353457738745,
+        "emotion_index": 63.1578947368421,
+        "combined_index_raw": 49.82812409729043,
+        "growth_denominator": 75.91666666666667,
+        "emotion_denominator": 89.0625,
+        "combined_denominator": 100.0,
+        "combined_index": 49.82812409729043,
+        "growth_rank": 6,
+        "emotion_rank": 6,
+        "combined_rank": 6,
+        "gap_to_next": null,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      },
+      "new": {
+        "growth_vector": [
+          2.25,
+          4,
+          1.25,
+          1,
+          2
+        ],
+        "emotion_vector": [
+          2.25,
+          3.0,
+          2.25,
+          2.5
+        ],
+        "growth_index_raw": 46.208333333333336,
+        "emotion_index_raw": 62.5,
+        "growth_index": 57.550596782563574,
+        "emotion_index": 68.96551724137932,
+        "combined_index_raw": 63.258057011971445,
+        "growth_denominator": 80.29166666666667,
+        "emotion_denominator": 90.625,
+        "combined_denominator": 100.0,
+        "combined_index": 63.258057011971445,
+        "growth_rank": 6,
+        "emotion_rank": 6,
+        "combined_rank": 6,
+        "gap_to_next": null,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      }
+    },
+    {
+      "pair_id": "OC17_KAITO",
+      "old": {
+        "growth_vector": [
+          3.5,
+          7,
+          1.0,
+          1,
+          2
+        ],
+        "emotion_vector": [
+          2.25,
+          3.75,
+          2.25,
+          2.5
+        ],
+        "growth_index_raw": 65.08333333333334,
+        "emotion_index_raw": 67.1875,
+        "growth_index": 85.72996706915478,
+        "emotion_index": 75.43859649122807,
+        "combined_index_raw": 80.58428178019142,
+        "growth_denominator": 75.91666666666667,
+        "emotion_denominator": 89.0625,
+        "combined_denominator": 100.0,
+        "combined_index": 80.58428178019142,
+        "growth_rank": 4,
+        "emotion_rank": 4,
+        "combined_rank": 4,
+        "gap_to_next": 10.015502532401257,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      },
+      "new": {
+        "growth_vector": [
+          3.5,
+          7,
+          1.0,
+          1,
+          2
+        ],
+        "emotion_vector": [
+          2.25,
+          3.75,
+          2.25,
+          2.5
+        ],
+        "growth_index_raw": 65.08333333333334,
+        "emotion_index_raw": 67.1875,
+        "growth_index": 81.05864037363779,
+        "emotion_index": 74.13793103448276,
+        "combined_index_raw": 77.59828570406027,
+        "growth_denominator": 80.29166666666667,
+        "emotion_denominator": 90.625,
+        "combined_denominator": 100.0,
+        "combined_index": 77.59828570406027,
+        "growth_rank": 4,
+        "emotion_rank": 4,
+        "combined_rank": 4,
+        "gap_to_next": 9.502442603296174,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      }
+    },
+    {
+      "pair_id": "OC18_Luka",
+      "old": {
+        "growth_vector": [
+          3.25,
+          4,
+          1.0,
+          1,
+          1
+        ],
+        "emotion_vector": [
+          2.25,
+          2.5,
+          2.25,
+          2.5
+        ],
+        "growth_index_raw": 56.208333333333336,
+        "emotion_index_raw": 59.375,
+        "growth_index": 60.4932735426009,
+        "emotion_index": 65.51724137931035,
+        "combined_index_raw": 63.005257460955626,
+        "growth_denominator": 92.91666666666667,
+        "emotion_denominator": 90.625,
+        "combined_denominator": 100.0,
+        "combined_index": 63.00525746095562,
+        "growth_rank": 5,
+        "emotion_rank": 6,
+        "combined_rank": 5,
+        "gap_to_next": 16.940621617442403,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      },
+      "new": {
+        "growth_vector": [
+          3.25,
+          4,
+          1.25,
+          1,
+          1
+        ],
+        "emotion_vector": [
+          2.25,
+          2.5,
+          2.25,
+          2.5
+        ],
+        "growth_index_raw": 57.458333333333336,
+        "emotion_index_raw": 59.375,
+        "growth_index": 61.83856502242153,
+        "emotion_index": 65.51724137931035,
+        "combined_index_raw": 63.67790320086594,
+        "growth_denominator": 92.91666666666667,
+        "emotion_denominator": 90.625,
+        "combined_denominator": 100.0,
+        "combined_index": 63.677903200865934,
+        "growth_rank": 5,
+        "emotion_rank": 6,
+        "combined_rank": 5,
+        "gap_to_next": 17.61326735735272,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      }
+    },
+    {
+      "pair_id": "OC18_KAITO",
+      "old": {
+        "growth_vector": [
+          3.5,
+          4,
+          1.0,
+          1,
+          2
+        ],
+        "emotion_vector": [
+          2.25,
+          3.75,
+          2.5,
+          2.5
+        ],
+        "growth_index_raw": 60.583333333333336,
+        "emotion_index_raw": 68.75,
+        "growth_index": 65.2017937219731,
+        "emotion_index": 75.86206896551724,
+        "combined_index_raw": 70.53193134374517,
+        "growth_denominator": 92.91666666666667,
+        "emotion_denominator": 90.625,
+        "combined_denominator": 100.0,
+        "combined_index": 70.53193134374517,
+        "growth_rank": 4,
+        "emotion_rank": 3,
+        "combined_rank": 4,
+        "gap_to_next": 7.526673882789552,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      },
+      "new": {
+        "growth_vector": [
+          3.5,
+          4,
+          1.0,
+          1,
+          2
+        ],
+        "emotion_vector": [
+          2.25,
+          3.75,
+          2.5,
+          2.5
+        ],
+        "growth_index_raw": 60.583333333333336,
+        "emotion_index_raw": 68.75,
+        "growth_index": 65.2017937219731,
+        "emotion_index": 75.86206896551724,
+        "combined_index_raw": 70.53193134374517,
+        "growth_denominator": 92.91666666666667,
+        "emotion_denominator": 90.625,
+        "combined_denominator": 100.0,
+        "combined_index": 70.53193134374517,
+        "growth_rank": 4,
+        "emotion_rank": 3,
+        "combined_rank": 4,
+        "gap_to_next": 6.854028142879237,
+        "order_caution": "研究估计；来源有依据，仍需独立复评"
+      }
+    }
+  ]
+}

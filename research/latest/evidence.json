@@ -1,0 +1,797 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-12",
+  "scope": "事件218—220全部18话、同期13张卡牌共26篇；不等于历史120组关系全量重评",
+  "source_commit": "aa934ac00875eae6e89066292fe96c8bd9abb283",
+  "review_method": "逐章阅读文本，核对行动前后顺序、对象、SEKAI形象、回忆与梦境；未逐句对照游戏画面",
+  "reviewed_source_ids": [
+    "c1475",
+    "c1476",
+    "c1477",
+    "c1478",
+    "c1479",
+    "c1480",
+    "c1481",
+    "c1482",
+    "c1483",
+    "c1484",
+    "c1485",
+    "c1486",
+    "c1487",
+    "e218_01",
+    "e218_02",
+    "e219_01",
+    "e219_02",
+    "e219_03",
+    "e219_04",
+    "e219_05",
+    "e219_06",
+    "e219_07",
+    "e219_08",
+    "e220_01",
+    "e220_02",
+    "e220_03",
+    "e220_04",
+    "e220_05",
+    "e220_06",
+    "e220_07",
+    "e220_08"
+  ],
+  "scoring_policy": "本轮只补证与限定；成长/情感分数均暂沿用2026-09-21试评，不由获取脚本自动生成评分",
+  "records": [
+    {
+      "id": "N01",
+      "title": "穗波从队长询问转向朋友关心",
+      "oc": [
+        "望月穗波"
+      ],
+      "vs": [
+        "MEIKO"
+      ],
+      "vs_form": "教室",
+      "narrative_line_id": "ln-career-direction",
+      "classification": "成长：本次行动改变支持K2；K3及独立线计数待全历史复核",
+      "action": "穗波已察觉咲希隐瞒困惑；MEIKO建议以幼驯染身份关心，并在游玩延长线上谈话。",
+      "observed_outcome": "穗波明确接受建议，次话反思队长视角，随后借赏流星谈话；咲希说出与观众近距离演奏的愿望。",
+      "attribution_limit": "察觉问题和承担谈话均来自穗波；结尾仍分歧未解，不能写成MEIKO修复了乐队或导致移籍成功。",
+      "references": [
+        {
+          "source_id": "e220_03",
+          "start_line": 68,
+          "end_line": 97,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/220%20Stars%20Off%20Orbit%20%28Ln_%E6%9C%9B%E6%9C%88%E7%A9%82%E6%B3%A2%29/220-03%20%E5%B9%BC%E9%A6%B4%E6%9F%93%E3%81%BF%E3%81%A8%E3%81%97%E3%81%A6.txt#L68"
+        },
+        {
+          "source_id": "e220_04",
+          "start_line": 10,
+          "end_line": 13,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/220%20Stars%20Off%20Orbit%20%28Ln_%E6%9C%9B%E6%9C%88%E7%A9%82%E6%B3%A2%29/220-04%20%E9%80%B1%E6%9C%AB%E3%83%87%E3%83%BC%E3%83%88%E3%81%AF%E7%A9%8F%E3%82%84%E3%81%8B%E3%81%AB.txt#L10"
+        },
+        {
+          "source_id": "e220_05",
+          "start_line": 48,
+          "end_line": 76,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/220%20Stars%20Off%20Orbit%20%28Ln_%E6%9C%9B%E6%9C%88%E7%A9%82%E6%B3%A2%29/220-05%20%E6%98%9F%E9%99%8D%E3%82%8B%E5%A4%9C%E7%A9%BA%E3%81%AE%E4%B8%8B%E3%81%A7.txt#L48"
+        },
+        {
+          "source_id": "e220_07",
+          "start_line": 5,
+          "end_line": 67,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/220%20Stars%20Off%20Orbit%20%28Ln_%E6%9C%9B%E6%9C%88%E7%A9%82%E6%B3%A2%29/220-07%20%E6%9C%AC%E9%9F%B3.txt#L5"
+        },
+        {
+          "source_id": "e220_08",
+          "start_line": 65,
+          "end_line": 97,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/220%20Stars%20Off%20Orbit%20%28Ln_%E6%9C%9B%E6%9C%88%E7%A9%82%E6%B3%A2%29/220-08%20%E6%98%9F%E3%80%85%E3%81%AF%E7%A9%BA%E3%81%AE%E6%9E%9C%E3%81%A6%E3%81%B8.txt#L65"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N02",
+      "title": "穗波主动向MEIKO袒露顾虑",
+      "oc": [
+        "望月穗波"
+      ],
+      "vs": [
+        "MEIKO"
+      ],
+      "vs_form": "教室",
+      "narrative_line_id": "ln-career-direction",
+      "classification": "情感：OC→VS具体信任候选；与N01同场，不增加独立成长线",
+      "action": "MEIKO允许她不说不愿说的事，穗波主动请这位先辈听自己说。",
+      "observed_outcome": "她详细说出对咲希的担忧并感谢建议。",
+      "attribution_limit": "MEIKO的愿意倾听不能代替穗波主动投入；一次深层谈话不能单独支持跨情境4档。",
+      "references": [
+        {
+          "source_id": "e220_03",
+          "start_line": 55,
+          "end_line": 78,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/220%20Stars%20Off%20Orbit%20%28Ln_%E6%9C%9B%E6%9C%88%E7%A9%82%E6%B3%A2%29/220-03%20%E5%B9%BC%E9%A6%B4%E6%9F%93%E3%81%BF%E3%81%A8%E3%81%97%E3%81%A6.txt#L55"
+        },
+        {
+          "source_id": "e220_03",
+          "start_line": 94,
+          "end_line": 97,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/220%20Stars%20Off%20Orbit%20%28Ln_%E6%9C%9B%E6%9C%88%E7%A9%82%E6%B3%A2%29/220-03%20%E5%B9%BC%E9%A6%B4%E6%9F%93%E3%81%BF%E3%81%A8%E3%81%97%E3%81%A6.txt#L94"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N03",
+      "title": "KAITO表达支持意愿，尚未实施干预",
+      "oc": [
+        "望月穗波",
+        "天马咲希"
+      ],
+      "vs": [
+        "KAITO"
+      ],
+      "vs_form": "教室",
+      "narrative_line_id": "ln-career-direction",
+      "classification": "对照：支持意愿，不计K2+线",
+      "action": "KAITO与MEIKO谈穗波和咲希的情况，表示需要时愿意帮忙。",
+      "observed_outcome": "此卡停留在等待咨询和相信四人的阶段。",
+      "attribution_limit": "没有OC在场接受KAITO建议；不能移用N01的MEIKO因果，也不表示KAITO全历史无作用。",
+      "references": [
+        {
+          "source_id": "c1485",
+          "start_line": 79,
+          "end_line": 115,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/25%20VS_MEIKO/1485_MEIKO%20%28Ln%29_R4%20%E5%85%88%E8%BC%A9%E3%81%8B%E3%82%89%E3%81%AE%E3%82%A2%E3%83%89%E3%83%90%E3%82%A4%E3%82%B9%20%28event_220%29.txt#L79"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N04",
+      "title": "一歌优先乐队的决定仍在展开",
+      "oc": [
+        "星乃一歌"
+      ],
+      "vs": [
+        "镜音铃",
+        "镜音连"
+      ],
+      "vs_form": "教室；本次引用为OC后续",
+      "narrative_line_id": "ln-career-direction",
+      "classification": "旧结论限定：不撤销212话帮助，不新增成长线",
+      "action": "志步追问一歌是否其实更想个人活动；一歌未能在当场回答。",
+      "observed_outcome": "卡后篇承认自己认真作过选择，但仍无言、自责，并继续思考今后如何与伙伴一起。",
+      "attribution_limit": "这不证明她已反悔，也不证明铃、连先前建议错误；只限制把原决定写成最终人生结果。",
+      "references": [
+        {
+          "source_id": "e220_08",
+          "start_line": 23,
+          "end_line": 37,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/220%20Stars%20Off%20Orbit%20%28Ln_%E6%9C%9B%E6%9C%88%E7%A9%82%E6%B3%A2%29/220-08%20%E6%98%9F%E3%80%85%E3%81%AF%E7%A9%BA%E3%81%AE%E6%9E%9C%E3%81%A6%E3%81%B8.txt#L23"
+        },
+        {
+          "source_id": "c1484",
+          "start_line": 118,
+          "end_line": 135,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/1484_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_R4%20%E4%BB%8A%E3%81%AF%E3%81%9F%E3%81%A0%E3%80%81%E9%9A%A3%E3%81%AB%20%28event_220%29.txt#L118"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N05",
+      "title": "一歌排练前的日常支持",
+      "oc": [
+        "星乃一歌"
+      ],
+      "vs": [
+        "初音未来",
+        "镜音铃",
+        "镜音连"
+      ],
+      "vs_form": "教室",
+      "narrative_line_id": "ln-career-direction",
+      "classification": "成长：具体排练支持，暂按K1，不增加C",
+      "action": "一歌已自己决定集中于乐队；Miku肯定她的动力，答应陪热身；铃参与，连提醒热身适度。",
+      "observed_outcome": "一歌说手指和嗓子暖起来了，并向大家致谢。",
+      "attribution_limit": "热身发生于既有决定之后；不能把决定归因给此处Miku，不能仅凭同场认定连实际伴奏。",
+      "references": [
+        {
+          "source_id": "c1484",
+          "start_line": 33,
+          "end_line": 63,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/1484_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_R4%20%E4%BB%8A%E3%81%AF%E3%81%9F%E3%81%A0%E3%80%81%E9%9A%A3%E3%81%AB%20%28event_220%29.txt#L33"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N06",
+      "title": "咲希向Miku、Luka分享约会准备",
+      "oc": [
+        "天马咲希"
+      ],
+      "vs": [
+        "初音未来",
+        "巡音流歌"
+      ],
+      "vs_form": "教室",
+      "narrative_line_id": "ln-career-direction",
+      "classification": "情感：日常分享；本片段未向两人说明核心困惑",
+      "action": "咲希此前独处时担心移籍拉远观众距离；两位VS到来后，她分享晴天娃娃和与穗波赏星的计划。",
+      "observed_outcome": "Miku、Luka祝福出游，她感谢两人。",
+      "attribution_limit": "她没有把移籍困惑向两人袒露，不能把读者知道的内心内容算成对两人的深层信任。",
+      "references": [
+        {
+          "source_id": "c1486",
+          "start_line": 78,
+          "end_line": 85,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/02%20Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C/1486_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C_R3%20%E3%81%8D%E3%81%A3%E3%81%A8%E4%BB%8A%E5%BA%A6%E3%81%AF%E3%80%81%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%20%28event_220%29.txt#L78"
+        },
+        {
+          "source_id": "c1486",
+          "start_line": 94,
+          "end_line": 123,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/02%20Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C/1486_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C_R3%20%E3%81%8D%E3%81%A3%E3%81%A8%E4%BB%8A%E5%BA%A6%E3%81%AF%E3%80%81%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%20%28event_220%29.txt#L94"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N07",
+      "title": "志步的竞技场梦与日常应援",
+      "oc": [
+        "日野森志步"
+      ],
+      "vs": [
+        "MEIKO",
+        "镜音连"
+      ],
+      "vs_form": "教室",
+      "narrative_line_id": "ln-career-direction",
+      "classification": "成长：K1应援；梦境对照",
+      "action": "她梦见四人在竞技场演出；醒后两位VS来提醒练习，肯定梦想。",
+      "observed_outcome": "志步表达要用自己的手将梦变现实，感谢应援。",
+      "attribution_limit": "开头竞技场演出是梦境，不是新达成的职业成果；梦想在应援前已存在。",
+      "references": [
+        {
+          "source_id": "c1487",
+          "start_line": 9,
+          "end_line": 60,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/04%20Ln_%E6%97%A5%E9%87%8E%E6%A3%AE%E5%BF%97%E6%AD%A9/1487_%E6%97%A5%E9%87%8E%E6%A3%AE%E5%BF%97%E6%AD%A9_R2%20%E3%81%93%E3%81%AE%E5%A4%A2%E3%82%92%E7%9B%AE%E6%8C%87%E3%81%97%E3%81%A6%20%28event_220%29.txt#L9"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N08",
+      "title": "一歌再次见到大树SEKAI的Miku",
+      "oc": [
+        "星乃一歌"
+      ],
+      "vs": [
+        "初音未来"
+      ],
+      "vs_form": "无组合标注／大树SEKAI",
+      "narrative_line_id": "wl3-reunion",
+      "classification": "情感：OC→VS主动重逢与想见的直接证据",
+      "action": "一歌明确说想见对方、庆幸守约；随后表达今后继续交往。",
+      "observed_outcome": "同伴注意到她等待再会、见到Miku时喜悦；但同伴调侃仅作旁证。",
+      "attribution_limit": "咲希的恋爱少女比喻不是一歌自述、不是官方恋爱确认；不转成教室Miku独占证据。",
+      "references": [
+        {
+          "source_id": "e218_02",
+          "start_line": 20,
+          "end_line": 30,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/218%20Connect%20to%20SEKAI%EF%BC%81%20%28Mix_WL%29/218-02%20%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89%E3%81%AF%E2%80%A6%E2%80%A6%EF%BC%81.txt#L20"
+        },
+        {
+          "source_id": "e218_02",
+          "start_line": 61,
+          "end_line": 70,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/218%20Connect%20to%20SEKAI%EF%BC%81%20%28Mix_WL%29/218-02%20%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89%E3%81%AF%E2%80%A6%E2%80%A6%EF%BC%81.txt#L61"
+        },
+        {
+          "source_id": "e218_02",
+          "start_line": 82,
+          "end_line": 87,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/218%20Connect%20to%20SEKAI%EF%BC%81%20%28Mix_WL%29/218-02%20%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89%E3%81%AF%E2%80%A6%E2%80%A6%EF%BC%81.txt#L82"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N09",
+      "title": "大树SEKAI稳定与六人可再会",
+      "oc": [
+        "20名OC（群体）"
+      ],
+      "vs": [
+        "初音未来",
+        "镜音铃",
+        "镜音连",
+        "巡音流歌",
+        "MEIKO",
+        "KAITO"
+      ],
+      "vs_form": "无组合标注／大树SEKAI",
+      "narrative_line_id": "wl3-reunion",
+      "classification": "设定：关系接触条件变化，不直接计分",
+      "action": "VS说明此处稳定、可以随时来；OC开始介绍伙伴。",
+      "observed_outcome": "群体由分批相遇转向可重复的共同相遇。",
+      "attribution_limit": "可见面不等于各120组都完成深层关系；成长的引导也被Miku明确归于SEKAI机制。",
+      "references": [
+        {
+          "source_id": "e218_02",
+          "start_line": 47,
+          "end_line": 61,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/218%20Connect%20to%20SEKAI%EF%BC%81%20%28Mix_WL%29/218-02%20%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89%E3%81%AF%E2%80%A6%E2%80%A6%EF%BC%81.txt#L47"
+        },
+        {
+          "source_id": "e218_02",
+          "start_line": 71,
+          "end_line": 87,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/218%20Connect%20to%20SEKAI%EF%BC%81%20%28Mix_WL%29/218-02%20%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89%E3%81%AF%E2%80%A6%E2%80%A6%EF%BC%81.txt#L71"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N10",
+      "title": "一歌回应MMJ Miku的应援",
+      "oc": [
+        "星乃一歌"
+      ],
+      "vs": [
+        "初音未来"
+      ],
+      "vs_form": "舞台／MMJ",
+      "narrative_line_id": "time-capsule",
+      "classification": "情感：具体受鼓舞；成长暂按K1支持",
+      "action": "Miku听过爱莉、绘名故事后旁观制作时间胶囊，表示愿意应援各人的梦想。",
+      "observed_outcome": "一歌明确表示仅被她应援就很受鼓舞。",
+      "attribution_limit": "一歌决定记录乐队梦想在Miku应援之前；不能新增一条由Miku造成的核心梦想选择。",
+      "references": [
+        {
+          "source_id": "e219_07",
+          "start_line": 14,
+          "end_line": 26,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/219%20Side%20by%20Side%2C%20Our%20Ways%EF%BC%81%20%28Mix_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89%29/219-07%20%E6%9C%AA%E6%9D%A5%E3%81%AE%E8%87%AA%E5%88%86%E3%81%B8.txt#L14"
+        },
+        {
+          "source_id": "e219_07",
+          "start_line": 56,
+          "end_line": 77,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/219%20Side%20by%20Side%2C%20Our%20Ways%EF%BC%81%20%28Mix_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89%29/219-07%20%E6%9C%AA%E6%9D%A5%E3%81%AE%E8%87%AA%E5%88%86%E3%81%B8.txt#L56"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N11",
+      "title": "心羽希望回应MMJ Miku的心意",
+      "oc": [
+        "小豆泽心羽"
+      ],
+      "vs": [
+        "初音未来"
+      ],
+      "vs_form": "舞台／MMJ",
+      "narrative_line_id": "time-capsule",
+      "classification": "情感：OC→VS回应意愿；成长暂按K1",
+      "action": "听到Miku应援后，心羽明确说想回应这份心意而努力。",
+      "observed_outcome": "具有指向VS的个人回应，不仅是VS单向关心。",
+      "attribution_limit": "这是MMJ形象，不能未经说明合并为VBS Miku专属；梦想已有先前陈述。",
+      "references": [
+        {
+          "source_id": "e219_07",
+          "start_line": 51,
+          "end_line": 54,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/219%20Side%20by%20Side%2C%20Our%20Ways%EF%BC%81%20%28Mix_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89%29/219-07%20%E6%9C%AA%E6%9D%A5%E3%81%AE%E8%87%AA%E5%88%86%E3%81%B8.txt#L51"
+        },
+        {
+          "source_id": "e219_07",
+          "start_line": 70,
+          "end_line": 75,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/219%20Side%20by%20Side%2C%20Our%20Ways%EF%BC%81%20%28Mix_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89%29/219-07%20%E6%9C%AA%E6%9D%A5%E3%81%AE%E8%87%AA%E5%88%86%E3%81%B8.txt#L70"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N12",
+      "title": "爱莉的跨道路友谊获得Miku呼应",
+      "oc": [
+        "桃井爱莉"
+      ],
+      "vs": [
+        "初音未来"
+      ],
+      "vs_form": "舞台／MMJ",
+      "narrative_line_id": "time-capsule",
+      "classification": "成长：K1呼应，不能归因友谊建立",
+      "action": "爱莉先决定记录梦想并表示支持大家；Miku呼应互相应援可长期保持联系。",
+      "observed_outcome": "爱莉赞同并继续追求理想。",
+      "attribution_limit": "时间胶囊和互相应援的提议来自爱莉、绘名等OC；不能把历史友谊的形成归因于末尾祝福。",
+      "references": [
+        {
+          "source_id": "e219_07",
+          "start_line": 36,
+          "end_line": 49,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/219%20Side%20by%20Side%2C%20Our%20Ways%EF%BC%81%20%28Mix_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89%29/219-07%20%E6%9C%AA%E6%9D%A5%E3%81%AE%E8%87%AA%E5%88%86%E3%81%B8.txt#L36"
+        },
+        {
+          "source_id": "e219_08",
+          "start_line": 32,
+          "end_line": 65,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/219%20Side%20by%20Side%2C%20Our%20Ways%EF%BC%81%20%28Mix_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89%29/219-08%20%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%AE%E8%A8%BC.txt#L32"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N13",
+      "title": "爱莉与铃、Luka分享休假并请教布置",
+      "oc": [
+        "桃井爱莉"
+      ],
+      "vs": [
+        "镜音铃",
+        "巡音流歌"
+      ],
+      "vs_form": "舞台／MMJ",
+      "narrative_line_id": "time-capsule",
+      "classification": "情感：日常主动分享；K2+线不成立",
+      "action": "爱莉分享休假、未来决心和猫周边，邀请两人建议房间布置。",
+      "observed_outcome": "两人应援并愿意帮忙。",
+      "attribution_limit": "爱莉的理想和练习计划已自行决定，不因听到祝福另加独立强线。",
+      "references": [
+        {
+          "source_id": "c1477",
+          "start_line": 77,
+          "end_line": 108,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/07%20MMJ_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89/1477_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89_R4%20%E5%85%B1%E3%81%AB%E7%B6%B4%E3%82%8B%E6%80%9D%E3%81%84%E5%87%BA%E3%81%AF%20%28event_219%29.txt#L77"
+        },
+        {
+          "source_id": "c1477",
+          "start_line": 111,
+          "end_line": 125,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/07%20MMJ_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89/1477_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89_R4%20%E5%85%B1%E3%81%AB%E7%B6%B4%E3%82%8B%E6%80%9D%E3%81%84%E5%87%BA%E3%81%AF%20%28event_219%29.txt#L111"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N14",
+      "title": "心羽主动带礼物和分享照片",
+      "oc": [
+        "小豆泽心羽"
+      ],
+      "vs": [
+        "初音未来",
+        "MEIKO"
+      ],
+      "vs_form": "街头／VBS",
+      "narrative_line_id": "photo-sharing",
+      "classification": "情感：OC→VS主动投入的具体候选",
+      "action": "她专程为SEKAI伙伴带饼干，向在场两人分享作品、伙伴和照片。",
+      "observed_outcome": "她明确说因一直受照顾而赠礼，听到对方肯定很高兴。",
+      "attribution_limit": "赠礼对象是SEKAI伙伴群体，不能写成给某位VS的专属礼物；一次片段不能独立支持持续4档。",
+      "references": [
+        {
+          "source_id": "c1478",
+          "start_line": 71,
+          "end_line": 94,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/09%20VBS_%E5%B0%8F%E8%B1%86%E6%B2%A2%E3%81%93%E3%81%AF%E3%81%AD/1478_%E5%B0%8F%E8%B1%86%E6%B2%A2%E3%81%93%E3%81%AF%E3%81%AD_R4%20%E9%A3%9B%E3%81%B3%E8%BE%BC%E3%82%93%E3%81%A0%E5%85%88%E3%81%AE%E5%A4%A7%E6%89%8B%E6%9F%84%20%28event_219%29.txt#L71"
+        },
+        {
+          "source_id": "c1478",
+          "start_line": 99,
+          "end_line": 136,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/09%20VBS_%E5%B0%8F%E8%B1%86%E6%B2%A2%E3%81%93%E3%81%AF%E3%81%AD/1478_%E5%B0%8F%E8%B1%86%E6%B2%A2%E3%81%93%E3%81%AF%E3%81%AD_R4%20%E9%A3%9B%E3%81%B3%E8%BE%BC%E3%82%93%E3%81%A0%E5%85%88%E3%81%AE%E5%A4%A7%E6%89%8B%E6%9F%84%20%28event_219%29.txt#L99"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N15",
+      "title": "心羽选照片的实际帮助",
+      "oc": [
+        "小豆泽心羽"
+      ],
+      "vs": [
+        "初音未来",
+        "MEIKO"
+      ],
+      "vs_form": "街头／VBS",
+      "narrative_line_id": "photo-sharing",
+      "classification": "成长：K1具体帮助，与N14同线",
+      "action": "MEIKO肯定记录回忆的长处；Miku建议把照片给其他伙伴，两人愿意陪挑选。",
+      "observed_outcome": "心羽接受并开始咨询选片。",
+      "attribution_limit": "照片已拍好，拍摄长处和比赛表现不由这次对话创造；不按日常每一个行动变动累加C。",
+      "references": [
+        {
+          "source_id": "c1478",
+          "start_line": 125,
+          "end_line": 136,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/09%20VBS_%E5%B0%8F%E8%B1%86%E6%B2%A2%E3%81%93%E3%81%AF%E3%81%AD/1478_%E5%B0%8F%E8%B1%86%E6%B2%A2%E3%81%93%E3%81%AF%E3%81%AD_R4%20%E9%A3%9B%E3%81%B3%E8%BE%BC%E3%82%93%E3%81%A0%E5%85%88%E3%81%AE%E5%A4%A7%E6%89%8B%E6%9F%84%20%28event_219%29.txt#L125"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N16",
+      "title": "绘名接受休息建议并约爱莉",
+      "oc": [
+        "东云绘名"
+      ],
+      "vs": [
+        "初音未来",
+        "镜音连"
+      ],
+      "vs_form": "空无一人／N25",
+      "narrative_line_id": "ena-rest",
+      "classification": "成长：休息行动改变的K2候选；独立线需与旧有自我照顾证据合并审查",
+      "action": "完成十张练习后，Miku、连劝绘名别过度努力、适当休息。",
+      "observed_outcome": "绘名承认此前缺少休息，决定购物并发消息约爱莉。",
+      "attribution_limit": "绘名自己选择好友和邀约方式；不能把成为画家的决定或全部友情归给VS。",
+      "references": [
+        {
+          "source_id": "c1480",
+          "start_line": 12,
+          "end_line": 36,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/19%20N25_%E6%9D%B1%E9%9B%B2%E7%B5%B5%E5%90%8D/1480_%E6%9D%B1%E9%9B%B2%E7%B5%B5%E5%90%8D_R4%20%E6%9C%AA%E6%9D%A5%E3%81%AB%E6%AE%8B%E3%81%99%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%20%28event_219%29.txt#L12"
+        },
+        {
+          "source_id": "c1480",
+          "start_line": 53,
+          "end_line": 63,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/19%20N25_%E6%9D%B1%E9%9B%B2%E7%B5%B5%E5%90%8D/1480_%E6%9D%B1%E9%9B%B2%E7%B5%B5%E5%90%8D_R4%20%E6%9C%AA%E6%9D%A5%E3%81%AB%E6%AE%8B%E3%81%99%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%20%28event_219%29.txt#L53"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N17",
+      "title": "类邀请KAITO、连看机器人",
+      "oc": [
+        "神代类"
+      ],
+      "vs": [
+        "KAITO",
+        "镜音连"
+      ],
+      "vs_form": "游乐园／WxS",
+      "narrative_line_id": "rui-reuse",
+      "classification": "情感：OC→VS邀请、兴趣分享的具体候选",
+      "action": "类主动让两人一起参观，愿意说明结构，并确认对方没有无聊。",
+      "observed_outcome": "KAITO表示很高兴听到说明；类说一起参观很开心。",
+      "attribution_limit": "灵感来自实体展览，VS在此主要是听众；类对两人教学不倒记为两人对类的重大创作指导。",
+      "references": [
+        {
+          "source_id": "c1479",
+          "start_line": 19,
+          "end_line": 33,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/16%20WxS_%E7%A5%9E%E4%BB%A3%E9%A1%9E/1479_%E7%A5%9E%E4%BB%A3%E9%A1%9E_R4%20%E7%AC%91%E9%A1%94%E3%82%92%E7%94%9F%E3%81%BF%E5%87%BA%E3%81%99%E4%BB%95%E6%8E%9B%E3%81%91%20%28event_219%29.txt#L19"
+        },
+        {
+          "source_id": "c1479",
+          "start_line": 53,
+          "end_line": 69,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/16%20WxS_%E7%A5%9E%E4%BB%A3%E9%A1%9E/1479_%E7%A5%9E%E4%BB%A3%E9%A1%9E_R4%20%E7%AC%91%E9%A1%94%E3%82%92%E7%94%9F%E3%81%BF%E5%87%BA%E3%81%99%E4%BB%95%E6%8E%9B%E3%81%91%20%28event_219%29.txt#L53"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N18",
+      "title": "类改造旧布景，VS协助执行",
+      "oc": [
+        "神代类"
+      ],
+      "vs": [
+        "KAITO",
+        "镜音连"
+      ],
+      "vs_form": "游乐园／WxS",
+      "narrative_line_id": "rui-reuse",
+      "classification": "成长：K1制作协助，创意主体是类",
+      "action": "类提出保留旧布景感情、改为影绘；连与KAITO参与切割拼装及提出技术问题。",
+      "observed_outcome": "布景重新可用，类感谢合作，明确灵感来自展览。",
+      "attribution_limit": "不能以共同制作倒写为KAITO/连使类重新找到人生创作方向。",
+      "references": [
+        {
+          "source_id": "c1479",
+          "start_line": 109,
+          "end_line": 119,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/16%20WxS_%E7%A5%9E%E4%BB%A3%E9%A1%9E/1479_%E7%A5%9E%E4%BB%A3%E9%A1%9E_R4%20%E7%AC%91%E9%A1%94%E3%82%92%E7%94%9F%E3%81%BF%E5%87%BA%E3%81%99%E4%BB%95%E6%8E%9B%E3%81%91%20%28event_219%29.txt#L109"
+        },
+        {
+          "source_id": "c1479",
+          "start_line": 124,
+          "end_line": 155,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/16%20WxS_%E7%A5%9E%E4%BB%A3%E9%A1%9E/1479_%E7%A5%9E%E4%BB%A3%E9%A1%9E_R4%20%E7%AC%91%E9%A1%94%E3%82%92%E7%94%9F%E3%81%BF%E5%87%BA%E3%81%99%E4%BB%95%E6%8E%9B%E3%81%91%20%28event_219%29.txt#L124"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N19",
+      "title": "爱莉与绘名的亲友定位是OC之间",
+      "oc": [
+        "桃井爱莉",
+        "东云绘名"
+      ],
+      "vs": [],
+      "vs_form": "不适用",
+      "narrative_line_id": "time-capsule",
+      "classification": "排除对照：强关系定位的说话人与受话人",
+      "action": "中学回忆中，两人约定以亲友身份在最近处支持彼此追梦。",
+      "observed_outcome": "当前再次确认持续友谊。",
+      "attribution_limit": "此处亲友和最靠近的定位不指向VS；Miku后来在场听故事，不能接收同一关系定位。",
+      "references": [
+        {
+          "source_id": "e219_06",
+          "start_line": 32,
+          "end_line": 57,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/219%20Side%20by%20Side%2C%20Our%20Ways%EF%BC%81%20%28Mix_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89%29/219-06%20%E3%81%9A%E3%81%A3%E3%81%A8%E3%80%81%E4%B8%80%E7%95%AA%E8%BF%91%E3%81%8F%E3%81%A7.txt#L32"
+        },
+        {
+          "source_id": "e219_06",
+          "start_line": 69,
+          "end_line": 77,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/219%20Side%20by%20Side%2C%20Our%20Ways%EF%BC%81%20%28Mix_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89%29/219-06%20%E3%81%9A%E3%81%A3%E3%81%A8%E3%80%81%E4%B8%80%E7%95%AA%E8%BF%91%E3%81%8F%E3%81%A7.txt#L69"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N20",
+      "title": "一歌演奏Miku歌曲的文化关联",
+      "oc": [
+        "星乃一歌"
+      ],
+      "vs": [
+        "初音未来"
+      ],
+      "vs_form": "歌曲／未定位特定SEKAI",
+      "narrative_line_id": "time-capsule",
+      "classification": "背景支持：歌曲关联，不新增VS当场干预",
+      "action": "一歌试奏再利用材料制成的吉他，心羽认出是Miku的旋律。",
+      "observed_outcome": "现场听众赞赏演奏。",
+      "attribution_limit": "不能把听众肯定或新乐器的发现写成一位不在场VS的主动指导。",
+      "references": [
+        {
+          "source_id": "c1481",
+          "start_line": 31,
+          "end_line": 55,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/01%20Ln_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C/1481_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C_R3%20%E9%BB%99%E3%80%85%E3%81%A8%E9%9B%86%E4%B8%AD%EF%BC%81%20%28event_219%29.txt#L31"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N21",
+      "title": "咲希的隐藏愿望：铃、连陪伴面对",
+      "oc": [
+        "天马咲希"
+      ],
+      "vs": [
+        "镜音铃",
+        "镜音连"
+      ],
+      "vs_form": "教室",
+      "narrative_line_id": "ln-career-direction",
+      "classification": "成长：重要自我认识候选；帮助与最终决定分开归因",
+      "action": "连说明想念碎片可能消失以及取回条件，铃、连陪咲希进入碎片SEKAI。",
+      "observed_outcome": "咲希面对另一自我的近距离演奏愿望，自己决定继续乐队但不消除这份愿望；两人之后提供安眠支持。",
+      "attribution_limit": "核心保留愿望的决定由咲希与另一自我作出；她自述未全解决，220话进一步证实困惑延续。不得把机制说明或同行直接归成两人独占K4/S3。",
+      "references": [
+        {
+          "source_id": "c1475",
+          "start_line": 50,
+          "end_line": 83,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/02%20Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C/1475_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C_R4%20%E6%8A%BC%E3%81%97%E8%BE%BC%E3%82%81%E3%81%9F%E6%83%B3%E3%81%84.txt#L50"
+        },
+        {
+          "source_id": "c1475",
+          "start_line": 172,
+          "end_line": 221,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/02%20Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C/1475_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C_R4%20%E6%8A%BC%E3%81%97%E8%BE%BC%E3%82%81%E3%81%9F%E6%83%B3%E3%81%84.txt#L172"
+        },
+        {
+          "source_id": "c1475",
+          "start_line": 224,
+          "end_line": 238,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/02%20Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C/1475_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C_R4%20%E6%8A%BC%E3%81%97%E8%BE%BC%E3%82%81%E3%81%9F%E6%83%B3%E3%81%84.txt#L224"
+        },
+        {
+          "source_id": "e220_07",
+          "start_line": 17,
+          "end_line": 67,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/220%20Stars%20Off%20Orbit%20%28Ln_%E6%9C%9B%E6%9C%88%E7%A9%82%E6%B3%A2%29/220-07%20%E6%9C%AC%E9%9F%B3.txt#L17"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N22",
+      "title": "绘名、瑞希照顾Miku的心情",
+      "oc": [
+        "东云绘名",
+        "晓山瑞希"
+      ],
+      "vs": [
+        "初音未来"
+      ],
+      "vs_form": "空无一人／N25；卡中回忆",
+      "narrative_line_id": "miku-retrospective",
+      "classification": "情感：OC→VS关心的具体候选；回忆不当新发生事件",
+      "action": "两人劝Miku不要因担心真冬而太沉重；瑞希提议整理她的头发，绘名提议拍照给伙伴看。",
+      "observed_outcome": "Miku感谢她们的关心。",
+      "attribution_limit": "这是回忆，需要追溯原场景去重；VS感谢不是OC对VS的情感宣言，也不提供新发行年份等于新叙事年份的证据。",
+      "references": [
+        {
+          "source_id": "c1476",
+          "start_line": 118,
+          "end_line": 132,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/21%20VS_%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF/1476_%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF_R4%20%E5%85%B1%E3%81%AB%E6%AD%A9%E3%82%81%E3%82%8B%E6%9C%AA%E6%9D%A5.txt#L118"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N23",
+      "title": "Miku回看成长节点，确认今后可直接说话",
+      "oc": [
+        "各组合OC（群体）"
+      ],
+      "vs": [
+        "初音未来"
+      ],
+      "vs_form": "无组合标注与各SEKAI形象；多段回忆",
+      "narrative_line_id": "miku-retrospective",
+      "classification": "设定与视角：VS→OC支持，不新增五组强线",
+      "action": "无组合标注Miku观看其他形象在组合重要节点的心意，注意到今后在大树SEKAI可向OC说话。",
+      "observed_outcome": "明确将已发生的成长和未来接触机会联系起来。",
+      "attribution_limit": "这是VS的回看，不是五位OC逐一将重大人生改变归功于她；旧场景不能因新卡发行而重新计C/T。",
+      "references": [
+        {
+          "source_id": "c1476",
+          "start_line": 161,
+          "end_line": 176,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/21%20VS_%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF/1476_%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF_R4%20%E5%85%B1%E3%81%AB%E6%AD%A9%E3%82%81%E3%82%8B%E6%9C%AA%E6%9D%A5.txt#L161"
+        },
+        {
+          "source_id": "c1476",
+          "start_line": 186,
+          "end_line": 203,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/21%20VS_%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF/1476_%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF_R4%20%E5%85%B1%E3%81%AB%E6%AD%A9%E3%82%81%E3%82%8B%E6%9C%AA%E6%9D%A5.txt#L186"
+        }
+      ],
+      "score_change": null
+    },
+    {
+      "id": "N24",
+      "title": "遥生日卡的你未指向VS",
+      "oc": [
+        "桐谷遥"
+      ],
+      "vs": [],
+      "vs_form": "不适用",
+      "narrative_line_id": "haruka-birthday",
+      "classification": "排除对照：观众与生日祝福，不是VS关系定位",
+      "action": "遥在直播与末尾对观众表达希望、承诺。",
+      "observed_outcome": "剧情主要涉及OC伙伴、杏与观众；未出现VS对白。",
+      "attribution_limit": "末尾你的身份不能猜成KAITO或其他VS；没有VS片段不表示该关系全历史K0。",
+      "references": [
+        {
+          "source_id": "c1482",
+          "start_line": 187,
+          "end_line": 207,
+          "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/06%20MMJ_%E6%A1%90%E8%B0%B7%E9%81%A5/1482_%E6%A1%90%E8%B0%B7%E9%81%A5_RB%20Happy%20Birthday%EF%BC%81%EF%BC%812026.txt#L187"
+        }
+      ],
+      "score_change": null
+    }
+  ]
+}

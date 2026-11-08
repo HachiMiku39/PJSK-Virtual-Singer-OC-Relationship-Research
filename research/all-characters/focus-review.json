@@ -1,0 +1,627 @@
+{
+  "source_commit": "aa934ac00875eae6e89066292fe96c8bd9abb283",
+  "review_method": "正文候选检索、已审历史事实复用、因果窗口精读；没有全库逐段人工阅读",
+  "manual_focus": {
+    "('咲希', 'MEIKO')": [
+      {
+        "path": "story_jp/event/128 Parallel Harmonies (Ln_天馬咲希)/128-06 導かれる想い.txt",
+        "sha256": "5344143e49c395179c0ec79f7a32e5b7f3a3c64c606b8ad122bb068959f6efb3",
+        "start_line": 56,
+        "end_line": 104,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/128%20Parallel%20Harmonies%20%28Ln_%E5%A4%A9%E9%A6%AC%E5%92%B2%E5%B8%8C%29/128-06%20%E5%B0%8E%E3%81%8B%E3%82%8C%E3%82%8B%E6%83%B3%E3%81%84.txt#L56",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('志歩', 'ミク')": [
+      {
+        "path": "story_jp/area/talk_grade2.txt",
+        "sha256": "729506c82a65ea5e59987a78fc6aee92c5b6ff56cdfe7bb7ad71ef8d806f0dc7",
+        "start_line": 335,
+        "end_line": 349,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/area/talk_grade2.txt#L335",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('志歩', 'レン')": [
+      {
+        "path": "story_jp/card/23 VS_鏡音レン/1393_鏡音レン_R4 きらめきは重なって (event_205).txt",
+        "sha256": "08ba3f9aac3009b569980701860bb5c0f4a3ffc27a149c58e2b854953ff0602a",
+        "start_line": 53,
+        "end_line": 58,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/23%20VS_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3/1393_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3_R4%20%E3%81%8D%E3%82%89%E3%82%81%E3%81%8D%E3%81%AF%E9%87%8D%E3%81%AA%E3%81%A3%E3%81%A6%20%28event_205%29.txt#L53",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('志歩', 'ルカ')": [
+      {
+        "path": "story_jp/card/04 Ln_日野森志歩/1263_日野森志歩_R4 日々のルーティーン (event_182).txt",
+        "sha256": "218c5a068c5a9d88232fc97da7e16aa40e470265e31c4192cdb9b4667f4599a1",
+        "start_line": 53,
+        "end_line": 64,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/04%20Ln_%E6%97%A5%E9%87%8E%E6%A3%AE%E5%BF%97%E6%AD%A9/1263_%E6%97%A5%E9%87%8E%E6%A3%AE%E5%BF%97%E6%AD%A9_R4%20%E6%97%A5%E3%80%85%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%E3%83%B3%20%28event_182%29.txt#L53",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('志歩', 'MEIKO')": [
+      {
+        "path": "story_jp/card/04 Ln_日野森志歩/0159_日野森志歩_R2 いろんな優しさ (event_10).txt",
+        "sha256": "34387c9589e8dbe16eadad331811c0b1d89b29082aaa464212cf39e42cbe9e02",
+        "start_line": 72,
+        "end_line": 95,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/04%20Ln_%E6%97%A5%E9%87%8E%E6%A3%AE%E5%BF%97%E6%AD%A9/0159_%E6%97%A5%E9%87%8E%E6%A3%AE%E5%BF%97%E6%AD%A9_R2%20%E3%81%84%E3%82%8D%E3%82%93%E3%81%AA%E5%84%AA%E3%81%97%E3%81%95%20%28event_10%29.txt#L72",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('みのり', 'レン')": [
+      {
+        "path": "story_jp/event/098 STEP by STEP！ (MMJ_花里みのり)/098-01 単位制にいくために.txt",
+        "sha256": "eef8bb0366348649d3d1c14aa5e30bc859fed1dd9013e3f6ed876b682a88172d",
+        "start_line": 68,
+        "end_line": 137,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/098%20STEP%20by%20STEP%EF%BC%81%20%28MMJ_%E8%8A%B1%E9%87%8C%E3%81%BF%E3%81%AE%E3%82%8A%29/098-01%20%E5%8D%98%E4%BD%8D%E5%88%B6%E3%81%AB%E3%81%84%E3%81%8F%E3%81%9F%E3%82%81%E3%81%AB.txt#L68",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('みのり', 'MEIKO')": [
+      {
+        "path": "story_jp/card/25 VS_MEIKO/0593_MEIKO (MMJ)_R2 もっともっと支えるために (event_85).txt",
+        "sha256": "b0a4df0e2c3102b86cd93b1818b5e6d0d8a8ec2b51879af6e1810439dcc6fac1",
+        "start_line": 13,
+        "end_line": 63,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/25%20VS_MEIKO/0593_MEIKO%20%28MMJ%29_R2%20%E3%82%82%E3%81%A3%E3%81%A8%E3%82%82%E3%81%A3%E3%81%A8%E6%94%AF%E3%81%88%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%20%28event_85%29.txt#L13",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('みのり', 'KAITO')": [
+      {
+        "path": "story_jp/card/07 MMJ_桃井愛莉/0519_桃井愛莉_R4 ワンマン作戦会議！ (event_73).txt",
+        "sha256": "d225cc028399f47aa4f9b0bb0b75d6807155224baa878d404f129f2f5aab36e0",
+        "start_line": 75,
+        "end_line": 98,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/07%20MMJ_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89/0519_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89_R4%20%E3%83%AF%E3%83%B3%E3%83%9E%E3%83%B3%E4%BD%9C%E6%88%A6%E4%BC%9A%E8%AD%B0%EF%BC%81%20%28event_73%29.txt#L75",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('遥', 'レン')": [
+      {
+        "path": "story_jp/card/23 VS_鏡音レン/0942_鏡音レン (MMJ)_R2 個性をもっと輝かせて (event_133).txt",
+        "sha256": "33ccfa1763f689cf81b725322450c95ac1d1cd1daa5e437ddb8c646f3418c6a8",
+        "start_line": 88,
+        "end_line": 106,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/23%20VS_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3/0942_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3%20%28MMJ%29_R2%20%E5%80%8B%E6%80%A7%E3%82%92%E3%82%82%E3%81%A3%E3%81%A8%E8%BC%9D%E3%81%8B%E3%81%9B%E3%81%A6%20%28event_133%29.txt#L88",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('遥', 'ルカ')": [
+      {
+        "path": "story_jp/area/talk_event_023.txt",
+        "sha256": "ebcc8839580e4b98efed4719980565954294a9d8010588ae6befd5b75da7c821",
+        "start_line": 159,
+        "end_line": 168,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/area/talk_event_023.txt#L159",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('愛莉', 'ミク')": [
+      {
+        "path": "story_jp/event/138 Chase my IDEAL IDOL！ (MMJ_桃井愛莉)/138-05 理想を追うために.txt",
+        "sha256": "1cccface7e3310becb41072304f11f18c8992954b7b45b968585672b57823c8e",
+        "start_line": 34,
+        "end_line": 47,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/138%20Chase%20my%20IDEAL%20IDOL%EF%BC%81%20%28MMJ_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89%29/138-05%20%E7%90%86%E6%83%B3%E3%82%92%E8%BF%BD%E3%81%86%E3%81%9F%E3%82%81%E3%81%AB.txt#L34",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('愛莉', 'ルカ')": [
+      {
+        "path": "story_jp/card/08 MMJ_日野森雫/0323_日野森雫_R2 フェニラン・ナイトデート (event_41).txt",
+        "sha256": "7b8e5850c4ea204482ef457335bf97a19e9a2697aceb8e3aaa0ec5d7fe280637",
+        "start_line": 20,
+        "end_line": 39,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/08%20MMJ_%E6%97%A5%E9%87%8E%E6%A3%AE%E9%9B%AB/0323_%E6%97%A5%E9%87%8E%E6%A3%AE%E9%9B%AB_R2%20%E3%83%95%E3%82%A7%E3%83%8B%E3%83%A9%E3%83%B3%E3%83%BB%E3%83%8A%E3%82%A4%E3%83%88%E3%83%87%E3%83%BC%E3%83%88%20%28event_41%29.txt#L20",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('愛莉', 'MEIKO')": [
+      {
+        "path": "story_jp/event/214 Again And Again Ambition！ (Mix_WL)/214-04 抱きしめた声 (MEIKO).txt",
+        "sha256": "a5b88d54f30fc9106a1484ac10c2ae3258ba28462837d4c8c86b65f282082536",
+        "start_line": 7,
+        "end_line": 37,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/214%20Again%20And%20Again%20Ambition%EF%BC%81%20%28Mix_WL%29/214-04%20%E6%8A%B1%E3%81%8D%E3%81%97%E3%82%81%E3%81%9F%E5%A3%B0%20%28MEIKO%29.txt#L7",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('愛莉', 'KAITO')": [
+      {
+        "path": "story_jp/event/198 Open up new horizons！ (MMJ_桃井愛莉)/198-05 今の自分にできること.txt",
+        "sha256": "d45f94ce2c9b327fc13bd921c6d6d69c272b86b238e5a6cfc36880467aeb4bc8",
+        "start_line": 34,
+        "end_line": 78,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/198%20Open%20up%20new%20horizons%EF%BC%81%20%28MMJ_%E6%A1%83%E4%BA%95%E6%84%9B%E8%8E%89%29/198-05%20%E4%BB%8A%E3%81%AE%E8%87%AA%E5%88%86%E3%81%AB%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8.txt#L34",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('雫', 'ミク')": [
+      {
+        "path": "story_jp/event/151 Grow glorious glow (MMJ_日野森雫)/151-05 あの頃の私は.txt",
+        "sha256": "1b8ad86fcbfc210e0eeebf7e9a3257dda5329058673bd74d3167051269cfefbd",
+        "start_line": 81,
+        "end_line": 98,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/151%20Grow%20glorious%20glow%20%28MMJ_%E6%97%A5%E9%87%8E%E6%A3%AE%E9%9B%AB%29/151-05%20%E3%81%82%E3%81%AE%E9%A0%83%E3%81%AE%E7%A7%81%E3%81%AF.txt#L81",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      },
+      {
+        "path": "story_jp/event/151 Grow glorious glow (MMJ_日野森雫)/151-05 あの頃の私は.txt",
+        "sha256": "1b8ad86fcbfc210e0eeebf7e9a3257dda5329058673bd74d3167051269cfefbd",
+        "start_line": 137,
+        "end_line": 160,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/151%20Grow%20glorious%20glow%20%28MMJ_%E6%97%A5%E9%87%8E%E6%A3%AE%E9%9B%AB%29/151-05%20%E3%81%82%E3%81%AE%E9%A0%83%E3%81%AE%E7%A7%81%E3%81%AF.txt#L137",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('雫', 'リン')": [
+      {
+        "path": "story_jp/card/22 VS_鏡音リン/0091_鏡音リン (MMJ)_R3 輝くステージ.txt",
+        "sha256": "d5166c36359c53c506117f1c16ed89e0e6f2f83ac94ec371b127548095cc5cda",
+        "start_line": 73,
+        "end_line": 110,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/22%20VS_%E9%8F%A1%E9%9F%B3%E3%83%AA%E3%83%B3/0091_%E9%8F%A1%E9%9F%B3%E3%83%AA%E3%83%B3%20%28MMJ%29_R3%20%E8%BC%9D%E3%81%8F%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8.txt#L73",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('雫', 'レン')": [
+      {
+        "path": "story_jp/event/156 このひと針に想いを込めて (Mix_日野森雫)/156-03 楽しい作業タイム.txt",
+        "sha256": "ebd56e07c8c90d44f68991c29b103659c398996c680b9079321662506aae1bcf",
+        "start_line": 116,
+        "end_line": 125,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/156%20%E3%81%93%E3%81%AE%E3%81%B2%E3%81%A8%E9%87%9D%E3%81%AB%E6%83%B3%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6%20%28Mix_%E6%97%A5%E9%87%8E%E6%A3%AE%E9%9B%AB%29/156-03%20%E6%A5%BD%E3%81%97%E3%81%84%E4%BD%9C%E6%A5%AD%E3%82%BF%E3%82%A4%E3%83%A0.txt#L116",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('雫', 'MEIKO')": [
+      {
+        "path": "story_jp/event/183 交わる色はあの日のままに (MMJ_日野森雫)/183-06 拭えない想い.txt",
+        "sha256": "81b5f413575e7f73cf7a064a1385c1918741ca6524a53d71590a037f645549bd",
+        "start_line": 34,
+        "end_line": 69,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/183%20%E4%BA%A4%E3%82%8F%E3%82%8B%E8%89%B2%E3%81%AF%E3%81%82%E3%81%AE%E6%97%A5%E3%81%AE%E3%81%BE%E3%81%BE%E3%81%AB%20%28MMJ_%E6%97%A5%E9%87%8E%E6%A3%AE%E9%9B%AB%29/183-06%20%E6%8B%AD%E3%81%88%E3%81%AA%E3%81%84%E6%83%B3%E3%81%84.txt#L34",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('雫', 'KAITO')": [
+      {
+        "path": "story_jp/event/080 弓引け、白の世界で (Mix_日野森雫)/080-04 雪の弓道場で.txt",
+        "sha256": "ce2397e378dcef47a8bad9c46128caa17f577a088e1b7d2c1b6ba65539323f7f",
+        "start_line": 160,
+        "end_line": 179,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/080%20%E5%BC%93%E5%BC%95%E3%81%91%E3%80%81%E7%99%BD%E3%81%AE%E4%B8%96%E7%95%8C%E3%81%A7%20%28Mix_%E6%97%A5%E9%87%8E%E6%A3%AE%E9%9B%AB%29/080-04%20%E9%9B%AA%E3%81%AE%E5%BC%93%E9%81%93%E5%A0%B4%E3%81%A7.txt#L160",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('こはね', 'ルカ')": [
+      {
+        "path": "story_jp/card/09 VBS_小豆沢こはね/1407_小豆沢こはね_R4 心の奥へ届く歌 (event_207).txt",
+        "sha256": "8ce4ded2796bac41e5a4ae5a44d6f6bc684cadc8d7fa06b64245a28785fe0d6c",
+        "start_line": 11,
+        "end_line": 23,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/09%20VBS_%E5%B0%8F%E8%B1%86%E6%B2%A2%E3%81%93%E3%81%AF%E3%81%AD/1407_%E5%B0%8F%E8%B1%86%E6%B2%A2%E3%81%93%E3%81%AF%E3%81%AD_R4%20%E5%BF%83%E3%81%AE%E5%A5%A5%E3%81%B8%E5%B1%8A%E3%81%8F%E6%AD%8C%20%28event_207%29.txt#L11",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('杏', 'リン')": [
+      {
+        "path": "story_jp/card/10 VBS_白石杏/1058_白石杏_R4 かけがえのない人達.txt",
+        "sha256": "ab128c332da5f9ee553c243452bfef8ce13d588ca1dfbf60cfde8ff0d7955d56",
+        "start_line": 256,
+        "end_line": 279,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/10%20VBS_%E7%99%BD%E7%9F%B3%E6%9D%8F/1058_%E7%99%BD%E7%9F%B3%E6%9D%8F_R4%20%E3%81%8B%E3%81%91%E3%81%8C%E3%81%88%E3%81%AE%E3%81%AA%E3%81%84%E4%BA%BA%E9%81%94.txt#L256",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('杏', 'ルカ')": [
+      {
+        "path": "story_jp/event/129 Whip the wimp girl!! (VBS_白石杏)/129-04 言葉にならないもの.txt",
+        "sha256": "8426c666e17ed10014a3adf23a8d80526a8c86fe7e4fffde97d405b6b4433270",
+        "start_line": 58,
+        "end_line": 82,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/129%20Whip%20the%20wimp%20girl%21%21%20%28VBS_%E7%99%BD%E7%9F%B3%E6%9D%8F%29/129-04%20%E8%A8%80%E8%91%89%E3%81%AB%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84%E3%82%82%E3%81%AE.txt#L58",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      },
+      {
+        "path": "story_jp/card/10 VBS_白石杏/1468_白石杏_R3 交流は折り紙で！ (event_216).txt",
+        "sha256": "9d219f3fa7bc58de59d22fb756024b7b6f5939d40ff41faf3db09137843663dc",
+        "start_line": 16,
+        "end_line": 30,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/10%20VBS_%E7%99%BD%E7%9F%B3%E6%9D%8F/1468_%E7%99%BD%E7%9F%B3%E6%9D%8F_R3%20%E4%BA%A4%E6%B5%81%E3%81%AF%E6%8A%98%E3%82%8A%E7%B4%99%E3%81%A7%EF%BC%81%20%28event_216%29.txt#L16",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('杏', 'MEIKO')": [
+      {
+        "path": "story_jp/event/060 青空に願うユア・ハピネス！ (Mix_白石杏)/060-08 これからも、私らしく！.txt",
+        "sha256": "37b3f797754a2acf291119b30166daccfe7c30d639da29fbf2f2d68c113f3ecc",
+        "start_line": 29,
+        "end_line": 42,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/060%20%E9%9D%92%E7%A9%BA%E3%81%AB%E9%A1%98%E3%81%86%E3%83%A6%E3%82%A2%E3%83%BB%E3%83%8F%E3%83%94%E3%83%8D%E3%82%B9%EF%BC%81%20%28Mix_%E7%99%BD%E7%9F%B3%E6%9D%8F%29/060-08%20%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89%E3%82%82%E3%80%81%E7%A7%81%E3%82%89%E3%81%97%E3%81%8F%EF%BC%81.txt#L29",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('杏', 'KAITO')": [
+      {
+        "path": "story_jp/event/021 STRAY BAD DOG (VBS_東雲彰人)/021-06 相棒としてできること.txt",
+        "sha256": "ab345039f3a4361ec328d09b4224ad147d11994c606ba6500b1fb55ada96ed03",
+        "start_line": 103,
+        "end_line": 135,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/021%20STRAY%20BAD%20DOG%20%28VBS_%E6%9D%B1%E9%9B%B2%E5%BD%B0%E4%BA%BA%29/021-06%20%E7%9B%B8%E6%A3%92%E3%81%A8%E3%81%97%E3%81%A6%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8.txt#L103",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('彰人', 'ミク')": [
+      {
+        "path": "story_jp/area/talk_grade2.txt",
+        "sha256": "729506c82a65ea5e59987a78fc6aee92c5b6ff56cdfe7bb7ad71ef8d806f0dc7",
+        "start_line": 1095,
+        "end_line": 1101,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/area/talk_grade2.txt#L1095",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('彰人', 'リン')": [
+      {
+        "path": "story_jp/card/11 VBS_東雲彰人/0671_東雲彰人_R4 渇きのワンダラー.txt",
+        "sha256": "98205c056cda34790b467da3b85b7a3d5cb8954eab646f97640dc90f9e543175",
+        "start_line": 155,
+        "end_line": 169,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/11%20VBS_%E6%9D%B1%E9%9B%B2%E5%BD%B0%E4%BA%BA/0671_%E6%9D%B1%E9%9B%B2%E5%BD%B0%E4%BA%BA_R4%20%E6%B8%87%E3%81%8D%E3%81%AE%E3%83%AF%E3%83%B3%E3%83%80%E3%83%A9%E3%83%BC.txt#L155",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('彰人', 'ルカ')": [
+      {
+        "path": "story_jp/event/109 BURN MY SOUL (VBS_東雲彰人)/109-06 この胸にあるもの.txt",
+        "sha256": "cd5531f523b4eaffea6d423baac991b83f64f5a2a99b3c94f23d36dfef5a1f10",
+        "start_line": 112,
+        "end_line": 126,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/109%20BURN%20MY%20SOUL%20%28VBS_%E6%9D%B1%E9%9B%B2%E5%BD%B0%E4%BA%BA%29/109-06%20%E3%81%93%E3%81%AE%E8%83%B8%E3%81%AB%E3%81%82%E3%82%8B%E3%82%82%E3%81%AE.txt#L112",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('彰人', 'KAITO')": [
+      {
+        "path": "story_jp/event/059 THE POWER OF UNITY (VBS_東雲彰人)/059-06 ふわふわのパンケーキ.txt",
+        "sha256": "2a01c2444af3ca5210555a86a9b7f1b63defa0e4da5c35e838ade9f8c431e631",
+        "start_line": 70,
+        "end_line": 99,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/059%20THE%20POWER%20OF%20UNITY%20%28VBS_%E6%9D%B1%E9%9B%B2%E5%BD%B0%E4%BA%BA%29/059-06%20%E3%81%B5%E3%82%8F%E3%81%B5%E3%82%8F%E3%81%AE%E3%83%91%E3%83%B3%E3%82%B1%E3%83%BC%E3%82%AD.txt#L70",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('冬弥', 'リン')": [
+      {
+        "path": "story_jp/event/139 鳴らせビューティフルサウンド！ (Mix_青柳冬弥)/139-08 憧れと喜び.txt",
+        "sha256": "b1e1a34a525a6919c0a8b96b4f7c36911af9e30556ba30eff8ad8bd9eccbfcab",
+        "start_line": 46,
+        "end_line": 59,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/139%20%E9%B3%B4%E3%82%89%E3%81%9B%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%EF%BC%81%20%28Mix_%E9%9D%92%E6%9F%B3%E5%86%AC%E5%BC%A5%29/139-08%20%E6%86%A7%E3%82%8C%E3%81%A8%E5%96%9C%E3%81%B3.txt#L46",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('冬弥', 'レン')": [
+      {
+        "path": "story_jp/card/12 VBS_青柳冬弥/1415_青柳冬弥_R4 一緒に帰ろう.txt",
+        "sha256": "7d9ae0dc2ebfbac1abe562a75bb79780bafe7ffecc0e0ffa270711a52b5a23d5",
+        "start_line": 303,
+        "end_line": 317,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/12%20VBS_%E9%9D%92%E6%9F%B3%E5%86%AC%E5%BC%A5/1415_%E9%9D%92%E6%9F%B3%E5%86%AC%E5%BC%A5_R4%20%E4%B8%80%E7%B7%92%E3%81%AB%E5%B8%B0%E3%82%8D%E3%81%86.txt#L303",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('冬弥', 'MEIKO')": [
+      {
+        "path": "story_jp/event/125 The first concerto (VBS_青柳冬弥)/125-05 書かれていない想い.txt",
+        "sha256": "6fd7a663b8628a8f201e438719ce455c58fe1826d35423c86534ff5473591d24",
+        "start_line": 124,
+        "end_line": 139,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/125%20The%20first%20concerto%20%28VBS_%E9%9D%92%E6%9F%B3%E5%86%AC%E5%BC%A5%29/125-05%20%E6%9B%B8%E3%81%8B%E3%82%8C%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E6%83%B3%E3%81%84.txt#L124",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('司', 'リン')": [
+      {
+        "path": "story_jp/area/talk_event_124.txt",
+        "sha256": "a808f4d88341da4b7cf6c95f9eb3f524541bd10918965707c544b285a3331ed1",
+        "start_line": 26,
+        "end_line": 32,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/area/talk_event_124.txt#L26",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('司', 'レン')": [
+      {
+        "path": "story_jp/card/23 VS_鏡音レン/0389_鏡音レン (WxS)_R2 イノセント・スクワイア (event_51).txt",
+        "sha256": "d51784d10a025f7e4cf9038f287ab6c855f537d2a980c400f53df33358ecb1cd",
+        "start_line": 55,
+        "end_line": 74,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/23%20VS_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3/0389_%E9%8F%A1%E9%9F%B3%E3%83%AC%E3%83%B3%20%28WxS%29_R2%20%E3%82%A4%E3%83%8E%E3%82%BB%E3%83%B3%E3%83%88%E3%83%BB%E3%82%B9%E3%82%AF%E3%83%AF%E3%82%A4%E3%82%A2%20%28event_51%29.txt#L55",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('司', 'ルカ')": [
+      {
+        "path": "story_jp/card/13 WxS_天馬司/1343_天馬司_R2 眠れない夜には (event_196).txt",
+        "sha256": "759ccb9bbbdae24a2e1a11024440cef6898cc3676f2499be5129c203a1a19f97",
+        "start_line": 48,
+        "end_line": 64,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/13%20WxS_%E5%A4%A9%E9%A6%AC%E5%8F%B8/1343_%E5%A4%A9%E9%A6%AC%E5%8F%B8_R2%20%E7%9C%A0%E3%82%8C%E3%81%AA%E3%81%84%E5%A4%9C%E3%81%AB%E3%81%AF%20%28event_196%29.txt#L48",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('司', 'MEIKO')": [
+      {
+        "path": "story_jp/event/113 君が主役の物語を (WxS_天馬司)/113-06 あの日の想像力を.txt",
+        "sha256": "261af3d9ec3e6a32b97c1574963fbd4b9aa20d34aa9372edf284e6c0b910ad57",
+        "start_line": 109,
+        "end_line": 153,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/113%20%E5%90%9B%E3%81%8C%E4%B8%BB%E5%BD%B9%E3%81%AE%E7%89%A9%E8%AA%9E%E3%82%92%20%28WxS_%E5%A4%A9%E9%A6%AC%E5%8F%B8%29/113-06%20%E3%81%82%E3%81%AE%E6%97%A5%E3%81%AE%E6%83%B3%E5%83%8F%E5%8A%9B%E3%82%92.txt#L109",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('えむ', 'ミク')": [
+      {
+        "path": "story_jp/card/21 VS_初音ミク/0479_初音ミク (WxS)_R2 ミクミク☆ガンナー！ (event_66).txt",
+        "sha256": "32fe94f4c4d92a5b7ceb283193274674c2eb18035a3f6ec88add1500bc45bc11",
+        "start_line": 67,
+        "end_line": 85,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/21%20VS_%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF/0479_%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF%20%28WxS%29_R2%20%E3%83%9F%E3%82%AF%E3%83%9F%E3%82%AF%E2%98%86%E3%82%AC%E3%83%B3%E3%83%8A%E3%83%BC%EF%BC%81%20%28event_66%29.txt#L67",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('えむ', 'ルカ')": [
+      {
+        "path": "story_jp/card/14 WxS_鳳えむ/1280_鳳えむ_R4 ハピハピハッピーなおもてなし (event_185).txt",
+        "sha256": "18317fabb8429d419945629487b7a1df180b3f8832282763aa0a2e4a733dbd48",
+        "start_line": 98,
+        "end_line": 112,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/14%20WxS_%E9%B3%B3%E3%81%88%E3%82%80/1280_%E9%B3%B3%E3%81%88%E3%82%80_R4%20%E3%83%8F%E3%83%94%E3%83%8F%E3%83%94%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%81%AA%E3%81%8A%E3%82%82%E3%81%A6%E3%81%AA%E3%81%97%20%28event_185%29.txt#L98",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('えむ', 'MEIKO')": [
+      {
+        "path": "story_jp/event/131 perspective for smile (WxS_鳳えむ)/131-07 みんなの『視点』.txt",
+        "sha256": "8ac3f61cd9246f5a5bf55a4d460639cc08a3ef69728f570bff8a7af0ab0cd9d7",
+        "start_line": 61,
+        "end_line": 83,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/131%20perspective%20for%20smile%20%28WxS_%E9%B3%B3%E3%81%88%E3%82%80%29/131-07%20%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AE%E3%80%8E%E8%A6%96%E7%82%B9%E3%80%8F.txt#L61",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('えむ', 'KAITO')": [
+      {
+        "path": "story_jp/event/164 Choices for the future (WxS_鳳えむ)/164-04 進む足を止めるもの.txt",
+        "sha256": "4443b53caa974ad446a0625d570c034e43e42eb7d80e89e7c17f49657fcb5d99",
+        "start_line": 31,
+        "end_line": 51,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/164%20Choices%20for%20the%20future%20%28WxS_%E9%B3%B3%E3%81%88%E3%82%80%29/164-04%20%E9%80%B2%E3%82%80%E8%B6%B3%E3%82%92%E6%AD%A2%E3%82%81%E3%82%8B%E3%82%82%E3%81%AE.txt#L31",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('寧々', 'ミク')": [
+      {
+        "path": "story_jp/event/008 聖なる夜に、この歌声を (WxS_草薙寧々)/008-07 セカイの新団員！？.txt",
+        "sha256": "80f0921ff69fa1227366b8295cb2f8e6fceebebda0cbc75d44d502072ab69c5d",
+        "start_line": 8,
+        "end_line": 54,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/008%20%E8%81%96%E3%81%AA%E3%82%8B%E5%A4%9C%E3%81%AB%E3%80%81%E3%81%93%E3%81%AE%E6%AD%8C%E5%A3%B0%E3%82%92%20%28WxS_%E8%8D%89%E8%96%99%E5%AF%A7%E3%80%85%29/008-07%20%E3%82%BB%E3%82%AB%E3%82%A4%E3%81%AE%E6%96%B0%E5%9B%A3%E5%93%A1%EF%BC%81%EF%BC%9F.txt#L8",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('寧々', 'リン')": [
+      {
+        "path": "story_jp/card/15 WxS_草薙寧々/1416_草薙寧々_R4 あなたのような“わたし”に.txt",
+        "sha256": "5c8bdda29419d9b87f853072dcdfbe2ed073f63fd89c480a1e40d03995af01c8",
+        "start_line": 155,
+        "end_line": 195,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/15%20WxS_%E8%8D%89%E8%96%99%E5%AF%A7%E3%80%85/1416_%E8%8D%89%E8%96%99%E5%AF%A7%E3%80%85_R4%20%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E2%80%9C%E3%82%8F%E3%81%9F%E3%81%97%E2%80%9D%E3%81%AB.txt#L155",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('寧々', 'レン')": [
+      {
+        "path": "story_jp/event/114 最高のクランクアップ！ (Mix_草薙寧々)/114-03 想いを知ったら.txt",
+        "sha256": "7d88994f5f1fbc0f215ace6fb3641626f07f87f98e53ff737b35f5deb81ec574",
+        "start_line": 125,
+        "end_line": 140,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/114%20%E6%9C%80%E9%AB%98%E3%81%AE%E3%82%AF%E3%83%A9%E3%83%B3%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%EF%BC%81%20%28Mix_%E8%8D%89%E8%96%99%E5%AF%A7%E3%80%85%29/114-03%20%E6%83%B3%E3%81%84%E3%82%92%E7%9F%A5%E3%81%A3%E3%81%9F%E3%82%89.txt#L125",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('寧々', 'MEIKO')": [
+      {
+        "path": "story_jp/card/15 WxS_草薙寧々/1416_草薙寧々_R4 あなたのような“わたし”に.txt",
+        "sha256": "5c8bdda29419d9b87f853072dcdfbe2ed073f63fd89c480a1e40d03995af01c8",
+        "start_line": 155,
+        "end_line": 195,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/15%20WxS_%E8%8D%89%E8%96%99%E5%AF%A7%E3%80%85/1416_%E8%8D%89%E8%96%99%E5%AF%A7%E3%80%85_R4%20%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E2%80%9C%E3%82%8F%E3%81%9F%E3%81%97%E2%80%9D%E3%81%AB.txt#L155",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('寧々', 'KAITO')": [
+      {
+        "path": "story_jp/event/114 最高のクランクアップ！ (Mix_草薙寧々)/114-03 想いを知ったら.txt",
+        "sha256": "7d88994f5f1fbc0f215ace6fb3641626f07f87f98e53ff737b35f5deb81ec574",
+        "start_line": 125,
+        "end_line": 140,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/114%20%E6%9C%80%E9%AB%98%E3%81%AE%E3%82%AF%E3%83%A9%E3%83%B3%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%EF%BC%81%20%28Mix_%E8%8D%89%E8%96%99%E5%AF%A7%E3%80%85%29/114-03%20%E6%83%B3%E3%81%84%E3%82%92%E7%9F%A5%E3%81%A3%E3%81%9F%E3%82%89.txt#L125",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('類', 'リン')": [
+      {
+        "path": "story_jp/card/16 WxS_神代類/0514_神代類_R4 投げかける言葉は (event_72).txt",
+        "sha256": "a71a8fd50766a35536649d00852e3d232415947f4ae9ebc8170d959caeb43196",
+        "start_line": 109,
+        "end_line": 116,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/16%20WxS_%E7%A5%9E%E4%BB%A3%E9%A1%9E/0514_%E7%A5%9E%E4%BB%A3%E9%A1%9E_R4%20%E6%8A%95%E3%81%92%E3%81%8B%E3%81%91%E3%82%8B%E8%A8%80%E8%91%89%E3%81%AF%20%28event_72%29.txt#L109",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('類', 'レン')": [
+      {
+        "path": "story_jp/card/16 WxS_神代類/1479_神代類_R4 笑顔を生み出す仕掛け (event_219).txt",
+        "sha256": "690ca45ffed4c88af30b4f80e0261723512d315ee3796720b4dbfe0b91da8ecb",
+        "start_line": 124,
+        "end_line": 155,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/16%20WxS_%E7%A5%9E%E4%BB%A3%E9%A1%9E/1479_%E7%A5%9E%E4%BB%A3%E9%A1%9E_R4%20%E7%AC%91%E9%A1%94%E3%82%92%E7%94%9F%E3%81%BF%E5%87%BA%E3%81%99%E4%BB%95%E6%8E%9B%E3%81%91%20%28event_219%29.txt#L124",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('類', 'ルカ')": [
+      {
+        "path": "story_jp/card/16 WxS_神代類/0572_神代類_R4 負けるわけにはいかないね (event_82).txt",
+        "sha256": "9be37afb6b2dc71e12ef9ae7a6fba71dc7523930cef669a5c946c723748e4aa2",
+        "start_line": 55,
+        "end_line": 94,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/16%20WxS_%E7%A5%9E%E4%BB%A3%E9%A1%9E/0572_%E7%A5%9E%E4%BB%A3%E9%A1%9E_R4%20%E8%B2%A0%E3%81%91%E3%82%8B%E3%82%8F%E3%81%91%E3%81%AB%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AA%E3%81%84%E3%81%AD%20%28event_82%29.txt#L55",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('類', 'MEIKO')": [
+      {
+        "path": "story_jp/card/16 WxS_神代類/0572_神代類_R4 負けるわけにはいかないね (event_82).txt",
+        "sha256": "9be37afb6b2dc71e12ef9ae7a6fba71dc7523930cef669a5c946c723748e4aa2",
+        "start_line": 55,
+        "end_line": 94,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/16%20WxS_%E7%A5%9E%E4%BB%A3%E9%A1%9E/0572_%E7%A5%9E%E4%BB%A3%E9%A1%9E_R4%20%E8%B2%A0%E3%81%91%E3%82%8B%E3%82%8F%E3%81%91%E3%81%AB%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AA%E3%81%84%E3%81%AD%20%28event_82%29.txt#L55",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('奏', 'レン')": [
+      {
+        "path": "story_jp/event/084 キャンドルの香りは思い出と共に (Mix_星乃一歌)/084-06 一緒に作ろう.txt",
+        "sha256": "5802d37e1d330e9ef62dfb3f477dd1afea404ce5e848802b64fa77bfb11014f1",
+        "start_line": 59,
+        "end_line": 70,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/084%20%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%89%E3%83%AB%E3%81%AE%E9%A6%99%E3%82%8A%E3%81%AF%E6%80%9D%E3%81%84%E5%87%BA%E3%81%A8%E5%85%B1%E3%81%AB%20%28Mix_%E6%98%9F%E4%B9%83%E4%B8%80%E6%AD%8C%29/084-06%20%E4%B8%80%E7%B7%92%E3%81%AB%E4%BD%9C%E3%82%8D%E3%81%86.txt#L59",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('奏', 'MEIKO')": [
+      {
+        "path": "story_jp/card/17 N25_宵崎奏/0294_宵崎奏_R3 音楽が見せてくれる世界 (event_36).txt",
+        "sha256": "13910ea4580ffd8a4981165895827acdb523b97e7b9baa5772aadcaf9442d888",
+        "start_line": 118,
+        "end_line": 138,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/17%20N25_%E5%AE%B5%E5%B4%8E%E5%A5%8F/0294_%E5%AE%B5%E5%B4%8E%E5%A5%8F_R3%20%E9%9F%B3%E6%A5%BD%E3%81%8C%E8%A6%8B%E3%81%9B%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E4%B8%96%E7%95%8C%20%28event_36%29.txt#L118",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('まふゆ', 'リン')": [
+      {
+        "path": "story_jp/event/134 灯を手繰りよせて (N25_朝比奈まふゆ)/134-07 雷鳴の夜.txt",
+        "sha256": "4a2cdbad66f8d83f8c7749e0adc95fab58266f13adc9c3a18fde56cc7b0d8096",
+        "start_line": 59,
+        "end_line": 81,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/event/134%20%E7%81%AF%E3%82%92%E6%89%8B%E7%B9%B0%E3%82%8A%E3%82%88%E3%81%9B%E3%81%A6%20%28N25_%E6%9C%9D%E6%AF%94%E5%A5%88%E3%81%BE%E3%81%B5%E3%82%86%29/134-07%20%E9%9B%B7%E9%B3%B4%E3%81%AE%E5%A4%9C.txt#L59",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('まふゆ', 'MEIKO')": [
+      {
+        "path": "story_jp/area/talk_grade2.txt",
+        "sha256": "729506c82a65ea5e59987a78fc6aee92c5b6ff56cdfe7bb7ad71ef8d806f0dc7",
+        "start_line": 1884,
+        "end_line": 1889,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/area/talk_grade2.txt#L1884",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('絵名', 'KAITO')": [
+      {
+        "path": "story_jp/card/19 N25_東雲絵名/0836_東雲絵名_R3 憂いの午後 (event_116).txt",
+        "sha256": "7d58b9dce0c22b9c8d6ba29661b1b7825c7a0c62e316534c4bb51646c63f999c",
+        "start_line": 100,
+        "end_line": 120,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/19%20N25_%E6%9D%B1%E9%9B%B2%E7%B5%B5%E5%90%8D/0836_%E6%9D%B1%E9%9B%B2%E7%B5%B5%E5%90%8D_R3%20%E6%86%82%E3%81%84%E3%81%AE%E5%8D%88%E5%BE%8C%20%28event_116%29.txt#L100",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      },
+      {
+        "path": "story_jp/card/19 N25_東雲絵名/1272_東雲絵名_R4 己の境界を超えて (event_184).txt",
+        "sha256": "035443f4a1077c3dde3b73ec2a7c2e231a686b0677e10da55b4b3b039526c243",
+        "start_line": 112,
+        "end_line": 129,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/19%20N25_%E6%9D%B1%E9%9B%B2%E7%B5%B5%E5%90%8D/1272_%E6%9D%B1%E9%9B%B2%E7%B5%B5%E5%90%8D_R4%20%E5%B7%B1%E3%81%AE%E5%A2%83%E7%95%8C%E3%82%92%E8%B6%85%E3%81%88%E3%81%A6%20%28event_184%29.txt#L112",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ],
+    "('瑞希', 'リン')": [
+      {
+        "path": "story_jp/card/22 VS_鏡音リン/1099_鏡音リン (N25)_R4 おめかしは難しい (event_155).txt",
+        "sha256": "85e218aaf9fc70d77cfadaf3d2aba74c5886dab302d1c245cd42311f2634e6d8",
+        "start_line": 48,
+        "end_line": 61,
+        "url": "https://github.com/ci-ke/ProjectSekai-story/blob/aa934ac00875eae6e89066292fe96c8bd9abb283/story_jp/card/22%20VS_%E9%8F%A1%E9%9F%B3%E3%83%AA%E3%83%B3/1099_%E9%8F%A1%E9%9F%B3%E3%83%AA%E3%83%B3%20%28N25%29_R4%20%E3%81%8A%E3%82%81%E3%81%8B%E3%81%97%E3%81%AF%E9%9B%A3%E3%81%97%E3%81%84%20%28event_155%29.txt#L48",
+        "kind": "manual_focus",
+        "review_status": "已核读引用上下文"
+      }
+    ]
+  }
+}
