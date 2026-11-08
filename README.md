@@ -1,3 +1,5 @@
+> **2026-11-09 社区联想补充**：[剧情＋社区候选配对（重点WxS）](research/community/README.md)。司—KAITO、笑梦—未来、宁宁—流歌、类—连；定性候选，剧情原分保留。
+
 > **2026-11-03 增量更新**：[新剧情复评与变动说明](research/all-characters/november-update.md) · [最新评分](research/all-characters/refined-ranking.md) · [交互图表](research/all-characters/dashboard.html)。旧整数档及Excel为10月12日历史快照。
 
 # PJSK 虚拟歌手与原创角色的关系研究

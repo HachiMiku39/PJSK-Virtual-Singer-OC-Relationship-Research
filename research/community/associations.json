@@ -1,0 +1,254 @@
+{
+  "as_of": "2026-11-09",
+  "story_scores_as_of": "2026-11-03",
+  "status": "研究者定性候选；非多数共识或官方配对",
+  "method": "先复算剧情排他配对，再对WxS施加有来源的定性社区候选选择；无数值加权、无新增剧情评分。",
+  "sample": "英语Reddit少量便利样本，仅检索可见正文摘要；未完整逐条读取全部评论、未统计票数/占比、未覆盖中日社区。",
+  "causal_limit": "未证明社区对官方编剧、运营决策的因果影响；“社区影响”在本表仅指加入社区联想会改变研究者的配对判断。",
+  "sources": [
+    {
+      "id": "C01",
+      "title": "Assigned Virtual Singers?",
+      "url": "https://www.reddit.com/r/ProjectSekai/comments/vcxc2i/",
+      "date": "2022-06-15",
+      "supports": "讨论中出现司—KAITO、笑梦—未来、宁宁—铃、类—连；技术兴趣与团长形象是评论理由。",
+      "limit": "早期英语社区自选讨论，非调查；首轮箱曲等联想不直接代表剧情亲密度。"
+    },
+    {
+      "id": "C02",
+      "title": "since each vocaloid is based off each OC’s feelings…",
+      "url": "https://www.reddit.com/r/ProjectSekai/comments/1jcm93d/",
+      "date": "2025-03-16",
+      "supports": "提出宁宁—流歌、司—KAITO，并反对从笑梦直接推断WxS未来的形成来源。",
+      "limit": "标题及想法来源论是发帖者解释，不当成官方设定；关系相似与SEKAI形成来源分开。"
+    },
+    {
+      "id": "C03",
+      "title": "My opinion on which VS does the character is usually associated with (story wise)",
+      "url": "https://www.reddit.com/r/ProjectSekai/comments/1q9zbf0/",
+      "date": null,
+      "supports": "存在把类与KAITO联系起来的另一种对应意见。",
+      "limit": "用于保留反例，不以单帖证明多数意见。"
+    }
+  ],
+  "records": [
+    {
+      "oc": "星乃一歌",
+      "unit": "Leo/need",
+      "story_exclusive_vs": "初音未来",
+      "community_aware_candidate_vs": "初音未来",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    },
+    {
+      "oc": "天马咲希",
+      "unit": "Leo/need",
+      "story_exclusive_vs": "镜音铃",
+      "community_aware_candidate_vs": "镜音铃",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    },
+    {
+      "oc": "望月穗波",
+      "unit": "Leo/need",
+      "story_exclusive_vs": "MEIKO",
+      "community_aware_candidate_vs": "MEIKO",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    },
+    {
+      "oc": "日野森志步",
+      "unit": "Leo/need",
+      "story_exclusive_vs": "巡音流歌",
+      "community_aware_candidate_vs": "巡音流歌",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    },
+    {
+      "oc": "花里实乃理",
+      "unit": "MORE MORE JUMP！",
+      "story_exclusive_vs": "初音未来",
+      "community_aware_candidate_vs": "初音未来",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    },
+    {
+      "oc": "桐谷遥",
+      "unit": "MORE MORE JUMP！",
+      "story_exclusive_vs": "MEIKO",
+      "community_aware_candidate_vs": "MEIKO",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    },
+    {
+      "oc": "桃井爱莉",
+      "unit": "MORE MORE JUMP！",
+      "story_exclusive_vs": "镜音铃",
+      "community_aware_candidate_vs": "镜音铃",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    },
+    {
+      "oc": "日野森雫",
+      "unit": "MORE MORE JUMP！",
+      "story_exclusive_vs": "巡音流歌",
+      "community_aware_candidate_vs": "巡音流歌",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    },
+    {
+      "oc": "白石杏",
+      "unit": "Vivid BAD SQUAD",
+      "story_exclusive_vs": "初音未来",
+      "community_aware_candidate_vs": "初音未来",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    },
+    {
+      "oc": "东云彰人",
+      "unit": "Vivid BAD SQUAD",
+      "story_exclusive_vs": "镜音连",
+      "community_aware_candidate_vs": "镜音连",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    },
+    {
+      "oc": "青柳冬弥",
+      "unit": "Vivid BAD SQUAD",
+      "story_exclusive_vs": "KAITO",
+      "community_aware_candidate_vs": "KAITO",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    },
+    {
+      "oc": "小豆泽心羽",
+      "unit": "Vivid BAD SQUAD",
+      "story_exclusive_vs": "镜音铃",
+      "community_aware_candidate_vs": "镜音铃",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    },
+    {
+      "oc": "神代类",
+      "unit": "ワンダーランズ×ショウタイム",
+      "story_exclusive_vs": "KAITO",
+      "community_aware_candidate_vs": "镜音连",
+      "status": "有争议候选",
+      "changed": true,
+      "rationale": "技术兴趣、装置与共同玩乐，见C01；C03的类—KAITO意见作为反例。",
+      "source_ids": [
+        "C01",
+        "C03"
+      ]
+    },
+    {
+      "oc": "凤笑梦",
+      "unit": "ワンダーランズ×ショウタイム",
+      "story_exclusive_vs": "MEIKO",
+      "community_aware_candidate_vs": "初音未来",
+      "status": "较优先候选",
+      "changed": true,
+      "rationale": "欢乐、活力与让大家微笑的形象联想，见C01；不推导未来由笑梦想法形成。",
+      "source_ids": [
+        "C01",
+        "C02"
+      ]
+    },
+    {
+      "oc": "草薙宁宁",
+      "unit": "ワンダーランズ×ショウタイム",
+      "story_exclusive_vs": "巡音流歌",
+      "community_aware_candidate_vs": "巡音流歌",
+      "status": "保留；铃为备选",
+      "changed": false,
+      "rationale": "兼顾剧情基线及C02的流歌意见；C01的铃意见保留，不凭首轮印象直接改。",
+      "source_ids": [
+        "C01",
+        "C02"
+      ]
+    },
+    {
+      "oc": "天马司",
+      "unit": "ワンダーランズ×ショウタイム",
+      "story_exclusive_vs": "初音未来",
+      "community_aware_candidate_vs": "KAITO",
+      "status": "较优先候选",
+      "changed": true,
+      "rationale": "团长、可靠兄长和理想带领者形象，见C01；属于社区联想的研究者解释。",
+      "source_ids": [
+        "C01",
+        "C02"
+      ]
+    },
+    {
+      "oc": "朝比奈真冬",
+      "unit": "25時、ナイトコードで。",
+      "story_exclusive_vs": "初音未来",
+      "community_aware_candidate_vs": "初音未来",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    },
+    {
+      "oc": "东云绘名",
+      "unit": "25時、ナイトコードで。",
+      "story_exclusive_vs": "镜音铃",
+      "community_aware_candidate_vs": "镜音铃",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    },
+    {
+      "oc": "晓山瑞希",
+      "unit": "25時、ナイトコードで。",
+      "story_exclusive_vs": "MEIKO",
+      "community_aware_candidate_vs": "MEIKO",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    },
+    {
+      "oc": "宵崎奏",
+      "unit": "25時、ナイトコードで。",
+      "story_exclusive_vs": "巡音流歌",
+      "community_aware_candidate_vs": "巡音流歌",
+      "status": "沿用剧情配对；尚未进行独立社区校准",
+      "changed": false,
+      "rationale": null,
+      "source_ids": []
+    }
+  ],
+  "alternate_wxs": {
+    "天马司": "KAITO",
+    "凤笑梦": "初音未来",
+    "草薙宁宁": "镜音铃",
+    "神代类": "镜音连"
+  }
+}
